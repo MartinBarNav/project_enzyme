@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <integer name="ga_dispatchPeriod">120</integer>
+    <screenName name="com.saterskog.cell_lab.AboutFragment">AboutFragment</screenName>
+    <screenName name="com.saterskog.cell_lab.SampleInfoFragment">SampleInfoFragment</screenName>
+    <string name="ga_trackingId">UA-58575519-1</string>
+</resources>

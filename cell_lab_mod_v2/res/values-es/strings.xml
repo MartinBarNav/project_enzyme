@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="about_acknowledgements">Reconocimientos</string>
+    <string name="about_rate_button">¡Valorar en la Play Store!</string>
+    <string name="about_text">"Juego creado por Petter Säterskog.
+Traducido por Agustín Domínguez
+Desafíos diseñados por Alast, bwisialo, Nayus y Petter.
+En caso de que te quedes atascado:"</string>
+    <string name="about_version_text">Versión</string>
+    <string name="acknowledgement">"Muchas gracias a Alast, bwisialo, Nayus y Eric Säterskog quienes diseñaron algunos de los desafíos han dado feedback invaluable. 
+
+¡Muchas gracias a todos los Beta-Testers y a los participantes del foro! 
+
+Todos los sonidos y la música fueron creados por Danilov Sound,"<a href="http://danilovsound.com/"> danilovsound.com</a></string>
+    <string name="advanced_settings_cell_count">Cantidad máxima de células:</string>
+    <string name="advanced_settings_info">Estos ajustes son para uso avanzado. Algunas opciones pueden hacer que Cell Lab se cierre o se ejecute extremadamente lento.</string>
+    <string name="advanced_settings_radius">Diámetro de la Placa de Petri [mm]:</string>
+    <string name="advances_settings_food_count">Cantidad máxima de alimento:</string>
+    <string name="button_refresh">Refrescar</string>
+    <string name="cell_info_S_production">producción: %.1f</string>
+    <string name="cell_info_active_mode">Modo Activo:</string>
+    <string name="cell_info_age">Edad: %.2f h</string>
+    <string name="cell_info_density">Densidad:</string>
+    <string name="cell_info_diameter">Diámetro: %.1f μm</string>
+    <string name="cell_info_injury">Daño: %.0f%%</string>
+    <string name="cell_info_lift">Levante: %.2f</string>
+    <string name="cell_info_lipids">Lipidos (equiv. en masa): %.2f ng&lt;br></string>
+    <string name="cell_info_mass">Masa: %.2f ng</string>
+    <string name="cell_info_mirrored">Espejada:</string>
+    <string name="cell_info_mutations">Mutaciones:</string>
+    <string name="cell_info_nitro">Reserva de Nitrógeno: %.0f%%</string>
+    <string name="cell_info_select">Seleccionar célula...</string>
+    <string name="cell_info_speed">&lt;br>Velocidad: %.0f μm/h</string>
+    <string name="cell_info_swim_force">Fuerza de nado: %.2f&amp;times;10&lt;sup>&lt;small>-21&lt;/small>&lt;/sup> N</string>
+    <string name="cell_info_tag">Etiqueta:</string>
+    <string name="cell_info_tag_challenge">Célula del sustrato</string>
+    <string name="cell_info_tag_contaminate">Célula de contaminación</string>
+    <string name="cell_info_tag_hybrid">Célula híbrida</string>
+    <string name="cell_info_tag_infected_challenge">Célula infectada del sustrato</string>
+    <string name="cell_info_tag_infected_contaminate">Célula infectada de contaminación</string>
+    <string name="cell_info_tag_infected_user">Célula infectada del usuario</string>
+    <string name="cell_info_tag_user">Célula del usuario</string>
+    <string name="cell_info_telomeres">Telómeros:</string>
+    <string name="cell_info_toxins">Toxinas: %.2f</string>
+    <string name="cell_info_type">Tipo:</string>
+    <string name="chalenges_finish_first_1">Completar desafío</string>
+    <string name="challenges_challenge_not_completed">Desafío no completado.</string>
+    <string name="challenges_finish_first_2">primero.</string>
+    <string name="challenges_unlocks">" Desbloquea célula"</string>
+    <string name="common_android_wear_notification_needs_update_text">Una aplicación necesita que Android Wear se actualice.</string>
+    <string name="common_android_wear_update_text">Esta aplicación no se ejecutará hasta que actualices Android Wear.</string>
+    <string name="common_android_wear_update_title">Actualizar Android Wear</string>
+    <string name="common_google_play_services_enable_button">Habilitar servicios de Google Play</string>
+    <string name="common_google_play_services_enable_text">Esta aplicación no funcionará si no habilitas los servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilitar servicios de Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Solicitada por %1$s</string>
+    <string name="common_google_play_services_install_button">Descargar servicios de Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Esta aplicación no se ejecutará si tu teléfono no tiene instalados los servicios de Google Play.</string>
+    <string name="common_google_play_services_install_text_tablet">Esta aplicación no se ejecutará si tu tablet no tiene instalados los servicios de Google Play.</string>
+    <string name="common_google_play_services_install_title">Descargar servicios de Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta.</string>
+    <string name="common_google_play_services_invalid_account_title">Cuenta no válida</string>
+    <string name="common_google_play_services_needs_enabling_title">Una aplicación requiere que se habiliten los servicios de Google Play.</string>
+    <string name="common_google_play_services_network_error_text">Se necesita una conexión de datos para establecer conexión con los servicios de Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Error de red</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Una aplicación requiere la instalación de servicios de Google Play.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Una aplicación requiere una actualización de servicios de Google Play.</string>
+    <string name="common_google_play_services_notification_ticker">Error de servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Error desconocido relacionado con los servicios de Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Tu dispositivo no es compatible con los servicios de Google Play, de los cuales dependen tus aplicaciones. Para obtener asistencia, ponte en contacto el fabricante.</string>
+    <string name="common_google_play_services_unsupported_title">Servicios de Google Play</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">Esta aplicación no se ejecutará si no actualizas los servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualizar servicios de Google Play</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="default_locale">es</string>
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="dialog_button_discard">Descartar</string>
+    <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_reload">Recargar</string>
+    <string name="dialog_button_save">Guardar</string>
+    <string name="dialog_button_start">Inicio</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_discard_text">¡Dejar especies experimentales sueltas va en contra de nuestra politica de laboratorio!</string>
+    <string name="dialog_discard_title">¿Descartar el sustrato actual?</string>
+    <string name="dialog_reload_title">Recargar sustrato actual</string>
+    <string name="dialog_rename_genome_title">Renombrar genoma</string>
+    <string name="dialog_sterilize_text">Matar demasiadas células puede resultar en otra charla con el comité de ética…</string>
+    <string name="dialog_sterilize_title">¿Esterilizar sustrato actual?</string>
+    <string name="dialog_text_save_genome">Guardar tu genoma te permite reutilizarlo en otro desafío o enviarlo a un amigo.</string>
+    <string name="dialog_titlte_save_genome">Nombrar tu genoma</string>
+    <string name="difficulty_level_0">Dificultad: Estudiante</string>
+    <string name="difficulty_level_1">Dificultad: Doctorado</string>
+    <string name="difficulty_level_2">Dificultad: Científico loco</string>
+    <string name="difficulty_level_3">Dificultad: Superinteligencia Artificial</string>
+    <string name="donate_appeal">Cell Lab es una aplicación completamente gratuita. No hay pagos a cambio de funciones ni publicidades. Si quieres mostar tu apreciación al desarrollador, considera donar alguna cantidad a tu elección debajo. Se puede usar una combinación de botones.</string>
+    <string name="donate_reminder">Si desea hacer una donación al desarrollador de este juego, puede hacerlo en la página \"Sobre\" del menú principal.</string>
+    <string name="donate_reminder_title">¿Donar?</string>
+    <string name="donations_made">Donaciones hechas:</string>
+    <string name="drag_blue">"Cantidad de Azul: "</string>
+    <string name="drag_child_1_angle">"Ángulo de Hija 1 con respecto a su madre: "</string>
+    <string name="drag_child_1_ratio">"Proporción de masa para Hija 1: "</string>
+    <string name="drag_child_2_angle">"Ángulo de Hija 2 con respecto a su madre: "</string>
+    <string name="drag_child_2_ratio">"
+Proporción de masa para Hija 2: "</string>
+    <string name="drag_green">"Cantidad de Verde: "</string>
+    <string name="drag_mass_age_split">"La célula se dividirá a la edad de "</string>
+    <string name="drag_mass_no_split">La célula nunca se dividirá</string>
+    <string name="drag_priority">"Prioridad en el flujo de masa: "</string>
+    <string name="drag_red">"Cantidad de Rojo: "</string>
+    <string name="drag_split_angle">"Ángulo de división de la célula madre: "</string>
+    <string name="drag_split_mass">"La célula se dividirá cuando su masa sea: "</string>
+    <string name="drag_stiffness">"Dureza de la adhesina: "</string>
+    <string name="drag_time_1">"Desarrollo luego de "</string>
+    <string name="drag_time_2">" h (máx: 100+ células)"</string>
+    <string name="email_download_game_AT_url">a</string>
+    <string name="email_genome_body">"¡Nuevo genoma desarollado!
+
+N.B. Este archivo contiene una secuencia genética y debe abrirse con el software apropiado.
+Descargar aplicación de Android "</string>
+    <string name="email_genome_title">Genoma digital de Cell Lab</string>
+    <string name="email_intent_title">Enviar correo electrónico…</string>
+    <string name="email_substrate_body">"¡Nuevos descubrimientos!
+
+N.B. Esta muestra contiene organismos vivos y debe abrirse con el equipo apropiado.
+Descargar aplicación de Android "</string>
+    <string name="email_substrate_title">Muestra congelada de Cell Lab</string>
+    <string name="forum_link">&lt;a href=http://forum.cell-lab.net>Foro&lt;/a></string>
+    <string name="freezer_advanced_settings_title">Ajustes Avanzados</string>
+    <string name="freezer_bad_name">Etiqueta ya usada en el freezer. Elegir un nombre diferente.</string>
+    <string name="freezer_long_press">Mantener presionado para ajustes avanzados</string>
+    <string name="freezer_new_plate">Nueva Placa</string>
+    <string name="freezer_relabel">Renombrar Muestra</string>
+    <string name="freezer_unfrozen_age">Edad</string>
+    <string name="ge_neuro_output_amount_tip_1">"Esto ajusta la cantidad fija de señal que generará el Neurocito en el canal "</string>
+    <string name="ge_neuro_output_amount_tip_2">.</string>
+    <string name="ge_neuro_output_tip_1">"Este selector define el tipo de señal que producirá el canal "</string>
+    <string name="ge_neuro_output_tip_2">.</string>
+    <string name="ge_osc_preset_button">Configuración de oscilación…</string>
+    <string name="ge_output_amount">Salida</string>
+    <string name="ge_output_channel">Señal de salida</string>
+    <string name="ge_smell_blue">Color Azul</string>
+    <string name="ge_smell_blue_tip">Cuando este modo detecte células de cierto color, esta es la cantidad de azul en ese color.</string>
+    <string name="ge_smell_green">Color Verde</string>
+    <string name="ge_smell_green_tip">Cuando este modo detecte células de cierto color, esta es la cantidad de verde en ese color.</string>
+    <string name="ge_smell_output_amount_tip">Esto determina la cantidad de señal que producirá al percibir un estímulo.</string>
+    <string name="ge_smell_output_tip">Esto indica en qué canal saldrá la señal cuando este modo detecte el estímulo establecido.</string>
+    <string name="ge_smell_red">Color Rojo</string>
+    <string name="ge_smell_red_tip">Cuando este modo detecte células de cierto color, esta es la cantidad de rojo en ese color.</string>
+    <string name="ge_smell_threshold">Umbral del color</string>
+    <string name="ge_smell_threshold_tip">Al percibir células de cierto color, este ajuste especifica que tan lejos puede estar el color detectado de los ajustes superiores. Una tolerancia baja implica que el color de una cérlula externa debe ser igual o casi igual al determinado para considerarse detectado, mientras que una tolerancia alta permite más variaciones.</string>
+    <string name="ge_smell_type">Tipo se detección</string>
+    <string name="ge_smell_type_tip">Esto indica a qué tipo de estímulo es sensible este modo.</string>
+    <string name="gene_edit_default_genome">Cargar genoma por defecto</string>
+    <string name="gene_editor_adhesin_length">Largo de la adhesina</string>
+    <string name="gene_editor_adhesin_length_tip">Aumentar este valor incrementa la distancia en que la adhesina une dos células, permitiendo que otras células pasen en el medio con más facilidad.</string>
+    <string name="gene_editor_cilio_left_speed">Velocidad de la izquierda</string>
+    <string name="gene_editor_cilio_left_speed_tip">Este ajuste establece la velocidad en la cual los objetos en contacto con el lado izquierdo del Ciliocito serán desplazados.</string>
+    <string name="gene_editor_cilio_right_speed">Velocidad de la derecha</string>
+    <string name="gene_editor_cilio_right_speed_tip">Este ajuste establece la velocidad en la cual los objetos en contacto con el lado derecho del Ciliocito serán desplazados.</string>
+    <string name="gene_editor_comp_mode">Modo compatible</string>
+    <string name="gene_editor_comp_mode_tip">La membrana del gameto será más suceptible a la fusión con otro si ambos son compatibles entre sí.</string>
+    <string name="gene_editor_copy_to_mode">Copiar</string>
+    <string name="gene_editor_copy_to_mode2">to</string>
+    <string name="gene_editor_cytoskeleton">Citoesqueleto</string>
+    <string name="gene_editor_cytoskeleton_tip">El citoesqueleto ayuda a las células a mantener su forma bajo presión. Una célula con un citoesqueleto más fuerte requiere más energía para crearse pero significa más dureza para la célula.</string>
+    <string name="gene_editor_load_default_to_mode">Cargar por defecto a</string>
+    <string name="gene_editor_max_connections">Conexiones máximas</string>
+    <string name="gene_editor_max_connections_tip">La célula no se dividirá si está conectada mediante adhesina a esta cantidad de células o más.</string>
+    <string name="gene_editor_mode_after_fert">Modo después de la fertilización</string>
+    <string name="gene_editor_mode_after_fert_tip">Si este gameto es el más grande de los dos al momento de la fusión, entonces este es el modo en que se convertirá el cigoto.</string>
+    <string name="gene_editor_telomeres">Telómeros después de la fertilización</string>
+    <string name="gene_editor_telomeres_tip">Cada división de una célula elimina un telómero. Una célula con 0 telómeros muere. La cantidad de telómeros se reinicia al valor especificado por esta opción una vez que dos gametos se fusionan.</string>
+    <string name="gene_mode_prefix">M</string>
+    <string name="genome_editor_adhesin_stiffnes">Rigidez de la adhesina:</string>
+    <string name="genome_editor_blue">Color Azul:</string>
+    <string name="genome_editor_button_load">Cargar</string>
+    <string name="genome_editor_button_save">Guardar</string>
+    <string name="genome_editor_cell_type">Tipo de célula:</string>
+    <string name="genome_editor_child_1">Hija 1:</string>
+    <string name="genome_editor_child_1_angle">Ángulo de hija 1:</string>
+    <string name="genome_editor_child_2">Hija 2:</string>
+    <string name="genome_editor_child_2_angle">Ángulo de hija 2:</string>
+    <string name="genome_editor_density">Densidad</string>
+    <string name="genome_editor_edit_mode">Modo Actual:</string>
+    <string name="genome_editor_green">Color Verde:</string>
+    <string name="genome_editor_is_initial">Inicial:</string>
+    <string name="genome_editor_keep_adhesin">Conservar adhesina:</string>
+    <string name="genome_editor_make_adhesin">Crear adhesina:</string>
+    <string name="genome_editor_mirror">Espejo</string>
+    <string name="genome_editor_mode">Modo</string>
+    <string name="genome_editor_nutrient_priority">Prioridad de nutrientes:</string>
+    <string name="genome_editor_red">Color Rojo:</string>
+    <string name="genome_editor_secretion">Secreción</string>
+    <string name="genome_editor_snap_angles">Intervalos Deslizantes Fijos:</string>
+    <string name="genome_editor_split_angle">Ángulo de división:</string>
+    <string name="genome_editor_split_mass">Masa de división:</string>
+    <string name="genome_editor_split_ratio">División de nutrientes:</string>
+    <string name="genome_editor_stay_alive">Priorizar:</string>
+    <string name="genome_editor_swim_force">Velocidad del flagelo</string>
+    <string name="genome_editor_virus_copy_from">Virus copia de</string>
+    <string name="hour_abbreviation">h</string>
+    <string name="load">Cargar</string>
+    <string name="log_sub_stat">Log substrate statistics to file</string>
+    <string name="log_sub_stat_description">%s Note that logging slows the simulation and can take up much space.</string>
+    <string name="logging_simulation_note_1">Registrando simulación (</string>
+    <string name="logging_simulation_note_2">) en:</string>
+    <string name="main_menu_tab_about">Sobre</string>
+    <string name="main_menu_tab_challenges">Desafíos</string>
+    <string name="main_menu_tab_experiments">Experimentos</string>
+    <string name="main_menu_tab_genomes">Banco de Genes</string>
+    <string name="main_menu_tab_settings">Opciones</string>
+    <string name="menu_item_delete">Eliminar</string>
+    <string name="menu_item_load_from_microscope">Cargar del microscopio</string>
+    <string name="menu_item_rename">Renombrar…</string>
+    <string name="menu_item_share">Compartir…</string>
+    <string name="mobile_food">Comida móvil</string>
+    <string name="muscle_bend">Flexión muscular</string>
+    <string name="muscle_contract">Contracción muscular</string>
+    <string name="muscle_lift">Levante muscular</string>
+    <string name="nano_gram_abbreviation">ng</string>
+    <string name="nutrient_coating">Revestimiento del alimento</string>
+    <string name="objective_black_initial_cells">"
+Células negras iniciales:"</string>
+    <string name="objective_challenge_completed">Desafío Completado</string>
+    <string name="objective_challenge_not_completed">Desafío aún sin completar</string>
+    <string name="objective_challenge_previously_completed">Desafío completado previamente</string>
+    <string name="objective_hybrid_cells">"
+Células híbridas: "</string>
+    <string name="objective_infected_initial_cells">"
+Células infectadas iniciales: "</string>
+    <string name="objective_initial_cells">"
+Células iniciales: "</string>
+    <string name="objective_inserted_cells">"
+Células insertadas: "</string>
+    <string name="objective_limits_satisfied_time">"
+Condiciones satisfechas por: "</string>
+    <string name="objective_red_initial_cells">"
+Células rojas iniciales: "</string>
+    <string name="objective_removed_cells">"
+Células eliminadas: "</string>
+    <string name="objective_total_cells">"
+Células totales: "</string>
+    <string name="objective_yellow_initial_cells">"
+Células amarillas iniciales: "</string>
+    <string name="objective_your_cells">"
+Células del usuario: "</string>
+    <string name="osc_preset_adhesin_connections">" conexiones de adhesina"</string>
+    <string name="osc_preset_channels">"Oscilar los canales de "</string>
+    <string name="osc_preset_tip">Esta ventana configura los valores de los 4 canales del Neurocito de manera que la concentración de las dos señales elegidas oscilen en intensidad.</string>
+    <string name="osc_preset_title">Ajuste de oscilación</string>
+    <string name="osc_preset_to">a</string>
+    <string name="oscillator_preset_period">Período</string>
+    <string name="play_button_hint">Ayuda</string>
+    <string name="play_button_spoiler">Solución</string>
+    <string name="play_button_tut_pop_up">Mostrar ventana emergente</string>
+    <string name="popup_text_need_help">¿Problemas resolviendo este desafío? Puedes encontrar ayuda en:&lt;br>&lt;br></string>
+    <string name="popup_text_study_challenge_sub">¿Deseas abrir este sustrato en una placa experimental?</string>
+    <string name="popup_title_need_help">¿Necesitas ayuda?</string>
+    <string name="popup_title_select_tool">Seleccionar herramienta</string>
+    <string name="popup_title_study_challenge_sub">¿Analizar sustrato?</string>
+    <string name="sample_info_age">"Edad del sustrato: "</string>
+    <string name="sample_info_cells">"Cantidad de células: "</string>
+    <string name="sample_info_food">"Cantidad de alimento: "</string>
+    <string name="sample_info_gene_pool">Reserva genética</string>
+    <string name="sample_info_save_title">Etiquetar muestra</string>
+    <string name="sample_info_save_used_name">Etiqueta ya usada en el freezer. Elegir un nombre diferente.</string>
+    <string name="save_plate">Guardar Placa</string>
+    <string name="scope_lab_budget_1">"El presupuesto del laboratorio solo permite "</string>
+    <string name="scope_lab_budget_2">" células.. ¿Reiniciar desafío?"</string>
+    <string name="secrete_coated_food">Alimento revestido</string>
+    <string name="secrete_cyanide">HCN</string>
+    <string name="secrete_food_smell">Olor a alimento</string>
+    <string name="secrete_light">Activador de luz</string>
+    <string name="secrete_protease">Proteasa</string>
+    <string name="secrete_type_lipase">Lipasa</string>
+    <string name="secrete_wall">Activador de borde</string>
+    <string name="select_plate_action">Seleccione la acción</string>
+    <string name="setting_ask_discard">Confirmar de abandonar laboratorio</string>
+    <string name="setting_ask_sterilize">Confirmar esterilizar y recargar</string>
+    <string name="setting_keep_from_sleeping">Esta opción evitará que tu dispositivo apague la pantalla en largas simulaciones. ¡Recordar tener el cargador conectado!</string>
+    <string name="setting_language">Idioma</string>
+    <string name="setting_preview_lock">Fijar vista previa del genoma</string>
+    <string name="setting_sounds_effects">Efectos de Sonido</string>
+    <string name="settings_aa_summary">"%s
+Tener en cuenta que otro ajuste aparte de \"Ninguno\" reducirá la velocidad de renderizado en muchos dispositivos."</string>
+    <string name="settings_aa_title">Anti escalonamiento (Antialiasing)</string>
+    <string name="settings_audio">Audio</string>
+    <string name="settings_general">General</string>
+    <string name="settings_graphics">Gráficos</string>
+    <string name="settings_keep_from_sleep">Detener Apagado</string>
+    <string name="settings_music">Música</string>
+    <string name="settings_slow_motion">Cámara lenta del Microscopio</string>
+    <string name="settings_slow_motion_description">La simulación en cámara lenta no es exactamente equivalente a la simulación de velocidad normal.</string>
+    <string name="signal_substance_prefix">S</string>
+    <string name="signal_substance_unit">μmol/L</string>
+    <string name="signal_val_dialog_a">a:</string>
+    <string name="signal_val_dialog_a_variable">a</string>
+    <string name="signal_val_dialog_b">b:</string>
+    <string name="signal_val_dialog_b_variable">b</string>
+    <string name="signal_val_dialog_c">c:</string>
+    <string name="signal_val_dialog_c_variable">c</string>
+    <string name="signal_val_dialog_fixed_value">Valor Fijo:</string>
+    <string name="signal_val_dialog_heaviside">"a, si input &lt; c
+b, si input ≥ c"</string>
+    <string name="signal_val_dialog_linear">a × input + b</string>
+    <string name="signal_val_dialog_substance">Input (entrada):</string>
+    <string name="signal_val_dialog_use_signal">Usar estado interno:</string>
+    <string name="signal_val_dialog_value">Valor</string>
+    <string name="signal_val_dialog_value_equals">Valor =</string>
+    <string name="smell_cell">Célula</string>
+    <string name="smell_food">Alimento</string>
+    <string name="smell_light">Luz</string>
+    <string name="smell_type_coated_food">Alimento revestido</string>
+    <string name="smell_velocity">Velocidad</string>
+    <string name="smell_wall">Borde</string>
+    <string name="stem_mode1">Modo de diferenciación del canal 1</string>
+    <string name="stem_mode2">Modo de diferenciación del canal 2</string>
+    <string name="stem_signal1">Señal del canal 1</string>
+    <string name="stem_signal2">Señal del canal 2</string>
+    <string name="string_setting_show_gt">Mostrar tipo de célula</string>
+    <string name="string_setting_show_gt_summary">Agrega abreviaciones de los tipos de célula al selector de modos</string>
+    <string name="substrate_action_reload">Volver a cargar</string>
+    <string name="substrate_action_sterilize">Esterilizar</string>
+    <string name="substrate_aging">Envejecimiento celular</string>
+    <string name="substrate_contaminate">Contaminar con células aleatorias</string>
+    <string name="substrate_density">Densidad:</string>
+    <string name="substrate_density_gradient">Gradiente de la densidad:</string>
+    <string name="substrate_fricd">Fricción dinámica:</string>
+    <string name="substrate_frics">Fricción estática:</string>
+    <string name="substrate_gravity">Gravedad:</string>
+    <string name="substrate_help">Los ajustes de esta página determinan las condiciones ambientales del sustrato que se encuentra bajo el microscopio. Se supone que la mayoría de los ajustes son fáciles de entender, pero algunos requieren explicaciones más detalladas las cuales son dadas a continuación. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Radiación&lt;/b>: La radiación daña las células e introduce mutaciones aleatorias. Una dosis pequeña de radiación puede a la larga producir evolución en tus células y generar un organismo más adaptado. En cambio una gran cantidad de radiación rápidamente arruinará el genoma y puede que mate las especies. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Solo mutaciones puntuales&lt;/b>: Seleccionar esta opción limitará las mutaciones de la radiación a pequeños cambios en tu genoma. El Tipo de Célula y los modos de las hijas no cambiarán, por ejemplo, mientras que parámetros con desplazadores continuos como masa de división pueden alterarse. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Fricción Dinámica&lt;/b>: Este ajuste es el coeficiente de fricción que las células experimentarán al moverse. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Fricción Estática&lt;/b>: Este ajuste es el coeficiente de fricción que las células experimentarán al permanecer quietas. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Viscosidad&lt;/b>: Esto determina el valor de viscosidad del fluido del sustrato acorde a la ley de Strokes experimentado por células en movimiento. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Salinidad&lt;/b>: Una salinidad baja provocará que tus células usen mucha energía para mantener su balance de sal. Un valor alto de salinidad las dejará sobrevivir más tiempo sin una fuente de energía. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Densidad&lt;/b>: Un sustrato de baja densidad hará que tus células se hundan cuando haya gravedad esté presente. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Gradiente de densidad&lt;/b>: El gradiente de densidad establecerá una densidad alta en el fondo del sustrato y una densidad baja en la parte de arriba.</string>
+    <string name="substrate_help_title">Ayuda de los ajustes de sustrato</string>
+    <string name="substrate_kill_edge">Matar células en el borde</string>
+    <string name="substrate_light_amount">Intensidad de la luz:</string>
+    <string name="substrate_light_range">Rango de la luz:</string>
+    <string name="substrate_light_speed">Velocidad de rotación de la luz:</string>
+    <string name="substrate_nitrates">Nitratos</string>
+    <string name="substrate_nutrient_lump">Abultamiento de los nutrientes</string>
+    <string name="substrate_nutrient_lump_size">Tamaño del bulto</string>
+    <string name="substrate_nutrient_size">Tamaño del alimento:</string>
+    <string name="substrate_nutrients">Cantidad de nutrientes:</string>
+    <string name="substrate_param_info_button">Información</string>
+    <string name="substrate_radiation">Nivel de radiación:</string>
+    <string name="substrate_salinity">Salinidad:</string>
+    <string name="substrate_tweak_mutations">Solo mutaciones puntuales</string>
+    <string name="substrate_viscosity">Viscosidad del sustrato:</string>
+    <string name="temp_menu_title">Temperatura del Sustrato</string>
+    <string name="tip_adhesin">"Si esta casilla se encuentra encendida, las dos células hijas que resulten de la división de la célula madre quedarán unidas por una conexion llamada adhesina.
+
+Esto sirve dos propósitos:
+\u0009- Las células hijas permanecerán juntas
+\u0009- Pueden compartir nutrientes y transportar señales entre ellas.
+
+Las propiedades de esta conexión pueden ser afinadas con los ajustes Rigidez de la adhesina, Prioridad de nutrientes y la casilla Priorizar."</string>
+    <string name="tip_blue">"Cambia la cantidad de coloración azul de las células de este modo.
+
+No afecta el comportamiento o desempeño de las células de ninguna forma."</string>
+    <string name="tip_cell_type">La propiedad más importante de cada modo es qué tipo de célula produce. Cada tipo de célula es capaz de realizar una clase de acción particular, por lo que un organismo que depende de muchas acciones diferentes debe poseer diferentes tipos de células. &lt;br>&lt;br>Estos tipos y sus funciones son:&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Fotocito&lt;/b>: Esta célula obtiene energía química de partículas en el ambiente.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Flagelocito&lt;/b>: Esta célula tiene un flagelo que lo propele.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Fotocito&lt;/b>: Esta célula convierte la luz solar en energía química.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Devorocito&lt;/b>: Esta célula absorbe los nutrientes de otras células al tocarlas.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Lipocito&lt;/b>: Está célula almacena una gran cantidad de energía química en forma de Lípidos.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Keratinocito&lt;/b>: Esta célula se protege a sí misma así también como a cualquier otra célula conectada a ella mediante adhesina de sustancias y células hostiles.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Boyacito&lt;/b>: Esta célula tiene una burbuja llena de un fluido de una densidad ajustable.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Adhecito&lt;/b>: Esta célula puede crear conexiones de adhesina con otras células del ambiente al tocarlas.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Virocito&lt;/b>: Esta célula inserta una copia de su propio genoma en el genoma de otras células al tocarlas.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Nitrocyte&lt;/b>: Esta célula convierten N&lt;sub>&lt;small>2&lt;/small>&lt;/sub> del ambiente en NH&lt;sub>&lt;small>3&lt;/small>&lt;/sub>.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Miocito&lt;/b>: Esta célula muscular puede contraer, levantar y mover sus extremos de manera que puede mover otras células conectadas a ella.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Neurocito&lt;/b>: Esta célula puede regular concentraciones moleculares para crear señales químicas.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Sensacito&lt;/b>: Esta célula puede detectar la concentración de distintas sustancias en su ambiente.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Estereocito&lt;/b>: Esta célula puede detectar el gradiente izquierda-derecha de estímulos de sustancias en su ambiente.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Secrocito&lt;/b>: Esta célula puede emitir sustancias en su ambiente.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Stemocito&lt;/b>: Esta célula puede transformarse en otros modos cuando cierta señal molecular esté presente en su ambiente.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Gameto&lt;/b>: Esta célula puede fusionarse con otro gameto compatible para formar una nueva célula que resulta de la combinación aleatoria de los genomas de los gametos.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Ciliocito&lt;/b>: Esta célula está cubierta de cilios de forma que no resbalan fácilmente. Pueden mover sus cilios izquierdos o derechos de manera independiente.</string>
+    <string name="tip_child_1_angle">"Con este deslizador puedes determinar de qué modo la célula Hija 1 apuntará una vez que la célula madre se divida. La flecha en cada célula indica el ángulo en que esto ocurrirá.
+
+Un ángulo de 0° significa que la Hija 1 apuntará en la misma dirección que su madre. Aumentar los grados rotará esta dirección contra-reloj, a menos que esté espejada, en cuyo caso será reloj."</string>
+    <string name="tip_child_1_mdoe">"Usa este ajuste para elegir qué modo será la célula Hija 1 una vez que la madre se divida.
+
+Cualquier Hija puede estar en cualquier de los 40 modos disponibles. Cada modo puede tener características diferentes que puedes determinar.
+
+Si tu célula inicial está por ejemplo en modo 1 y se divide en dos células hijas en modo 1, entonces todas tus células serán siempre del modo 1. Por otro lado, si el modo 1 se divide en dos células de modo 2 y cada una de ellas se divide en dos de modo 1, tendrás dos tipos de células que tomaran turnos en reproducirse de un modo al otro (cerrando el círculo reproductivo). Es en estos casos donde es necesario especificar las propiedades de los modos 1 y 2 ya que estos serán los modos que tus células ocuparán.
+
+Las propiedades de los modos son transmitidas de generación en generación incluso aunque no estén expresadas, de manera que si algúna característica útil de un organismo es determinada aquí, puede surgir de cualquier forma si en tu ambiente hay radiación, cosa que hace que tus células muten de vez en cuando. Esto ocurre también en la naturaleza, muchas partes de, por ejemplo, el genoma humano no describen ninguna proteína usada en el cuerpo."</string>
+    <string name="tip_child_2_angle">"Con este deslizador puedes determinar de qué modo la célula Hija 2 apuntará una vez que la célula madre se divida. La flecha en cada célula indica el ángulo en que esto ocurrirá.
+
+Un ángulo de 0° significa que la Hija 2 apuntará en la misma dirección que su madre. Aumentar los grados rotará esta dirección contra-reloj, a menos que esté espejada, en cuyo caso será reloj."</string>
+    <string name="tip_child_2_mode">"Usa este ajuste para elegir qué modo será la célula Hija 2 una vez que la madre se divida.
+
+Cualquier Hija puede estar en cualquier de los 20 modos disponibles. Cada modo puede tener características diferentes que puedes determinar.
+
+Si tu célula inicial está por ejemplo en modo 1 y se divide en dos células hijas en modo 1, entonces todas tus células serán siempre del modo 1. Por otro lado, si el modo 1 se divide en dos células de modo 2 y cada una de ellas se divide en dos de modo 1, tendrás dos tipos de células que tomaran turnos en reproducirse de un modo al otro (cerrando el círculo reproductivo). Es en estos casos donde es necesario especificar las propiedades de los modos 1 y 2 ya que estos serán los modos que tus células ocuparán.
+
+Las propiedades de los modos son transmitidas de generación en generación incluso aunque no estén expresadas, de manera que si algúna característica útil de un organismo es determinada aquí, puede surgir de cualquier forma si en tu ambiente hay radiación, cosa que hace que tus células muten de vez en cuando. Esto ocurre también en la naturaleza, muchas partes de, por ejemplo, el genoma humano no describen ninguna proteína usada en el cuerpo."</string>
+    <string name="tip_density">"Este ajuste solo aplica a los Boyacitos. Determinará la densidad de la célula, la cual se hundirá o flotará dependiendo si la densidad es más alta o más baja que la densidad del ambiente (y si un campo gravitacional está presente).
+
+La mása de la célula no será afectada por este ajuste."</string>
+    <string name="tip_edit_mode">"Todas las células, en el cuerpo humano por ejemplo, contienen el mismo ADN pero una neurona y una célula muscular se comportan de manera muy diferente. En esta aplicación, esto es referido como los diferentes \"modos\" de una célula. El genoma de cada célula consiste en 40 modos con diferentes propiedades. Utiliza este selector para elegir qué modo editar. Las propiedades y ajustes de abajo corresponden particularmente al modo que se esté editando actualmente. 
+
+El botón \"Inicial\" puede ser usado para determinar cuál modo será el primero en ser insertado en el microscopio y la vista previa."</string>
+    <string name="tip_green">"Cambia la cantidad de coloración verde de las células de este modo.
+
+No afecta el comportamiento o desempeño de las células de ninguna forma."</string>
+    <string name="tip_initial_mode">"Seleccionando este botón se establece que el modo actual es el modo \"inicial\".
+
+Qué modo es inicial no es importante para el organismo en sí, es solo una forma de elegir qué modo debería iniciar la vista previa o el sustrato.
+
+Cuando una célula es copiada del microscopio al editor de genomas (primera opción en el ajuste\"Cargar\") el modo que fue seleccionado se considerará inicial."</string>
+    <string name="tip_keep_adhesin_c1">"Si esta célula se encuentra conectada mediante adhesina a otra al momendo de división, entonces Hija 1 conservará dicha adhesina o no dependiendo si esta casilla está activada o no respectivamente.
+
+Tener en cuenta que Hija 1 debe terminar del lado de la conexión de adhesina para que la conexión se mantenga."</string>
+    <string name="tip_keep_adhesin_c2">"Si esta célula se encuentra conectada mediante adhesina a otra al momendo de división, entonces Hija 2 conservará dicha adhesina o no dependiendo si esta casilla está activada o no respectivamente.
+
+Tener en cuenta que Hija 2 debe terminar del lado de la conexión de adhesina para que la conexión se mantenga."</string>
+    <string name="tip_mirror_c1">"Marcar esta casilla hace a Hija 1 un espejo del modo que tenga con respecto a su madre. Esto significa que si una célula es espejada entonces su hija 1 no será espejada y viceversa.
+
+Todos los ángulos son medidos contra-reloj por defecto pero si es espejada todos los ángulos (ángulo de división, ángulo de la Hija 1 y 2) quedan definidos reloj en su lugar.
+
+Esta propiedad puede ser útil para hacer organismos simétricos sin tener que usar diferentes modos con afinaciones específicas en ángulos."</string>
+    <string name="tip_mirror_c2">"Marcar esta casilla hace a Hija 2 un espejo del modo que tenga con respecto a su madre. Esto significa que si una célula es espejada entonces su hija 2 no será espejada y viceversa.
+
+Todos los ángulos son medidos contra-reloj por defecto pero si es espejada todos los ángulos (ángulo de división, ángulo de la Hija 1 y 2) quedan definidos reloj en su lugar.
+
+Esta propiedad puede ser útil para hacer organismos simétricos sin tener que usar diferentes modos con afinaciones específicas en ángulos."</string>
+    <string name="tip_muscle_bending">La flexión del músculo tira las conexiones de adhesina del frente y de la parte de atrás de las células en este modo a la izquierda o a la derecha del Miocito.</string>
+    <string name="tip_muscle_contraction">La contracción muscular tira las conexiónes de adhesina que se encuentren en los extremos del frente y detrás de las células en este modo hacia el centro del Miocito</string>
+    <string name="tip_muscle_lift">El levante muscular levantará las células del frente o de la parte de atrás del Miocito, de forma que se disminuya su fricción con el sustrato.</string>
+    <string name="tip_priority">"Las células conectadas con adhesina pueden transportar nutrientes entre sí. El flujo de nutrientes entre dos células conectadas es proporcional a la diferencia de sus masas.
+
+Esto significa que el flujo de nutrientes de células más masivas irá a células menos masivas y de aquellas con prioridad baja a las de prioridad alta. Hasta que se alcance un equilibrio donde las células de mayor prioridad tengan mayor masa.
+
+Si ambas células tienen prioridad alta el equilibrio será el mismo que si tuvieran baja prioridad pero el mismo será alcanzado más rápido."</string>
+    <string name="tip_red">"Cambia la cantidad de coloración roja de las células de este modo.
+
+No afecta el comportamiento o desempeño de las células de ninguna forma."</string>
+    <string name="tip_secrocyte">"Esto especifica qué sustancia secretar.
+
+El olor de comida afectará Sensacitos y Estereocitos cercanos como si fuera un trozo grande de alimento.
+
+HCN (cianuro) dañará rápidamente hasta matar a células no protegidas. Alimento Recubierto funciona de la misma manera.
+
+Las distintas S, difundirán la señal especificada a otras células al tocarlas. El signo - indica una inhibición de una señal.
+
+La Lipasa es una enzima que disgrega trozos de nutrientes recubiertos para que puedan ser absorbidos por los Fagocitos, también puede disgregar células no protegidas por Keratinocitos y matarlas pero a un ritmo más lento que el HCN.
+
+La Proteasa es otra enzima que es capaz de destruir la adhesina que conecta dos células, esto solo funciona si el Secrocito está tocando ambas células a la vez."</string>
+    <string name="tip_snap">Marcar esta casilla fijará todos los ángulos a múltiplos de 15° y todos los otros valores a proporciones discretas de 25.</string>
+    <string name="tip_split_angle">"Con este deslizador puedes elegir en qué angulo este modo se dividirá. La línea de puntos en la ventana de vista previa muestra gráficamente dónde la célula se dividirá.
+
+Cada célula estará \"apuntando\" una dirección específica (indicada por una flecha), La célula inicial predeterminada siempre estará apuntando hacia la derecha tanto en la ventana de vista previa como en el microscopio. Un ángulo de división de 0° significa que células en este modo se dividirán perpendicularmente con respecto a la dirección que apunta. Hija 2 terminará posicionada en el \"frente\" de esta célula mientras que Hija 1 terminará posicionada \"detrás\".
+
+Incrementar el valor de esta opcion rotará el eje de de división contra-reloj, a menos que esta sea una célula espejada, en cuyo caso se define de manera reloj."</string>
+    <string name="tip_split_mass">"La masa de cada célula es proporcional a la cantidad de energía química que poseen. Las células crecen cuando obtienen más energía de la que consumen y se encogen cuando no.
+
+Cuando la mása de una célula es mayor que la masa de división de ese modo, se dividirá en dos células hijas.
+
+Una célula no puede dividirse hasta que tenga al menos 30min de edad (0.5h), de manera que si su Masa de división es superada antes, simplemente no se dividirá hasta que cumpla esa edad."</string>
+    <string name="tip_split_ratio">Este ajuste determina como la masa de las células en este modo será distribuida entre las dos hijas cuando se divida.</string>
+    <string name="tip_stay_alive">"Cuando una célula tiene esta casilla activada recibirá un incremento en Prioridad de Nutrientes cuando se encuentre con niveles peligrosamente bajos de masa.
+
+Esto puede ser usado para asegurarse que células con baja prioridad en un organismo no den sus últimos nutrientes y mueran.
+
+Al mismo tiempo, si algunas células en cierto modo no son esenciales cuando hay pocos nutrientes, tal vez sea útil desactivar esta casilla."</string>
+    <string name="tip_stem_mode1">Cuando la Señal del canal 1 sea mayor que .5, entonces el Stemocito se transformará en este modo.</string>
+    <string name="tip_stem_mode2">Cuando la Señal del canal 2 sea mayor que .5, entonces el Stemocito se transformará en este modo.</string>
+    <string name="tip_stem_signal1">Cuando esta señal sea mayor que .5, entonces el Stemocito se transformará en el modo especificado Modo de diferenciación del canal 1</string>
+    <string name="tip_stem_signal2">Cuando esta señal sea mayor que .5, entonces el Stemocito se transformará en el modo especificado Modo de diferenciación del canal 2.</string>
+    <string name="tip_stiffness">"Este ajuste determina que tan rígida será la conexión que tendrán las células hijas cuando las células de este modo se dividan.
+
+Una dureza alta hace que las células hijas mantengan mejor sus orientaciónes relativas entre sí. Un ajuste bajo las deja rotar casi libremente alrededor del punto de conexión."</string>
+    <string name="tip_swim_force">Este ajuste solo se aplica a Flagelocitos. Determina la intensidad del movimiento del flagelo. Movimientos rápidos harán que el flagelocito empuje con más intensidad pero a su vez gastará más energía.</string>
+    <string name="tip_title_adhesin">Casilla: Crear Adhesina</string>
+    <string name="tip_title_blue">Slider: Color Azul</string>
+    <string name="tip_title_cell_type">Selector: Tipo de Célula</string>
+    <string name="tip_title_child_1_angle">Control deslizante: Ángulo Hija 1</string>
+    <string name="tip_title_child_1_mode">Selector: Hija 1, Modo</string>
+    <string name="tip_title_child_2_angle">Control deslizante: Ángulo Hija 2</string>
+    <string name="tip_title_child_2_mode">Selector: Child 2, Mode</string>
+    <string name="tip_title_edit_mode">Selector: Modo actual</string>
+    <string name="tip_title_green">Control deslizante: Color Verde</string>
+    <string name="tip_title_intial_mode">Botón: Inicial</string>
+    <string name="tip_title_keep_adhesin_c1">Casilla: Hija 1, Conservar adhesina</string>
+    <string name="tip_title_keep_adhesin_c2">Casilla: Hija 2, Conservar adhesina</string>
+    <string name="tip_title_mirror_c1">Casilla: Hija 1, Espejo</string>
+    <string name="tip_title_mirror_c2">Casilla: Hija 2, Espejo</string>
+    <string name="tip_title_priority">Control deslizante: Prioridad de nutrientes</string>
+    <string name="tip_title_red">Control deslizante: Color Rojo</string>
+    <string name="tip_title_slider">Control deslizante</string>
+    <string name="tip_title_snap">Casilla: Intervalos Deslizantes Fijos</string>
+    <string name="tip_title_split_angle">Control deslizante: Ángulo de división</string>
+    <string name="tip_title_split_mass">Control deslizante: Masa de división</string>
+    <string name="tip_title_split_ratio">Control deslizante: División de nutrientes</string>
+    <string name="tip_title_stay_alive">Casilla: Priorizar</string>
+    <string name="tip_title_stiffness">Control deslizante: Rigidez de la adhesina</string>
+    <string name="tip_type_selector">Selector</string>
+    <string name="tip_virsus_from">"Este ajuste solo se aplica a Virocitos. Usandolo puedes elegir qué modo el virocito debería copiar en la célula víctima.
+
+Un Virocito copia parte de su genoma en otra célula al tocarla. Copia el modo seleccionado por este ajuste (acompañado de 2 generaciones de modos descendientes) en el mismo modo de la célula víctima.
+
+Ejemplo: Virocito copia de M5. Modo M5 del Virocito se divide en M4 y M3, los cuales respectivamente se dividen en M2 M2 y M3 M3. De esta forma estas copias serán hechas:
+Virocito → Víctima
+M5 → M5
+M4 → M4
+M3 → M3
+M2 → M2
+"</string>
+    <string name="toast_bad_name">¿Mal nombre? Usar alfanuméricos exclusivamente.</string>
+    <string name="toast_cell_type_limit_violation">El genoma viola el límite en tipo de células. Verificar en la pestaña \"Objectivo\".</string>
+    <string name="toast_challenge_completed">¡Desafío Completado!</string>
+    <string name="toast_file_is_newer_version">Archivo creado en una nueva versión de Cell Lab, por favor actualizar aplicación.</string>
+    <string name="toast_label_already_in_freeer">Etiqueta ya usada en el freezer. Elegir un nombre diferente.</string>
+    <string name="toast_loaded_new_genome">Genoma cargado</string>
+    <string name="toast_name_exists">Un genoma con este nombre ya existe. Por favor renombrar antes de importar.</string>
+    <string name="toast_no_cell_under_microscope">No hay célula seleccionada en el microscopio…</string>
+    <string name="toast_no_email_clients">No hay cliente de correo electronico instalado.</string>
+    <string name="toast_out_of_memory">No hay suficiente memoria</string>
+    <string name="toast_saved">Guardado</string>
+    <string name="toast_unknown_types_replaced">Reemplazando células desconocidas…</string>
+    <string name="toast_zoom_max">El aumento actual es de 1 nm de ancho. No se puede observar distancias más pequeñas con un microscopio electrónico.</string>
+    <string name="tool_add">Estímulo celular</string>
+    <string name="tool_cell">Sintetizador de células</string>
+    <string name="tool_info">Diagnóstico celular</string>
+    <string name="tool_move">Pinzas ópticas</string>
+    <string name="tool_remove">Eliminación celular</string>
+    <string name="tutorial_info">Seguir las instrucciones de las ventanas emergentes.</string>
+    <string name="unlock_feature_more_genome_params">más ajustes de genomas.</string>
+    <string name="unlock_feature_more_params">más parámetros de los sustratos</string>
+    <string name="unlock_feature_more_programmable_params">ajustes programables de genomas.</string>
+    <string name="unlocks_before_feature">Desbloquea</string>
+    <string name="unlocks_further_challenges">" y desafíos siguientes."</string>
+    <string name="val_dep_age">Edad celular</string>
+    <string name="val_dep_connected">Conexiones de adhesina: #</string>
+    <string name="val_dep_mass">Masa celular</string>
+    <string name="val_dep_nitro_reserve">Reserva de NH&lt;sub>&lt;small>3&lt;/small>&lt;/sub> [0-1]</string>
+    <string name="val_dialog_signal_substance_dependence">Estado de la dependencia</string>
+    <string name="value_false">Falso</string>
+    <string name="value_true">Verdadero</string>
+    <string name="video_link">&lt;a href=https://www.youtube.com/channel/UCKw7QHCr7XV2_NbrX3a1C4Q>YouTube&lt;/a></string>
+    <string name="videos_link">&lt;a href=https://www.youtube.com/playlist?list=PLvFmZuOkX-KE4zYLhdNDBGZgXBexRjUvO>Video tutoriales de Bart Wisialowski&lt;/a></string>
+    <string name="wallet_buy_button_place_holder">Comprar con Google</string>
+    <string name="wiki_link">&lt;a href=http://wiki.cell-lab.net>Wiki&lt;/a></string>
+</resources>

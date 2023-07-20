@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levels>
+    <level>
+        <id>tuto0</id>
+        <file>tut1.substrate</file>
+        <user-cells>10000</user-cells>
+        <place-cells>10000</place-cells>
+        <tools>cell,info</tools>
+    </level>
+
+    <level>
+        <id>tuto1</id>
+        <file>level1.substrate</file>
+        <user-cells>10000</user-cells>
+        <place-cells>10000</place-cells>
+        <tools>cell,info</tools>
+    </level>
+
+    <level>
+        <id>1</id>
+        <file>level1.substrate</file>
+        <user-cells>100</user-cells>
+        <place-cells>10</place-cells>
+        <difficulty>0</difficulty>
+        <unlocks>Phagocyte</unlocks>
+        <tools>cell,info</tools>
+    </level>
+
+
+    <level>
+        <id>2</id>
+        <file>level1.substrate</file>
+        <place-cells>10</place-cells>
+        <user-cells>150</user-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+
+    <level>
+        <id>4</id>
+        <file>level2.substrate</file>
+        <user-cells>120</user-cells>
+        <place-cells>5</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+
+    <level>
+        <id>3</id>
+        <file>mac2.substrate</file>
+        <user-cells>300</user-cells>
+        <place-cells>30</place-cells>
+        <unlocks>Flagellocyte</unlocks>
+        <difficulty>0</difficulty>
+    </level>
+
+
+    <level>
+        <id>3.2</id>
+        <file>mac2.substrate</file>
+        <user-cells>650</user-cells>
+        <place-cells>1</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>3.3</id>
+        <file>colch.substrate</file>
+        <yellow-level-cells-min>5</yellow-level-cells-min>
+        <yellow-level-cells>5</yellow-level-cells>
+        <red-level-cells-min>5</red-level-cells-min>
+        <red-level-cells>5</red-level-cells>
+        <level-cells>10</level-cells>
+        <level-cells-min>10</level-cells-min>
+        <place-cells>0</place-cells>
+        <tools>add</tools>
+        <max-time>100</max-time>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>3.4</id>
+        <file>breed1.substrate</file>
+        <user-cells>0</user-cells>
+        <red-level-cells-min>100</red-level-cells-min>
+        <place-cells>0</place-cells>
+        <tools>add,remove,move,info</tools>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>3.5</id>
+        <file>mutual1.substrate</file>
+        <user-cells>400</user-cells>
+        <win-time>50</win-time>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+
+    <level>
+        <id>tuto2</id>
+        <file>level5.substrate</file>
+        <user-cells>10000</user-cells>
+        <place-cells>10000</place-cells>
+    </level>
+
+    <level>
+        <id>5</id>
+        <file>level5.substrate</file>
+        <user-cells>420</user-cells>
+        <place-cells>10</place-cells>
+        <unlocks>Lipocyte</unlocks>
+        <difficulty>0</difficulty>
+    </level>
+
+
+
+    <level>
+        <id>5.5</id>
+        <file>hardSwimmer.substrate</file>
+        <user-cells>300</user-cells>
+        <place-cells>30</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+
+    <level>
+        <id>6</id>
+        <file>level3.substrate</file>
+        <user-cells>130</user-cells>
+        <place-cells>1</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>6.2</id>
+        <file>scav.substrate</file>
+        <user-cells>25</user-cells>
+        <win-time>100</win-time>
+        <place-cells>5</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+
+    <level>
+        <id>6.5</id>
+        <file>lip1.substrate</file>
+        <user-cells>16</user-cells>
+        <place-cells>1</place-cells>
+        <win-time>50</win-time>
+        <unlocks>Devorocyte</unlocks>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>7</id>
+        <file>lip.substrate</file>
+        <user-cells>500</user-cells>
+        <place-cells>10</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+
+
+
+    <level>
+        <id>8</id>
+        <file>mac5fix.substrate</file>
+        <user-cells>150</user-cells>
+        <place-cells>1</place-cells>
+        <win-time>100</win-time>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>9</id>
+        <file>dense2.substrate</file>
+        <level-cells>300</level-cells>
+        <place-cells>3</place-cells>
+        <unlocks>Keratinocyte</unlocks>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>9.7</id>
+        <file>breed2.substrate</file>
+        <user-cells>0</user-cells>
+        <red-level-cells-min>100</red-level-cells-min>
+        <place-cells>0</place-cells>
+        <tools>add,remove,move,info</tools>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>10</id>
+        <file>inf5.substrate</file>
+        <level-cells>0</level-cells>
+        <place-cells>12</place-cells>
+        <max-time>50</max-time>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>11</id>
+        <file>keratinosyt.substrate</file>
+        <user-cells>420</user-cells>
+        <place-cells>2</place-cells>
+        <unlocks>Buoyocyte</unlocks>
+        <feature>0</feature>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>12</id>
+        <file>conquering.substrate</file>
+        <level-cells>0</level-cells>
+        <user-cells>50</user-cells>
+        <win-time>30</win-time>
+        <max-time>220</max-time>
+        <place-cells>2</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>13</id>
+        <file>buoy1.substrate</file>
+        <user-cells>350</user-cells>
+        <place-cells>5</place-cells>
+        <unlocks>Glueocyte,Ciliocyte</unlocks>
+        <difficulty>1</difficulty>
+    </level>
+
+
+    <level>
+        <id>14</id>
+        <file>floater2.substrate</file>
+        <user-cells>400</user-cells>
+        <place-cells>3</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>14.5</id>
+        <file>parasite.substrate</file>
+        <user-cells>1</user-cells>
+        <place-cells>1</place-cells>
+        <win-time>500</win-time>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>15</id>
+        <file>ster2.substrate</file>
+        <user-cells-max>0</user-cells-max>
+        <level-cells>0</level-cells>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>15.5</id>
+        <file>mosh.substrate</file>
+        <user-cells>300</user-cells>
+        <level-cells>50</level-cells>
+        <max-time>100</max-time>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>16</id>
+        <file>slippery.substrate</file>
+        <user-cells>400</user-cells>
+        <place-cells>10</place-cells>
+        <unlocks>Nitrocyte</unlocks>
+        <feature>1</feature>
+        <difficulty>0</difficulty>
+    </level>
+
+
+    <level>
+        <id>17</id>
+        <file>worm3.substrate</file>
+        <user-cells-max>0</user-cells-max>
+        <level-cells>0</level-cells>
+        <place-cells>1</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>17.5</id>
+        <file>obst.substrate</file>
+        <level-cells-min>450</level-cells-min>
+        <place-cells>50</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+
+
+
+    <level>
+        <id>18.5</id>
+        <file>floaters3nolip.substrate</file>
+        <user-cells>450</user-cells>
+        <place-cells>6</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+
+
+    <level>
+        <id>19</id>
+        <file>non1.substrate</file>
+        <user-cells>200</user-cells>
+        <place-cells>10</place-cells>
+        <unlocks>Virocyte</unlocks>
+        <difficulty>0</difficulty>
+    </level>
+
+
+
+    <level>
+        <id>20</id>
+        <file>non.substrate</file>
+        <user-cells>400</user-cells>
+        <place-cells>10</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+
+    <level>
+        <id>18.2</id>
+        <file>sym3.substrate</file>
+        <level-cells-min>38</level-cells-min>
+        <place-cells>1</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>21</id>
+        <file>hard.substrate</file>
+        <user-cells>700</user-cells>
+        <place-cells>10</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+
+    <level>
+        <id>22</id>
+        <file>vir2.substrate</file>
+        <level-cells>0</level-cells>
+        <place-cells>3</place-cells>
+        <user-cells-max>0</user-cells-max>
+        <difficulty>0</difficulty>
+        <unlocks>Secrocyte</unlocks>
+    </level>
+
+    <level>
+        <id>22.5</id>
+        <file>maze2.substrate</file>
+        <yellow-level-cells-min>12</yellow-level-cells-min>
+        <remove-max>14</remove-max>
+        <place-cells>0</place-cells>
+        <tools>remove</tools>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>23</id>
+        <file>vir3nolip.substrate</file>
+        <level-cells>0</level-cells>
+        <user-cells-max>0</user-cells-max>
+        <place-cells>1</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>23.5</id>
+        <file>vir6.substrate</file>
+        <level-cells-min>300</level-cells-min>
+        <place-cells>0</place-cells>
+        <tools>cell,info,move</tools>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>25</id>
+        <file>nonitrovirusfixednolip.substrate</file>
+        <user-cells-max>0</user-cells-max>
+        <level-cells>0</level-cells>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+
+    <level>
+        <id>26</id>
+        <file>ugly.substrate</file>
+        <place-cells>1</place-cells>
+        <infected-level-cells>200</infected-level-cells>
+        <win-time>200</win-time>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>26.5</id>
+        <file>digestion.substrate</file>
+        <place-cells>1</place-cells>
+        <user-cells>150</user-cells>
+        <difficulty>3</difficulty>
+        <unlocks>Gamete</unlocks>
+    </level>
+
+
+
+    <level>
+        <id>26.57</id>
+        <file>dig3.substrate</file>
+        <place-cells>3</place-cells>
+        <user-cells>50</user-cells>
+        <win-time>100</win-time>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>26.6</id>
+        <file>agamchal3.substrate</file>
+        <total-cells-min>750</total-cells-min>
+        <place-cells>2</place-cells>
+        <difficulty>1</difficulty>
+        <unlocks>Neurocyte</unlocks>
+        <feature>2</feature>
+    </level>
+
+    <level>
+        <id>26.8</id>
+        <file>adaptation.substrate</file>
+        <total-cells-min>400</total-cells-min>
+        <place-cells>10</place-cells>
+        <win-time>500</win-time>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>26.9</id>
+        <file>prot.substrate</file>
+        <hybrid-cells-min>400</hybrid-cells-min>
+        <place-cells>5</place-cells>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>27</id>
+        <file>balansnolip.substrate</file>
+        <user-cells>0</user-cells>
+        <level-cells>0</level-cells>
+        <place-cells>10</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+
+
+    <level>
+        <id>29</id>
+        <file>balans2.substrate</file>
+        <user-cells>40</user-cells>
+        <level-cells-min>200</level-cells-min>
+        <place-cells>3</place-cells>
+        <win-time>2000</win-time>
+        <difficulty>3</difficulty>
+
+    </level>
+
+
+    <level>
+        <id>tuto3</id>
+        <file>tutoNeuro.substrate</file>
+        <user-cells>10000</user-cells>
+        <place-cells>10000</place-cells>
+    </level>
+
+    <level>
+        <id>30</id>
+        <file>balloons2.substrate</file>
+        <user-cells>200</user-cells>
+        <place-cells>5</place-cells>
+        <win-time>100</win-time>
+        <difficulty>1</difficulty>
+        <max-buoyocyte>1</max-buoyocyte>
+        <unlocks>Myocyte</unlocks>
+    </level>
+
+
+    <level>
+        <id>31</id>
+        <file>easyworms2.substrate</file>
+        <user-cells>300</user-cells>
+        <place-cells>4</place-cells>
+        <difficulty>2</difficulty>
+        <unlocks>Senseocyte,Stereocyte</unlocks>
+    </level>
+
+    <level>
+        <id>30.5</id>
+        <file>nervous2.substrate</file>
+        <level-cells-min>680</level-cells-min>
+        <place-cells>5</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>31.5</id>
+        <file>fric2.substrate</file>
+        <user-cells>600</user-cells>
+        <place-cells>4</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>32</id>
+        <file>nekton4.substrate</file>
+        <user-cells>250</user-cells>
+        <place-cells>4</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>32.5</id>
+        <file>dualflag.substrate</file>
+        <user-cells>300</user-cells>
+        <place-cells>5</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>32.6</id>
+        <file>wallavoid.substrate</file>
+        <user-cells>300</user-cells>
+        <place-cells>5</place-cells>
+        <win-time>100</win-time>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>32.7</id>
+        <file>scarce3.substrate</file>
+        <user-cells>600</user-cells>
+        <place-cells>5</place-cells>
+        <difficulty>0</difficulty>
+    </level>
+
+    <level>
+        <id>32.75</id>
+        <file>dig22.substrate</file>
+        <place-cells>1</place-cells>
+        <user-cells>470</user-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>32.8</id>
+        <file>hunt.substrate</file>
+        <user-cells>50</user-cells>
+        <level-cells>300</level-cells>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+
+
+    <level>
+        <id>33</id>
+        <file>last2.substrate</file>
+        <user-cells>50</user-cells>
+        <level-cells>150</level-cells>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+        <unlocks>Stemocyte</unlocks>
+    </level>
+
+    <level>
+        <id>33.2</id>
+        <file>feed.substrate</file>
+        <red-level-cells-min>60</red-level-cells-min>
+        <place-cells>1</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+
+    <level>
+        <id>33.3</id>
+        <file>moveit.substrate</file>
+        <place-cells>3</place-cells>
+        <win-time>1000</win-time>
+        <user-cells>50</user-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>33.5</id>
+        <file>extermination.substrate</file>
+        <user-cells-max>0</user-cells-max>
+        <level-cells>0</level-cells>
+        <place-cells>5</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+
+    <level>
+        <id>34</id>
+        <file>redyellow.substrate</file>
+        <user-cells-max>0</user-cells-max>
+        <red-level-cells>0</red-level-cells>
+        <level-cells-min>300</level-cells-min>
+        <place-cells>25</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>35</id>
+        <file>avoidfix.substrate</file>
+        <user-cells>150</user-cells>
+        <level-cells>5</level-cells>
+        <level-cells-min>3</level-cells-min>
+        <win-time>100</win-time>
+        <place-cells>1</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>36</id>
+        <file>avoidtwo.substrate</file>
+        <user-cells>200</user-cells>
+        <level-cells>20</level-cells>
+        <level-cells-min>10</level-cells-min>
+        <win-time>200</win-time>
+        <place-cells>1</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+    <level>
+        <id>36.51</id>
+        <file>melanoma.substrate</file>
+        <place-cells>1</place-cells>
+        <black-level-cells>0</black-level-cells>
+        <level-cells-min>314</level-cells-min>
+        <infected-level-cells-max>13</infected-level-cells-max>
+        <difficulty>1</difficulty>
+    </level>
+
+    <level>
+        <id>37</id>
+        <file>desert.substrate</file>
+        <user-cells>200</user-cells>
+        <place-cells>5</place-cells>
+        <difficulty>3</difficulty>
+    </level>
+
+    <level>
+        <id>38</id>
+        <file>desert.substrate</file>
+        <user-cells>600</user-cells>
+        <place-cells>5</place-cells>
+        <difficulty>2</difficulty>
+    </level>
+
+</levels>

@@ -1,0 +1,8 @@
+**** APK MUST BE ZIPALIGNED BEFORE IT IS SIGNED!
+zipalign -f 4 Cell_Lab_80modesV2/dist/Cell_Lab_80modesV2.apk cell_lab_aligned.apk
+
+apksigner sign --ks enzyme.keystore --ks-pass file:pass.txt --v1-signing-enabled true --v2-signing-enabled true cell_lab_aligned.apk
+
+**** for android SDK 30 and above, v1 and v2 signing must both be enabled. This is
+**** why apksigner is preferable over jarsigner. Jarsigner is old, i'm not sure it can
+**** sign apks adequately for android API levels 30 and above.

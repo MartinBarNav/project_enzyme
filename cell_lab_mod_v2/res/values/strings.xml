@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_acknowledgements">Acknowledgements</string>
+    <string name="about_rate_button">Rate in Play Store!</string>
+    <string name="about_text">"Game created by Petter Säterskog.
+Challenges designed by Alast, bwisialo, Nayus and Petter.
+In case you get stuck:"</string>
+    <string name="about_version_text">Version</string>
+    <string name="accept">Accept</string>
+    <string name="acknowledgement">"Many thanks to Alast, bwisialo, Nayus and Eric Säterskog who designed some of the challenges and gave invaluable feedback. 
+
+Huge thanks to all beta testers and Cell Lab Forum contributors! 
+
+All sound and music created by Danilov Sound,"<a href="http://danilovsound.com/"> danilovsound.com</a></string>
+    <string name="advanced_settings_cell_count">Maximum cell count:</string>
+    <string name="advanced_settings_info">These settings are for advanced use. Setting them inappropriately might make Cell Lab crash/run extremely slowly.</string>
+    <string name="advanced_settings_radius">Petri dish diameter [mm]:</string>
+    <string name="advances_settings_food_count">Maximum food count:</string>
+    <string name="app_name">Cell Lab</string>
+    <string name="button_more">…</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="cell_info_S_production">" production: %.1f "</string>
+    <string name="cell_info_active_mode">"Active mode: "</string>
+    <string name="cell_info_age">Age: %.2f h</string>
+    <string name="cell_info_density">"Density: "</string>
+    <string name="cell_info_diameter">Diameter: %.1f μm</string>
+    <string name="cell_info_injury">Injury: %.0f%%</string>
+    <string name="cell_info_lift">Lift: %.2f</string>
+    <string name="cell_info_lipids">Lipids (mass equiv.): %.2f ng&lt;br></string>
+    <string name="cell_info_mass">Mass: %.2f ng</string>
+    <string name="cell_info_mirrored">"Mirrored: "</string>
+    <string name="cell_info_mutations">"Mutations: "</string>
+    <string name="cell_info_nitro">Nitrogen reserve: %.0f%%</string>
+    <string name="cell_info_select">Select cell…</string>
+    <string name="cell_info_speed">&lt;br>Speed: %.0f μm/h</string>
+    <string name="cell_info_swim_force">Swim force: %.2f&amp;times;10&lt;sup>&lt;small>-21&lt;/small>&lt;/sup> N</string>
+    <string name="cell_info_tag">"Tag: "</string>
+    <string name="cell_info_tag_challenge">Challenge cell</string>
+    <string name="cell_info_tag_contaminate">Contamination cell</string>
+    <string name="cell_info_tag_hybrid">Hybrid cell</string>
+    <string name="cell_info_tag_infected_challenge">Infected challenge cell</string>
+    <string name="cell_info_tag_infected_contaminate">Infected contamination cell</string>
+    <string name="cell_info_tag_infected_user">Infected user cell</string>
+    <string name="cell_info_tag_user">User cell</string>
+    <string name="cell_info_telomeres">"Telomeres: "</string>
+    <string name="cell_info_toxins">Toxins: %.2f</string>
+    <string name="cell_info_type">"Type: "</string>
+    <string name="chalenges_finish_first_1">Finish Challenge</string>
+    <string name="challenges_challenge_not_completed">Challenge not completed.</string>
+    <string name="challenges_finish_first_2">first.</string>
+    <string name="challenges_unlocks">" Unlocks gene"</string>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">"This app won't run unless you update the Android Wear app."</string>
+    <string name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <string name="default_locale">en</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_discard">Discard</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_reload">Reload</string>
+    <string name="dialog_button_save">Save</string>
+    <string name="dialog_button_start">Start</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_discard_text">Leaving experimental species in the open is against lab policy!</string>
+    <string name="dialog_discard_title">Discard current substrate?</string>
+    <string name="dialog_reload_title">Reload current substrate</string>
+    <string name="dialog_rename_genome_title">Rename your genome</string>
+    <string name="dialog_sterilize_text">Killing too many cells might result in another chat with the ethics committee…</string>
+    <string name="dialog_sterilize_title">Sterilize current substrate?</string>
+    <string name="dialog_text_save_genome">Saving your genome lets you reuse it in another challenge or send it to a friend.</string>
+    <string name="dialog_titlte_save_genome">Name your genome</string>
+    <string name="difficulty_level_0">Difficulty: Undergrad</string>
+    <string name="difficulty_level_1">Difficulty: Phd</string>
+    <string name="difficulty_level_2">Difficulty: Mad scientist</string>
+    <string name="difficulty_level_3">Difficulty: Superhuman AI</string>
+    <string name="donate_appeal">Cell Lab is provided as a completely free app. There are no payments for features and no ads. If you would like to show your appreciation to the developer, consider donating an amount of your choice below. A combination of buttons can be used.</string>
+    <string name="donate_reminder">If you would like to make a donation to the developer of this game you can do so in the \"About\" page of the main menu.</string>
+    <string name="donate_reminder_title">Donate?</string>
+    <string name="donations_made">Donations made:</string>
+    <string name="drag_blue">"Blue color: "</string>
+    <string name="drag_child_1_angle">"Child 1's angle relative to mother: "</string>
+    <string name="drag_child_1_ratio">"Mass ratio to child 1: "</string>
+    <string name="drag_child_2_angle">"Child 2's angle relative to mother: "</string>
+    <string name="drag_child_2_ratio">"
+Mass ratio to child 2: "</string>
+    <string name="drag_green">"Green color: "</string>
+    <string name="drag_mass_age_split">"Cell will split at age "</string>
+    <string name="drag_mass_no_split">Cell will never split</string>
+    <string name="drag_priority">"Cell mass flow priority: "</string>
+    <string name="drag_red">"Red color: "</string>
+    <string name="drag_split_angle">"Mother cell will split at angle: "</string>
+    <string name="drag_split_mass">"Cell will split once its mass is: "</string>
+    <string name="drag_stiffness">"Adhesin stiffness: "</string>
+    <string name="drag_time_1">"Development after "</string>
+    <string name="drag_time_2">" h (max 100+ cells)"</string>
+    <string name="email_download_game_AT_url">at</string>
+    <string name="email_genome_body">"New genome developed!
+
+N.B. This file contains a genetic sequence and should be opened with appropriate software.
+Download Android app "</string>
+    <string name="email_genome_title">Digital genome from Cell Lab</string>
+    <string name="email_intent_title">Send mail…</string>
+    <string name="email_substrate_body">"New findings!
+
+N.B. This sample contains live organisms and should be opened with appropriate equipment.
+Download Android app "</string>
+    <string name="email_substrate_title">Frozen sample from Cell Lab</string>
+    <string name="forum_link">&lt;a href=http://forum.cell-lab.net>Forum&lt;/a></string>
+    <string name="freezer_advanced_settings_title">Advanced Settings</string>
+    <string name="freezer_bad_name">Label already in freezer. Choose different name.</string>
+    <string name="freezer_long_press">Long press for advanced settings</string>
+    <string name="freezer_new_plate">New Plate</string>
+    <string name="freezer_relabel">Relabel your sample</string>
+    <string name="freezer_unfrozen_age">Unfrozen age</string>
+    <string name="ge_neuro_output_amount_tip_1">"This sets what amount of signal substance Neurocyte signalling pathway "</string>
+    <string name="ge_neuro_output_amount_tip_2">" outputs."</string>
+    <string name="ge_neuro_output_tip_1">"This sets what channel Neurocyte signalling pathway "</string>
+    <string name="ge_neuro_output_tip_2">" outputs on."</string>
+    <string name="ge_osc_preset_button">Oscillator preset…</string>
+    <string name="ge_output_amount">Output</string>
+    <string name="ge_output_channel">Output channel</string>
+    <string name="ge_smell_blue">Blue color</string>
+    <string name="ge_smell_blue_tip">When sensing cells of a certain color, this is the amount of blue in that color.</string>
+    <string name="ge_smell_green">Green color</string>
+    <string name="ge_smell_green_tip">When sensing cells of a certain color, this is the amount of green in that color.</string>
+    <string name="ge_smell_output_amount_tip">This indicates what amount to output when it senses a smell.</string>
+    <string name="ge_smell_output_tip">This indicates what channel to output to when it senses a smell.</string>
+    <string name="ge_smell_red">Red color</string>
+    <string name="ge_smell_red_tip">When sensing cells of a certain color, this is the amount of red in that color.</string>
+    <string name="ge_smell_threshold">Color threshold</string>
+    <string name="ge_smell_threshold_tip">When sensing cells of a certain color, this is how far away the actual color of the cell can be from the settings above.</string>
+    <string name="ge_smell_type">Sense type</string>
+    <string name="ge_smell_type_tip">This indicates what \"smell\" this cell is sensitive to.</string>
+    <string name="gene_edit_default_genome">Load default genome</string>
+    <string name="gene_editor_adhesin_length">Adhesin length</string>
+    <string name="gene_editor_adhesin_length_tip">Increasing this keeps the daughter cells further apart, allowing cells to pass above the adhesin connection.</string>
+    <string name="gene_editor_cilio_left_speed">Left movement speed</string>
+    <string name="gene_editor_cilio_left_speed_tip">This sets the speed with which touching objects are dragged relative to this cell on its left side.</string>
+    <string name="gene_editor_cilio_right_speed">Right movement speed</string>
+    <string name="gene_editor_cilio_right_speed_tip">This sets the speed with which touching objects are dragged relative to this cell on its right side</string>
+    <string name="gene_editor_comp_mode">Compatible mode</string>
+    <string name="gene_editor_comp_mode_tip">The cell membrane will be more susceptible to fusion if both gametes are compatible.</string>
+    <string name="gene_editor_copy_to_mode">Copy</string>
+    <string name="gene_editor_copy_to_mode2">to</string>
+    <string name="gene_editor_cytoskeleton">Cytoskeleton</string>
+    <string name="gene_editor_cytoskeleton_tip">The cytoskeleton helps the cell keep its shape when under pressure. A higher setting means more resources are needed to create the cell but it can keep its shape better.</string>
+    <string name="gene_editor_load_default_to_mode">Load default to</string>
+    <string name="gene_editor_max_connections">Max connections</string>
+    <string name="gene_editor_max_connections_tip">The cell will not split if it is connected to this many or more other cells.</string>
+    <string name="gene_editor_mode_after_fert">Mode after fertilization</string>
+    <string name="gene_editor_mode_after_fert_tip">If this cell is the larger of the two cells that fuse, then this is the mode the zygote will end up in.</string>
+    <string name="gene_editor_telomeres">Telomeres after fertilization</string>
+    <string name="gene_editor_telomeres_tip">Each cell split removes a telomere. A cell with 0 telomeres die. The number of telomeres is reset to the number specified by this option when two gametes fuse.</string>
+    <string name="gene_mode_prefix">M</string>
+    <string name="genome_editor_adhesin_stiffnes">Adhesin stiffness:</string>
+    <string name="genome_editor_blue">Blue color:</string>
+    <string name="genome_editor_button_load">Load</string>
+    <string name="genome_editor_button_save">Save</string>
+    <string name="genome_editor_cell_type">Cell type:</string>
+    <string name="genome_editor_child_1">Child 1:</string>
+    <string name="genome_editor_child_1_angle">Child 1 angle:</string>
+    <string name="genome_editor_child_2">Child 2:</string>
+    <string name="genome_editor_child_2_angle">Child 2 angle:</string>
+    <string name="genome_editor_density">Density</string>
+    <string name="genome_editor_edit_mode">Edit mode:</string>
+    <string name="genome_editor_green">Green color:</string>
+    <string name="genome_editor_is_initial">Initial:</string>
+    <string name="genome_editor_keep_adhesin">Keep adhesin:</string>
+    <string name="genome_editor_make_adhesin">Make adhesin:</string>
+    <string name="genome_editor_mirror">Mirror:</string>
+    <string name="genome_editor_mode">Mode:</string>
+    <string name="genome_editor_nutrient_priority">Nutrient priority:</string>
+    <string name="genome_editor_red">Red color:</string>
+    <string name="genome_editor_secretion">Secretion</string>
+    <string name="genome_editor_snap_angles">Snap values:</string>
+    <string name="genome_editor_split_angle">Split angle:</string>
+    <string name="genome_editor_split_mass">Split mass:</string>
+    <string name="genome_editor_split_ratio">Split ratio:</string>
+    <string name="genome_editor_stay_alive">Prioritize:</string>
+    <string name="genome_editor_swim_force">Swim force</string>
+    <string name="genome_editor_virus_copy_from">Virus copy from</string>
+    <string name="hour_abbreviation">h</string>
+    <string name="load">Load</string>
+    <string name="log_sub_stat">Log substrate statistics to file</string>
+    <string name="log_sub_stat_description">%s Note that logging slows the simulation and can take up much space.</string>
+    <string name="logging_simulation_note_1">Logging simulation (</string>
+    <string name="logging_simulation_note_2">) to:</string>
+    <string name="main_menu_tab_about">About</string>
+    <string name="main_menu_tab_challenges">Challenges</string>
+    <string name="main_menu_tab_experiments">Experiments</string>
+    <string name="main_menu_tab_genomes">Gene Bank</string>
+    <string name="main_menu_tab_settings">Settings</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_load_from_microscope">Load from microscope</string>
+    <string name="menu_item_rename">Rename…</string>
+    <string name="menu_item_share">Share…</string>
+    <string name="mobile_food">Mobile food</string>
+    <string name="muscle_bend">Muscle bending</string>
+    <string name="muscle_contract">Muscle contraction</string>
+    <string name="muscle_lift">Muscle lift</string>
+    <string name="nano_gram_abbreviation">ng</string>
+    <string name="nutrient_coating">Nutrient coating</string>
+    <string name="objective_black_initial_cells">"
+Black initial cells: "</string>
+    <string name="objective_challenge_completed">Challenge completed</string>
+    <string name="objective_challenge_not_completed">Challenge not yet completed</string>
+    <string name="objective_challenge_previously_completed">Challenge previously completed</string>
+    <string name="objective_hybrid_cells">" Hybrid cells: "</string>
+    <string name="objective_infected_initial_cells">"
+Infected initial cells: "</string>
+    <string name="objective_initial_cells">"
+Initial cells: "</string>
+    <string name="objective_inserted_cells">"
+Inserted cells: "</string>
+    <string name="objective_limits_satisfied_time">"
+Limits satisfied for: "</string>
+    <string name="objective_red_initial_cells">"
+Red initial cells: "</string>
+    <string name="objective_removed_cells">"
+Removed cells: "</string>
+    <string name="objective_total_cells">"
+Total cells: "</string>
+    <string name="objective_yellow_initial_cells">"
+Yellow initial cells: "</string>
+    <string name="objective_your_cells">"
+Your cells: "</string>
+    <string name="osc_preset_adhesin_connections">" adhesin connections"</string>
+    <string name="osc_preset_channels">"Oscillate channel "</string>
+    <string name="osc_preset_tip">This dialog sets the values of the four Output channels such that the concentrations of two signal substances oscillates up and down.</string>
+    <string name="osc_preset_title">Oscillator Preset</string>
+    <string name="osc_preset_to">to</string>
+    <string name="oscillator_preset_period">Period</string>
+    <string name="play_button_hint">Hint</string>
+    <string name="play_button_spoiler">Spoiler</string>
+    <string name="play_button_tut_pop_up">Show pop-up dialog again</string>
+    <string name="play_store">https://play.google.com/store/apps/details?id=com.saterskog.cell_lab</string>
+    <string name="popup_text_need_help">Having trouble solving this challenge? You can find help on:&lt;br>&lt;br></string>
+    <string name="popup_text_study_challenge_sub">Do you want to open this challenge substrate in the experimental lab?</string>
+    <string name="popup_title_need_help">Need help?</string>
+    <string name="popup_title_select_tool">Select tool</string>
+    <string name="popup_title_study_challenge_sub">Study challenge substrate?</string>
+    <string name="sample_info_age">"Substrate age: "</string>
+    <string name="sample_info_cells">"Number of cells: "</string>
+    <string name="sample_info_food">"Amount of food: "</string>
+    <string name="sample_info_gene_pool">Gene Pool</string>
+    <string name="sample_info_save_title">Label your sample</string>
+    <string name="sample_info_save_used_name">Label already in freezer. Choose different name.</string>
+    <string name="save_plate">Save plate</string>
+    <string name="scope_lab_budget_1">"Lab budget only allows for "</string>
+    <string name="scope_lab_budget_2">" cells.. Reset challenge?"</string>
+    <string name="secrete_coated_food">Coated food smell</string>
+    <string name="secrete_cyanide">HCN</string>
+    <string name="secrete_food_smell">Food smell</string>
+    <string name="secrete_light">Light sense activator</string>
+    <string name="secrete_protease">Protease</string>
+    <string name="secrete_type_lipase">Lipase</string>
+    <string name="secrete_wall">Wall sense activator</string>
+    <string name="select_plate_action">Select action</string>
+    <string name="setting_ask_discard">Ask before leaving lab</string>
+    <string name="setting_ask_sterilize">Ask before sterilize and reload</string>
+    <string name="setting_keep_from_sleeping">This will keep your device from going to sleep while running long simulations. Remember to plug in your charger!</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_preview_lock">Lock genome preview</string>
+    <string name="setting_sounds_effects">Sound effects</string>
+    <string name="settings_aa_summary">"%s
+Note that any setting other than \"None\" will slow down the rendering speed significantly on many devices."</string>
+    <string name="settings_aa_title">Anti aliasing</string>
+    <string name="settings_audio">Audio</string>
+    <string name="settings_general">General</string>
+    <string name="settings_graphics">Graphics</string>
+    <string name="settings_keep_from_sleep">Keep from sleeping</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_slow_motion">Microscope slow motion</string>
+    <string name="settings_slow_motion_description">The slower simulation is not exactly equivalent to the normal speed simulation.</string>
+    <string name="signal_substance_prefix">S</string>
+    <string name="signal_substance_unit">μmol/L</string>
+    <string name="signal_val_dialog_a">a:</string>
+    <string name="signal_val_dialog_a_variable">a</string>
+    <string name="signal_val_dialog_b">b:</string>
+    <string name="signal_val_dialog_b_variable">b</string>
+    <string name="signal_val_dialog_c">c:</string>
+    <string name="signal_val_dialog_c_variable">c</string>
+    <string name="signal_val_dialog_fixed_value">Fixed value:</string>
+    <string name="signal_val_dialog_heaviside">"a, if input &lt; c
+b, if input ≥ c"</string>
+    <string name="signal_val_dialog_linear">a × input + b</string>
+    <string name="signal_val_dialog_substance">Input:</string>
+    <string name="signal_val_dialog_use_signal">Use cell state:</string>
+    <string name="signal_val_dialog_value">Value</string>
+    <string name="signal_val_dialog_value_equals">Value =</string>
+    <string name="smell_cell">Cell</string>
+    <string name="smell_food">Food</string>
+    <string name="smell_light">Light</string>
+    <string name="smell_type_coated_food">Coated food</string>
+    <string name="smell_velocity">Velocity</string>
+    <string name="smell_wall">Wall</string>
+    <string name="stem_mode1">Differentiation path 1 mode</string>
+    <string name="stem_mode2">Differentiation path 2 mode</string>
+    <string name="stem_signal1">Path 1 signal</string>
+    <string name="stem_signal2">Path 2 signal</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="string_setting_show_gt">Show cell type</string>
+    <string name="string_setting_show_gt_summary">When enabled, this will indicate cell type abbreviations next to mode settings in the genome editor.</string>
+    <string name="substrate_action_reload">Reload plate</string>
+    <string name="substrate_action_sterilize">Sterilize plate</string>
+    <string name="substrate_aging">Cell aging</string>
+    <string name="substrate_contaminate">Contaminate with random cells</string>
+    <string name="substrate_density">Density:</string>
+    <string name="substrate_density_gradient">Density gradient:</string>
+    <string name="substrate_fricd">Dynamic friction:</string>
+    <string name="substrate_frics">Static friction:</string>
+    <string name="substrate_gravity">Gravity:</string>
+    <string name="substrate_help">You can set the environment of the cells under your microscope using the settings on this page. Most settings are supposed to be self-explanatory but a few requires explanations and they are given below. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Radiation&lt;/b>: Radiation will damage your cells and introduce random mutations. A small amount of radiation can help your cells evolve into a stronger species, a very high amount will quickly ruin the genome and might kill your cells. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Only point mutations&lt;/b>: Checking this will limit the mutations to small changes to your genomes. The cell types or modes of children will for example not be changed whereas the continuous parameters like split mass can be changed. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Dynamic friction&lt;/b>: This is the friction coefficient cells experience while moving. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Static friction&lt;/b>: This is the friction coefficient cells experience while still. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Viscosity&lt;/b>: This sets the amount of Stokes drag experienced by moving cells. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Salinity&lt;/b>: A low salinity will make your cells spend a lot of energy keeping their salt-balance. A higher value will let them survive longer without any energy source. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Density&lt;/b>: A low substrate density will make your cell sink when gravity is turned on, a high substrate density will make your cells float when gravity is turned on. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Density gradient&lt;/b>: A density gradient will make the density higher at the substrate bottom and lower at the top. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Nutrient coating&lt;/b>: This gives nutrients a lipid coating that has to be removed before they can be eaten. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Nitrates&lt;/b>: This sets how fast cells absorb nitrates from the environment. All cells consume nitrates when they split and secrocytes consume it continuously. Nitrocytes are necessary if this is set too low.</string>
+    <string name="substrate_help_title">Substrate Settings Help</string>
+    <string name="substrate_kill_edge">Kill cells at edge</string>
+    <string name="substrate_light_amount">Light amount:</string>
+    <string name="substrate_light_range">Light range:</string>
+    <string name="substrate_light_speed">Light direction change:</string>
+    <string name="substrate_nitrates">Nitrates</string>
+    <string name="substrate_nutrient_lump">Nutrient lumpiness</string>
+    <string name="substrate_nutrient_lump_size">Nutrient lump size</string>
+    <string name="substrate_nutrient_size">Nutrient chunk size:</string>
+    <string name="substrate_nutrients">Nutrient rate:</string>
+    <string name="substrate_param_info_button">Info</string>
+    <string name="substrate_radiation">Radiation level:</string>
+    <string name="substrate_salinity">Salinity:</string>
+    <string name="substrate_tweak_mutations">Only point mutations</string>
+    <string name="substrate_viscosity">Substrate viscosity:</string>
+    <string name="temp_menu_title">Substrate temperature</string>
+    <string name="tip_adhesin">"The two daughter cells that result after this cell splits will be connected by glue called adhesin if this box is ticked.
+
+This does two things:
+\u0009- The daughter cells stay together
+\u0009- They can transport nutrients between them.
+
+The properties of this connection can be tuned with the properties Adhesin stiffness, Nutrient priority and the check box Prioritize below."</string>
+    <string name="tip_blue">"Change the amount of blue in the color of cells in this mode.
+
+Note that this does not affect the behavior of your cells in any way"</string>
+    <string name="tip_cell_type">The most important property of each cell mode is what type of cell it is. Each type of cell only has one single function it can carry out so an organism that depends on many functions thus needs many cells of different types.&lt;br>&lt;br>The types and their functions are:&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Phagocyte&lt;/b>: These cells get chemical energy from eating particles in the environment.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Flagellocyte&lt;/b>: These cells have flagella that propel them.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Photocyte&lt;/b>: These cells convert sunlight to chemical energy&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Devorocyte&lt;/b>: These cells suck nutrients from other cells upon touching them.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Lipocyte&lt;/b>: These cells store energy chemically in lipids.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Keratinocyte&lt;/b>: These cells protect themselves and directly connected cells from hostile cells.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Buoyocyte&lt;/b>: These cells have a bubble of a fluid of tunable density.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Glueocyte&lt;/b>: These cells make adhesin connections to other cells or the environment upon touch.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Virocyte&lt;/b>: These cells inserts a copy of their own genomes into other cells upon touching them.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Nitrocyte&lt;/b>: These cells fixate atmospheric N&lt;sub>&lt;small>2&lt;/small>&lt;/sub> to NH&lt;sub>&lt;small>3&lt;/small>&lt;/sub>.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Myocyte&lt;/b>: These are muscle cells that can contract, bend and lift other cells as a response to signal substances.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Neurocyte&lt;/b>: These cells can regulate signal molecule concentrations.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Senseocyte&lt;/b>: These cells can smell the concentration of substances in its environment.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Stereocyte&lt;/b>: These cells can sense their left-right gradient of smells in the environment.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Secrocyte&lt;/b>: These cells can emit substances to its environment.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Stemocyte&lt;/b>: These cells can change into other modes when certain signal substance concentrations are high or low.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Gamete&lt;/b>: These cells can fuse with other compatible gametes to form new cells with a random combination of the two gametes genomes.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>Ciliocyte&lt;/b>: These cells are covered with cilia so they do not slip easily. They can independently move the cilia on the left and right sides.</string>
+    <string name="tip_child_1_angle">"With this slider you can choose what way daughter cell 1 is facing after this cell splits. The arrow on each cell indicates what angle it is facing.
+
+An angle of 0° means that daughter 1 will be facing towards daughter 2. Increasing the angle rotates it counter-clockwise unless the splitting cell is mirrored, in this case the angle is defined clockwise."</string>
+    <string name="tip_child_1_mdoe">"Use this setting to choose what mode daughter 1 will be in when cells of this mode split.
+
+Any cell can be in one of 40 different modes. Each mode has different properties that you can set. Two of the properties are what modes the daughter cells will be in when the cell splits.
+
+If your first cell is in mode 1 and it splits to two cells in mode 1, then all you cells will always be in mode 1. If on the other hand it splits into two cells in mode 2 and they further split into two cells each in mode 1, then you will end up with just cells in mode 1 and 2. It is in these cases just necessary to specify the properties of mode 1 or 1 and 2 respectively since these are the only modes your cells will be in.
+
+The properties of the other modes are though carried on generation after generation of your cells even if they are not expressed so if some useful feature of an organism is coded there, it might surface anyways if your environment contains radiation so that your cells mutate once in a while. This happens in nature as well, many parts of e.g. the human genome do not describe any proteins used in the body."</string>
+    <string name="tip_child_2_angle">"With this slider you can choose what way daughter cell 2 is facing after this cell splits.
+
+An angle of 0° means that daughter 2 will be facing away from daughter 1. Increasing the angle rotates it counter-clockwise unless the splitting cell is mirrored, in this case the angle is defined clockwise."</string>
+    <string name="tip_child_2_mode">"Use this setting to choose what mode daughter 2 will be in when cells of this mode split.
+
+Any cell can be in one of 40 different modes. Each mode has different properties that you can set. Two of the properties are what modes the daughter cells will be in when the cell splits.
+
+If your first cell is in mode 1 and it splits to two cells in mode 1, then all you cells will always be in mode 1. If on the other hand it splits into two cells in mode 2 and they further split into two cells each in mode 1, then you will end up with just cells in mode 1 and 2. It is in these cases just necessary to specify the properties of mode 1 or 1 and 2 respectively since these are the only modes your cells will be in.
+
+The properties of the other modes are though carried on generation after generation of your cells even if they are not expressed so if some useful feature of an organism is coded there, it might surface anyways if your environment contains radiation so that your cells mutate once in a while. This happens in nature as well, many parts of e.g. the human genome do not describe any proteins used in the body."</string>
+    <string name="tip_density">"This setting only applies to Buoyocytes. Using it you can adjust the density of this cell. It will then sink or float depending on whether this density is higher or lower than that of the surrounding fluid (if a gravitational field is present).
+
+Note that the mass is unaffected by this."</string>
+    <string name="tip_edit_mode">"All cells in e.g. the human body contain the same DNA but a brain cell and a muscle cell behave very differently. This is referred to as different \"modes\" of a cell in this app. The genome of each cell consists of 40 modes with different properties. Use this selector to choose what mode to edit. The properties below all correspond to the chosen mode.
+
+The radio button \"Initial\" can be used to change what mode your cell starts in."</string>
+    <string name="tip_green">"Change the amount of green in the color of cells in this mode.
+
+Note that this does not affect the behavior of your cells in any way"</string>
+    <string name="tip_initial_mode">"Pressing this radio button makes the current mode the \"initial\" mode.
+
+What mode is initial is not important for the organism in the wild, it is just a means of choosing what mode cells should initially be in when shown in the preview window or placed under the microscope.
+
+When a cell is copied from the microscope to the genome editor (top choice in \"Load\"-button menu) the mode the cell was in will be taken as the initial."</string>
+    <string name="tip_keep_adhesin_c1">"If this cell is connected with adhesin to another cell when it split then daughter 1 will retain this adhesin connection if this box is ticked.
+
+Note that daughter 1 must end up on the side where the adhesin connection is for this to work."</string>
+    <string name="tip_keep_adhesin_c2">"If this cell is connected with adhesin to another cell when it split then daughter 2 will retain this adhesin connection if this box is ticked.
+
+Note that daughter 2 must end up on the side where the adhesin connection is for this to work."</string>
+    <string name="tip_mirror_c1">"Checking this check box makes daughter 1 of cells in this mode mirrored with respect to its parent. This means that if a cell is mirrored its daughter 1 would not get mirrored and vice versa.
+
+All angles are measured counter-clockwise by default but if a cell is mirrored all angles (split angle, child 1 angle, child 2 angle) are defined clockwise instead.
+
+This property can be useful to make mirror-symmetric organisms without having to use many different cell modes with fine-tuned splitting angles."</string>
+    <string name="tip_mirror_c2">"Checking this check box makes daughter 2 of cells in this mode mirrored with respect to its parent. This means that if a cell is mirrored its daughter 2 would not get mirrored and vice versa.
+
+All angles are measured counter-clockwise by default but if a cell is mirrored all angles (split angle, child 1 angle, child 2 angle) are defined clockwise instead.
+
+This property can be useful to make mirror-symmetric organisms without having to use many different cell modes with fine-tuned splitting angles."</string>
+    <string name="tip_muscle_bending">The muscle bending pulls adhesin connection in the front and rear to either the left or right of the Myocyte.</string>
+    <string name="tip_muscle_contraction">The muscle contraction pulls adhesin connection in the front and rear of the Myocyte towards its center.</string>
+    <string name="tip_muscle_lift">The muscle lift will lift cells either in the front or rear of the Myocyte and thereby lowering their friction against the substrate.</string>
+    <string name="tip_priority">"Cells connected with adhesin can transport nutrients between them. The flow of nutrients between two connected cells is proportional to the weighted difference between their masses. The weights are the priorities of the opposite cells.
+
+This means that nutrients flow from more massive cells to less massive ones and from cells with low priority to cells of high priority. An equilibrium will be reached where cells of higher priority have larger masses.
+
+If both cells have high priorities the equilibrium will be the same as if they both have low priorities, but it will be reached faster."</string>
+    <string name="tip_red">"Change the amount of red in the color of cells in this mode.
+
+Note that this does not affect the behavior of your cells in any way"</string>
+    <string name="tip_secrocyte">"This specifies what substance to secrete.
+
+Food/Coated Food smell/Light sense activator/Wall sense activator will affect nearby Senseocytes and Stereocytes just like the corresponding real stimuli would. They work by emitting substances that more strongly attach to the corresponding receptors and can thus give stronger signals than the natural stimuli.
+
+Cyanide will kill unprotected organisms upon touch.
+
+Lipase breaks down lipids on food particles so they can be eaten by phagocytes. This also hurts all but the Keratinocytes slightly since it breaks down the cell membrane.
+
+Protease breaks adhesin connections if it touches two connected cells simultaneously.
+
+Signal substances will diffuse to cells on touch. The - signs indicate a signal substance inhibitor."</string>
+    <string name="tip_snap">Checking this makes all angles snap to multiples of 15° and all other values to one of 25 discrete levels.</string>
+    <string name="tip_split_angle">"With this slider you can set at what angle this cell splits at. The dashed lines in the preview show where the cells will split.
+
+Each cell is facing a specific direction (indicated by arrow), the initial cell is always facing to the right both in the preview window and when placed under the microscope. A split angle of 0° means that the cell splits perpendicular to the direction it is facing, daughter 1 will end up in this cells rear and daughter 2 will end up in the front.
+
+Increasing the split angle will rotate the line of splitting counter-clockwise, unless this is a mirrored cell, in that case the split angle is defined clockwise."</string>
+    <string name="tip_split_mass">"The mass of each cell is proportional to the amount of chemical energy they have. Cells grow when they get more energy than they consume and shrink otherwise.
+
+When a cell's mass is larger than the split mass of the mode it is in it will split into two daughter cells.
+
+A cell can not split until it is 30 min old so if this mass is reached before then it will not split until both requirements are met simultaneously."</string>
+    <string name="tip_split_ratio">The split ratio dictates how the mass of cells in this mode is distributed among the two daughter cells when it splits.</string>
+    <string name="tip_stay_alive">"When a cell is in a mode with this box checked it will receive an increase in nutrient priority when it is running dangerously low in nutrients.
+
+This can be used to make sure that cells in an organism that have low nutrient priority will not give away their very last nutrients and die.
+
+If cells in a certain mode are not essential and perhaps superfluous in an event of starvation it might be useful to untick this box."</string>
+    <string name="tip_stem_mode1">When the path 1 signal is above .5, then the Stemocyte will differentiate into this mode.</string>
+    <string name="tip_stem_mode2">When the path 2 signal is above .5, then the Stemocyte will differentiate into this mode.</string>
+    <string name="tip_stem_signal1">When this signal is above .5, then the Stemocyte will differentiate into the specified mode for path 1.</string>
+    <string name="tip_stem_signal2">When this signal is above .5, then the Stemocyte will differentiate into the specified mode for path 2.</string>
+    <string name="tip_stiffness">This setting dictates how stiff the adhesin connections made when cells in this mode splits are. A high stiffness makes the daughter cells have a similar relative orientation to each other as when they were born. A lower value lets them rotate almost freely about the connection point.</string>
+    <string name="tip_swim_force">This setting only applies to Flagellocytes. Using it you can adjust the intensity of the flagellum movements. Faster movements will make an organisms swim faster but it will also consume more energy.</string>
+    <string name="tip_title_adhesin">Check box: Make adhesin</string>
+    <string name="tip_title_blue">Slider: Blue color</string>
+    <string name="tip_title_cell_type">Selector: Cell type</string>
+    <string name="tip_title_child_1_angle">Slider: Child 1 angle</string>
+    <string name="tip_title_child_1_mode">Selector: Child 1, Mode</string>
+    <string name="tip_title_child_2_angle">Slider: Child 2 angle</string>
+    <string name="tip_title_child_2_mode">Selector: Child 2, Mode</string>
+    <string name="tip_title_edit_mode">Selector: Edit mode</string>
+    <string name="tip_title_green">Slider: Green color</string>
+    <string name="tip_title_intial_mode">Radio button: Initial</string>
+    <string name="tip_title_keep_adhesin_c1">Check box: Child 1, Keep adhesin</string>
+    <string name="tip_title_keep_adhesin_c2">Check box: Child 2, Keep adhesin</string>
+    <string name="tip_title_mirror_c1">Check box: Child 1, Mirror</string>
+    <string name="tip_title_mirror_c2">Check box: Child 2, Mirror</string>
+    <string name="tip_title_priority">Slider: Nutrient priority</string>
+    <string name="tip_title_red">Slider: Red color</string>
+    <string name="tip_title_slider">Slider</string>
+    <string name="tip_title_snap">Check box: Snap values</string>
+    <string name="tip_title_split_angle">Slider: Split angle</string>
+    <string name="tip_title_split_mass">Slider: Split mass</string>
+    <string name="tip_title_split_ratio">Slider: Split ratio</string>
+    <string name="tip_title_stay_alive">Check box: Prioritize</string>
+    <string name="tip_title_stiffness">Slider: Adhesin stiffness</string>
+    <string name="tip_type_selector">Selector</string>
+    <string name="tip_virsus_from">"This setting only applies to Virocytes. Using it you can choose which mode a Virocyte should copy into the victim cell.
+
+A Virocyte copies part of its genome into another cell upon touching it. It copies the mode selected by this setting (and 2 generations of descendant modes) into the same modes of the victim cell.
+
+Example: Virocyte copies from mode M5. Mode M5 of Virocyte splits to M4 and M3, which respectively split to M2, M2 and M3, M3. Then these copies will be done:
+Virocyte → Victim
+M5 → M5
+M4 → M4
+M3 → M3
+M2 → M2
+"</string>
+    <string name="toast_bad_name">Bad name? Use alphanumerics only.</string>
+    <string name="toast_cell_type_limit_violation">Genome violates cell type limits. Check \"Objective tab\".</string>
+    <string name="toast_challenge_completed">Challenge completed!</string>
+    <string name="toast_file_is_newer_version">File created with newer version of Cell Lab, please update.</string>
+    <string name="toast_label_already_in_freeer">Label already in freezer. Choose different name.</string>
+    <string name="toast_loaded_new_genome">Loaded new genome</string>
+    <string name="toast_name_exists">Genome of this name already exists. Please rename before importing.</string>
+    <string name="toast_no_cell_under_microscope">No cell under microscope selected…</string>
+    <string name="toast_no_email_clients">There are no email clients installed.</string>
+    <string name="toast_out_of_memory">Not enough memory</string>
+    <string name="toast_saved">Saved</string>
+    <string name="toast_unknown_types_replaced">Unknown genes are being replaced…</string>
+    <string name="toast_zoom_max">"Screen width now just 1 nm, can't resolve shorter distances with electron microscope."</string>
+    <string name="tool_add">Cell boost</string>
+    <string name="tool_cell">Cell synthesizer</string>
+    <string name="tool_info">Cell diagnostics</string>
+    <string name="tool_move">Optical tweezers</string>
+    <string name="tool_remove">Cell removal</string>
+    <string name="tutorial_info">Follow the instructions in the pop-up dialogs.</string>
+    <string name="unlock_feature_more_genome_params">more genome parameters.</string>
+    <string name="unlock_feature_more_params">more substrate parameters.</string>
+    <string name="unlock_feature_more_programmable_params">programmable genome parameters.</string>
+    <string name="unlocks_before_feature">Unlocks</string>
+    <string name="unlocks_further_challenges">" and further challenges."</string>
+    <string name="val_dep_age">Cell age</string>
+    <string name="val_dep_connected">Adhesin connection #</string>
+    <string name="val_dep_mass">Cell mass</string>
+    <string name="val_dep_nitro_reserve">NH&lt;sub>&lt;small>3&lt;/small>&lt;/sub> reserve [0–1]</string>
+    <string name="val_dialog_signal_substance_dependence">Cell state dependence</string>
+    <string name="value_false">False</string>
+    <string name="value_true">True</string>
+    <string name="video_link">&lt;a href=https://www.youtube.com/channel/UCKw7QHCr7XV2_NbrX3a1C4Q>YouTube&lt;/a></string>
+    <string name="videos_link">"&lt;a href=https://www.youtube.com/playlist?list=PLvFmZuOkX-KE4zYLhdNDBGZgXBexRjUvO>Bart Wisialowski's walkthrough videos&lt;/a>"</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="wiki_link">&lt;a href=http://wiki.cell-lab.net>Wiki&lt;/a></string>
+</resources>
