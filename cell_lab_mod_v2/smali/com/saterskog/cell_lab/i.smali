@@ -6259,11 +6259,11 @@
 
     const/4 v10, 0x0
 
-    # move-object/from16 v3, p0
+    move-object/from16 v3, p0
 
-    # invoke-direct/range {v2 .. v10}, Lcom/saterskog/cell_lab/i$c;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;[Ljava/lang/String;IZ)V
+    invoke-direct/range {v2 .. v10}, Lcom/saterskog/cell_lab/i$c;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;[Ljava/lang/String;IZ)V
 
-    # invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     # MODDED AREA END------------------------------------------------------------------
 
