@@ -15690,6 +15690,47 @@
 
     .line 2318
     :cond_0
+
+# MODDED AREA BEGIN -----------------------------------------------------------------------------
+    # Aparently some register just can't be touched or else shit breaks.
+    # If it crashes or acts in unexpected ways just take a look at the registers.
+    # Too lazy to tell you which ones crash, you'll have to figure that out.
+
+
+    # Cell object moved from v18 -> v0
+    move-object/from16 v0, v18
+
+    #v3 = cell.genes[cell.gene]
+    iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    move-object/from16 v0, v18
+    iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    aget-object v3, v3, v6
+
+    # v6 = cell.genes[cell.gene].mInts[11]
+    iget-object v9, v3, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v1, 0xb
+    aget v9, v9, v1
+
+    # if v6 < 21
+    const/16 v1, 0x14
+    if-lt v9, v1, :modded_cond_checkLimit
+
+    # this means maxSplit = infinite, ignore other check and continue to vanilla code.
+    goto :cond_modded_reproduce
+
+    :modded_cond_checkLimit
+    # maxSplit is not infinite, must check cell's splitCount before proceding
+    # cell.enzyme_splitCount
+    move-object/from16 v0, v18
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    add-int/lit8 v9, v9, 1
+    if-ge v1,v9, :cond_22
+    goto :cond_modded_reproduce
+
+# MODDED AREA END -----------------------------------------------------------------------------
+
+    :cond_modded_reproduce
+
     move-object/from16 v0, v18
 
     iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
@@ -15891,6 +15932,25 @@
     move-object/from16 v0, v19
 
     iput v3, v0, Lcom/saterskog/cell_lab/Cell;->O:I
+
+# MODDED SECTION BEGIN -----------------------------------------------------------------------------
+    # Upon splitting, only child mode 1 will have it's splitcount increased
+
+    # cell2.splitCount++ (For child 2, it will not inherit a split.
+    # child 2 cells will begin fresh with a split count of 0.
+    # move-object/from16 v0, v19
+    # iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    # add-int/lit8 v1, v1, 0x1
+    # iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    #cell.splitCount++
+
+    move-object/from16 v0, v18
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    add-int/lit8 v1, v1, 0x1
+    iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+# MODDED SECTION END ------------------------------------------------------------------------------
 
     .line 2333
     const/4 v3, 0x0

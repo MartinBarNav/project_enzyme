@@ -1457,6 +1457,26 @@
     aput v2, v0, v1
 
     .line 977
+
+# MODDED SECTION BEGIN --------------------------------------------------------------------------
+
+    # mInts[11] = 20;
+
+    iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
+
+    aget-object v0, v0, p1
+
+    iget-object v0, v0, Lcom/saterskog/cell_lab/Gene;->u:[I
+
+    const/16 v1, 0xb
+
+    const/16 v2, 0x14
+
+    aput v2, v0, v1
+
+# MODDED SECTION END ------------------------------------------------------------------------------
+
+
     return-void
 .end method
 
@@ -6231,7 +6251,7 @@
 
     # Add "infinity" to the end of the array
     :add_infinity
-    const-string v9, "infinity"
+    const-string v9, "\u221e"
     aput-object v9, v1, v0
 
     # Store the reference to the array in v11
@@ -6243,15 +6263,13 @@
 
     move-object/from16 v8, v1
 
-    # iget-object v11, v0, Lcom/saterskog/cell_lab/i;->q:Ljava/util/ArrayList;
-
     new-instance v2, Lcom/saterskog/cell_lab/i$c;
 
     const-string v4, "Max Splits"
 
-    const-string v5, "Maximum amount of times the cell can split before being unable to anymore."
+    const-string v5, "Maximum amount of times the cell can split before being unable to anymore. The split count is only inherited by child 1. Child 2 begins with a fresh split count."
 
-    const/16 v6, 0x9
+    const/16 v6, 0xb
 
     const/4 v9, 0x1
 

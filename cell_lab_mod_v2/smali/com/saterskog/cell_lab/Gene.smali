@@ -69,7 +69,8 @@
 
 .field public enzyme_maxSplit:I
 
-# A value of -1 = infinite splits.
+# A value of 20 = infinite splits.
+# A value < 20 = value + 1, eg if value = 19 -> value = 20. (due to dropdown list index)
 
 # MODDED SECTION END -------------------------------------------------------------------
 
@@ -112,7 +113,7 @@
     const/4 v5, 0x4
 
     .line 69
-    const/16 v0, 0xb
+    const/16 v0, 0xc
 
     new-array v0, v0, [I
 
@@ -510,11 +511,14 @@
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     .line 28
+    const/16 v3, 0xc
+
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
 
     .line 29
+    const/16 v3, 0xb
     const/4 v0, 0x7
 
     new-array v0, v0, [F
@@ -577,9 +581,13 @@
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     .line 28
+    const/16 v4, 0xb
+
     new-array v0, v4, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+
+    const/16 v4, 0xb
 
     .line 29
     new-array v0, v5, [F
@@ -878,6 +886,8 @@
     :cond_7
     move v0, v2
 
+    const/16 v4, 0xb
+
     .line 172
     :goto_8
     if-ge v0, v4, :cond_8
@@ -895,6 +905,29 @@
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_8
+
+# MODDED AREA BEGIN ------------------------------------------------------------------------------------
+
+    :try_start_0
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    move-result v3
+
+    const/16 v0, 0xb
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aput v3, v1, v0
+
+    :try_end_0
+
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :catchall_0
+    goto :modded_end_0
+
+# MODDED AREA END ------------------------------------------------------------------------------------    
+    :modded_end_0
+
+    aput v3, v1, v0
 
     .line 175
     :cond_8
@@ -919,12 +952,11 @@
     :cond_9
 # MODDED SECTION BEGIN --------------------------------------------------------------------
 
-    # Read the integer value from the Parcel
     # invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-    # move-result v1
 
-    # Store the integer value into the field "enzyme_maxSplit"
-    # iput v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
+    # move-result v0
+
+    # iput v0, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
 
 
 # MODDED SECTION END -----------------------------------------------------------------------
@@ -955,9 +987,11 @@
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     .line 28
+    const/16 v3, 0xb
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v3, 0xb
 
     .line 29
     const/4 v0, 0x7
@@ -2806,18 +2840,6 @@
 
     .line 2739
     :cond_2c
-# MODDED SECTION BEGIN --------------------------------------------------------------------
-
-    # Read the integer value from the Stream
-    # invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
-    # move-result v1
-
-    # Store the integer value into the field "enzyme_maxSplit"
-    # iput v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-
-# MODDED SECTION END -----------------------------------------------------------------------
-
 
     iget v0, p0, Lcom/saterskog/cell_lab/Gene;->c:F
 
@@ -2895,6 +2917,23 @@
 
     .line 706
     :cond_32
+
+    # MODDED SECTION BEGIN --------------------------------------------------------------------
+
+    # NOTE: I fucked up, i needed to make this mInt[12], i'll keep this code here in case i
+    # need to add an independent parameter in the future. Just reuse this and change the name
+    # of the enzyme_maxSplit field or something.
+
+    # Read the integer value from the Stream
+    # invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
+    # move-result v1
+
+    # Store the integer value into the field "enzyme_maxSplit"
+    # iput v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
+
+
+    # MODDED SECTION END -----------------------------------------------------------------------
+
     return-void
 
     .line 2747
@@ -3178,9 +3217,9 @@
 # MODDED SECTION BEGIN -------------------------------------------------------------------
     # Write modded parameter to stream
 
-    # iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
+    # iget v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
 
-    # invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt()I
+    # invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
 # MODDED SECTION END ----------------------------------------------------------------------
 
@@ -3481,10 +3520,9 @@
 
 # MODDED SECTION BEGIN ----------------------------------------------------------------- 
     # Write to parcel
+    # iget v0, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
 
-    # iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-    # invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+    # invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
 # MODDED SECTION END -----------------------------------------------------------------
 
