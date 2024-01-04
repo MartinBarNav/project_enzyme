@@ -64,10 +64,10 @@
 
 # MODDED SECTION BEGIN ----------------------------------------------------------------
 
-# This field contains the max split property of the gene.
-# Max splits is a property that must be loaded and saved as an mInt[12] by the game.
+# Not sure why i made this field. I think im just stupid, maxSplit is stored in mInt[11]
+# not on this field.
 
-.field public enzyme_maxSplit:I
+# .field public enzyme_maxSplit:I
 
 # A value of 20 = infinite splits.
 # A value < 20 = value + 1, eg if value = 19 -> value = 20. (due to dropdown list index)
@@ -113,7 +113,7 @@
     const/4 v5, 0x4
 
     .line 69
-    const/16 v0, 0xc
+    const/16 v0, 0xb
 
     new-array v0, v0, [I
 
@@ -511,14 +511,22 @@
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     .line 28
+    # MODDED AREA BEGIN--------------------------------------------------------------------------
+    # this.mInts = new int[11]; -> this.mInts = new int[12];
+    # This function is Constructor() or Gene(). It creates a new empty genome.
+
     const/16 v3, 0xc
 
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
 
-    .line 29
     const/16 v3, 0xb
+
+    # MODDED AREA END-----------------------------------------------------------------------------
+
+
+    .line 29
     const/4 v0, 0x7
 
     new-array v0, v0, [F
@@ -908,21 +916,26 @@
 
 # MODDED AREA BEGIN ------------------------------------------------------------------------------------
 
-    :try_start_0
+    # :try_start_0
 
-    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-    move-result v3
+    # invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    # move-result v3
 
-    const/16 v0, 0xb
-    iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
-    aput v3, v1, v0
+    # const/16 v0, 0xb
+    # iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    # aput v3, v1, v0
 
-    :try_end_0
+    # :try_end_0
 
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    :catchall_0
-    goto :modded_end_0
+    # :catchall_0
+    # goto :modded_end_0
+
+    const-string v6, "Enzyme Debugger"
+    const-string v1, "Parceleable stream read for mInt[11]"
+
+    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
 # MODDED AREA END ------------------------------------------------------------------------------------    
     :modded_end_0
@@ -950,17 +963,6 @@
 
     .line 178
     :cond_9
-# MODDED SECTION BEGIN --------------------------------------------------------------------
-
-    # invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-
-    # move-result v0
-
-    # iput v0, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-
-# MODDED SECTION END -----------------------------------------------------------------------
-
 
     return-void
 .end method
@@ -987,11 +989,19 @@
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     .line 28
-    const/16 v3, 0xb
+    # MODDED AREA BEGIN--------------------------------------------------------------------------
+    # this.mInts = new int[11]; -> this.mInts = new int[12];
+    # This function is constructor(Gene) also known as Gene(Gene). It creates a copy of the argument
+    # genome.
+
+    const/16 v3, 0xc
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+
     const/16 v3, 0xb
+
+    # MODDED AREA END--------------------------------------------------------------------------
 
     .line 29
     const/4 v0, 0x7
@@ -1312,7 +1322,20 @@
 
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
 
+    # MODDED AREA BEGIN------------------------------------------------------------------------
+    # The java source equivalent line:
+    # System.arraycopy(gene.mInts, 0, this.mInts, 0, v5);
+    # v5 is changed from 11 to 12. This will copy all 12 mInts[] elements. Hopefully
+    # keeping mInt[11] intact after initialization instead of it being zero'ed out.
+    # This function is 'a(Gene)V' also known as 'copyGenome(Gene)'.
+
+    const/16 v5, 0xc
+
     invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    const/16 v5, 0xb
+
+    # MODDED AREA END------------------------------------------------------------------------
 
     .line 480
     iget-object v0, p1, Lcom/saterskog/cell_lab/Gene;->v:[F
@@ -2918,22 +2941,6 @@
     .line 706
     :cond_32
 
-    # MODDED SECTION BEGIN --------------------------------------------------------------------
-
-    # NOTE: I fucked up, i needed to make this mInt[12], i'll keep this code here in case i
-    # need to add an independent parameter in the future. Just reuse this and change the name
-    # of the enzyme_maxSplit field or something.
-
-    # Read the integer value from the Stream
-    # invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
-    # move-result v1
-
-    # Store the integer value into the field "enzyme_maxSplit"
-    # iput v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-
-    # MODDED SECTION END -----------------------------------------------------------------------
-
     return-void
 
     .line 2747
@@ -3214,15 +3221,6 @@
 
     .line 524
     :cond_2
-# MODDED SECTION BEGIN -------------------------------------------------------------------
-    # Write modded parameter to stream
-
-    # iget v1, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-    # invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
-
-# MODDED SECTION END ----------------------------------------------------------------------
-
 
     return-void
 .end method
@@ -3517,14 +3515,6 @@
 
     .line 236
     :cond_9
-
-# MODDED SECTION BEGIN ----------------------------------------------------------------- 
-    # Write to parcel
-    # iget v0, p0, Lcom/saterskog/cell_lab/Gene;->enzyme_maxSplit:I
-
-    # invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
-
-# MODDED SECTION END -----------------------------------------------------------------
 
     return-void
 .end method

@@ -1460,6 +1460,12 @@
 
 # MODDED SECTION BEGIN --------------------------------------------------------------------------
 
+    # Part of function: C(I) -> Given name: "NewGeneAt(int index)"
+    # This function is used by the genome preview activity to initialize all genes to their
+    # default values. Any future additions to the gene array should be initialized here.
+
+    # This will set the 11th index of mInts to 21 (Max split, if > 21 then infinite)
+
     # mInts[11] = 20;
 
     iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
@@ -1473,6 +1479,13 @@
     const/16 v2, 0x14
 
     aput v2, v0, v1
+
+
+    # Logging for debug purposes
+
+    const-string v6, "Enzyme Debugger"
+    const-string v1, "mInts[11] initialized"
+    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
 # MODDED SECTION END ------------------------------------------------------------------------------
 
@@ -2628,6 +2641,7 @@
 
     .line 6092
     add-int/lit8 v0, v0, 0x1
+
 
     goto :goto_0
 
@@ -6229,6 +6243,10 @@
 
     # MODDED AREA------------------------------------------------------------------
 
+    # This code creates a string array of numbers 1-20 aswell as the infinity symbol for
+    # use as options in the "max split" dropdown menu.
+    # It also calls the function to add a new dropdownlist menu item to the genome preview window
+
     # Declare the string array
     const/16 v2, 0x15  # size of the array (20 + 1)
     new-array v1, v2, [Ljava/lang/String;  # create the array
@@ -6265,13 +6283,15 @@
 
     new-instance v2, Lcom/saterskog/cell_lab/i$c;
 
+    const/16 v6, 0xb
+
     const-string v4, "Max Splits"
 
     const-string v5, "Maximum amount of times the cell can split before being unable to anymore. The split count is only inherited by child 1. Child 2 begins with a fresh split count."
 
     const/16 v6, 0xb
 
-    const/4 v9, 0x1
+    const/4 v9, -0x1
 
     const/4 v7, 0x0
 

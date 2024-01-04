@@ -2,7 +2,7 @@
 (label,tutorial,controlValue,valueStrArr,cell,unknown,scrollable)
 
 The dropdown appears on every cell type as the 'cell' parameter is set to null.
-The str array contains a string of numbers from 1-20 and the str "infinite" appended
+The str array contains a string of numbers from 1-20 and the str "∞" appended
 to the end. Currently, the control value is 9, which refers to mInts[9] or "max connections".
 This should be changed, as the controlValue parameter also sets which dropdown list value
 is set as selected by default (even if it's not in strArr). 
@@ -61,3 +61,27 @@ as even if no conflicts are found, the mod could still break! If this happens th
 alot more complicated to port it. We'll have to compare the smali code of both vanilla APKs to
 understand what changes were made and how they could affect the mod. It's expected to be a very
 tedious process. Porting may not even be needed if the new version makes the mod obsolete.
+
+> controlValue changed from mInts[9] to mInts[11], now selected index of dropdownlist will 
+reflect on mInts[11]. Next step is to patch the load and save functions on both buffer streams 
+and parceleable streams to allow for saving/loading of mInts[11] aswell as version checking
+to maintain backwards compatibility with vanilla files.
+
+Problem for tomorrow: Upon creation of the genome preview, the function AddToView() is called
+for each GUI element. Including the dropdown lists. mInts[11] is initialized to 20 (infinite)
+on a function called 'void C(I)' but known as 'newGeneAt(int index)'. This function is also
+called to initialize the genome preview window and it simply creates default genes for all
+40 (now 80) modes. mInt[11] = 20 is run at the end of that function just before it returns.
+However, some time between the initialization of the genome previewer and the point where the user
+can begin interactingw with it, mInt[11] goes back to being = 0. The problem will be to figure out 
+what is causing it to go back to zero. A big clue is that if the 'max connections' (vanilla) 
+dropdown list is patched as to make its controlled value = mInts[11], mInts[11] will still get
+zeroed-out. 
+
+Update: Upon initialization, mInts[11] is set to 20. Then, when the GenomePreview view is created/refreshed,
+it grabs the gene array created through 'newGeneAt(int i)' and copies it into a new Gene object. The
+constructor used to create the new Gene object in turn calls a function known as 'copyGenome'. At the
+end of this function: "System.arraycopy(gene.integerProperties, 0, this.integerProperties, 0, 11);"
+is called. Except, 11 has to be changed to 12 otherwise mInts[11] will get set back to 0 instead of
+being copied. It WORKS! mInts[11] now remains the value it was initialized at! Except when you load
+a genome. But that is for later, when comes time to patch the iobuffer and parceleable buffer.

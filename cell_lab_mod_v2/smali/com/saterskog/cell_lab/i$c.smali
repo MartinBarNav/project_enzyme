@@ -377,6 +377,15 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/widget/Spinner;->setSelection(IZ)V
 
+    const-string v4, "Enzyme Debugger"
+    const-string v2, "Max Split Dropdown addToView(): Selection set to: "
+    invoke-static {v4, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-string v4, "Enzyme Debugger"
+    invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    move-result-object v2
+    invoke-static {v4, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 179
     return-void
 

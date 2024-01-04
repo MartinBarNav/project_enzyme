@@ -8,7 +8,7 @@
 
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
-    .annotation system Ldalvik/annotation/Signature;
+    .annotation system Ldalvik/annotation/Signature; 
         value = {
             "Landroid/os/Parcelable$Creator",
             "<",
@@ -15694,38 +15694,76 @@
 # MODDED AREA BEGIN -----------------------------------------------------------------------------
     # Aparently some register just can't be touched or else shit breaks.
     # If it crashes or acts in unexpected ways just take a look at the registers.
-    # Too lazy to tell you which ones crash, you'll have to figure that out.
+    # This function is 'a(D)V' also known as 'splitCells(double delta time)'
+    # It is responsible for handling mitosis.
+    # This specific patch is done before any splitting happens. You can think of it as an
+    # additional term to the long 'if' statement that determines if a cell should split or not.
 
-
+    #v18 = this.cells[currentCellCounter] <- the cell counter gets incremented at the end of
+    # the function. (Its all a big while loop that iterates through every cell).
+    
     # Cell object moved from v18 -> v0
     move-object/from16 v0, v18
 
-    #v3 = cell.genes[cell.gene]
+    move-object/from16 v40, v3
+
+    # v3 = cell.gene
     iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
-    move-object/from16 v0, v18
+    # v6 = cell.genes[] (Array object)
     iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    # v3 = cell.genes[cell.gene]
     aget-object v3, v3, v6
 
-    # v6 = cell.genes[cell.gene].mInts[11]
+    # mInts is an array of integer properties(genes that can be expressed as integers)
+    # v9 = cell.genes[cell.gene].mInts[11]
     iget-object v9, v3, Lcom/saterskog/cell_lab/Gene;->u:[I
     const/16 v1, 0xb
     aget v9, v9, v1
 
-    # if v6 < 21
+    # const-string v6, "Enzyme Debugger"
+    # const-string v1, "Read mInts[11] to V9:"
+    # invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    # const-string v6, "Enzyme Debugger"
+    # invoke-static {v9}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    # move-result-object v1
+    # invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-object/from16 v3, v40
+
+    # if v9 < 20
     const/16 v1, 0x14
     if-lt v9, v1, :modded_cond_checkLimit
-
+    
     # this means maxSplit = infinite, ignore other check and continue to vanilla code.
+
     goto :cond_modded_reproduce
 
     :modded_cond_checkLimit
+    
     # maxSplit is not infinite, must check cell's splitCount before proceding
     # cell.enzyme_splitCount
+    const-string v6, "Enzyme Debugger"
+    const-string v1, "v9 < 20, checking split count..."
+    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
     move-object/from16 v0, v18
     iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
     add-int/lit8 v9, v9, 1
-    if-ge v1,v9, :cond_22
+    if-ge v1,v9, :cond_modded_22
     goto :cond_modded_reproduce
+
+    :cond_modded_22
+    const-string v6, "Enzyme Debugger"
+    const-string v0, "Split count reached:"
+    invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-string v6, "Enzyme Debugger"
+    invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    move-result-object v1
+    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :cond_22
 
 # MODDED AREA END -----------------------------------------------------------------------------
 
@@ -15933,24 +15971,43 @@
 
     iput v3, v0, Lcom/saterskog/cell_lab/Cell;->O:I
 
-# MODDED SECTION BEGIN -----------------------------------------------------------------------------
+# MODDED AREA BEGIN -----------------------------------------------------------------------------
     # Upon splitting, only child mode 1 will have it's splitcount increased
-
-    # cell2.splitCount++ (For child 2, it will not inherit a split.
-    # child 2 cells will begin fresh with a split count of 0.
-    # move-object/from16 v0, v19
-    # iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
-    # add-int/lit8 v1, v1, 0x1
-    # iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    # This function is 'a(D)V' also known as 'splitCells(double delta time)'
+    # It is responsible for handling mitosis.
+    # This specific patch is inside :cond_2 which means it will execute when a cell splits.
 
     #cell.splitCount++
 
     move-object/from16 v0, v18
     iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    #const-string v6, "Enzyme Debugger"
+    #const-string v0, "Old Split Count"
+    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    #const-string v6, "Enzyme Debugger"
+    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    #move-result-object v1
+    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-object/from16 v0, v18
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
     add-int/lit8 v1, v1, 0x1
     iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
 
-# MODDED SECTION END ------------------------------------------------------------------------------
+    #const-string v6, "Enzyme Debugger"
+    #const-string v0, "New Split Count"
+    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    #const-string v6, "Enzyme Debugger"
+    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    #move-result-object v1
+    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+
+# MODDED AREA END ------------------------------------------------------------------------------
 
     .line 2333
     const/4 v3, 0x0
@@ -15965,6 +16022,19 @@
     move-object/from16 v1, v18
 
     invoke-virtual {v0, v1}, Lcom/saterskog/cell_lab/Cell;->a(Lcom/saterskog/cell_lab/Cell;)V
+
+    # MODDED AREA BEGIN ----------------------------------------------------------------------------
+    # This function is 'a(D)V' also known as 'splitCells(double delta time)'
+    # This small patch simply makes sure child2 does not inherit child1's split count
+    # It does this by setting child2's (v19) split count to 0 right after the game calls
+    # child2.copyCell(child1) which also copies the split count.
+
+    const/16 v1, 0x0
+    iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    move-object/from16 v1, v18
+
+    # MODDED AREA END ------------------------------------------------------------------------------
 
     .line 2335
     const/4 v3, 0x0

@@ -298,6 +298,15 @@
     .line 77
     iput v1, p0, Lcom/saterskog/cell_lab/Cell;->G:I
 
+    # MODDED AREA BEGIN--------------------------------------------------------------------------
+    # This function is the constructor() or "Cell()"
+    # This line does: this.enzymeSplitCount = 0;
+
+    const/16 v1, 0x0
+    iput v1, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    # MODDED AREA END----------------------------------------------------------------------------
+
     .line 78
     return-void
 .end method
@@ -1375,6 +1384,18 @@
     iget-wide v0, p1, Lcom/saterskog/cell_lab/Cell;->q:D
 
     iput-wide v0, p0, Lcom/saterskog/cell_lab/Cell;->q:D
+
+    # MODDED AREA BEGIN----------------------------------------------------------------------------
+    # This function is 'a(Cell)V' also known as 'copyCell(Cell)'. It copies the attributes of a cell
+    # onto another one.
+    # The purpose of this patch is to also copy the split_count attribute. Simple.
+
+    iget v0, p1, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    iput v0, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    #Done
+
+    # MODDED AREA END------------------------------------------------------------------------------
 
     .line 742
     return-void

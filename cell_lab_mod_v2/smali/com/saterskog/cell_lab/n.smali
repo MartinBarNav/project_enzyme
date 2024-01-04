@@ -557,6 +557,33 @@
 
     iput-wide v4, v2, Lcom/saterskog/cell_lab/Cell;->c:D
 
+    #MODDED AREA BEGIN---------------------------------------------------------------------------
+    # This function is 'a(float[])V' also known as 'drawPreviewWindow()'. It redraws the cell
+    # Preview window every refresh.
+    # The purpose of this patch is to set enzyme_splitCount = 0 every time the preview window is
+    # refreshed. This is to avoid the split count building up and allow it to respond to changes in
+    # the time slider. If this isn't done then max split would build up for every cell in the preview
+    # screen and going back in time with the slider then going back to the future (haha) would lead
+    # to a different outcome, due to maxsplit having stayed the same instead of being reset and gotten
+    # smaller. Also updates work by time slider steps, so its going to update as many times as the 
+    # change in steps in the slider. How do i know this? God told me.
+
+    const/16 v4, 0x0
+    iput v4, v2, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    #const-string v3, "Enzyme Debugger"
+    #const-string v0, "Reset preview"
+    #invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    #iget v4, v2, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    #const-string v3, "Enzyme Debugger"
+    #invoke-static {v4}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    #move-result-object v0
+    #invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    #MODDED AREA BEGIN---------------------------------------------------------------------------
+
     .line 113
     const/4 v0, 0x0
 
@@ -614,7 +641,7 @@
     :cond_5
     iget-wide v4, v2, Lcom/saterskog/cell_lab/Cell;->w:D
 
-    const-wide/high16 v6, 0x4079000000000000L    # 400.0
+    const-wide/high16 v6, 0x4079000000000000L     # 400.0
 
     div-double/2addr v4, v6
 
