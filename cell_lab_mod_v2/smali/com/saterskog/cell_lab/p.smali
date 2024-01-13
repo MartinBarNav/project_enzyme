@@ -3113,7 +3113,7 @@
 
     if-eqz v1, :cond_4
 
-    const/16 v1, 0x5f
+    const/16 v1, 0xbee
 
     if-ge v0, v1, :cond_4
 
@@ -3132,7 +3132,7 @@
 
     move-result-object v0
 
-    const-string v2, " \u2192 v95"
+    const-string v2, " \u2192 Enzyme Mod"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -711,6 +711,15 @@
 
     iput-wide v0, p0, Lcom/saterskog/cell_lab/Cell;->q:D
 
+    # MODDED AREA BEGIN------------------------------------------------------------------------
+    # Function: 'constructor(Parcel)' or 'Cell(Parcel)'.
+    # This patch reads an additional value (split count) from the parceleable stream.
+    #
+    # Nvm, parceleables dont do version checking? weird & very sus
+    # Looks like petter auto-generated parceleable methods but never used them?
+    #
+    # MODDED AREA END------------------------------------------------------------------------
+
     .line 376
     return-void
 .end method
@@ -1425,7 +1434,7 @@
 
     if-lt v2, v0, :cond_0
 
-    const/16 v0, 0xbee
+    const/16 v0, 0xbef
 
     if-le v2, v0, :cond_1
 
@@ -1921,6 +1930,35 @@
     invoke-direct {p0}, Lcom/saterskog/cell_lab/Cell;->c()V
 
     .line 560
+    # MODDED AREA BEGIN -------------------------------------------------------------------------------
+    # Function: 'a(Stream)' or 'readStream(Stream)'
+
+
+    # Version checking
+    const/16 v0, 0xbef
+    if-eq v0, v2, :cont
+
+    goto :catch_rsc0
+
+    :cont
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
+    move-result v3
+    iput v3, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+
+    goto :goto_rsc0_modded_end
+
+    :catch_rsc0
+
+    const/4 v3, 0x0
+    iput v3, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    :goto_rsc0_modded_end
+
+    # MODDED AREA END ---------------------------------------------------------------------------------
+
+
     return-void
 
     .line 534
@@ -1983,7 +2021,7 @@
     const/4 v0, 0x0
 
     .line 427
-    const/16 v1, 0xbee
+    const/16 v1, 0xbef
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
@@ -2271,6 +2309,16 @@
     invoke-virtual {p1, v0, v1}, Ljava/io/ObjectOutputStream;->writeDouble(D)V
 
     .line 471
+
+    # MODDED AREA BEGIN------------------------------------------------------------------------------
+    # Function: 'a(Stream)' or 'writeToStream(Stream)'
+    # This patch writes to the stream the split count
+
+    iget v1, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+    # MODDED AREA END----------------------------------------------------------------------------------
+
+
     return-void
 .end method
 
@@ -2572,5 +2620,15 @@
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeDouble(D)V
 
     .line 424
+
+    # MODDED AREA BEGIN------------------------------------------------------------------------------
+    # Function: writeToParcel(Parcel)
+    # This patch writes to the parceleable stream the split count
+    
+    #iget v1, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+    #invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+    # MODDED AREA END----------------------------------------------------------------------------------
+
+
     return-void
 .end method

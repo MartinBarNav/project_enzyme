@@ -208,14 +208,14 @@ implements Parcelable {
      * Enabled aggressive block sorting
      * Lifted jumps to return sites
      */
-    public final float a(int var1_1, int var2_2) {
-        var3_3 = this.I[this.D].t[var1_1];
-        if (var3_3.e == 0) ** GOTO lbl-1000
+    public final float a(int index, int b) {
+        channelOutputs = this.modes[this.mode].compoundValues[index];
+        if (channelOutputs.type == 0) ** GOTO lbl-1000
         var4_4 = 0.0f;
-        if (var3_3.d < 4) {
-            var4_4 = this.U[var3_3.d + var2_2];
+        if (channelOutputs.input < 4) {
+            var4_4 = this.floatValues[channelOutputs.input + b];
         } else {
-            switch (var3_3.d) {
+            switch (channelOutputs.input) {
                 default: {
                     break;
                 }
@@ -236,15 +236,15 @@ implements Parcelable {
                 }
             }
         }
-        if (var3_3.e == 1) {
-            var4_4 = var4_4 * var3_3.a + var3_3.b;
-        } else if (var4_4 < var3_3.c) {
-            var4_4 = var3_3.a;
+        if (channelOutputs.e == 1) {
+            var4_4 = var4_4 * channelOutputs.a + channelOutputs.b;
+        } else if (var4_4 < channelOutputs.c) {
+            var4_4 = channelOutputs.a;
         } else lbl-1000:
         // 2 sources
 
         {
-            var4_4 = var3_3.b;
+            var4_4 = channelOutputs.b;
         }
         var5_5 = var4_4;
         if (var4_4 < -1.0f) {
@@ -254,8 +254,8 @@ implements Parcelable {
         if (var5_5 > 1.0f) {
             var4_4 = 1.0f;
         }
-        var5_5 = Gene.x[var1_1];
-        return (var4_4 + 1.0f) * ((Gene.y[var1_1] - Gene.x[var1_1]) * 0.5f) + var5_5;
+        var5_5 = Gene.valMinimums[channelOutputs];
+        return (var4_4 + 1.0f) * ((Gene.valMaximums[channelOutputs] - Gene.valMinimums[channelOutputs]) * 0.5f) + var5_5;
     }
 
     public final void a(Cell cell) {

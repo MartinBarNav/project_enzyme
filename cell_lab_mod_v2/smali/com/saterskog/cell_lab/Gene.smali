@@ -512,10 +512,10 @@
 
     .line 28
     # MODDED AREA BEGIN--------------------------------------------------------------------------
-    # this.mInts = new int[11]; -> this.mInts = new int[12];
+    # this.mInts = new int[11]; -> this.mInts = new int[13];
     # This function is Constructor() or Gene(). It creates a new empty genome.
 
-    const/16 v3, 0xc
+    const/16 v3, 0xd
 
     new-array v0, v3, [I
 
@@ -914,32 +914,6 @@
 
     goto :goto_8
 
-# MODDED AREA BEGIN ------------------------------------------------------------------------------------
-
-    # :try_start_0
-
-    # invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-    # move-result v3
-
-    # const/16 v0, 0xb
-    # iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
-    # aput v3, v1, v0
-
-    # :try_end_0
-
-    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    # :catchall_0
-    # goto :modded_end_0
-
-    const-string v6, "Enzyme Debugger"
-    const-string v1, "Parceleable stream read for mInt[11]"
-
-    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-# MODDED AREA END ------------------------------------------------------------------------------------    
-    :modded_end_0
-
     aput v3, v1, v0
 
     .line 175
@@ -963,6 +937,52 @@
 
     .line 178
     :cond_9
+
+    # MODDED AREA BEGIN -------------------------------------------------------------------------------
+    # Function: 'constructor(Parcel)' or 'gene(Parcel)'.
+    # This patch reads mInts[11] & mInts[12] 
+
+    # check if parcel continues
+    invoke-virtual {p1}, Landroid/os/Parcel;->dataAvail()I
+    move-result v2
+    const/16 v0, 0x0
+
+    if-eq v0, v2, :catch_rp0
+
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    move-result v3
+    const/16 v6, 0xb
+    aput v3, v1, v6
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+    move-result v3
+    const/16 v6, 0xc
+    aput v3, v1, v6
+
+    goto :goto_rp0_modded_end
+
+    :catch_rp0
+
+    .line 180
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v3, 0x14
+    const/16 v6, 0xb
+    aput v3, v2, v6
+
+    const/4 v3, 0x0
+    const/16 v6, 0xc
+    aput v3, v2, v6
+
+    const-string v0, "Enzyme Debugger"
+    const-string v1, "Exception caught at Gene(Parcel). mInts[11-12] set to default."
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 182
+    :goto_rp0_modded_end
+
+    # MODDED AREA END ---------------------------------------------------------------------------------
 
     return-void
 .end method
@@ -990,11 +1010,11 @@
 
     .line 28
     # MODDED AREA BEGIN--------------------------------------------------------------------------
-    # this.mInts = new int[11]; -> this.mInts = new int[12];
+    # this.mInts = new int[11]; -> this.mInts = new int[13];
     # This function is constructor(Gene) also known as Gene(Gene). It creates a copy of the argument
     # genome.
 
-    const/16 v3, 0xc
+    const/16 v3, 0xd
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
@@ -1329,7 +1349,7 @@
     # keeping mInt[11] intact after initialization instead of it being zero'ed out.
     # This function is 'a(Gene)V' also known as 'copyGenome(Gene)'.
 
-    const/16 v5, 0xc
+    const/16 v5, 0xd
 
     invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
@@ -2538,6 +2558,7 @@
     goto :goto_d
 
     :cond_1b
+
     move v0, v1
 
     .line 690
@@ -2941,6 +2962,46 @@
     .line 706
     :cond_32
 
+    # MODDED AREA BEGIN -------------------------------------------------------------------------------
+    # Function: 'a(Stream)' or 'readStream(Stream' or 'loadGeneFromStream(Stream)'
+    # This patch reads mInts[11] & mInts[12] around a try-catch for vanilla compatibility
+
+
+    const/16 v0, 0xbef
+    if-eq v0, p2, :cont_0
+
+    goto :catch_rs0
+
+    :cont_0
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
+    move-result v3
+    const/16 v6, 0xb
+    aput v3, v2, v6
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
+    move-result v3
+    const/16 v6, 0xc
+    aput v3, v2, v6
+
+
+    goto :goto_rs0_modded_end
+
+    :catch_rs0
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v3, 0x14
+    const/16 v6, 0xb
+    aput v3, v2, v6
+    const/4 v3, 0x0
+    const/16 v6, 0xc
+    aput v3, v2, v6
+
+    :goto_rs0_modded_end
+
+    # MODDED AREA END ---------------------------------------------------------------------------------
+
     return-void
 
     .line 2747
@@ -2993,6 +3054,7 @@
     goto/16 :goto_6
 .end method
 
+
 .method public final a(Ljava/io/ObjectOutputStream;)V # Write to stream
     .locals 4
 
@@ -3002,7 +3064,7 @@
     const/4 v0, 0x0
 
     .line 485
-    const/16 v1, 0xbee
+    const/16 v1, 0xbef
 
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
@@ -3202,6 +3264,7 @@
 
     .line 521
     :cond_1
+
     :goto_2
     const/4 v1, 0x7
 
@@ -3221,6 +3284,22 @@
 
     .line 524
     :cond_2
+
+    # MODDED AREA BEGIN ----------------------------------------------------------------------------------
+    # Function: 'a(Stream)' or 'writeToStream(Stream)' or 'writeGenesToStream(Stream)'
+    # This patch writes to the stream mInts[11] & mInts[12]
+
+    const/16 v1, 0xb
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aget v2, v2, v1
+    invoke-virtual {p1, v2}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+
+    const/16 v1, 0xc
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aget v2, v2, v1
+    invoke-virtual {p1, v2}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+
+    # MODDED AREA END ------------------------------------------------------------------------------------
 
     return-void
 .end method
@@ -3496,7 +3575,11 @@
 
     .line 233
     :cond_8
+
     :goto_9
+
+    :cond_enzyme_wp0
+
     const/4 v0, 0x7
 
     if-ge v2, v0, :cond_9
@@ -3515,6 +3598,22 @@
 
     .line 236
     :cond_9
+
+    # MODDED AREA BEGIN------------------------------------------------------------------------------
+    # Function: writeToParcel(Parcel)
+    # This patch writes to the parceleable stream mInts[11] & mInts[12]
+
+    const/16 v0, 0xb
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aget v1, v1, v0
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    const/16 v0, 0xc
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aget v1, v1, v0
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    # MODDED AREA END----------------------------------------------------------------------------------
 
     return-void
 .end method

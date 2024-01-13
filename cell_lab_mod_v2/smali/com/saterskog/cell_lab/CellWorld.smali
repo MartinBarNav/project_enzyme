@@ -15743,9 +15743,9 @@
     
     # maxSplit is not infinite, must check cell's splitCount before proceding
     # cell.enzyme_splitCount
-    const-string v6, "Enzyme Debugger"
-    const-string v1, "v9 < 20, checking split count..."
-    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #const-string v6, "Enzyme Debugger"
+    #const-string v1, "v9 < 20, checking split count..."
+    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-object/from16 v0, v18
     iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
@@ -15754,20 +15754,50 @@
     goto :cond_modded_reproduce
 
     :cond_modded_22
-    const-string v6, "Enzyme Debugger"
-    const-string v0, "Split count reached:"
-    invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #const-string v6, "Enzyme Debugger"
+    #const-string v0, "Split count reached:"
+    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    const-string v6, "Enzyme Debugger"
-    invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
-    move-result-object v1
-    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #const-string v6, "Enzyme Debugger"
+    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    #move-result-object v1
+    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :cond_22
 
 # MODDED AREA END -----------------------------------------------------------------------------
 
     :cond_modded_reproduce
+
+# MODDED AREA BEGIN -----------------------------------------------------------------------------
+
+    
+    # Cell object moved from v18 -> v0
+    move-object/from16 v0, v18
+    
+    # v3 = cell.gene
+    iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    # v6 = cell.genes[] (Array object)
+    iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    # v3 = cell.genes[cell.gene]
+    aget-object v3, v3, v6
+
+    # v9 = cell.genes[cell.gene].mInts[12]
+    iget-object v9, v3, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v1, 0xc
+    aget v9, v9, v1
+
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->P:I # Adhesin links property 'int P'
+
+    # if v9 < Adhesin links (v1)
+    if-le v9, v1, :cond_modded_reproduce11024 
+    
+
+    goto :cond_22 
+
+# MODDED AREA END -----------------------------------------------------------------------------
+
+    :cond_modded_reproduce11024 
 
     move-object/from16 v0, v18
 
@@ -20513,7 +20543,7 @@
     iget-boolean v14, v11, Lcom/saterskog/cell_lab/Environment;->u:Z
 
     .line 31017
-    const/16 v7, 0xbee
+    const/16 v7, 0xbef
 
     invoke-virtual {v9, v7}, Lcom/saterskog/b/d;->nextInt(I)I
 
@@ -20768,7 +20798,7 @@
 
     if-lt v15, v7, :cond_d
 
-    const/16 v7, 0xbee
+    const/16 v7, 0xbef
 
     if-ge v15, v7, :cond_d
 
@@ -28168,7 +28198,7 @@
     move-result v3
 
     .line 395
-    const/16 v2, 0xbee
+    const/16 v2, 0xbef
 
     if-le v3, v2, :cond_0
 

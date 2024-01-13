@@ -203,7 +203,7 @@
     move-result v0
 
     .line 570
-    const/16 v3, 0xbee
+    const/16 v3, 0xbef
 
     if-le v0, v3, :cond_1
 

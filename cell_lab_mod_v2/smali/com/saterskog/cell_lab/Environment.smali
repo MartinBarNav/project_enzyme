@@ -578,7 +578,7 @@
     move-result v8
 
     .line 167
-    const/16 v0, 0xbee
+    const/16 v0, 0xbef
 
     if-gt v8, v0, :cond_0
 
@@ -976,7 +976,7 @@
 
     .prologue
     .line 129
-    const/16 v0, 0xbee
+    const/16 v0, 0xbef
 
     invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 

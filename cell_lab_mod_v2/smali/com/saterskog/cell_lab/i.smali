@@ -375,7 +375,7 @@
     invoke-direct {v2, v3}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     .line 9123
-    const/16 v1, 0xbee
+    const/16 v1, 0xbef
 
     invoke-virtual {v2, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
@@ -1480,12 +1480,26 @@
 
     aput v2, v0, v1
 
+    # mInts[12] = 0;
+
+    iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
+
+    aget-object v0, v0, p1
+
+    iget-object v0, v0, Lcom/saterskog/cell_lab/Gene;->u:[I
+
+    const/16 v1, 0xc
+
+    const/16 v2, 0x0
+
+    aput v2, v0, v1
+
 
     # Logging for debug purposes
 
-    const-string v6, "Enzyme Debugger"
-    const-string v1, "mInts[11] initialized"
-    invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #const-string v6, "Enzyme Debugger"
+    #const-string v1, "mInts[11] initialized"
+    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
 # MODDED SECTION END ------------------------------------------------------------------------------
 
@@ -3721,11 +3735,11 @@
     move-result v2
 
     .line 8205
-    const/16 v0, 0xbee
+    const/16 v0, 0xbef
 
     if-gt v2, v0, :cond_1d
 
-    const/16 v0, 0xbee
+    const/16 v0, 0xbef
     if-eq v2, v0, :cond_mod1
 
     .line 8206
@@ -6240,6 +6254,68 @@
     invoke-direct/range {v2 .. v10}, Lcom/saterskog/cell_lab/i$c;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;[Ljava/lang/String;IZ)V
 
     invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    # MODDED AREA------------------------------------------------------------------
+
+    # This code creates a string array of numbers 1-20 aswell as the infinity symbol for
+    # use as options in the "max split" dropdown menu.
+    # It also calls the function to add a new dropdownlist menu item to the genome preview window
+
+    # Declare the string array
+    const/16 v2, 0x15  # size of the array (20)
+    new-array v1, v2, [Ljava/lang/String;  # create the array
+
+    # Adding a zero to the start of the array
+    const/16 v0, 0x0
+    const-string v5, "0"
+    aput-object v5, v1, v0
+
+    const/16 v0, 0x15  # loop counter (21)
+    const/16 v2, 0x1   # starting number (1)
+
+    :fill_loop11024 
+    if-ge v2, v0, :enzyme_end11024  # if v2 >= v0, exit loop
+    
+    invoke-static {v2}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+    move-result-object v4
+    aput-object v4, v1, v2
+
+    add-int/lit8 v2, v2, 0x1  # increment v2
+    goto :fill_loop11024 
+
+    :enzyme_end11024
+
+    # Store the reference to the array in v11
+
+    move-object/from16 v0, p0
+
+    iget-object v11, v0, Lcom/saterskog/cell_lab/i;->q:Ljava/util/ArrayList;
+
+
+    move-object/from16 v8, v1
+
+    new-instance v2, Lcom/saterskog/cell_lab/i$c;
+
+    const/16 v6, 0xc
+
+    const-string v4, "Min Connections"
+
+    const-string v5, "Minimum amount of adhesin connections this cell must have before splitting."
+
+    const/4 v9, -0x1
+
+    const/4 v7, 0x0
+
+    const/4 v10, 0x0
+
+    move-object/from16 v3, p0
+
+    invoke-direct/range {v2 .. v10}, Lcom/saterskog/cell_lab/i$c;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;[Ljava/lang/String;IZ)V
+
+    invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    # MODDED AREA END------------------------------------------------------------------
+
 
     # MODDED AREA------------------------------------------------------------------
 

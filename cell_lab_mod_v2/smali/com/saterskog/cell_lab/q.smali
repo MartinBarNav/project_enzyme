@@ -422,7 +422,7 @@
     monitor-enter v1
 
     .line 136
-    const/16 v0, 0x28
+    const/16 v0, 0x50
 
     :try_start_0
     new-array v0, v0, [Lcom/saterskog/cell_lab/Gene;
@@ -433,7 +433,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 v2, 0x28
+    const/16 v2, 0x50
 
     if-ge v0, v2, :cond_2
 
@@ -729,7 +729,7 @@
     const/4 v0, 0x0
 
     :goto_1
-    const/16 v3, 0x28
+    const/16 v3, 0x50
 
     if-ge v0, v3, :cond_2
 
@@ -3213,7 +3213,7 @@
     invoke-direct {v2, v0}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     .line 3428
-    const/16 v3, 0x5f
+    const/16 v3, 0xbef
 
     invoke-virtual {v2, v3}, Ljava/io/ObjectOutputStream;->writeInt(I)V
 
@@ -4210,7 +4210,7 @@
     move v8, v1
 
     :goto_11
-    const/16 v1, 0x28
+    const/16 v1, 0x50
 
     if-ge v8, v1, :cond_37
 
@@ -5443,7 +5443,7 @@
     .locals 6
 
     .prologue
-    const/16 v5, 0x28
+    const/16 v5, 0x50
 
     .line 1085
     iget-object v2, p0, Lcom/saterskog/cell_lab/q;->R:Ljava/lang/Object;
@@ -5457,7 +5457,7 @@
     if-eqz v0, :cond_1
 
     .line 1088
-    const/16 v0, 0x28
+    const/16 v0, 0x50
 
     new-array v0, v0, [Lcom/saterskog/cell_lab/Gene;
 

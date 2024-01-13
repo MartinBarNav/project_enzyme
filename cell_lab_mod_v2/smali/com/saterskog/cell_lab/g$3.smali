@@ -101,7 +101,7 @@
     move-result v4
 
     .line 126
-    const/16 v5, 0xbee
+    const/16 v5, 0xbef
 
     if-gt v4, v5, :cond_0
 

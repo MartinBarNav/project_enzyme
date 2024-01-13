@@ -170,7 +170,7 @@
     move-result v0
 
     .line 178
-    const/16 v4, 0xbee
+    const/16 v4, 0xbef
 
     if-gt v0, v4, :cond_1
 
