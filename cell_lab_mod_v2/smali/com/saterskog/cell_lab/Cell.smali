@@ -204,22 +204,31 @@
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Cell;->J:[F
 
-    .line 55
-    const/16 v0, 0x8
 
+    # MODDED AREA BEGIN ------------------------------------------------------------------------------
+    # Function: constructor() or Cell()
+    # This patch makes the arrays: F[], U[] & W[] 8 long instead of 4. In preparation for new signals
+
+    .line 55
+    const/16 v0, 0x20 #MODDED from 0x8
     new-array v0, v0, [F
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Cell;->U:[F
 
     .line 56
-    new-array v0, v2, [F
+    const/16 v0, 0x10 #MODDED from 0x4
+    new-array v0, v0, [F
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Cell;->V:[F
 
     .line 57
-    new-array v0, v2, [F
+    const/16 v0, 0x10 #MODDED from 0x4
+    new-array v0, v0, [F
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Cell;->W:[F
+    const/16 v0, 0x4
+
+    # MODDED AREA END -------------------------------------------------------------------------------
 
     .line 64
     iput v3, p0, Lcom/saterskog/cell_lab/Cell;->r:F
@@ -879,7 +888,7 @@
     .line 95
     iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
-    const/4 v5, 0x4
+    const/16 v5, 0x10 # MODDED from 4
 
     if-ge v4, v5, :cond_2
 
@@ -891,9 +900,50 @@
     add-int/2addr v4, p2
 
     aget v0, v0, v4
+    
 
     .line 113
     :goto_0
+
+    # MODDED AREA BEGIN-------------------------------------------------------------------
+    # Function: 'a(II)F' or 'float calculateCellState(int,int)'
+    # This patch checks if the equation is any of the modded-in ones (#3 and above)
+    # And performs the calculations. Output must be in v0, v0 is also the input
+    # v3 is the obj containing the equation variables (a,b,c)
+
+    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
+    const/16 v5, 0x3
+    if-ne v4, v5, :cond_modded_enzyme_9
+
+    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
+    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
+    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
+
+    # input * c
+    mul-float/2addr v0, v6
+    # (input*c) - b
+    sub-float/2addr v0, v5
+
+    const/16 v5, 0x0
+    move v5, v1
+
+    float-to-double v0, v0
+    invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
+    move-result-wide v0
+
+    double-to-float v0, v0
+
+    # a * sin(input*c-b)
+    mul-float/2addr v0, v4
+
+    move v1, v5
+
+    goto :goto_1
+
+    # MODDED AREA BEGIN-------------------------------------------------------------------
+
+    :cond_modded_enzyme_9
+
     iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
     const/4 v5, 0x1
@@ -941,7 +991,7 @@
 
     sub-float/2addr v3, v4
 
-    const/high16 v4, 0x3f000000    # 0.5f
+    const/high16 v4, 0x3f000000    # 0.5f 
 
     mul-float/2addr v3, v4
 
@@ -1031,7 +1081,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x4
+    .packed-switch 0x10
         :pswitch_0
         :pswitch_1
         :pswitch_2
@@ -1396,11 +1446,28 @@
 
     # MODDED AREA BEGIN----------------------------------------------------------------------------
     # This function is 'a(Cell)V' also known as 'copyCell(Cell)'. It copies the attributes of a cell
-    # onto another one.
-    # The purpose of this patch is to also copy the split_count attribute. Simple.
+    # onto this.cell.
+    # The purpose of this patch is to also copy the split_count attribute.
+    # Update: This patch now also copies signals
 
     iget v0, p1, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
     iput v0, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    iget-object v0, p1, Lcom/saterskog/cell_lab/Cell;->U:[F
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Cell;->U:[F
+
+    const/16 v5, 0xc
+    const/16 v1, 0x4
+
+    invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    iget-object v0, p1, Lcom/saterskog/cell_lab/Cell;->V:[F
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Cell;->V:[F
+
+    const/16 v5, 0xc
+    const/16 v1, 0x4
+
+    invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     #Done
 
@@ -1931,8 +1998,8 @@
 
     .line 560
     # MODDED AREA BEGIN -------------------------------------------------------------------------------
-    # Function: 'a(Stream)' or 'readStream(Stream)'
-
+    # Function: 'a(Stream)' or 'readStream(Stream)' 
+    # This patch also reads signals[4-15]
 
     # Version checking
     const/16 v0, 0xbef
@@ -1945,6 +2012,35 @@
     invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
     move-result v3
     iput v3, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    const/16 v1, 0x4
+    const/16 v6, 0xb
+
+    :goto_modded_enzyme_8
+    if-ge v1, v6, :goto_rsc0_modded_end
+
+    .line 523
+    iget-object v0, p0, Lcom/saterskog/cell_lab/Cell;->U:[F
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readFloat()F
+
+    move-result v3
+
+    aput v3, v0, v1
+
+    .line 524
+    iget-object v0, p0, Lcom/saterskog/cell_lab/Cell;->W:[F
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readFloat()F
+
+    move-result v3
+
+    aput v3, v0, v1
+
+    .line 522
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_modded_enzyme_8
 
 
     goto :goto_rsc0_modded_end
@@ -2313,9 +2409,38 @@
     # MODDED AREA BEGIN------------------------------------------------------------------------------
     # Function: 'a(Stream)' or 'writeToStream(Stream)'
     # This patch writes to the stream the split count
+    # Update: This path also writes signals[4-15]
 
     iget v1, p0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
     invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+
+    const/16 v0, 0x4
+    :goto_modded_enzyme_7
+    const/16 v1, 0xb
+
+    if-ge v0, v1, :cond_modded_enzyme_8
+
+    .line 459
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Cell;->U:[F
+
+    aget v1, v1, v0
+
+    invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeFloat(F)V
+
+    .line 460
+    iget-object v1, p0, Lcom/saterskog/cell_lab/Cell;->W:[F
+
+    aget v1, v1, v0
+
+    invoke-virtual {p1, v1}, Ljava/io/ObjectOutputStream;->writeFloat(F)V
+
+    .line 458
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_modded_enzyme_7
+
+    :cond_modded_enzyme_8
+
     # MODDED AREA END----------------------------------------------------------------------------------
 
 

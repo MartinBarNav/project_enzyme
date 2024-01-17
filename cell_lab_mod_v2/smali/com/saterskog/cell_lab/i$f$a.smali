@@ -38,7 +38,7 @@
     .prologue
     const v7, 0x7f0a0028
 
-    const/4 v11, 0x2
+    const/4 v11, 0x3 # MODDED from 0x2. This controls how many equations you can chose from.
 
     const/high16 v10, 0x41000000    # 8.0f
 
@@ -148,6 +148,16 @@
 
     aput-object v5, v0, v1
 
+    #MODDED AREA BEGIN-----------------------------------------------------------------
+
+    .line 3870123456
+
+    const/4 v8, 0x2
+    const-string v5, "a × sin(input × c - b) "
+    aput-object v5, v0, v8
+
+    #MODDED AREA END  -----------------------------------------------------------------
+
     .line 388
     new-instance v5, Landroid/widget/ArrayAdapter;
 
@@ -165,20 +175,41 @@
     invoke-virtual {v0, v5}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
     .line 390
+    # MODDED SECTION START-----------------------------------------------------
+
     iget-short v0, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
-    if-eq v0, v11, :cond_0
+    const/16 v8, 0x3
+    
+    if-eq v0, v8, :cond_modded_enzyme_0
+
+
+    const/16 v8, 0x2
+
+    if-eq v0, v8, :cond_0
+
+    goto :cond_modded_enzyme_1
+
+    :cond_modded_enzyme_0
+    const/4 v2, 0x2
+    :cond_modded_enzyme_1
+
+    # MODDED SECTION END  -----------------------------------------------------
 
     .line 391
     iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
 
     invoke-virtual {v0, v2}, Landroid/widget/Spinner;->setSelection(I)V
 
+    const/4 v2, 0x0
+
     .line 395
     :goto_0
     iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
 
     new-instance v5, Lcom/saterskog/cell_lab/i$f$a$1;
+
+    .line 396
 
     invoke-direct {v5, p0, p1}, Lcom/saterskog/cell_lab/i$f$a$1;-><init>(Lcom/saterskog/cell_lab/i$f$a;Lcom/saterskog/cell_lab/i$f;)V
 
@@ -199,7 +230,7 @@
 
     .line 410
     :goto_1
-    const/4 v6, 0x4
+    const/16 v6, 0x10 # MODDED from 0x4
 
     if-ge v0, v6, :cond_1
 
@@ -265,6 +296,8 @@
 
     goto :goto_1
 
+    #-----------------------------------------------
+
     .line 393
     :cond_0
     iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
@@ -300,6 +333,8 @@
     invoke-static {v8, v9}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     move-result-object v8
+
+    .line 412420
 
     aput-object v8, v7, v2
 
@@ -685,7 +720,15 @@
 
     iget-short v0, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
-    if-ne v0, v11, :cond_7
+    # MODDED SECTION START-----------------------------------------------------
+
+    const/16 v8, 0x0
+    const/4 v2, 0x0
+    const/4 v1, 0x1
+
+    if-eq v0, v8, :cond_7
+
+    # MODDED SECTION END  -----------------------------------------------------
 
     move v0, v1
 
@@ -760,10 +803,17 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
+    # MODDED SECTION START-----------------------------------------------------
     .line 482
     iget-short v0, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
-    if-ne v0, v11, :cond_b
+    const/16 v8, 0x3
+    if-eq v0, v8, :cond_b
+
+    const/16 v8, 0x2
+    if-ne v0, v8, :cond_b
+
+    # MODDED SECTION END -----------------------------------------------------
 
     .line 483
     iget-object v0, p1, Lcom/saterskog/cell_lab/i$f;->q:Landroid/widget/SeekBar;
@@ -843,15 +893,35 @@
 
     aget-object v3, v3, v5
 
+    # MODDED----------------------------------------------
+    # This patch checks if equation == 3 then it stops sliderC's progress from
+    # being multiplied by 8 by multiplying by 1.0 instead.
+    # Update: Instead of multiplying by 1.0, we multiply by 0.025 or 1/80
+    # That should make the c slider go higher which is better for a sine wave eq
+
     iget-object v3, v3, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
     iget v5, p1, Lcom/saterskog/cell_lab/i$f;->h:I
-
     aget-object v3, v3, v5
+
+    # ----
+
+    iget-short v8, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
+    const/16 v9, 0x3
+
+    if-ne v8,v9, :cond_modded_enzyme_10
+
+    const v10, 0x3c4ccccd    # 0.0125f
+
+    :cond_modded_enzyme_10
 
     iget v3, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
 
-    mul-float/2addr v3, v10
+    mul-float v3, v3, v10
+
+    const/high16 v10, 0x41000000    # 8.0f
+
+
+    # MODDED----------------------------------------------
 
     invoke-virtual {v1, v3, v2}, Lcom/saterskog/cell_lab/i;->a(FZ)I
 
@@ -1245,10 +1315,19 @@
     iget-object v1, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
 
     invoke-virtual {v1}, Landroid/widget/Spinner;->getSelectedItemPosition()I
-
     move-result v1
 
+    # MODDED --------------------------------------
+
+    const/16 v8, 0x2
+
+    if-eq v1, v8, :cond_modded_enzyme_5
+
     if-nez v1, :cond_4
+
+    # MODDED --------------------------------------
+
+    :cond_modded_enzyme_5
 
     .line 568
     iget-object v1, p0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
@@ -1482,9 +1561,35 @@
 
     move-result v4
 
+    # MODDED -----------------------------------------------------------------------------------
+    # This patch makes the *text value* besides the c slider not be divided by 8
+    # Only when list item #2 is selected, aka eq #3 sine wave
+    # Update, infact we should multiply by 40 for better control over the sine wave cycle
+
+    iget-object v6, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
+
+    invoke-virtual {v6}, Landroid/widget/Spinner;->getSelectedItemPosition()I
+    move-result v6
+
+    const/16 v5, 0x2
+    if-eq v5, v6, :cont_enzyme_modded_6
+    
     const/high16 v5, 0x41000000    # 8.0f
 
     div-float/2addr v4, v5
+
+    goto :cont_enzyme_modded_13
+
+    :cont_enzyme_modded_6
+
+    const/high16 v5, 0x42a00000    # 80.0f
+
+    mul-float/2addr v4, v5
+
+    const/high16 v5, 0x41000000    # restore old value 8.0f
+
+    :cont_enzyme_modded_13
+    # MODDED -----------------------------------------------------------------------------------
 
     invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 

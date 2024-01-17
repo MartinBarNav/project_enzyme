@@ -364,7 +364,24 @@
 
     .line 527
     :cond_4
+
+    #MODDED-------------------------------------------------------
+    # This sets the equation after the cell state dialog is closed via the save btn
+    # v3 is the item selected from the list, set before jumping to cond_4.
+
+    const/16 v0, 0x2
+    if-eq v3, v0, :cond_modded_enzyme_4
+    const/16 v0, 0x1
+    goto :cond_modded_enzyme_5
+
+    :cond_modded_enzyme_4
+    const/16 v0, 0x3
+    #MODDED-------------------------------------------------------
+    :cond_modded_enzyme_5
+
     iput-short v0, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
+
+    const/16 v0, 0x1
 
     .line 528
     iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
@@ -433,7 +450,27 @@
 
     move-result v0
 
+    # MODDED -------------------------------
+    # This multiplies the c slider by 80 when saving
+    # only if item selected = 2 (eq#3)
+
+    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
+    invoke-virtual {v3}, Landroid/widget/Spinner;->getSelectedItemPosition()I
+    move-result v3
+
+    const/16 v8, 0x2
+    if-ne v8, v3, :cond_modded_enzyme_14
+
+    const v5, 0x3c4ccccd    # 0.0125f
+
+    div-float v0, v0, v5
+
+    :cond_modded_enzyme_14
+
     iput v0, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
+
+    # MODDED -------------------------------
 
     goto/16 :goto_1
 .end method

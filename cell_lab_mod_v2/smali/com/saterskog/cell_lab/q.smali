@@ -698,7 +698,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/4 v2, 0x4
+    const/16 v2, 0x10 #MODDED FROM 4
 
     if-ge v0, v2, :cond_0
 

@@ -7102,8 +7102,10 @@
     .line 1167
     const/4 v2, 0x0
 
+    # ------------------------------------------------------------------------------------------
     :goto_3
-    const/4 v3, 0x4
+
+    const/16 v3, 0x10 #MODDED from 0x4 to 0x8
 
     if-ge v2, v3, :cond_3
 
@@ -7147,15 +7149,18 @@
 
     .line 1169
     :cond_3
+
+    # ------------------------------------------------------------------------------------------
+
     const/4 v2, 0x0
 
     :goto_4
-    const/4 v3, 0x4
+    const/16 v3, 0x10 #MODDED from 0x4 to 0x8
 
     if-ge v2, v3, :cond_4
 
     .line 1170
-    add-int/lit8 v3, v2, 0xb
+    add-int/lit8 v3, v2, 0x17
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -7230,8 +7235,10 @@
 
     invoke-virtual {v2, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
+    #MODDED AREA BEGIN ---------------------------------------------------------------------------------
+
     .line 1173
-    const/4 v2, 0x4
+    const/16 v2, 0x10 #MODDED from 0x4 to 0x8
 
     new-array v0, v2, [Ljava/lang/String;
 
@@ -7241,7 +7248,7 @@
     const/4 v2, 0x0
 
     :goto_5
-    const/4 v3, 0x4
+    const/16 v3, 0x10 #MODDED from 0x4 to 0x8
 
     if-ge v2, v3, :cond_5
 
@@ -7278,6 +7285,8 @@
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_5
+
+    #MODDED AREA END ----------------------------------------------------------------------------------
 
     .line 1177
     :cond_5
