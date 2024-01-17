@@ -2028,7 +2028,7 @@
     div-float v8, v2, v3
 
     .line 945
-    const/16 v6, 0x10 #MODDED from 4 to 8
+    const/4 v6, 0x4
 
     const/4 v3, 0x0
 
@@ -2042,7 +2042,7 @@
     move v6, v3
 
     :goto_0
-    const/16 v2, 0x4 #MODDED from 4
+    const/4 v2, 0x4
 
     if-ge v5, v2, :cond_e
 
@@ -2136,7 +2136,7 @@
     const/4 v3, 0x0
 
     :goto_2
-    const/16 v4, 0x10 #MODDED from 0x4 to 8
+    const/4 v4, 0x4
 
     if-ge v3, v4, :cond_3
 
@@ -2159,8 +2159,8 @@
     move v4, v3
 
     :goto_3
+    const/4 v3, 0x4
 
-    const/16 v3, 0x4
     if-ge v4, v3, :cond_6
 
     .line 979
@@ -2216,9 +2216,8 @@
     :cond_6
     const/4 v3, 0x0
 
-    # ------------------------------------------
     :goto_4
-    const/16 v4, 0x10 #MODDED from 4 to 8
+    const/4 v4, 0x4
 
     if-ge v3, v4, :cond_8
 
@@ -2234,8 +2233,6 @@
     aget v12, v12, v13
 
     iget-object v13, v9, Lcom/saterskog/cell_lab/Cell;->W:[F
-
-    .line 8877
 
     aget v13, v13, v3
 
@@ -2255,12 +2252,10 @@
 
     add-float/2addr v12, v13
 
-    .line 129748
-
     aput v12, v4, v11
 
     .line 989
-    const/16 v4, 0x3 #MODDED from 3
+    const/4 v4, 0x3
 
     if-ne v5, v4, :cond_7
 
@@ -2288,9 +2283,6 @@
 
     .line 995
     :cond_8
-
-    # ---------------------------------
-
     const/4 v3, 0x0
 
     :goto_5
@@ -2343,7 +2335,7 @@
     const/4 v4, 0x0
 
     :goto_6
-    const/16 v12, 0x10 #MODDED from 4 to 8
+    const/4 v12, 0x4
 
     if-ge v4, v12, :cond_9
 
@@ -2398,7 +2390,7 @@
     const/4 v3, 0x0
 
     :goto_7
-    const/16 v4, 0x10 #MODDED from 4 to 8
+    const/4 v4, 0x4
 
     if-ge v3, v4, :cond_0
 
@@ -2453,7 +2445,7 @@
 
     .line 1013
     :cond_d
-    rsub-int/lit8 v3, v6, 0x10 #MODDED from 4 
+    rsub-int/lit8 v3, v6, 0x4
 
     .line 946
     add-int/lit8 v2, v5, 0x1
@@ -16579,7 +16571,7 @@
     const/4 v3, 0x0
 
     :goto_2
-    const/16 v4, 0x10 #MODDED from 4
+    const/4 v4, 0x4
 
     if-ge v3, v4, :cond_5
 

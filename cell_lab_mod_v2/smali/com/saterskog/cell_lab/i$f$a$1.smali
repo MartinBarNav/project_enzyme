@@ -41,7 +41,7 @@
 
 # virtual methods
 .method public final onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
-    .locals 4
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -79,16 +79,6 @@
     invoke-virtual {v2}, Landroid/widget/Spinner;->getSelectedItemPosition()I
 
     move-result v2
-
-    #MODDED -----------------
-    # I think this checks if eq 3 is selected (list item 2)
-    # if so it makes slider C visible.
-
-    const/4 v8, 0x2
-
-    if-eq v2, v8, :goto_0
-
-    #MODDED -----------------
 
     if-ne v2, v0, :cond_0
 

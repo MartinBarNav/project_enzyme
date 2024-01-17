@@ -771,7 +771,7 @@
     const/4 v0, 0x0
 
     :goto_4
-    const/16 v3, 0x10 #MODDED fom 4
+    const/4 v3, 0x4
 
     if-ge v0, v3, :cond_6
 

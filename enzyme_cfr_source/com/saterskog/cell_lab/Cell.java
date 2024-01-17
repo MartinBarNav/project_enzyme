@@ -236,7 +236,7 @@ implements Parcelable {
                 }
             }
         }
-        if (channelOutputs.type == 1) {
+        if (channelOutputs.e == 1) {
             var4_4 = var4_4 * channelOutputs.a + channelOutputs.b;
         } else if (var4_4 < channelOutputs.c) {
             var4_4 = channelOutputs.a;

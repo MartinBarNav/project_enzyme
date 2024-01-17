@@ -184,14 +184,10 @@
 
     aput v8, v0, v2
 
-    # MODDED AREA BEGIN ----------------------------------------------------
-
     .line 86
     sget-object v0, Lcom/saterskog/cell_lab/Gene;->w:[I
 
-
-    #This number comes from 15 + 12x2 (additional 12 signals(+,-) + vanilla secreteables)
-    const/16 v2, 0x27 #Modded from 15 (0xf)
+    const/16 v2, 0xf
 
     aput v2, v0, v5
 
@@ -199,8 +195,6 @@
 
     .line 88
     :goto_0
-   
-    const/16 v5, 0x4
     if-ge v0, v5, :cond_0
 
     .line 89
@@ -208,16 +202,12 @@
 
     add-int/lit8 v3, v0, 0x5
 
-    const/16 v5, 0x10
-
     aput v5, v2, v3
 
     .line 88
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
-
-    # MODDED AREA END ------------------------------------------------------
 
     .line 91
     :cond_0
@@ -2838,7 +2828,7 @@
 
     iget-short v2, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
-    const/4 v3, 0x3 #MODDED from 2
+    const/4 v3, 0x2
 
     if-le v2, v3, :cond_29
 
@@ -2846,7 +2836,7 @@
 
     aget-object v2, v2, v0
 
-    const/4 v3, 0x3 #MODDED from 2
+    const/4 v3, 0x2
 
     iput-short v3, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
@@ -2997,7 +2987,7 @@
 
 
     goto :goto_rs0_modded_end
-    
+
     :catch_rs0
 
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
