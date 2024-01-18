@@ -722,7 +722,7 @@
     const/4 v3, 0x0
 
     :goto_1
-    const/4 v4, 0x4
+    const/16 v4, 0x10 # MODDED from 0x4 to 0x8
 
     if-ge v3, v4, :cond_3
 
@@ -2148,7 +2148,7 @@
 
     if-lt v5, v7, :cond_17
 
-    const/16 v7, 0xb
+    const/16 v7, 0x17 #MODDED from 0xB
 
     if-ge v5, v7, :cond_17
 
@@ -2197,7 +2197,7 @@
 
     if-lt v5, v7, :cond_18
 
-    const/16 v7, 0xb
+    const/16 v7, 0x17 #MODDED from 0xb
 
     if-lt v5, v7, :cond_18
 
@@ -2232,7 +2232,7 @@
 
     add-int/lit8 v5, v5, -0x7
 
-    add-int/lit8 v5, v5, -0x4
+    add-int/lit8 v5, v5, -0x10 #MODDED from -4
 
     invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2513,7 +2513,7 @@
     const/4 v4, 0x0
 
     :goto_4
-    const/4 v5, 0x4
+    const/16 v5, 0x10 #MODDED from 0x4 to 0x8
 
     if-ge v4, v5, :cond_25
 
