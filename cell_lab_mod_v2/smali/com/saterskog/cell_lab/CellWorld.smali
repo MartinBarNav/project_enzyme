@@ -15750,10 +15750,6 @@
     :modded_cond_checkLimit
     
     # maxSplit is not infinite, must check cell's splitCount before proceding
-    # cell.enzyme_splitCount
-    #const-string v6, "Enzyme Debugger"
-    #const-string v1, "v9 < 20, checking split count..."
-    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     move-object/from16 v0, v18
     iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
@@ -15762,6 +15758,25 @@
     goto :cond_modded_reproduce
 
     :cond_modded_22
+
+    #Once max split is reached: this.cell.mode = this.cell.mInts[13];
+
+    # v3 = cell.modes
+    iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    # v6 = cell.modes[] (Array object)
+    iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    # v3 = cell.modes[cell.mode]
+    aget-object v3, v3, v6
+
+    # mInts is an array of integer properties(genes that can be expressed as integers)
+    # v9 = cell.genes[cell.gene].mInts[13]
+    iget-object v9, v3, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v1, 0xd
+    aget v9, v9, v1
+
+    iput v9, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+
+
     #const-string v6, "Enzyme Debugger"
     #const-string v0, "Split count reached:"
     #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I

@@ -1353,9 +1353,10 @@
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
 
     # MODDED AREA BEGIN------------------------------------------------------------------------
+    # Function: copyGenome
     # The java source equivalent line:
     # System.arraycopy(gene.mInts, 0, this.mInts, 0, v5);
-    # v5 is changed from 11 to 12. This will copy all 12 mInts[] elements. Hopefully
+    # v5 is changed from 11 to 14. This will copy all 14 mInts[] elements. Hopefully
     # keeping mInt[11] intact after initialization instead of it being zero'ed out.
     # This function is 'a(Gene)V' also known as 'copyGenome(Gene)'.
 
