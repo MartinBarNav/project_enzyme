@@ -522,10 +522,10 @@
 
     .line 28
     # MODDED AREA BEGIN--------------------------------------------------------------------------
-    # this.mInts = new int[11]; -> this.mInts = new int[13];
+    # this.mInts = new int[11]; -> this.mInts = new int[14];
     # This function is Constructor() or Gene(). It creates a new empty genome.
 
-    const/16 v3, 0xd
+    const/16 v3, 0xe
 
     new-array v0, v3, [I
 
@@ -1020,11 +1020,11 @@
 
     .line 28
     # MODDED AREA BEGIN--------------------------------------------------------------------------
-    # this.mInts = new int[11]; -> this.mInts = new int[13];
+    # this.mInts = new int[11]; -> this.mInts = new int[14];
     # This function is constructor(Gene) also known as Gene(Gene). It creates a copy of the argument
     # genome.
 
-    const/16 v3, 0xd
+    const/16 v3, 0xe
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
@@ -1359,7 +1359,7 @@
     # keeping mInt[11] intact after initialization instead of it being zero'ed out.
     # This function is 'a(Gene)V' also known as 'copyGenome(Gene)'.
 
-    const/16 v5, 0xd
+    const/16 v5, 0xe
 
     invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
@@ -2457,16 +2457,33 @@
 
     iget-short v2, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
-    const/4 v3, 0x4
+    const/16 v3, 0x10 #MODDED from 4
 
     if-ge v2, v3, :cond_16
 
     .line 671
+    # MODDED -------------------------------
+    # check if eq 3 then leave it instead of changing to default eq 1
+    # or sm like that
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+    aget-object v2, v2, v0
+    iget-short v2, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
+
+    const/4 v3, 0x3 
+    if-ne v2, v3, :cond_modded_enzyme_13
+
+    const/4 v5, 0x3
+
+    :cond_modded_enzyme_13
+    # MODDED -------------------------------
+
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
     aget-object v2, v2, v0
 
     iput-short v5, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
+    const/4 v5, 0x1
 
     goto :goto_b
 
@@ -2478,7 +2495,7 @@
 
     iget-short v3, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
-    add-int/lit8 v3, v3, -0x4
+    add-int/lit8 v3, v3, -0x10 #MODDED from -4
 
     int-to-short v3, v3
 
@@ -2874,7 +2891,7 @@
 
     iget-short v2, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
-    const/16 v3, 0x8
+    const/16 v3, 0x14 #MODDED from 8
 
     if-lt v2, v3, :cond_2b
 
@@ -2882,7 +2899,7 @@
 
     aget-object v2, v2, v0
 
-    const/4 v3, 0x7
+    const/16 v3, 0x13 #MODDED from 7
 
     iput-short v3, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
@@ -2975,6 +2992,7 @@
     # MODDED AREA BEGIN -------------------------------------------------------------------------------
     # Function: 'a(Stream)' or 'readStream(Stream' or 'loadGeneFromStream(Stream)'
     # This patch reads mInts[11] & mInts[12] around a try-catch for vanilla compatibility
+    # 0x4
 
 
     const/16 v0, 0xbef
