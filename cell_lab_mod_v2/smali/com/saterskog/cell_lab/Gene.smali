@@ -175,16 +175,13 @@
 
     const/4 v2, 0x2
 
-    const/16 v5, 0x10 #MODDED
-
     aput v5, v0, v2
-
-    const/16 v5, 0x4
 
     .line 85
     sget-object v0, Lcom/saterskog/cell_lab/Gene;->w:[I
 
-    const/16 v2, 0x3
+    const/4 v2, 0x3
+
     aput v8, v0, v2
 
     # MODDED AREA BEGIN ----------------------------------------------------
@@ -2686,6 +2683,137 @@
     const/16 v2, 0xb
 
     if-ge v0, v2, :cond_2c
+
+    .line 2725
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    cmpg-float v2, v2, v3
+
+    if-gez v2, :cond_22
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
+
+    .line 2726
+    :cond_22
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    cmpg-float v2, v2, v3
+
+    if-gez v2, :cond_23
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
+
+    .line 2727
+    :cond_23
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    cmpg-float v2, v2, v3
+
+    if-gez v2, :cond_24
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, -0x3f000000    # -8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
+
+    .line 2729
+    :cond_24
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    cmpl-float v2, v2, v3
+
+    if-lez v2, :cond_25
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
+
+    .line 2730
+    :cond_25
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    cmpl-float v2, v2, v3
+
+    if-lez v2, :cond_26
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
+
+    .line 2731
+    :cond_26
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    cmpl-float v2, v2, v3
+
+    if-lez v2, :cond_27
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+
+    aget-object v2, v2, v0
+
+    const/high16 v3, 0x41000000    # 8.0f
+
+    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
 
     .line 2733
     :cond_27
