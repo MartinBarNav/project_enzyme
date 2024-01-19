@@ -1494,12 +1494,19 @@
 
     aput v2, v0, v1
 
+    # mInts[13] = this.mode
 
-    # Logging for debug purposes
+    iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
+    aget-object v0, v0, p1
+    iget-object v0, v0, Lcom/saterskog/cell_lab/Gene;->u:[I
 
-    #const-string v6, "Enzyme Debugger"
-    #const-string v1, "mInts[11] initialized"
-    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    const/16 v1, 0xd
+
+    iget v2, p0, Lcom/saterskog/cell_lab/i;->c:I
+
+    aput v2, v0, v1
+
+
 
 # MODDED SECTION END ------------------------------------------------------------------------------
 
@@ -6298,7 +6305,7 @@
 
     const/16 v6, 0xc
 
-    const-string v4, "Min Connections"
+    const-string v4, "Min connections"
 
     const-string v5, "Minimum amount of adhesin connections this cell must have before splitting."
 
@@ -6322,6 +6329,7 @@
     # This code creates a string array of numbers 1-20 aswell as the infinity symbol for
     # use as options in the "max split" dropdown menu.
     # It also calls the function to add a new dropdownlist menu item to the genome preview window
+    # 0x50
 
     # Declare the string array
     const/16 v2, 0x15  # size of the array (20 + 1)
@@ -6361,7 +6369,7 @@
 
     const/16 v6, 0xb
 
-    const-string v4, "Max Splits"
+    const-string v4, "Max splits"
 
     const-string v5, "Maximum amount of times the cell can split before being unable to anymore. The split count is only inherited by child 1. Child 2 begins with a fresh split count."
 
@@ -6430,6 +6438,33 @@
 
     .line 1137
     :cond_1
+
+    # MODDED AREA BEGIN ------------------------------------------------------------------
+    # Content string[] is already in register v8, from previous code
+
+    new-instance v2, Lcom/saterskog/cell_lab/i$c;
+
+    const-string v4, "Mode after splits"
+
+    const-string v5, "Sets which mode will this cell turn into once it has reached it's maximum split value."
+
+    const/16 v6, 0xd
+
+    const/4 v9, -0x1
+
+    const/4 v7, 0x0
+
+    const/4 v10, 0x1 # I think this makes the game think its a mode selector list 
+
+    move-object/from16 v3, p0
+
+    invoke-direct/range {v2 .. v10}, Lcom/saterskog/cell_lab/i$c;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;[Ljava/lang/String;IZ)V
+
+    invoke-virtual {v11, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+
+    # MODDED AREA END --------------------------------------------------------------------
+
     sget-object v2, Lcom/saterskog/cell_lab/Gene;->B:[I
 
     array-length v2, v2
