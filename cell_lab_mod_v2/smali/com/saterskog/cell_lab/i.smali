@@ -1494,7 +1494,9 @@
 
     aput v2, v0, v1
 
-    # mInts[13] = this.mode
+    # mInts[13] = p1
+    # p1 = arg int i, which is the index of the current mode
+    # this function should run 80 times, once per mode.
 
     iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
     aget-object v0, v0, p1
@@ -1502,7 +1504,19 @@
 
     const/16 v1, 0xd
 
-    iget v2, p0, Lcom/saterskog/cell_lab/i;->c:I
+    aput p1, v0, v1
+
+    # mFloats[7] = 30;
+
+    iget-object v0, p0, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
+
+    aget-object v0, v0, p1
+
+    iget-object v0, v0, Lcom/saterskog/cell_lab/Gene;->v:[F
+
+    const/16 v1, 0x7
+
+    const/high16 v2, 0x41f00000    # 30.0f
 
     aput v2, v0, v1
 
@@ -6180,6 +6194,32 @@
     iget-object v3, v0, Lcom/saterskog/cell_lab/i;->p:Lcom/saterskog/cell_lab/i$a;
 
     invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    
+
+    # MODDED AREA BEGIN---------------------------------------------------------------------------------------
+
+    move-object/from16 v0, p0
+
+    iget-object v8, v0, Lcom/saterskog/cell_lab/i;->q:Ljava/util/ArrayList;
+
+    new-instance v2, Lcom/saterskog/cell_lab/i$a;
+
+    const-string v4, "Cell size"
+
+    const-string v5, "The maximum diameter this cell is allowed to grow to in micrometers."
+
+    const/4 v6, 0x7
+
+    const/4 v7, 0x0
+
+    move-object/from16 v3, p0
+
+    invoke-direct/range {v2 .. v7}, Lcom/saterskog/cell_lab/i$a;-><init>(Lcom/saterskog/cell_lab/i;Ljava/lang/String;Ljava/lang/String;ILcom/saterskog/cell_lab/h;)V
+
+    invoke-virtual {v8, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    # MODDED AREA END ----------------------------------------------------------------------------------------
+
 
     .line 1129
     sget-object v2, Lcom/saterskog/cell_lab/Gene;->w:[I
@@ -6446,7 +6486,7 @@
 
     const-string v4, "Mode after splits"
 
-    const-string v5, "Sets which mode will this cell turn into once it has reached it's maximum split value."
+    const-string v5, "Sets which mode child 1 will turn into once it has reached it's maximum split amount."
 
     const/16 v6, 0xd
 

@@ -134,14 +134,14 @@
     sput-object v0, Lcom/saterskog/cell_lab/Gene;->y:[F
 
     .line 72
-    const/4 v0, 0x7
+    const/16 v0, 0x8 #MODDED from 7
 
     new-array v0, v0, [F
 
     sput-object v0, Lcom/saterskog/cell_lab/Gene;->z:[F
 
     .line 73
-    const/4 v0, 0x7
+    const/16 v0, 0x8 #MODDED from 7
 
     new-array v0, v0, [F
 
@@ -175,7 +175,11 @@
 
     const/4 v2, 0x2
 
+    const/16 v5, 0x10 #MODDED from 4
+
     aput v5, v0, v2
+
+    const/4 v5, 0x4
 
     .line 85
     sget-object v0, Lcom/saterskog/cell_lab/Gene;->w:[I
@@ -483,6 +487,19 @@
 
     sput-object v0, Lcom/saterskog/cell_lab/Gene;->C:Landroid/os/Parcelable$Creator;
 
+    #MODDED ----------------------------------------------------
+    # set mFloatsMaximum[7] & mFloatsMinimum[7] to desired value
+    const/16 v1, 0x7
+
+    sget-object v0, Lcom/saterskog/cell_lab/Gene;->A:[F
+    const/high16 v2, 0x41f00000    # 30.0f
+    aput v2, v0, v1
+
+    sget-object v0, Lcom/saterskog/cell_lab/Gene;->z:[F
+    const/high16 v2, 0x41700000 # 15.0f
+    aput v2, v0, v1
+    #MODDED ----------------------------------------------------
+
     return-void
 
     .line 75
@@ -525,7 +542,7 @@
     # this.mInts = new int[11]; -> this.mInts = new int[13];
     # This function is Constructor() or Gene(). It creates a new empty genome.
 
-    const/16 v3, 0xd
+    const/16 v3, 0xe
 
     new-array v0, v3, [I
 
@@ -537,11 +554,16 @@
 
 
     .line 29
-    const/4 v0, 0x7
+    # MODDED AREA BEGIN--------------------------------------------------------------------------
+    # this.mFloats = new float[7]; -> this.mFloats = new float[8];
+
+    const/16 v0, 0x8
 
     new-array v0, v0, [F
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
+
+    # MODDED AREA END-----------------------------------------------------------------------------
 
     .line 186
     sget-object v0, Lcom/saterskog/cell_lab/h;->a:Lcom/saterskog/cell_lab/h;
@@ -575,7 +597,7 @@
     .locals 6
 
     .prologue
-    const/4 v5, 0x7
+    const/16 v5, 0x8 #
 
     const/16 v4, 0xb
 
@@ -608,7 +630,8 @@
     const/16 v4, 0xb
 
     .line 29
-    new-array v0, v5, [F
+    const/16 v0, 0x8
+    new-array v0, v0, [F
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
 
@@ -950,7 +973,7 @@
 
     # MODDED AREA BEGIN -------------------------------------------------------------------------------
     # Function: 'constructor(Parcel)' or 'gene(Parcel)'.
-    # This patch reads mInts[11] & mInts[12] 
+    # This patch reads mInts[11-13]
 
     # check if parcel continues
     invoke-virtual {p1}, Landroid/os/Parcel;->dataAvail()I
@@ -1024,7 +1047,7 @@
     # This function is constructor(Gene) also known as Gene(Gene). It creates a copy of the argument
     # genome.
 
-    const/16 v3, 0xd
+    const/16 v3, 0xe
     new-array v0, v3, [I
 
     iput-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
@@ -1034,7 +1057,10 @@
     # MODDED AREA END--------------------------------------------------------------------------
 
     .line 29
-    const/4 v0, 0x7
+    # MODDED AREA BEGIN--------------------------------------------------------------------------
+    # this.mFloats = new float[7]; -> this.mFloats = new float[8];
+
+    const/16 v0, 0x8
 
     new-array v0, v0, [F
 
@@ -1042,6 +1068,8 @@
 
     .line 181
     const/4 v0, 0x0
+
+    # MODDED AREA END--------------------------------------------------------------------------
 
     :goto_0
     if-ge v0, v3, :cond_0
@@ -1359,23 +1387,24 @@
     # v5 is changed from 11 to 14. This will copy all 14 mInts[] elements. Hopefully
     # keeping mInt[11] intact after initialization instead of it being zero'ed out.
     # This function is 'a(Gene)V' also known as 'copyGenome(Gene)'.
+    # Update: now it a similar thing but for mFloats[]
 
-    const/16 v5, 0xd
+    const/16 v5, 0xe
 
     invoke-static {v0, v1, v2, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     const/16 v5, 0xb
-
-    # MODDED AREA END------------------------------------------------------------------------
 
     .line 480
     iget-object v0, p1, Lcom/saterskog/cell_lab/Gene;->v:[F
 
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
 
-    const/4 v3, 0x7
+    const/16 v3, 0x8 #MODDED from 7
 
     invoke-static {v0, v1, v2, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    # MODDED AREA END------------------------------------------------------------------------
 
     .line 482
     return-void
@@ -2684,136 +2713,7 @@
 
     if-ge v0, v2, :cond_2c
 
-    .line 2725
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    cmpg-float v2, v2, v3
-
-    if-gez v2, :cond_22
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    .line 2726
-    :cond_22
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    cmpg-float v2, v2, v3
-
-    if-gez v2, :cond_23
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    .line 2727
-    :cond_23
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    cmpg-float v2, v2, v3
-
-    if-gez v2, :cond_24
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, -0x3f000000    # -8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    .line 2729
-    :cond_24
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    cmpl-float v2, v2, v3
-
-    if-lez v2, :cond_25
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    .line 2730
-    :cond_25
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    cmpl-float v2, v2, v3
-
-    if-lez v2, :cond_26
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    .line 2731
-    :cond_26
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    iget v2, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    cmpl-float v2, v2, v3
-
-    if-lez v2, :cond_27
-
-    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
-
-    aget-object v2, v2, v0
-
-    const/high16 v3, 0x41000000    # 8.0f
-
-    iput v3, v2, Lcom/saterskog/cell_lab/Gene$a;->c:F
+    #...
 
     .line 2733
     :cond_27
@@ -2875,7 +2775,7 @@
 
     iget-short v2, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
-    const/16 v3, 0x8
+    const/16 v3, 0x14 #MODDED from 8
 
     if-lt v2, v3, :cond_2b
 
@@ -2883,7 +2783,7 @@
 
     aget-object v2, v2, v0
 
-    const/4 v3, 0x7
+    const/16 v3, 0x13 #MODDED from 7
 
     iput-short v3, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
@@ -2996,6 +2896,19 @@
     const/16 v6, 0xc
     aput v3, v2, v6
 
+    #20J24
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readInt()I
+    move-result v3
+    const/16 v6, 0xd
+    aput v3, v2, v6
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readFloat()F
+    move-result v3
+    const/16 v6, 0x7
+    aput v3, v2, v6
+
 
     goto :goto_rs0_modded_end
     
@@ -3008,6 +2921,12 @@
     const/4 v3, 0x0
     const/16 v6, 0xc
     aput v3, v2, v6
+
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const v3, 0x41f00000 # 30.0
+    const/16 v6, 0x7
+    aput v3, v2, v6
+ 
 
     :goto_rs0_modded_end
 
@@ -3309,6 +3228,17 @@
     iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
     aget v2, v2, v1
     invoke-virtual {p1, v2}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+
+    const/16 v1, 0xd
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    aget v2, v2, v1
+    invoke-virtual {p1, v2}, Ljava/io/ObjectOutputStream;->writeInt(I)V
+
+    const/16 v1, 0x7
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Gene;->v:[F
+    aget v2, v2, v1
+    invoke-virtual {p1, v2}, Ljava/io/ObjectOutputStream;->writeFloat(F)V
+
 
     # MODDED AREA END ------------------------------------------------------------------------------------
 

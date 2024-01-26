@@ -782,6 +782,7 @@
 
     .line 199
     :goto_2
+
     iget-wide v2, v1, Lcom/saterskog/cell_lab/Cell;->w:D
 
     const-wide/high16 v4, 0x4079000000000000L    # 400.0
@@ -792,7 +793,28 @@
 
     move-result-wide v2
 
-    const-wide v4, 0x3f9e69ad42c3c9eeL    # 0.029699999999999997
+    # MODDED ----------------------------------
+    #v2 = cell.genes[]
+    iget-object v6, v1, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    #v4 = cell.gene
+    iget v4, v1, Lcom/saterskog/cell_lab/Cell;->D:I
+    #v4 = cell.genes[cell.gene]
+    aget-object v4, v6, v4
+    #v4 = cell.genes[cell.gene].mFloats[7]
+    iget-object v4, v4, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const/16 v6, 0x7
+    aget v4, v4, v6
+
+
+    # div by 1000
+    const v6, 0x447a0000
+    div-float v4, v4, v6
+
+    float-to-double v4, v4
+
+    # MODDED -----------------------------------
+
+    # const-wide v4, 0x3f9e69ad42c3c9eeL    # 0.029699999999999997
 
     invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->min(DD)D
 

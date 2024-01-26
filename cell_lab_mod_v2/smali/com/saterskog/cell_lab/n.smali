@@ -578,9 +578,26 @@
     #iget v4, v2, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
 
     #const-string v3, "Enzyme Debugger"
-    #invoke-static {v4}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
+    #invoke-static {v4}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String; v1
     #move-result-object v0
     #invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const/16 v4, 0x50
+    const/16 v3, 0x0
+
+    #:goto_modded_enzyme_19
+    #const/16 v4, 0x50
+    #if-ge v3, v4, :cond_modded_enzyme_18
+    #iget-object v0, v2, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    #aget-object v0, v0, v3
+    #iget-object v0, v0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    #const/16 v4, 0xd
+    #aput v3, v0, v4
+
+    #add-int/lit8 v3, v3, 0x1
+    #goto :goto_modded_enzyme_19
+
+    #:cond_modded_enzyme_18
 
     #MODDED AREA BEGIN---------------------------------------------------------------------------
 
@@ -639,17 +656,42 @@
 
     .line 123
     :cond_5
-    iget-wide v4, v2, Lcom/saterskog/cell_lab/Cell;->w:D
 
-    const-wide/high16 v6, 0x4079000000000000L     # 400.0
+    # MODDED ----------------------------------
+    #v6 = cell.genes[]
+    iget-object v6, v2, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    #v4 = cell.gene
+    iget v4, v2, Lcom/saterskog/cell_lab/Cell;->D:I
+    #v4 = cell.genes[cell.gene]
+    aget-object v4, v6, v4
+    #v4 = cell.genes[cell.gene].mFloats[7]
+    iget-object v4, v4, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const/16 v6, 0x7
+    aget v4, v4, v6
 
-    div-double/2addr v4, v6
 
-    invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
+    # div by 1000
+    const v6, 0x447a0000
+    div-float v4, v4, v6
 
-    move-result-wide v4
+    float-to-double v4, v4
+
+    # MODDED -----------------------------------
+
+
+    #iget-wide v4, v2, Lcom/saterskog/cell_lab/Cell;->w:D
+
+    #const-wide/high16 v6, 0x4079000000000000L     # 400.0
+
+    #div-double/2addr v4, v6
+
+    #invoke-static {v4, v5}, Ljava/lang/Math;->sqrt(D)D
+
+    #move-result-wide v4
 
     iput-wide v4, v2, Lcom/saterskog/cell_lab/Cell;->d:D
+
+
 
     .line 124
     iget-object v0, v2, Lcom/saterskog/cell_lab/Cell;->J:[F

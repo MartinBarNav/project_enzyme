@@ -13661,7 +13661,7 @@
 
     if-gt v6, v8, :cond_51
 
-    const/16 v6, 0xb
+    const/16 v6, 0x17 #MODDED from 0xb (11)
 
     if-ge v8, v6, :cond_51
 
@@ -13704,11 +13704,11 @@
 
     .line 1873
     :cond_51
-    const/16 v6, 0xb
+    const/16 v6, 0x17 #MODDED from 0xb (11)
 
     if-gt v6, v8, :cond_52
 
-    const/16 v6, 0xf
+    const/16 v6, 0x27 #MODDED from 0xf (15)
 
     if-ge v8, v6, :cond_52
 
@@ -13725,7 +13725,7 @@
 
     add-int/lit8 v7, v8, -0x7
 
-    add-int/lit8 v7, v7, -0x4
+    add-int/lit8 v7, v7, -0x10 #MODDED from 4
 
     aget v8, v6, v7
 
@@ -14256,7 +14256,7 @@
 
     if-gt v6, v8, :cond_5c
 
-    const/16 v6, 0xb
+    const/16 v6, 0x17 #MODDED from 0xb (11)
 
     if-ge v8, v6, :cond_5c
 
@@ -14299,11 +14299,11 @@
 
     .line 1912
     :cond_5c
-    const/16 v6, 0xb
+    const/16 v6, 0x17 #MODDED from 0xb (11)
 
     if-gt v6, v8, :cond_5d
 
-    const/16 v6, 0xf
+    const/16 v6, 0x27 #MODDED from 0xf (15)
 
     if-ge v8, v6, :cond_5d
 
@@ -14320,7 +14320,7 @@
 
     add-int/lit8 v7, v8, -0x7
 
-    add-int/lit8 v7, v7, -0x4
+    add-int/lit8 v7, v7, -0x10 #MODDED from 4
 
     aget v8, v6, v7
 
@@ -15774,17 +15774,15 @@
     const/16 v1, 0xd
     aget v9, v9, v1
 
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    if-eq v9, v1, :cond_22
+
+    #This resets the split count if mode after split != current mode
+    
+    const/4 v1, 0x0
+    iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
     iput v9, v0, Lcom/saterskog/cell_lab/Cell;->D:I
-
-
-    #const-string v6, "Enzyme Debugger"
-    #const-string v0, "Split count reached:"
-    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    #const-string v6, "Enzyme Debugger"
-    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
-    #move-result-object v1
-    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :cond_22
 
@@ -15798,15 +15796,15 @@
     # Cell object moved from v18 -> v0
     move-object/from16 v0, v18
     
-    # v3 = cell.gene
-    iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    # v7 = cell.gene
+    iget-object v7, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
     # v6 = cell.genes[] (Array object)
     iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
-    # v3 = cell.genes[cell.gene]
-    aget-object v3, v3, v6
+    # v7 = cell.genes[cell.gene]
+    aget-object v7, v7, v6
 
     # v9 = cell.genes[cell.gene].mInts[12]
-    iget-object v9, v3, Lcom/saterskog/cell_lab/Gene;->u:[I
+    iget-object v9, v7, Lcom/saterskog/cell_lab/Gene;->u:[I
     const/16 v1, 0xc
     aget v9, v9, v1
 
@@ -16035,29 +16033,9 @@
     move-object/from16 v0, v18
     iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
 
-    #const-string v6, "Enzyme Debugger"
-    #const-string v0, "Old Split Count"
-    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    #const-string v6, "Enzyme Debugger"
-    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
-    #move-result-object v1
-    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    move-object/from16 v0, v18
-    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
-
     add-int/lit8 v1, v1, 0x1
     iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
 
-    #const-string v6, "Enzyme Debugger"
-    #const-string v0, "New Split Count"
-    #invoke-static {v6, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    #const-string v6, "Enzyme Debugger"
-    #invoke-static {v1}, Ljava/lang/String; ->valueOf(I)Ljava/lang/String;
-    #move-result-object v1
-    #invoke-static {v6, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
 
 # MODDED AREA END ------------------------------------------------------------------------------
@@ -16085,6 +16063,30 @@
     const/16 v1, 0x0
     iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
 
+    # Update, this patch now also resets the split count of child1 if child1mode != current mode
+    
+    move-object/from16 v0, v18
+
+    # v3 = cell.modes
+    iget-object v3, v0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    # v6 = cell.modes[] (Array object)
+    iget v6, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    # v3 = cell.modes[cell.mode]
+    aget-object v3, v3, v6
+
+    # v9 = cell.genes[cell.gene].child1mode
+    iget v9, v3, Lcom/saterskog/cell_lab/Gene;->i:I
+
+    iget v1, v0, Lcom/saterskog/cell_lab/Cell;->D:I
+    if-eq v9, v1, :cond_modded_enzyme_18
+
+    #This resets the split count if child1mode != current mode
+    
+    const/4 v1, 0x0
+    iput v1, v0, Lcom/saterskog/cell_lab/Cell;->enzyme_splitCount:I
+
+    :cond_modded_enzyme_18
+    move-object/from16 v0, v19
     move-object/from16 v1, v18
 
     # MODDED AREA END ------------------------------------------------------------------------------
@@ -19094,24 +19096,80 @@
     iput-wide v2, v1, Lcom/saterskog/cell_lab/Cell;->d:D
 
     .line 2605
+
+    # MODDED ----------------------------------
+    #v2 = cell.genes[]
+    iget-object v2, v1, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    #v4 = cell.gene
+    iget v4, v1, Lcom/saterskog/cell_lab/Cell;->D:I
+    #v4 = cell.genes[cell.gene]
+    aget-object v4, v2, v4
+    #v4 = cell.genes[cell.gene].mFloats[7]
+    iget-object v4, v4, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const/16 v2, 0x7
+    aget v4, v4, v2
+
+
+    # div by 1000
+    const v2, 0x447a0000
+    div-float v4, v4, v2
+
+    float-to-double v4, v4
+
+    # MODDED -----------------------------------
+
     iget-wide v2, v1, Lcom/saterskog/cell_lab/Cell;->d:D
 
-    const-wide v4, 0x3f9eb851eb851eb8L    # 0.03
+    # const-wide v4, 0x3f9eb851eb851eb8L    # 0.03
 
     cmpl-double v2, v2, v4
 
     if-lez v2, :cond_0
 
     .line 2606
-    const-wide v2, 0x3f9eb851eb851eb8L    # 0.03
+    # MODDED ----------------------------------
+    #v2 = cell.genes[]
+    iget-object v2, v1, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    #v4 = cell.gene
+    iget v4, v1, Lcom/saterskog/cell_lab/Cell;->D:I
+    #v4 = cell.genes[cell.gene]
+    aget-object v4, v2, v4
+    #v4 = cell.genes[cell.gene].mFloats[7]
+    iget-object v4, v4, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const/16 v2, 0x7
+    aget v4, v4, v2
+
+
+    # div by 1000
+    const v2, 0x447a0000
+    div-float v4, v4, v2
+
+    float-to-double v2, v4
+
+    # MODDED -----------------------------------
 
     iput-wide v2, v1, Lcom/saterskog/cell_lab/Cell;->d:D
 
     .line 2622
     :cond_0
+    # MODDED ----------------------------------
+    sget-object v4, Lcom/saterskog/cell_lab/Gene;->A:[F
+    const/16 v2, 0x7
+    aget v4, v4, v2
+
+
+    # div by 1000
+    const v2, 0x447a0000
+    div-float v4, v4, v2
+
+    float-to-double v4, v4
+
+    # MODDED -----------------------------------
+
+
     iget-wide v2, v1, Lcom/saterskog/cell_lab/Cell;->d:D
 
-    const-wide v4, 0x3f9eb851eb851eb8L    # 0.03
+    # const-wide v4, 0x3f9eb851eb851eb8L    # 0.03
 
     cmpl-double v2, v2, v4
 
