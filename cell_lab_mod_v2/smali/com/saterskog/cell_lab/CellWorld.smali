@@ -20624,7 +20624,7 @@
     iget-boolean v14, v11, Lcom/saterskog/cell_lab/Environment;->u:Z
 
     .line 31017
-    const/16 v7, 0xbef
+    const/16 v7, 0x5f
 
     invoke-virtual {v9, v7}, Lcom/saterskog/b/d;->nextInt(I)I
 
