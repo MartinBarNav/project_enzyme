@@ -2926,6 +2926,34 @@
     const v3, 0x41f00000 # 30.0
     const/16 v6, 0x7
     aput v3, v2, v6
+
+
+    # If input > 4 but version != modded, then offset the input to be past the new 12 signals
+
+    iget-object v0, p0, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
+    const/16 v1, 0x0
+
+    :goto_modded_enzyme_19
+    const/16 v2, 0xb
+    if-ge v1, v2, :goto_rs0_modded_end
+
+    aget-object v3, v0, v1
+    iget-short v2, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
+
+    const/16 v3, 0x4
+    if-lt v2, v3, :cond_modded_enzyme_20
+
+    const/16 v3, 0x7
+    if-gt v2, v3, :cond_modded_enzyme_20
+
+    add-int/lit8 v2, v2, 0xc # we add 12 to offset the *new* 12 signals
+    aget-object v3, v0, v1
+    iput-short v2, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
+
+    :cond_modded_enzyme_20
+
+    add-int/lit8 v1, v1, 0x1
+    goto :goto_modded_enzyme_19
  
 
     :goto_rs0_modded_end
