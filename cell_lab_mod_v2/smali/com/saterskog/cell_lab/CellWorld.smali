@@ -19058,7 +19058,9 @@
 
     const-wide/high16 v4, 0x4014000000000000L    # 5.0
 
-    mul-double/2addr v4, p1
+    const-wide/high16 v6, 0x4059000000000000L # 100.0
+
+    div-double/2addr v4, v6 #mul v4, p1 originally (* deltaTime). Idk why. Maybe slowmo growth delay was too noticeable.
 
     cmpl-double v2, v2, v4
 
@@ -19098,6 +19100,8 @@
     .line 2605
 
     # MODDED ----------------------------------
+    # Customizeable diameter cap
+    
     #v2 = cell.genes[]
     iget-object v2, v1, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
     #v4 = cell.gene

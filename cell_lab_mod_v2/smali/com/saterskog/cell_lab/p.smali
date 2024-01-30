@@ -722,7 +722,7 @@
     const/4 v3, 0x0
 
     :goto_1
-    const/16 v4, 0x10 # MODDED from 0x4 to 0x8
+    const/16 v4, 0x10 # MODDED from 0x4 
 
     if-ge v3, v4, :cond_3
 
@@ -2148,7 +2148,7 @@
 
     if-lt v5, v7, :cond_17
 
-    const/16 v7, 0x17 #MODDED from 0xB
+    const/16 v7, 0x17 #MODDED from 0xb
 
     if-ge v5, v7, :cond_17
 
@@ -2513,7 +2513,7 @@
     const/4 v4, 0x0
 
     :goto_4
-    const/16 v5, 0x10 #MODDED from 0x4 to 0x8
+    const/16 v5, 0x10 #MODDED from 0x4
 
     if-ge v4, v5, :cond_25
 

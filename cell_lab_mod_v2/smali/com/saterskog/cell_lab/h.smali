@@ -55,6 +55,9 @@
 
 .field public static final enum r:Lcom/saterskog/cell_lab/h;
 
+# MODDED
+.field public static final enum modded_cell:Lcom/saterskog/cell_lab/h;
+# MODDED
 
 # instance fields
 .field final A:D
@@ -81,6 +84,7 @@
     .locals 13
 
     .prologue
+
     .line 7
     new-instance v0, Lcom/saterskog/cell_lab/h;
 
@@ -487,8 +491,29 @@
 
     sput-object v0, Lcom/saterskog/cell_lab/h;->r:Lcom/saterskog/cell_lab/h;
 
+    .line 101010
+    # MODDED AREA BEGIN--------------------------------------------------------
+    new-instance v0, Lcom/saterskog/cell_lab/h;
+
+    const-string v1, "OSTEOCYTE"
+
+    const/16 v2, 0x12
+
+    const/4 v3, 0x0
+
+    const-wide v4, 0x3f847ae147ae147bL    # 0.01
+
+    const v6, 0x7f0d001a
+
+    const v7, 0x7f0d0019
+
+    invoke-direct/range {v0 .. v7}, Lcom/saterskog/cell_lab/h;-><init>(Ljava/lang/String;IZDII)V
+
+    sput-object v0, Lcom/saterskog/cell_lab/h;->modded_cell:Lcom/saterskog/cell_lab/h;
+    # MODDED AREA BEGIN--------------------------------------------------------
+
     .line 5
-    const/16 v0, 0x12
+    const/16 v0, 0x13 # 13 MODDED from 12
 
     new-array v0, v0, [Lcom/saterskog/cell_lab/h;
 
@@ -599,6 +624,14 @@
     sget-object v2, Lcom/saterskog/cell_lab/h;->r:Lcom/saterskog/cell_lab/h;
 
     aput-object v2, v0, v1
+
+    # MODDED AREA BEGIN -----------------------------------------------------
+    const/16 v1, 0x12
+
+    sget-object v2, Lcom/saterskog/cell_lab/h;->modded_cell:Lcom/saterskog/cell_lab/h;
+
+    aput-object v2, v0, v1
+    # MODDED AREA END -------------------------------------------------------
 
     sput-object v0, Lcom/saterskog/cell_lab/h;->C:[Lcom/saterskog/cell_lab/h;
 

@@ -2935,7 +2935,7 @@
 
     :goto_modded_enzyme_19
     const/16 v2, 0xb
-    if-ge v1, v2, :goto_rs0_modded_end
+    if-ge v1, v2, :goto_modded_enzyme_21
 
     aget-object v3, v0, v1
     iget-short v2, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
@@ -2954,7 +2954,18 @@
 
     add-int/lit8 v1, v1, 0x1
     goto :goto_modded_enzyme_19
- 
+
+    :goto_modded_enzyme_21
+
+    # If secrete type > 4 but version != modded, then offset the input to be past the new 12 signals
+    iget-object v0, p0, Lcom/saterskog/cell_lab/Gene;->u:[I
+    const/16 v3, 0x4
+    aget v1, v0, v3
+
+    const/16 v2, 0x4
+    if-le v1, v2, :goto_rs0_modded_end
+    add-int/lit8 v1, v1, 0xc
+    aput v1, v0, v3
 
     :goto_rs0_modded_end
 

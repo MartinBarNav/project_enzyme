@@ -33,6 +33,7 @@
         <item>Sm</item>
         <item>Gm</item>
         <item>Cl</item>
+        <item>Os</item>
     </string-array>
     <string-array name="cell_type_names">
         <item>Phagocyte</item>
@@ -53,6 +54,7 @@
         <item>Stemocyte</item>
         <item>Gamete</item>
         <item>Ciliocyte</item>
+        <item>Osteocyte</item>
     </string-array>
     <string-array name="cell_type_names_plural">
         <item>Phagocytes</item>
@@ -73,6 +75,7 @@
         <item>Stemocytes</item>
         <item>Gametes</item>
         <item>Ciliocytes</item>
+        <item>Osteocytes</item>
     </string-array>
     <string-array name="challenge_tabs">
         <item>Objective</item>

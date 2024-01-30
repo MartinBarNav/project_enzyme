@@ -178,7 +178,7 @@
         <file>dense2.substrate</file>
         <level-cells>300</level-cells>
         <place-cells>3</place-cells>
-        <unlocks>Keratinocyte</unlocks>
+        <unlocks>Keratinocyte,Osteocyte</unlocks>
         <difficulty>0</difficulty>
     </level>
 

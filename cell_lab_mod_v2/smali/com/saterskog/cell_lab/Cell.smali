@@ -1471,6 +1471,34 @@
 
     #Done
 
+    .line 20667
+
+    iget-wide v0, p1, Lcom/saterskog/cell_lab/Cell;->d:D
+    iget-object v2, p0, Lcom/saterskog/cell_lab/Cell;->I:[Lcom/saterskog/cell_lab/Gene;
+    iget v3, p0, Lcom/saterskog/cell_lab/Cell;->D:I
+    aget-object v2, v2, v3
+
+    .line 20668
+
+    iget-object v2, v2, Lcom/saterskog/cell_lab/Gene;->v:[F
+    const/16 v4, 0x7
+    aget v4, v2, v4
+
+    .line 20669
+
+    # div by 1000
+    const v2, 0x447a0000
+    div-float v4, v4, v2
+
+    float-to-double v4, v4
+
+    cmpl-double v3, v0, v4
+    if-lez v3, :cond_modded_enzyme_21
+
+    iput-wide v4, p0, Lcom/saterskog/cell_lab/Cell;->d:D
+
+
+    :cond_modded_enzyme_21
     # MODDED AREA END------------------------------------------------------------------------------
 
     .line 742

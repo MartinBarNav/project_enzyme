@@ -2839,6 +2839,12 @@
 
     iget v2, v0, Lcom/saterskog/cell_lab/i$e;->h:I
 
+    #MODDED-----------------
+    const/16 v3, 0xd
+
+    if-eq v2, v3, :cond_8
+    #MODDED-----------------
+
     const/4 v3, 0x1
 
     if-ne v2, v3, :cond_7
