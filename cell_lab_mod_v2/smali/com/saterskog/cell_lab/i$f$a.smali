@@ -894,10 +894,7 @@
     aget-object v3, v3, v5
 
     # MODDED----------------------------------------------
-    # This patch checks if equation == 3 then it stops sliderC's progress from
-    # being multiplied by 8 by multiplying by 1.0 instead.
-    # Update: Instead of multiplying by 1.0, we multiply by 0.025 or 1/80
-    # That should make the c slider go higher which is better for a sine wave eq
+    # This patch sets slider C's progress
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
     iget v5, p1, Lcom/saterskog/cell_lab/i$f;->h:I
@@ -1562,9 +1559,7 @@
     move-result v4
 
     # MODDED -----------------------------------------------------------------------------------
-    # This patch makes the *text value* besides the c slider not be divided by 8
-    # Only when list item #2 is selected, aka eq #3 sine wave
-    # Update, infact we should multiply by 40 for better control over the sine wave cycle
+    # This patch sets the *text value* besides the c slider
 
     iget-object v6, p0, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
 
