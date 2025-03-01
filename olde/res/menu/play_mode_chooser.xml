@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/lab_top_buttons_item" n1:title="Temp" n1:showAsAction="ifRoom" n1:actionLayout="@layout/action_temp_button"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</menu>

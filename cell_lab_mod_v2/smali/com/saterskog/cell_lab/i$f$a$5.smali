@@ -1,4 +1,4 @@
-.class final Lcom/saterskog/cell_lab/i$f$a$5;
+.class final Lcom/saterskog/cell_lab/ControllersE;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -31,11 +31,11 @@
 
     .prologue
     .line 501
-    iput-object p1, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iput-object p1, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
-    iput-object p2, p0, Lcom/saterskog/cell_lab/i$f$a$5;->a:Lcom/saterskog/cell_lab/i$f;
+    iput-object p2, p0, Lcom/saterskog/cell_lab/ControllersE;->a:Lcom/saterskog/cell_lab/i$f;
 
-    iput-object p3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->b:Lcom/saterskog/cell_lab/i$f;
+    iput-object p3, p0, Lcom/saterskog/cell_lab/ControllersE;->b:Lcom/saterskog/cell_lab/i$f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -59,7 +59,7 @@
     const/4 v1, 0x0
 
     .line 504
-    iget-object v2, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v2, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v2, v2, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -67,7 +67,7 @@
 
     iget-object v2, v2, Lcom/saterskog/cell_lab/i;->a:[Lcom/saterskog/cell_lab/Gene;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -79,7 +79,7 @@
 
     iget-object v2, v2, Lcom/saterskog/cell_lab/Gene;->t:[Lcom/saterskog/cell_lab/Gene$a;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -88,7 +88,7 @@
     aget-object v2, v2, v3
 
     .line 505
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->c:Landroid/widget/RadioButton;
 
@@ -105,13 +105,13 @@
     iput v8, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
 
     .line 510
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v4, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v4, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v4, v4, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -123,7 +123,7 @@
 
     sget-object v5, Lcom/saterskog/cell_lab/Gene;->x:[F
 
-    iget-object v6, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v6, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v6, v6, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -147,7 +147,7 @@
     .line 511
     sget-object v0, Lcom/saterskog/cell_lab/Gene;->x:[F
 
-    iget-object v1, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v1, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v1, v1, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -178,12 +178,12 @@
     invoke-interface {p1}, Landroid/content/DialogInterface;->cancel()V
 
     .line 537
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->b:Lcom/saterskog/cell_lab/i$f;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->b:Lcom/saterskog/cell_lab/i$f;
 
     invoke-virtual {v0}, Lcom/saterskog/cell_lab/i$f;->b()V
 
     .line 538
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -229,7 +229,7 @@
     if-gez v0, :cond_1
 
     .line 541
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -257,7 +257,7 @@
 
     .line 516
     :cond_3
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->a:Landroid/widget/Spinner;
 
@@ -270,7 +270,7 @@
     iput-short v3, v2, Lcom/saterskog/cell_lab/Gene$a;->d:S
 
     .line 517
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
 
@@ -286,13 +286,13 @@
     iput-short v0, v2, Lcom/saterskog/cell_lab/Gene$a;->e:S
 
     .line 520
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -311,13 +311,13 @@
     iput v0, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
 
     .line 521
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -336,13 +336,13 @@
     iput v0, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
 
     .line 522
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -384,13 +384,13 @@
     const/16 v0, 0x1
 
     .line 528
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -407,13 +407,13 @@
     iput v0, v2, Lcom/saterskog/cell_lab/Gene$a;->a:F
 
     .line 529
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -430,13 +430,13 @@
     iput v0, v2, Lcom/saterskog/cell_lab/Gene$a;->b:F
 
     .line 530
-    iget-object v0, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v0, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
     iget-object v0, v0, Lcom/saterskog/cell_lab/i$f;->x:Lcom/saterskog/cell_lab/i;
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
 
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->f:Lcom/saterskog/cell_lab/i$f;
 
@@ -454,7 +454,7 @@
     # This multiplies the c slider by 80 when saving
     # only if item selected = 2 (eq#3)
 
-    iget-object v3, p0, Lcom/saterskog/cell_lab/i$f$a$5;->c:Lcom/saterskog/cell_lab/i$f$a;
+    iget-object v3, p0, Lcom/saterskog/cell_lab/ControllersE;->c:Lcom/saterskog/cell_lab/i$f$a;
     iget-object v3, v3, Lcom/saterskog/cell_lab/i$f$a;->b:Landroid/widget/Spinner;
     invoke-virtual {v3}, Landroid/widget/Spinner;->getSelectedItemPosition()I
     move-result v3

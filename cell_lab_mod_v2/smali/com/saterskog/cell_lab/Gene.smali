@@ -62,18 +62,6 @@
 
 .field public k:I
 
-# MODDED SECTION BEGIN ----------------------------------------------------------------
-
-# Not sure why i made this field. I think im just stupid, maxSplit is stored in mInt[11]
-# not on this field.
-
-# .field public enzyme_maxSplit:I
-
-# A value of 20 = infinite splits.
-# A value < 20 = value + 1, eg if value = 19 -> value = 20. (due to dropdown list index)
-
-# MODDED SECTION END -------------------------------------------------------------------
-
 .field l:Z
 
 .field m:Z

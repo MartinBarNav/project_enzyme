@@ -967,9 +967,9 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/saterskog/cell_lab/i$f$a$5;
+    new-instance v2, Lcom/saterskog/cell_lab/ControllersE;
 
-    invoke-direct {v2, p0, p1, p1}, Lcom/saterskog/cell_lab/i$f$a$5;-><init>(Lcom/saterskog/cell_lab/i$f$a;Lcom/saterskog/cell_lab/i$f;Lcom/saterskog/cell_lab/i$f;)V
+    invoke-direct {v2, p0, p1, p1}, Lcom/saterskog/cell_lab/ControllersE;-><init>(Lcom/saterskog/cell_lab/i$f$a;Lcom/saterskog/cell_lab/i$f;Lcom/saterskog/cell_lab/i$f;)V
 
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNeutralButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

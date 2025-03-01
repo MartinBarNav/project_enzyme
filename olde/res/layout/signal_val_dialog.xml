@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TextView n1:textSize="16.0sp" n1:textColor="@color/highlight" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginRight="4.0dip" n1:layout_marginBottom="4.0dip" n1:text="@string/val_dialog_signal_substance_dependence" />
+        <View n1:background="@color/border" n1:layout_width="fill_parent" n1:layout_height="0.5dip" />
+        <RadioGroup n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RadioButton n1:id="@id/radio_signal_val_1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_fixed_value" />
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_fixed" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_fixed_value" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <SeekBar n1:id="@id/seek_val_fixed" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:max="48" n1:layout_toRightOf="@id/text_val_fixed" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RadioButton n1:id="@id/radio_signal_val_2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_use_signal" />
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_sub" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_substance" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <Spinner n1:layout_gravity="left" n1:id="@id/seek_val_sub" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/text_val_sub" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_eq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_value_equals" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <Spinner n1:layout_gravity="left" n1:id="@id/seek_val_eq" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/text_val_eq" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_a" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_a" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <SeekBar n1:id="@id/seek_val_a" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:max="48" n1:layout_toRightOf="@id/text_val_a" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_b" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <SeekBar n1:id="@id/seek_val_b" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:max="48" n1:layout_toRightOf="@id/text_val_b" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:gravity="right" n1:id="@id/text_val_c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/signal_val_dialog_c" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <SeekBar n1:id="@id/seek_val_c" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:max="48" n1:layout_toRightOf="@id/text_val_c" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

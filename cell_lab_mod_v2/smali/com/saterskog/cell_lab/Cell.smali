@@ -859,7 +859,7 @@
 .end method
 
 .method public final a(II)F
-    .locals 9
+    .locals 8
 
     .prologue
     const/high16 v2, -0x40800000    # -1.0f
@@ -908,214 +908,35 @@
     # MODDED AREA BEGIN-------------------------------------------------------------------
     # Function: 'a(II)F' or 'float calculateCellState(int,int)'
     # This patch checks if the equation is any of the modded-in ones (#3 and above)
-    # And performs the calculations. Output must be in v0. v0 is also the input
+    # And performs the calculations. Output must be in v0, v0 is also the input
     # v3 is the obj containing the equation variables (a,b,c)
 
-    const/16 v8, 0x6
-    if-eq v9, v8, :cond_enzyme_1
-
     iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
     const/16 v5, 0x3
-
-    if-ne v4, v5, :cond_0_enzyme
+    if-ne v4, v5, :cond_modded_enzyme_9
 
     iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
     iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
     iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
 
+    # input * c
     mul-float/2addr v0, v6
-
+    # (input*c) - b
     sub-float/2addr v0, v5
 
     const/16 v5, 0x0
-
     move v5, v1
 
     float-to-double v0, v0
-
     invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
-
     move-result-wide v0
 
     double-to-float v0, v0
 
+    # a * sin(input*c-b)
     mul-float/2addr v0, v4
 
     move v1, v5
-
-    :cond_0_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x4
-
-    if-lt v4, v5, :cond_modded_enzyme_9
-
-    move v8, v0
-
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
-
-    add-int/lit8 v4, v4, 0x1
-
-    const/16 v5, 0x13
-
-    if-ge v4, v5, :cond_2_enzyme
-
-    :goto_1_enzyme
-    const/16 v9, 0x6
-
-    const/16 v5, 0x10
-
-    if-ge v4, v5, :cond_2
-
-    :cond_enzyme_1
-    move v0, v8
-
-    iget-object v7, p0, Lcom/saterskog/cell_lab/Cell;->U:[F
-
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->d:S
-
-    add-int/2addr v4, p2
-
-    add-int/lit8 v4, v4, 0x1
-
-    aget v7, v7, v4
-
-    goto :goto_2_enzyme
-
-    :cond_2_enzyme
-    const/16 v5, 0x0
-
-    move v4, v5
-
-    goto :goto_1_enzyme
-
-    :goto_2_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x4
-
-    if-ne v4, v5, :cond_3_enzyme
-
-    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    cmpl-float v8, v0, v4
-
-    if-ltz v8, :cond_9_enzyme
-
-    cmpl-float v8, v7, v5
-
-    if-ltz v8, :cond_9_enzyme
-
-    goto :goto_3
-
-    :cond_3_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x5
-
-    if-ne v4, v5, :cond_5_enzyme
-
-    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-
-    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-
-    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    cmpl-float v8, v0, v4
-
-    if-gtz v8, :cond_4_enzyme
-
-    cmpl-float v8, v7, v5
-
-    if-gtz v8, :cond_4_enzyme
-
-    goto :goto_4_enzyme
-
-    :cond_4_enzyme
-    :goto_3
-    move v0, v6
-
-    goto :goto_1
-
-    :cond_5_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x6
-
-    if-ne v4, v5, :cond_6_enzyme
-
-    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    cmpl-float v8, v0, v4
-
-    if-gtz v8, :cond_4_enzyme
-
-    cmpl-float v8, v7, v5
-
-    if-gtz v8, :cond_4_enzyme
-
-    goto :goto_4_enzyme
-
-    :cond_6_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x6
-
-    if-ne v4, v5, :cond_8_enzyme
-
-    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    cmpl-float v8, v0, v4
-    if-gtz v8, :cond_7_enzyme
-
-    cmpl-float v8, v7, v5
-    if-gtz v8, :cond_4_enzyme
-
-    goto :goto_4_enzyme
-
-    :cond_7_enzyme
-    cmpl-float v8, v7, v5
-
-    if-gtz v8, :cond_9_enzyme
-
-    goto :goto_3
-
-    :cond_8_enzyme
-    iget-short v4, v3, Lcom/saterskog/cell_lab/Gene$a;->e:S
-
-    const/16 v5, 0x6
-
-    if-ne v4, v5, :cond_9_enzyme
-
-    iget v4, v3, Lcom/saterskog/cell_lab/Gene$a;->a:F
-    iget v5, v3, Lcom/saterskog/cell_lab/Gene$a;->b:F
-    iget v6, v3, Lcom/saterskog/cell_lab/Gene$a;->c:F
-
-    move v9, v4
-    add-float/2addr v9, v0
-
-    move v8, v5
-    add-float/2addr v8, v7
-
-    cmpl-float v8, v9, v8
-    if-gtz v8, :cond_4_enzyme
-
-    goto :goto_4_enzyme
-
-    :cond_9_enzyme
-    :goto_4_enzyme
-    const/high16 v0, 0x0
 
     goto :goto_1
 
