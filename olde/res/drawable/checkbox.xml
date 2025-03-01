@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector>
-    <item n1:state_checked="true" n1:drawable="@drawable/checkbox_checked" n1:left="6.0dip" n1:right="6.0dip"
-      xmlns:n1="http://schemas.android.com/apk/res/android" />
-    <item n2:state_checked="false" n2:drawable="@drawable/checkbox_unchecked" n2:left="6.0dip" n2:right="6.0dip"
-      xmlns:n2="http://schemas.android.com/apk/res/android" />
-</selector>
