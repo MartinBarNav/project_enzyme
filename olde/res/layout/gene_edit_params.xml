@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <Button n1:id="@id/button_save_dna" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="0.0dip" n1:text="@string/genome_editor_button_save" n1:layout_weight="1.0" style="?android:buttonStyleSmall" />
+        <Button n1:id="@id/button_load_dna" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="0.0dip" n1:text="@string/genome_editor_button_load" n1:layout_weight="1.0" style="?android:buttonStyleSmall" />
+        <TextView n1:gravity="right" n1:id="@id/text_edit_mode" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/genome_editor_edit_mode" n1:layout_weight="1.0" />
+        <Spinner n1:id="@id/spinner_cells" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <View n2:background="@color/border" n2:layout_width="fill_parent" n2:layout_height="1.5dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <ScrollView n3:background="@color/ge_bg" n3:layout_width="fill_parent" n3:layout_height="wrap_content" n3:layout_weight="1.0"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <LinearLayout n3:orientation="vertical" n3:id="@id/gene_edit_params_lin_lay" n3:layout_width="fill_parent" n3:layout_height="wrap_content">
+            <LinearLayout n3:orientation="horizontal" n3:layout_width="fill_parent" n3:layout_height="wrap_content" n3:baselineAligned="false">
+                <GridLayout n3:layout_gravity="left" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:rowCount="2" n3:columnCount="2">
+                    <TextView n3:layout_gravity="right" n3:id="@id/text_make_glue" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@string/genome_editor_make_adhesin" />
+                    <CheckBox n3:layout_gravity="left" n3:id="@id/checkbox_make_glue" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="" />
+                    <TextView n3:layout_gravity="right" n3:id="@id/text_stay_alive" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@string/genome_editor_stay_alive" />
+                    <CheckBox n3:layout_gravity="left" n3:id="@id/checkbox_stay_alive" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="" />
+                </GridLayout>
+                <GridLayout n3:layout_gravity="right" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:rowCount="2" n3:columnCount="2">
+                    <TextView n3:layout_gravity="right" n3:id="@id/text_types" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="12.0dip" n3:text="@string/genome_editor_cell_type" />
+                    <Spinner n3:layout_gravity="left" n3:id="@id/spinner_types" n3:layout_width="wrap_content" n3:layout_height="wrap_content" />
+                    <TextView n3:layout_gravity="right" n3:id="@id/text_initial" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@string/genome_editor_is_initial" />
+                    <RadioButton n3:layout_gravity="left" n3:id="@id/radio_initial" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="" />
+                </GridLayout>
+            </LinearLayout>
+            <View n3:background="@color/border" n3:layout_width="fill_parent" n3:layout_height="1.0dip" />
+            <TextView n3:textStyle="bold" n3:gravity="left" n3:id="@id/text_child1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="4.0dip" n3:text="@string/genome_editor_child_1" n3:layout_alignParentLeft="true" n3:layout_alignParentTop="true" />
+            <LinearLayout n3:gravity="center_vertical" n3:orientation="horizontal" n3:layout_width="fill_parent" n3:layout_height="wrap_content">
+                <TextView n3:gravity="right" n3:id="@id/spinner_child1_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@string/genome_editor_mode" n3:layout_weight="1.0" />
+                <Spinner n3:id="@id/spinner_child1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" />
+                <TextView n3:gravity="right" n3:id="@id/text_keep_glue1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="8.0dip" n3:text="@string/genome_editor_keep_adhesin" n3:layout_weight="1.0" />
+                <CheckBox n3:id="@id/checkbox_keep_glue1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" />
+                <TextView n3:gravity="right" n3:id="@id/text_mirror1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="8.0dip" n3:text="@string/genome_editor_mirror" n3:layout_weight="1.0" />
+                <CheckBox n3:id="@id/checkbox_mirror1" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" />
+            </LinearLayout>
+            <View n3:background="@color/border" n3:layout_width="fill_parent" n3:layout_height="1.0dip" />
+            <TextView n3:textStyle="bold" n3:gravity="left" n3:id="@id/text_child2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="4.0dip" n3:text="@string/genome_editor_child_2" n3:layout_alignParentLeft="true" n3:layout_alignParentTop="true" />
+            <LinearLayout n3:gravity="center_vertical" n3:orientation="horizontal" n3:layout_width="fill_parent" n3:layout_height="wrap_content">
+                <TextView n3:gravity="right" n3:id="@id/spinner_child2_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="@string/genome_editor_mode" n3:layout_weight="1.0" n3:layout_toLeftOf="@id/spinner_child2" n3:layout_alignBaseline="@id/spinner_child2" />
+                <Spinner n3:id="@id/spinner_child2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:layout_toLeftOf="@id/text_keep_glue2" n3:layout_below="@id/text_child2" />
+                <TextView n3:gravity="right" n3:id="@id/text_keep_glue2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="8.0dip" n3:text="@string/genome_editor_keep_adhesin" n3:layout_weight="1.0" n3:layout_toLeftOf="@id/checkbox_keep_glue2" n3:layout_alignBaseline="@id/spinner_child2" />
+                <CheckBox n3:id="@id/checkbox_keep_glue2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:layout_toLeftOf="@id/text_mirror2" n3:layout_alignBaseline="@id/spinner_child2" />
+                <TextView n3:gravity="right" n3:id="@id/text_mirror2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginLeft="8.0dip" n3:text="@string/genome_editor_mirror" n3:layout_weight="1.0" n3:layout_toLeftOf="@id/checkbox_mirror2" n3:layout_alignBaseline="@id/spinner_child2" />
+                <CheckBox n3:id="@id/checkbox_mirror2" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_weight="1.0" n3:layout_alignBaseline="@id/spinner_child2" n3:layout_alignParentRight="true" />
+            </LinearLayout>
+            <View n3:background="@color/border" n3:layout_width="fill_parent" n3:layout_height="1.0dip" />
+            <RelativeLayout n3:layout_width="fill_parent" n3:layout_height="wrap_content">
+                <TextView n3:gravity="right" n3:id="@id/text_snap" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="10.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_snap_angles" n3:layout_alignParentLeft="true" n3:layout_alignParentTop="true" />
+                <CheckBox n3:id="@id/checkbox_snap" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:text="" n3:layout_toRightOf="@id/text_snap" n3:layout_alignBaseline="@id/text_snap" />
+                <TextView n3:gravity="right" n3:id="@id/seek_mass_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_split_mass" n3:layout_below="@id/text_snap" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:gravity="right" n3:id="@id/seek_mass" n3:layout_width="fill_parent" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_mass_text" n3:layout_alignBottom="@id/seek_mass_text" />
+                <TextView n3:gravity="right" n3:id="@id/text_seek_ratio" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_split_ratio" n3:layout_below="@id/seek_mass_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_ratio" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/text_seek_ratio" n3:layout_alignBottom="@id/text_seek_ratio" n3:layout_alignParentRight="true" n3:layout_centerVertical="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_prio_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_nutrient_priority" n3:layout_below="@id/text_seek_ratio" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_prio" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_prio_text" n3:layout_alignBottom="@id/seek_prio_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_splitangle_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_split_angle" n3:layout_below="@id/seek_prio_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_splitangle" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_splitangle_text" n3:layout_alignBottom="@id/seek_splitangle_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_child1_angle_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_child_1_angle" n3:layout_below="@id/seek_splitangle_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_child1_angle" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_child1_angle_text" n3:layout_alignBottom="@id/seek_child1_angle_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_child2_angle_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_child_2_angle" n3:layout_below="@id/seek_child1_angle_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_child2_angle" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_child2_angle_text" n3:layout_alignBottom="@id/seek_child2_angle_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_red_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_red" n3:layout_below="@id/seek_child2_angle_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_red" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_red_text" n3:layout_alignBottom="@id/seek_red_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_green_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_green" n3:layout_below="@id/seek_red_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_green" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_green_text" n3:layout_alignBottom="@id/seek_green_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_blue_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_blue" n3:layout_below="@id/seek_green_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_blue" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_blue_text" n3:layout_alignBottom="@id/seek_blue_text" n3:layout_alignParentRight="true" />
+                <TextView n3:gravity="right" n3:id="@id/seek_stiff_text" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginTop="5.0dip" n3:layout_marginBottom="5.0dip" n3:text="@string/genome_editor_adhesin_stiffnes" n3:layout_below="@id/seek_blue_text" n3:layout_alignParentLeft="true" />
+                <SeekBar n3:id="@id/seek_stiff" n3:layout_width="wrap_content" n3:layout_height="wrap_content" n3:layout_marginBottom="-8.0dip" n3:max="1200" n3:layout_toRightOf="@id/seek_stiff_text" n3:layout_alignBottom="@id/seek_stiff_text" n3:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</merge>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="about_acknowledgements">감사의 말</string>
+    <string name="about_rate_button">플레이 스토어에서 평점을 매겨주세요!</string>
+    <string name="about_text">"개발자:Petter Säterskog.
+한반도 공용어 번역:박수민. 
+과제 디자인 도움:Alast, bwisialo, Nayus and Petter.
+몇몇 과제 해결에 어려움이 있을 경우:"</string>
+    <string name="about_version_text">버전</string>
+    <string name="acknowledgement">과제와 피드백을 주신 Alast, bwisialo, Nayus and Eric Säterskog에게 감사의 말을 드립니다. 여러 베타 테스터들과 포럼활동 유저들도 감사합니다. 사운드 이펙트 제공: Danilov Sound,<a href="http://danilovsound.ru/"> danilovsound.ru</a></string>
+    <string name="advanced_settings_cell_count">최대 세포 수:</string>
+    <string name="advanced_settings_info">이 설정은 확장 기능을 사용하기 위한 것입니다. 부적절하게 설정할 경우 어플리케이션의 속도가 매우 느려지거나, 예상치 못하게 종료될 수 있습니다.</string>
+    <string name="advanced_settings_radius">페트리 접시 지름 [mm]:</string>
+    <string name="advances_settings_food_count">최대 양분 수:</string>
+    <string name="button_refresh">새로고침</string>
+    <string name="cell_info_S_production">생산량: %.1f</string>
+    <string name="cell_info_active_mode">"세포 모드: "</string>
+    <string name="cell_info_age">나이: %.2f h</string>
+    <string name="cell_info_density">세포 밀도:</string>
+    <string name="cell_info_diameter">지름: %.1f μm</string>
+    <string name="cell_info_injury">부상: %.0f%%</string>
+    <string name="cell_info_lift">Lift: %.2f</string>
+    <string name="cell_info_lipids">지방 (질량 당량): %.2f ng&lt;br></string>
+    <string name="cell_info_mass">질량: %.2f ng</string>
+    <string name="cell_info_mirrored">"거울 모드: "</string>
+    <string name="cell_info_mutations">"변이도: "</string>
+    <string name="cell_info_nitro">질소 비축량: %.0f%%</string>
+    <string name="cell_info_select">세포를 선택하세요…</string>
+    <string name="cell_info_speed">&lt;br>속도: %.0f μm/h</string>
+    <string name="cell_info_swim_force">유영 능력: %.2f&amp;times;10&lt;sup>&lt;small>-21&lt;/small>&lt;/sup> N</string>
+    <string name="cell_info_tag">"태그: "</string>
+    <string name="cell_info_tag_challenge">과제 내 세포</string>
+    <string name="cell_info_tag_contaminate">오염된 세포</string>
+    <string name="cell_info_tag_hybrid">잡종(혼합) 세포</string>
+    <string name="cell_info_tag_infected_challenge">감염된 과제 내 세포</string>
+    <string name="cell_info_tag_infected_contaminate">감염, 오염된 세포</string>
+    <string name="cell_info_tag_infected_user">감염된 유저의 세포</string>
+    <string name="cell_info_tag_user">유저의 세포</string>
+    <string name="cell_info_telomeres">"텔로미어: "</string>
+    <string name="cell_info_toxins">독소: %.2f</string>
+    <string name="cell_info_type">"유형: "</string>
+    <string name="chalenges_finish_first_1">이전 과제</string>
+    <string name="challenges_challenge_not_completed">과제가 완료되지 않았습니다.</string>
+    <string name="challenges_finish_first_2">를 먼저 완료하세요.</string>
+    <string name="challenges_unlocks">세포유형</string>
+    <string name="common_android_wear_notification_needs_update_text">Android Wear 앱에 대한 업데이트가 필요한 애플리케이션이 있습니다.</string>
+    <string name="common_android_wear_update_text">Android Wear 앱을 업데이트해야만 이 앱이 실행됩니다.</string>
+    <string name="common_android_wear_update_title">Android Wear 업데이트</string>
+    <string name="common_google_play_services_enable_button">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 이 앱이 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s에서 요청</string>
+    <string name="common_google_play_services_install_button">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_install_text_phone">휴대전화에 Google Play 서비스가 설치되어 있어야 이 앱이 실행됩니다.</string>
+    <string name="common_google_play_services_install_text_tablet">태블릿에 Google Play 서비스가 설치되어 있어야 이 앱이 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_invalid_account_text">지정한 계정이 이 기기에 존재하지 않습니다. 다른 계정을 선택하세요.</string>
+    <string name="common_google_play_services_invalid_account_title">올바르지 않은 계정</string>
+    <string name="common_google_play_services_needs_enabling_title">Google Play 서비스를 사용 설정해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_network_error_text">Google Play 서비스에 연결하려면 데이터 연결이 필요합니다.</string>
+    <string name="common_google_play_services_network_error_title">네트워크 오류</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Google Play 서비스를 설치해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Google Play 서비스를 업데이트해야 하는 애플리케이션입니다.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 서비스에 알 수 없는 문제가 발생했습니다.</string>
+    <string name="common_google_play_services_unsupported_text">일부 사용자 애플리케이션에 필요한 Google Play 서비스가 사용자 기기에서 지원되지 않습니다. 기기 제조업체에 문의하시기 바랍니다.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 서비스</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야만 이 앱이 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_open_on_phone">휴대전화에서 열기</string>
+    <string name="common_signin_button_text">로그인</string>
+    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="default_locale">ko</string>
+    <string name="dialog_button_cancel">취소</string>
+    <string name="dialog_button_discard">파기</string>
+    <string name="dialog_button_ok">확인</string>
+    <string name="dialog_button_reload">재시작</string>
+    <string name="dialog_button_save">저장</string>
+    <string name="dialog_button_start">시작</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_discard_text">실험종을 공개된 장소에 방치하는 것은 연구소 규율에 어긋납니다!</string>
+    <string name="dialog_discard_title">이 실험을 파기하시겠습니까?</string>
+    <string name="dialog_reload_title">과제를 초기화 하시겠습니까?</string>
+    <string name="dialog_rename_genome_title">유전자의 이름을 다시 정하세요.</string>
+    <string name="dialog_sterilize_text">너무 많은 세포를 죽이는 것은 윤리 위원회의 감찰 원인이 됩니다…</string>
+    <string name="dialog_sterilize_title">멸균 기능을 작동시킵니까?</string>
+    <string name="dialog_text_save_genome">유전자를 저장함으로서 다른 과제에 사용하거나 친구에게 전송이 가능합니다.</string>
+    <string name="dialog_titlte_save_genome">유전자에 이름을 붙이세요.</string>
+    <string name="difficulty_level_0">쉬움</string>
+    <string name="difficulty_level_1">보통</string>
+    <string name="difficulty_level_2">어려움</string>
+    <string name="difficulty_level_3">매우 어려움</string>
+    <string name="donate_appeal">세포 연구소 게임 내의 콘텐츠는 모두 무료로 제공됩니다. 인앱 구매나 광고도 없습니다. 하지만 개발자에게 감사의 뜻으로 아래 금액을 기부할 수 있습니다.</string>
+    <string name="donate_reminder">제작자를 돕고 싶다면 메인메뉴에 \"제작자\" 탭에서 기부를 할 수 있습니다.</string>
+    <string name="donate_reminder_title">기부</string>
+    <string name="donations_made">기부기록:</string>
+    <string name="drag_blue">청색소:</string>
+    <string name="drag_child_1_angle">"모체로부터 분리될시 자식 1의 각도: "</string>
+    <string name="drag_child_1_ratio">"자식 1이 가질 양분 비율: "</string>
+    <string name="drag_child_2_angle">"모체로부터 분리될시 자식 2의 각도: "</string>
+    <string name="drag_child_2_ratio">"
+자식 2가 가질 양분 비율: "</string>
+    <string name="drag_green">녹색소:</string>
+    <string name="drag_mass_age_split">세포는 다음 시간의 경과시 분열</string>
+    <string name="drag_mass_no_split">세포는 분열하지 않습니다.</string>
+    <string name="drag_priority">"세포 양분 우선도: "</string>
+    <string name="drag_red">적색소:</string>
+    <string name="drag_split_angle">"모체 세포 분열 각도: "</string>
+    <string name="drag_split_mass">"세포는 다음 질량 수치 도달시 분열: "</string>
+    <string name="drag_stiffness">부착부 부착강도:</string>
+    <string name="drag_time_1">발달 경과시간</string>
+    <string name="drag_time_2">" h (시뮬레이션 최대 세포 : 100+개)"</string>
+    <string name="email_download_game_AT_url">at</string>
+    <string name="email_genome_body">"New genome developed!
+
+N.B. This file contains a genetic sequence and should be opened with appropriate software.
+Download Android app "</string>
+    <string name="email_genome_title">게임내 디지털 유전자</string>
+    <string name="email_intent_title">이메일 보내기…</string>
+    <string name="email_substrate_body">"New findings!
+
+N.B. This sample contains live organisms and should be opened with appropriate equipment.
+Download Android app "</string>
+    <string name="email_substrate_title">게임내 냉동 실험 샘플</string>
+    <string name="forum_link">&lt;a href=http://forum.cell-lab.net>포럼&lt;/a></string>
+    <string name="freezer_advanced_settings_title">확장 기능</string>
+    <string name="freezer_bad_name">동일한 이름의 실험 샘플이 이미 냉동고 안에 있습니다. 다른 이름을 붙여주세요.</string>
+    <string name="freezer_long_press">길게 누를시 확장기능이 사용됩니다.</string>
+    <string name="freezer_new_plate">새 실험</string>
+    <string name="freezer_relabel">실험 샘플의 이름을 변경하세요.</string>
+    <string name="freezer_unfrozen_age">냉동 전 진행시간</string>
+    <string name="ge_neuro_output_amount_tip_1">"이 설정은 해당 신경세포가 신호 전달 경로 "</string>
+    <string name="ge_neuro_output_amount_tip_2">" 번으로 얼마만큼의 신호 전달 물질을 전달할지를 정합니다."</string>
+    <string name="ge_neuro_output_tip_1">"이 설정은 어떤 채널로 신호 전달 경로 "</string>
+    <string name="ge_neuro_output_tip_2">" 번을 설정할지 정합니다."</string>
+    <string name="ge_osc_preset_button">발진기 사전 설정…</string>
+    <string name="ge_output_amount">출력</string>
+    <string name="ge_output_channel">신호물질 출력 채널</string>
+    <string name="ge_smell_blue">청색소</string>
+    <string name="ge_smell_blue_tip">이 슬라이더는 특정 색상의 세포를 감지할 때, 해당 색상에 포함된 청색소의 양을 나타냅니다.</string>
+    <string name="ge_smell_green">녹색소</string>
+    <string name="ge_smell_green_tip">이 슬라이더는 특정 색상의 세포를 감지할 때, 해당 색상에 포함된 녹색소의 양을 나타냅니다.</string>
+    <string name="ge_smell_output_amount_tip">이 슬라이더는 냄새를 감지하면 어느 정도의 양으로 신호물질을 출력할지를 나타냅니다.</string>
+    <string name="ge_smell_output_tip">이 설정은 냄새를 감지하면 어떤 채널로 신호물질을 출력할지를 나타냅니다.</string>
+    <string name="ge_smell_red">적색소</string>
+    <string name="ge_smell_red_tip">이 슬라이더는 특정 색상의 세포를 감지할 때, 해당 색상에 포함된 적색소의 양을 나타냅니다.</string>
+    <string name="ge_smell_threshold">색소 임계값</string>
+    <string name="ge_smell_threshold_tip">이 슬라이더는 특정 색상의 세포를 감지할 때, 실제 색상과의 허용 오차범위를 나타냅니다.</string>
+    <string name="ge_smell_type">감각 유형</string>
+    <string name="ge_smell_type_tip">이 설정은 세포가 어떤 \"냄새\" 에 민감하게 반응하는지를 지정합니다.</string>
+    <string name="gene_edit_default_genome">기본 유전자 불러오기</string>
+    <string name="gene_editor_adhesin_length">부착부 길이</string>
+    <string name="gene_editor_adhesin_length_tip">"이 슬라이더를 증가시키면 부착부 길이가 늘어나 자식 세포들 사이의 간격이 더 넓어집니다.
+
+길이가 너무 길면 다른 세포가 연결부위 사이로 지나갈 수도 있습니다."</string>
+    <string name="gene_editor_cilio_left_speed">왼쪽 돌기 이동 속도</string>
+    <string name="gene_editor_cilio_left_speed_tip">섬모세포 왼쪽에 있는 섬모을 기준으로 개체를 밀어내는 속도를 설정합니다.</string>
+    <string name="gene_editor_cilio_right_speed">오른쪽 돌기 이동 속도</string>
+    <string name="gene_editor_cilio_right_speed_tip">섬모세포 오른쪽에있는 섬모을 기준으로 개체를 밀어내는 속도를 설정합니다.</string>
+    <string name="gene_editor_comp_mode">융합 가능한 모드</string>
+    <string name="gene_editor_comp_mode_tip">두 개의 단상세포가 융합할 수 있다면 융합할 수 있게 세포막이 사라집니다.</string>
+    <string name="gene_editor_copy_to_mode">복제</string>
+    <string name="gene_editor_copy_to_mode2">대상</string>
+    <string name="gene_editor_cytoskeleton">세포 골격</string>
+    <string name="gene_editor_cytoskeleton_tip">세포 골격은 벽이나 세포와 충돌 시 모양 변형을 막아줍니다. 값이 클수록 양분을 더 필요로 하지만 세포가 더 단단해져 높은 압력에도 터지지 않습니다.</string>
+    <string name="gene_editor_load_default_to_mode">Load default to</string>
+    <string name="gene_editor_max_connections">부착부 최대 개수</string>
+    <string name="gene_editor_max_connections_tip">"이 수치보다 더 높거나 같은 수량의 부착부가 연결되어있으면 세포는 더 이상 분열하지 않습니다. "</string>
+    <string name="gene_editor_mode_after_fert">융합 후 모드</string>
+    <string name="gene_editor_mode_after_fert_tip">이 설정은 두 단상세포가 융합 후 만들어지는 모드를 나타냅니다.</string>
+    <string name="gene_editor_telomeres">융합 후 텔로미어 길이</string>
+    <string name="gene_editor_telomeres_tip">세포는 분열할때마다 텔로미어라는 DNA 끝부분이 짧아집니다. 텔로미어길이가 0 이 되면 세포는 죽습니다. 두 단상세포가 융합 후 나오는 그 자식의 텔로미어 길이는 이 수치로 재설정 됩니다.</string>
+    <string name="gene_mode_prefix">M</string>
+    <string name="genome_editor_adhesin_stiffnes">부착부 부착강도:</string>
+    <string name="genome_editor_blue">청색소:</string>
+    <string name="genome_editor_button_load">불러오기</string>
+    <string name="genome_editor_button_save">저장</string>
+    <string name="genome_editor_cell_type">세포 유형:</string>
+    <string name="genome_editor_child_1">자식 1:</string>
+    <string name="genome_editor_child_1_angle">자식 1 각도:</string>
+    <string name="genome_editor_child_2">자식 2:</string>
+    <string name="genome_editor_child_2_angle">자식 2 각도:</string>
+    <string name="genome_editor_density">밀도</string>
+    <string name="genome_editor_edit_mode">편집할 모드 선택:</string>
+    <string name="genome_editor_green">녹색소:</string>
+    <string name="genome_editor_is_initial">선발:</string>
+    <string name="genome_editor_keep_adhesin">부착부 유지:</string>
+    <string name="genome_editor_make_adhesin">부착부 생성:</string>
+    <string name="genome_editor_mirror">거울모드:</string>
+    <string name="genome_editor_mode">모드:</string>
+    <string name="genome_editor_nutrient_priority">영양분 우선도:</string>
+    <string name="genome_editor_red">적색소:</string>
+    <string name="genome_editor_secretion">분비물질</string>
+    <string name="genome_editor_snap_angles">고정 각도 유지:</string>
+    <string name="genome_editor_split_angle">분열 각도:</string>
+    <string name="genome_editor_split_mass">분열 크기:</string>
+    <string name="genome_editor_split_ratio">분열 비율:</string>
+    <string name="genome_editor_stay_alive">생명 유지:</string>
+    <string name="genome_editor_swim_force">유영 능력</string>
+    <string name="genome_editor_virus_copy_from">바이러스 이하 개체에서 복사 및 붙여넣기</string>
+    <string name="hour_abbreviation">h</string>
+    <string name="load">불러오기</string>
+    <string name="log_sub_stat">기판 통계를 파일에 기록</string>
+    <string name="log_sub_stat_description">%s 기록설정을 사용하는 것은 큰 용량을 필요로 하고 게임 속도를 늦출 수 있습니다.</string>
+    <string name="logging_simulation_note_1">Logging simulation (</string>
+    <string name="logging_simulation_note_2">) to:</string>
+    <string name="main_menu_tab_about">제작진</string>
+    <string name="main_menu_tab_challenges">과제 실험실</string>
+    <string name="main_menu_tab_experiments">실험동</string>
+    <string name="main_menu_tab_genomes">유전자 냉장고</string>
+    <string name="main_menu_tab_settings">설정</string>
+    <string name="menu_item_delete">삭제</string>
+    <string name="menu_item_load_from_microscope">현미경에서 선택된 개체 불러오기</string>
+    <string name="menu_item_rename">명칭 변경…</string>
+    <string name="menu_item_share">공유하기…</string>
+    <string name="mobile_food">영양분 움직임 허용</string>
+    <string name="muscle_bend">근육 굴곡</string>
+    <string name="muscle_contract">근육 수축</string>
+    <string name="muscle_lift">근육 양력</string>
+    <string name="nano_gram_abbreviation">ng</string>
+    <string name="nutrient_coating">영양분 지방층 두께:</string>
+    <string name="objective_black_initial_cells">"
+흑색 기초 세포: "</string>
+    <string name="objective_challenge_completed">과제가 완료되었습니다.</string>
+    <string name="objective_challenge_not_completed">이 과제는 아직 완료되지 않았습니다.</string>
+    <string name="objective_challenge_previously_completed">이전에 완료했던 과제입니다.</string>
+    <string name="objective_hybrid_cells">"잡종(혼합) 세포: "</string>
+    <string name="objective_infected_initial_cells">"
+감염된 기초 세포: "</string>
+    <string name="objective_initial_cells">"
+기초 세포: "</string>
+    <string name="objective_inserted_cells">"
+배치된 세포: "</string>
+    <string name="objective_limits_satisfied_time">"
+다음 제한시간동안 조건을 충족시킬것: "</string>
+    <string name="objective_red_initial_cells">"
+적색 기초 세포: "</string>
+    <string name="objective_removed_cells">"
+제거된 세포: "</string>
+    <string name="objective_total_cells">"
+총 세포 갯수: "</string>
+    <string name="objective_yellow_initial_cells">"
+노란색 기초 세포: "</string>
+    <string name="objective_your_cells">"
+당신의 세포: "</string>
+    <string name="osc_preset_adhesin_connections">개 부착부 연결</string>
+    <string name="osc_preset_channels">변동 채널:</string>
+    <string name="osc_preset_tip">이 항목은 매개 변수 없이 두 종류의 신호물질의 농도를 지속적으로 진동하듯 변화하게 만드는데 쓰입니다.</string>
+    <string name="osc_preset_title">발진기 사전 설정</string>
+    <string name="osc_preset_to">에서</string>
+    <string name="oscillator_preset_period">변동주기</string>
+    <string name="play_button_hint">힌트</string>
+    <string name="play_button_spoiler">스포일러</string>
+    <string name="play_button_tut_pop_up">교육 팝업창을 다시 열고싶어요!</string>
+    <string name="popup_text_need_help">과제를 해결하는데 어려움을 겪으시나요? 여기 유용한 자료들이 있습니다:&lt;br>&lt;br></string>
+    <string name="popup_text_study_challenge_sub">실험을 위해 이 과제의 기판을 실험용으로 쓰시겠습니까?</string>
+    <string name="popup_title_need_help">도움이 필요하세요?</string>
+    <string name="popup_title_select_tool">실험 도구</string>
+    <string name="popup_title_study_challenge_sub">유전학 공부를 위해 해당 과제의 기판을 열까요?</string>
+    <string name="sample_info_age">"기판 경과시각: "</string>
+    <string name="sample_info_cells">"세포 갯수: "</string>
+    <string name="sample_info_food">"영양분 양: "</string>
+    <string name="sample_info_gene_pool">변이 가능 유전자</string>
+    <string name="sample_info_save_title">샘플에 이름 붙이기</string>
+    <string name="sample_info_save_used_name">동일한 이름의 실험 샘플이 이미 냉동고 안에 있습니다. 다른 이름을 붙여주세요.</string>
+    <string name="save_plate">냉동고에 실험샘플 저장</string>
+    <string name="scope_lab_budget_1">"이 과제는 "</string>
+    <string name="scope_lab_budget_2">개의 세포만 배치가 가능합니다. 과제를 다시 시작할까요?</string>
+    <string name="secrete_coated_food">지방층이 있는 영양분 냄새</string>
+    <string name="secrete_cyanide">HCN(독소)</string>
+    <string name="secrete_food_smell">영양분 냄새</string>
+    <string name="secrete_light">태양광 감지 기관 활성제</string>
+    <string name="secrete_protease">Protease(부착부절단)</string>
+    <string name="secrete_type_lipase">Lipase(지방분해)</string>
+    <string name="secrete_wall">벽 감지 기관 활성제</string>
+    <string name="select_plate_action">행동 선택</string>
+    <string name="setting_ask_discard">페트리 접시 폐기 전 물어보기</string>
+    <string name="setting_ask_sterilize">멸균하기 전 물어보기</string>
+    <string name="setting_keep_from_sleeping">"이 기능은 당신이 장시간을 요구하는 실험을 하는 동안 핸드폰이 대기모드나 절전모드로 되는 것을 방지합니다. 충전기를 꽃아 두는 것을 잊지 맙시다!
+"</string>
+    <string name="setting_language">언어</string>
+    <string name="setting_preview_lock">유전자 미리보기 잠금</string>
+    <string name="setting_sounds_effects">사운드 이펙트</string>
+    <string name="settings_aa_summary">"%s
+\"없음\" 외의 설정은 여러 기기에서 프로그램 속도 저하를 유발할 수 있습니다."</string>
+    <string name="settings_aa_title">안티엘리어싱</string>
+    <string name="settings_audio">사운드</string>
+    <string name="settings_general">일반설정</string>
+    <string name="settings_graphics">그래픽</string>
+    <string name="settings_keep_from_sleep">절전 방지</string>
+    <string name="settings_music">음악</string>
+    <string name="settings_slow_motion">저속 배양</string>
+    <string name="settings_slow_motion_description">느린 관찰을 목적으로 하는 저속 배양은 일반 관찰 속도의 배양과 다른 결과를 낼 수 있습니다.</string>
+    <string name="signal_substance_prefix">S</string>
+    <string name="signal_substance_unit">μmol/L</string>
+    <string name="signal_val_dialog_a">a:</string>
+    <string name="signal_val_dialog_a_variable">a</string>
+    <string name="signal_val_dialog_b">b:</string>
+    <string name="signal_val_dialog_b_variable">b</string>
+    <string name="signal_val_dialog_c">c:</string>
+    <string name="signal_val_dialog_c_variable">c</string>
+    <string name="signal_val_dialog_fixed_value">고정값:</string>
+    <string name="signal_val_dialog_heaviside">"a, 집중도&lt; c 일 경우
+b, 집중도 ≥ c 일 경우"</string>
+    <string name="signal_val_dialog_linear">a × 집중도 + b</string>
+    <string name="signal_val_dialog_substance">신호 물질:</string>
+    <string name="signal_val_dialog_use_signal">신호 물질 사용</string>
+    <string name="signal_val_dialog_value">값</string>
+    <string name="signal_val_dialog_value_equals">값 =</string>
+    <string name="smell_cell">세포</string>
+    <string name="smell_food">영양분</string>
+    <string name="smell_light">태양광</string>
+    <string name="smell_type_coated_food">지방층이 있는 영양분</string>
+    <string name="smell_velocity">속도</string>
+    <string name="smell_wall">벽</string>
+    <string name="stem_mode1">세포분화 1번 경로 모드</string>
+    <string name="stem_mode2">세포분화 2번 경로 모드</string>
+    <string name="stem_signal1">1번 경로 신호</string>
+    <string name="stem_signal2">2번 경로 신호</string>
+    <string name="string_setting_show_gt">유전자 종류 표시</string>
+    <string name="string_setting_show_gt_summary">이 기능은 유전자 편집기의 세포 유형 설정 옆에 유전자 약어가 표시됩니다.</string>
+    <string name="substrate_action_reload">실험 재시작</string>
+    <string name="substrate_action_sterilize">멸균처리</string>
+    <string name="substrate_aging">세포 노화</string>
+    <string name="substrate_contaminate">무작위 세포 생성</string>
+    <string name="substrate_density">밀도:</string>
+    <string name="substrate_density_gradient">밀도 변화도:</string>
+    <string name="substrate_fricd">동적 마찰:</string>
+    <string name="substrate_frics">정적 마찰:</string>
+    <string name="substrate_gravity">중력 영향:</string>
+    <string name="substrate_help">"당신은 이 기판 설정 부분에서 당신의 현미경 아래 놓인 페트리 접시의 환경을 조정할 수 있습니다. 대부분의 기능을 당신이 스스로 연구하기를 바라지만, 이 부분에서는 몇 가지 알기 힘든 부분에 대해 설명을 할 것입니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>방사선&lt;/b>: 방사선은 세포에 피폭 손상을 입힙니다. 약한 수준의 방사선으로 인한 피폭 손상은 세포가 스스로 파괴된 유전자를 수복하며 그 과정에서 변이를 일으켜 진화할 가능성도 있으나, 강한 수준의 방사선은 세포가 유전자를 수복하기도 전에 세포를 완전히 파괴할 수도 있습니다. 이 방사선의 강도는 방사선 조사 단계 설정에서 조정 가능합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>방향성 변이&lt;/b>: 이 설정을 누르면 유전자의 변이 폭을 감소시킵니다. 큰 폭에 속하는 세포의 유형이나, 자손의 모드까지는 변이되지 않지만, 색소나 분열 각도나 기타 등등의 연속적인 변수를 지닌 설정들은 변이하게 됩니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>동적 마찰&lt;/b>: 세포가 움직일 때의 마찰을 뜻합니다. 강하면 세포가 움직일 수 없고, 약하면 가만히 있어도 미끄러집니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>정적 마찰&lt;/b>: 세포가 움직이지 않을 때의 마찰을 뜻합니다. 강하면 세포가 움직일 수 없고, 약하면 가만히 있어도 미끄러집니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>점도&lt;/b>: 세포가 배양액 안을 움직일 때의 저항성을 의미합니다. 점도가 높은 배양액은 끈적거려서 움직이기 힘들고, 낮을 경우 미끄러워져 빠르게 움직이게 됩니다. 점도는 점도 유지 수준 설정에서 조정 가능합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>염도&lt;/b>: 낮은 염도 수준은 세포가 스스로의 염분농도를 유지하기 위해 많은 양의 에너지를 소모하게 합니다. 염도가 높을 경우 세포는 염분 농도 유지에 에너지를 덜 소모하게 됩니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>밀도&lt;/b>: 일반 세포의 밀도보다 낮은 밀도의 배양액에서는 중력을 받을 때 가라앉고, 높은 밀도의 배양액에서는 중력을 받을 때 떠오르게 됩니다.
+    &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>밀도 변화도&lt;/b>: 이 설정을 조정함으로써 기판의 상부는 밀도가 낮고, 기판의 하부는 밀도가 높게 만들 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>영양분 지방층 두께&lt;/b>: 이 슬라이더는 섭식세포가 영양분을 먹기 전에 제거해야하는 지질 코팅을 만들어 냅니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>질산염&lt;/b>: 이 슬라이더는 얼마나 빨리 세포가 환경으로부터 질산염을 흡수하는지를 설정합니다. 모든 세포는 분열할때 질산염을 소비하고 분비세포는 질산염을 지속적으로 소비합니다. 값이 너무 낮게 설정되면 질소세포가 필요합니다."</string>
+    <string name="substrate_help_title">기판 설정 도움말</string>
+    <string name="substrate_kill_edge">가장자리의 세포 사멸</string>
+    <string name="substrate_light_amount">태양광 조사 강도:</string>
+    <string name="substrate_light_range">태양광 조사 범위:</string>
+    <string name="substrate_light_speed">광원 각도 변경:</string>
+    <string name="substrate_nitrates">질산염:</string>
+    <string name="substrate_nutrient_lump">영양분 주입 수량:</string>
+    <string name="substrate_nutrient_lump_size">영양분 입자 분산도:</string>
+    <string name="substrate_nutrient_size">영양분 입자 크기:</string>
+    <string name="substrate_nutrients">영양분 분사 주기:</string>
+    <string name="substrate_param_info_button">기판 정보</string>
+    <string name="substrate_radiation">방사선 조사 단계:</string>
+    <string name="substrate_salinity">염도:</string>
+    <string name="substrate_tweak_mutations">방향성 변이</string>
+    <string name="substrate_viscosity">점도 유지 수준:</string>
+    <string name="temp_menu_title">기판 온도 설정</string>
+    <string name="tip_adhesin">"이 설정을 적용시킬 경우, 본 세포를 모세포로 삼는 두 자식세포가 어드헤신, 다른말로 부착부라고 하는 접착제와 같은 물질로 붙게 됩니다.
+
+이 부착부는 두개의 일을 합니다:
+\u0009- 자식세포를 한데 묶어놓습니다.
+\u0009- 두 자식세포는 영양분을 공유합니다.
+
+이 연결의 속성은 다음의 설정들을 조정하는 것으로 변경이 가능합니다. \"부착부 부착강도\", \"영양분 우선도\", 그리고 아래에 위치한 체크박스 \"생명 유지\" 의 세가지입니다."</string>
+    <string name="tip_blue">"이 모드의 세포가 어느 정도의 청색소를 지녔는지를 지정합니다.
+
+이 설정은 세포의 기능에는 아무 영향도 미치지 못합니다."</string>
+    <string name="tip_cell_type">각각의 세포 모드에서 가장 중요한 설정이 어떠한 유형을 지녔는가 하는 것입니다. 각각의 세포 유형은 한가지 종류의 기능만을 지녔으며, 이 말은 다양한 기능이 필요한 미생물을 만들려면 여러 세포가 다양한 세포 유형을 사용해야 한다는 의미가 됩니다. &lt;br>&lt;br>세포의 유형들과 각각의 기능은 다음과 같습니다:&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>섭식세포&lt;/b>: 이 세포는 영양분 조각을 섭취해서 에너지를 얻습니다.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>편모세포&lt;/b>: 이 세포는 헤엄칠 때 쓰는 편모가 달려있습니다.&lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>녹조세포&lt;/b>: 이 세포는 광합성을 통해 에너지를 얻습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>포식세포&lt;/b>: 이 세포는 맞닿은 세포가 떨어지거나 죽을 때까지 에너지를 빨아들입니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>지방세포&lt;/b>: 이 세포는 에너지를 지방의 형태로 저장합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>각질세포&lt;/b>: 이 세포는 스스로와 자신과 연결된 세포를 적대적인 세포로부터 보호합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>부유세포&lt;/b>: 이 세포는 밀도 전환을 통해 뜨고 가라앉을 수 있는 부레를 가지고 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>접착세포&lt;/b>: 이 세포는 맞닿은 세포와 강제적으로 부착부 형성을 하거나 환경에 들러붙습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>감염세포&lt;/b>: 이 세포는 확률적으로 접촉한 다른 세포에게 자신이 지닌 유전자를 주입하여 변화시킵니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>질소세포&lt;/b>: 이 세포는 N&lt;sub>&lt;small>2&lt;/small>&lt;/sub> 를 NH&lt;sub>&lt;small>3&lt;/small>&lt;/sub>으로 합성합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>근육세포&lt;/b>: 이 세포는 신경 자극에 따라 당기고, 들고, 휘는 등의 행동을 취할 수 있는 근육을 가지고 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>신경세포&lt;/b>: 이 세포는 신호 전달물질을 생산할 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>감각세포&lt;/b>: 이 세포는 환경에 있는 여러 물질의 냄새와 농도를 알 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>조향세포&lt;/b>: 이 세포는 왼쪽, 또는 오른쪽의 냄새 분자의 농도차를 구별할 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>분비세포&lt;/b>: 이 세포는 주위에 냄새 분자를 분출할 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>줄기세포&lt;/b>: 이 세포는 특정 신호 물질의 농도가 낮거나 높은 경우 다른 모드로의 변경이 가능합니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>단상세포&lt;/b>: 이 세포는 융합 가능한 다른 단상세포와 융합하여 두 개의 세포 유전자의 무작위 조합으로 새로운 세포를 형성할 수 있습니다. &lt;br>&lt;br>&lt;b>&lt;font color=#BFF79D>섬모세포&lt;/b>: 이 세포들은 돌기(섬모)로 덮여있어서 쉽게 미끄러지지 않습니다. 이 섬모들은 신호 농도에 따라 독립적으로 왼쪽과 오른쪽섬모들을 움직일 수 있습니다.</string>
+    <string name="tip_child_1_angle">"이 슬라이더를 조정해서 자식 1이 분열 후 어느 방향을 바라볼것인지 정할 수 있습니다. 각각의 세포에 있는 화살표가 어느 방향을 바라보는지를 보여줍니다.
+
+각도가 0°일때는 자식 1이 자식 2를 등지고 있습니다. 각도를 증가시키면 바라보는 방향이 반시계 방향으로 회전하며, 거울모드일 경우 반대방향인 시계방향으로 회전합니다."</string>
+    <string name="tip_child_1_mdoe">"이 설정은 이 세포가 분열해서 생성되는 자식 1 세포가 어떤 모드를 지닐지를 지정합니다.
+
+20가지의 다른 모드 중 어떤 모드라도 가능합니다. 각 모드는 각자 다른 속성을 지정해 둘 수 있습니다. 그 속성 중 여기 있는 두가지는 이 세포가 분열했을때 자식 세포는 어떠한 모드로 변화할지를 지정하는 것입니다.
+
+당신의 첫번째 세포가 M1이고 두개의 M1세포로 분열된다고 하면, 모든 당신의 세포는 항상 M1일 것입니다. 그리고 만약에 당신의 세포가 두개의 M2로 분열되고 그것들은 다시 두개씩의 M1로 분열된다면, 당신의 세포들은 M1과 M2밖에 없겠지요. 일이 이렇게 진행되는 이유는 단순히 당신의 세포가 변할 수 있는 모드로 각각 속성을 모드 1 또는 1과 2로 지정했기 때문입니다.
+
+이 다른 모드들의 특성은 세대를 거쳐 당신의 세포에 존재하며, 다른 모드들이 미생물체에게 특별히 유용한 기능이 들어있지 않은 관계로 생명 주기에 드러나지 않도록 설정해 두었더라도 이는 환경 방사선을 통한 변이로 인해 드러날 수도 있습니다. 이러한 현상은 자연에서 자주 발생됩니다. 예를 들자면 인간의 유전자 중 많은 부분은 인체에 사용되는 단백질을 표면적으로 발현하지 않지만, 이따금씩 방사선을 통해 발생한 암이나, 악성 종양 등으로 나타납니다."</string>
+    <string name="tip_child_2_angle">"이 슬라이더를 조정해서 자식 2가 분열 후 어느 방향을 바라볼것인지 정할 수 있습니다. 각각의 세포에 있는 화살표가 어느 방향을 바라보는지를 보여줍니다.
+
+각도가 0° 일때는 자식 2는 자식 1을 바라보고 있습니다. 각도를 증가시키면 바라보는 방향이 반시계 방향으로 회전하며, 거울모드일 경우 반대방향인 시계방향으로 회전합니다."</string>
+    <string name="tip_child_2_mode">"이 설정은 이 세포가 분열해서 생성되는 자식 2 세포가 어떤 모드를 지닐지를 지정합니다.
+
+20가지의 다른 모드 중 어떤 모드라도 가능합니다. 각 모드는 각자 다른 속성을 지정해 둘 수 있습니다. 그 속성 중 여기 있는 두가지는 이 세포가 분열했을때 자식 세포는 어떠한 모드로 변화할지를 지정하는 것입니다.
+
+당신의 첫번째 세포가 M1이고 두개의 M1세포로 분열된다고 하면, 모든 당신의 세포는 항상 M1일 것입니다. 그리고 만약에 당신의 세포가 두개의 M2로 분열되고 그것들은 다시 두개씩의 M1로 분열된다면, 당신의 세포들은 M1과 M2밖에 없겠지요. 일이 이렇게 진행되는 이유는 단순히 당신의 세포가 변할 수 있는 모드로 각각 속성을 모드 1 또는 1과 2로 지정했기 때문입니다.
+
+이 다른 모드들의 특성은 세대를 거쳐 당신의 세포에 존재하며, 다른 모드들이 미생물체에게 특별히 유용한 기능이 들어있지 않은 관계로 생명 주기에 드러나지 않도록 설정해 두었더라도 이는 환경 방사선을 통한 변이로 인해 드러날 수도 있습니다. 이러한 현상은 자연에서 자주 발생됩니다. 예를 들자면 인간의 유전자 중 많은 부분은 인체에 사용되는 단백질을 표면적으로 발현하지 않지만, 이따금씩 방사선을 통해 발생한 암이나, 악성 종양 등으로 나타납니다."</string>
+    <string name="tip_density">"이 설정은 부유세포에서만 조정이 가능합니다. 이 설정을 통해 이 세포의 밀도를 조정할 수 있습니다. 설정과 주변을 둘러 싼 배양액의 밀도에 따라 세포는 가라앉기도, 뜨기도 할것입니다(중력의 영향을 받는 것을 전제로 합니다).
+
+세포의 크기는 이 설정의 영향을 받지 않습니다."</string>
+    <string name="tip_edit_mode">"예시를 들어 보자면 인체의 근육세포와 뇌세포는 하는 일은 다르지만 유전자는 동일한 것을 가지고 있습니다. 이 기능상 차이를 \"모드\" 로서 시뮬레이터에 구현해 놓은 상태입니다. 한 유전자에는 20개의 다른 특성을 지닌 모드를 담을 수 있습니다. 이 선택창에서는 그 모드를 필요한 만큼 꺼내서 쓸 수 있습니다. 아래에서 편집하는 모든 속성은 현재 편집중인 모드에만 해당됩니다.
+
+\"선발\" 버튼을 통해 어떤 모드를 투입해서 세포를 작동하게 할지 정할 수 있습니다."</string>
+    <string name="tip_green">"이 모드의 세포가 어느 정도의 녹색소를 지녔는지를 지정합니다.
+
+이 설정은 세포의 기능에는 아무 영향도 미치지 못합니다."</string>
+    <string name="tip_initial_mode">"이 원형 버튼을 누르면 편집중인 해당 모드를 \"선발\" 모드로 만듭니다.
+
+선발 모드는 야생의 생물종에게는 중요한 것이 아니나, 미리보기 창의 시뮬레이팅과 현미경에 배치할 세포의 선택이라는 점에서는 중요합니다.
+
+현미경에서 유전자 편집기로 복사해온 세포는 (미리보기 창 아래 \"불러오기\"-버튼의 매뉴) 해당 세포의 모드를 선발로서 지정한 상태로 나타나게 됩니다."</string>
+    <string name="tip_keep_adhesin_c1">"이 설정이 적용되어 있는 경우, 이미 연결되어 있는 부착부를 분할 이후 생성되는 자식세포 1이 지속적으로 유지합니다.
+
+이 설정이 작동하기 위해서는 자식세포 1이 부착부 연결이 되어 있는 상태에서 분할되어야 함을 숙지합시다."</string>
+    <string name="tip_keep_adhesin_c2">"이 설정이 적용되어 있는 경우, 이미 연결되어 있는 부착부를 분할 이후 생성되는 자식세포 2가 지속적으로 유지합니다.
+
+이 설정이 작동하기 위해서는 자식세포 2가 부착부 연결이 되어 있는 상태에서 분할되어야 함을 숙지합시다."</string>
+    <string name="tip_mirror_c1">"이 체크박스 설정을 적용할 경우 해당 모드의 자식 1 세포가 부모에 대해 대칭되게 만들어 집니다. 이 세포가 거울모드에 이미 적용된 경우에 설정하면 이 세포의 자식 1 세포가 부모에게 대칭되어 다시 원래대로 돌아간다는 의미입니다.
+
+모든 각도(분열 각도, 자식 1 각도, 자식 2 각도)는 기본적으로 시계 반대 방향으로 측정하나 거울모드 아래에 있는 경우 모든 각도를 동일한 수치대로 시계 방향으로 역전시켜 측정하게 됩니다.
+
+이 속성은 여러번의 세심한 각도 조정과 다수의 모드를 사용하지 않고서도 거울 대칭형의 생물을 만드는데 유용하게 쓰일 수 있습니다."</string>
+    <string name="tip_mirror_c2">"이 체크박스 설정을 적용할 경우 해당 모드의 자식 2 세포가 부모에 대해 대칭되게 만들어 집니다. 이 세포가 거울모드에 이미 적용된 경우에 설정하면 이 세포의 자식 2 세포가 부모에게 대칭되어 다시 원래대로 돌아간다는 의미입니다.
+
+모든 각도(분열 각도, 자식 1 각도, 자식 2 각도)는 기본적으로 시계 반대 방향으로 측정하나 거울모드 아래에 있는 경우 모든 각도를 동일한 수치대로 시계 방향으로 역전시켜 측정하게 됩니다.
+
+이 속성은 여러번의 세심한 각도 조정과 다수의 모드를 사용하지 않고서도 거울 대칭형의 생물을 만드는데 유용하게 쓰일 수 있습니다."</string>
+    <string name="tip_muscle_bending">근육 굴곡 기능은 세포의 앞과 뒤 가장자리의 부착부를 근육세포의 오른쪽 혹은 왼쪽으로 끌어당깁니다.</string>
+    <string name="tip_muscle_contraction">근육 수축 기능은 근육 세포의 앞과 뒤의 부착부를 세포 중심부로 끌어당깁니다.</string>
+    <string name="tip_muscle_lift">근육 양력 기능은 근육 세포의 앞과 뒤에 위치한 세포를 들어올려 배양환경에 대한 마찰 수준을 줄입니다.</string>
+    <string name="tip_priority">"어드헤신 부착부로 연결된 두 세포는 서로간의 영양분을 공유합니다. 두 세포 간의 영양소의 흐름은 세포의 크기 차이에 비례합니다. 우선도는 이 비례치에 대해 가중치로서 작용합니다.
+
+쉽게 말하자면 영양분의 흐름이 큰쪽에서 작은쪽으로, 우선도가 낮은쪽에서 높은쪽으로 이동한다는 뜻입니다. 영양분의 균형은 높은 우선도를 지닌 세포가 더 큰 크기에 도달했을 때 맞춰집니다.
+
+두 세포가 동시에 높은 우선도를 지닌 경우, 동시에 낮은 우선도를 지닌것과 동일한 평형수준을 지니지만 평형에 도달하는 시간은 더 짧습니다."</string>
+    <string name="tip_red">"이 모드의 세포가 어느 정도의 적색소를 지녔는지를 지정합니다.
+
+이 설정은 세포의 기능에는 아무 영향도 미치지 못합니다."</string>
+    <string name="tip_secrocyte">"이 설정은 어떤 물질을 분비할지를 지정합니다.
+
+음식 / 코팅 된 음식 냄새 / 빛 감지 활성제 / 벽 감지 활성제는 해당 실제 자극과 마찬가지로 인근의 감각세포 및 조향세포에 영향을 미칩니다. 그들은 대응하는 수용체에 더 강하게 부착하는 물질을 방출함으로써 작동하고 따라서 자연적 자극보다 강한 신호를 나타낼 수 있습니다.
+
+HCN은 시안화물로 다른세포와 접촉시 각질세포로 보호되지 않은 유기체를 죽일 것입니다.
+
+Lipase는 영양분 입자의 지방을 분해하여 섭식세포가 영양분을 먹을수있게 만듭니다. 또한 이것은 세포막을 파괴하기 때문에 세포들이 손상되고, 각질세포는 약간 손상됩니다.
+
+Protease는 연결된 세포 두 개와 동시에 접촉하면 부착부 연결을 끊습니다.
+
+신호물질은 접촉한 세포에 해당 신호물질을 주입하여, 세포에 확산됩니다. 마이너스 기호는 해당 신호물질의 억제제에 해당됩니다."</string>
+    <string name="tip_snap">이 설정을 적용시킬시 각도 조절의 최소 단위가 15°로 고정되게 됩니다.</string>
+    <string name="tip_split_angle">"이 슬라이더를 통해 세포가 어느 각도로 분열할 것인지를 정할 수 있습니다. 세포 위에 그어진 점선이 세포가 어디에서 분열할지를 보여줍니다.
+
+각각 세포는 특정한 방향을 바라보고 있으며(화살표 방향입니다), 선발 세포는 미리보기 화면에서나 페트리 접시에 배치될때 항상 오른쪽을 보고 있게 됩니다. 분열 각도 0° 는 바라보는 방향의 수직으로 세포가 분열된다는 뜻이며, 자식 1은 앞쪽, 자식 2는 뒤쪽으로 분열됩니다.
+
+분열 각도가 증가하면 일반적으로 시계 반대방향으로 분열 선이 회전하며, 거울모드가 적용된 경우 시계 방향으로 선이 회전합니다."</string>
+    <string name="tip_split_mass">"한 세포의 질량과 크기는 보통 그 세포가 지닌 영양분 에너지의 양에 비례합니다. 세포들이 스스로 소모하는 에너지보다 많이 얻으면 성장하고, 반대의 경우엔 줄어듭니다.
+
+만약 세포가 이 슬라이더에서 설정한 수치보다 더 크게 늘어날 경우 세포는 두개의 자식 세포로 분열하게 됩니다.
+
+또한 세포는 30분이 지나기 전에는 미성숙한 상태라 분열하지 못하기 때문에, 자식 세포가 태어나자 마자 분열 크기에 해당되거나 초과되는 크기를 지니고 있다고 해도 0.5h의 시간이 지나기 전에 곧바로 분열하지는 않습니다."</string>
+    <string name="tip_split_ratio">분열 비율은 모세포가 자식 세포에게 어느 정도의 영양분을 분배할지 정할 수 있습니다.</string>
+    <string name="tip_stay_alive">"편집중인 세포 모드가 이 설정의 적용을 받을 시, 영양분이 위험할 정도로 낮은 상황일때 영양분 우선순위가 상승합니다.
+
+이 설정은 낮은 영양분 우선순위를 지닌 세포가 영양분이 극도로 모자라는 상황에서 영양분을 포기하고 사멸하는 것을 방지하는데 쓰일 수 있습니다.
+
+만약 특정한 모드의 세포가 필수적이지는 않고 미생물이 통째로 굶어 죽을 기아 상황에서 버려도 되는 세포라면 이 체크박스를 해제하는 것이 유용 할 수 있습니다."</string>
+    <string name="tip_stem_mode1">1번 경로의 신호가 0.5 이상이 되면 줄기세포가 해당 모드로 분화합니다.</string>
+    <string name="tip_stem_mode2">2번 경로의 신호가 0.5 이상이 되면 줄기세포가 해당 모드로 분화합니다.</string>
+    <string name="tip_stem_signal1">이 신호가 0.5 이상이 되면, 줄기세포가 1번 경로에 지정된 모드로 분화합니다.</string>
+    <string name="tip_stem_signal2">이 신호가 0.5 이상이 되면, 줄기세포가 2번 경로에 지정된 모드로 분화합니다.</string>
+    <string name="tip_stiffness">"이 설정은 두 세포간의 부착부의 강도 조절을 지정합니다.
+
+높은 부착 강도를 지닌 경우 자식 세포 두 개체는 항상 태어난 상태 그대로를 유지하는 구조를 지니게 됩니다. 낮은 강도를 지닌 경우 부착도가 상당히 유연하게 움직이게 됩니다."</string>
+    <string name="tip_swim_force">이 설정은 편모세포에서만 조정이 가능합니다. 이 설정을 통해 편모의 움직임 속도를 조정할 수 있습니다. 빠른 속도는 움직임과 유영 속도를 빠르게 하지만, 더 많은 에너지를 소모할 것입니다.</string>
+    <string name="tip_title_adhesin">체크박스: 부착부 생성</string>
+    <string name="tip_title_blue">슬라이더: 청색소</string>
+    <string name="tip_title_cell_type">선택창: 세포 유형</string>
+    <string name="tip_title_child_1_angle">슬라이더: 자식 1 각도</string>
+    <string name="tip_title_child_1_mode">선택창: 자식 1, 모드</string>
+    <string name="tip_title_child_2_angle">슬라이더: 자식 2 각도</string>
+    <string name="tip_title_child_2_mode">선택창: 자식 2, 모드</string>
+    <string name="tip_title_edit_mode">선택창: 편집할 모드 선택</string>
+    <string name="tip_title_green">슬라이더: 녹색소</string>
+    <string name="tip_title_intial_mode">원형 버튼: 선발</string>
+    <string name="tip_title_keep_adhesin_c1">체크박스: 자식 1, 부착부 유지</string>
+    <string name="tip_title_keep_adhesin_c2">체크박스: 자식 2, 부착부 유지</string>
+    <string name="tip_title_mirror_c1">체크박스: 자식 1, 거울모드</string>
+    <string name="tip_title_mirror_c2">체크박스: 자식 2, 거울모드</string>
+    <string name="tip_title_priority">슬라이더: 영양분 우선도</string>
+    <string name="tip_title_red">슬라이더: 적색소</string>
+    <string name="tip_title_slider">슬라이더</string>
+    <string name="tip_title_snap">체크박스: 고정 각도 유지</string>
+    <string name="tip_title_split_angle">슬라이더: 분열 각도</string>
+    <string name="tip_title_split_mass">슬라이더: 분열 크기</string>
+    <string name="tip_title_split_ratio">슬라이더: 분열 비율</string>
+    <string name="tip_title_stay_alive">체크박스: 생명 유지</string>
+    <string name="tip_title_stiffness">슬라이더: 부착부 부착강도</string>
+    <string name="tip_type_selector">선택창</string>
+    <string name="tip_virsus_from">"이 설정은 감염세포에게만 적용됩니다. 감염세포가 접촉된 세포로 복사해야하는 모드를 선택할 수 있습니다.
+
+감염세포는 세포의 일부가 다른 세포에게 접촉 할 경우 다른 세포로 복사합니다. 이 설정으로 선택한 모드 (및 2 세대 자손 모드)를 대상 세포의 동일한 모드로 복사합니다.
+
+예 : 모드 M5에서 감염세포의 사본. 감염세포의 M5 모드는 M2, M3 및 M3으로 각각 분열 된 M4 및 M3으로 분열됩니다. 그런 다음이 사본이 완료됩니다.
+감염세포 → 접촉된 세포
+M5 → M5
+M4 → M4
+M3 → M3
+M2 → M2"</string>
+    <string name="toast_bad_name">이 이름을 사용할수 없습니다. 영어만을 사용해 이름을 정하세요.</string>
+    <string name="toast_cell_type_limit_violation">Genome violates cell type limits. Check \"Objective tab\".</string>
+    <string name="toast_challenge_completed">과제 완료!</string>
+    <string name="toast_file_is_newer_version">"이 파일은 더 높은 버전의 세포 연구소 게임을 필요로 합니다. 게임을 업데이트해주세요.
+"</string>
+    <string name="toast_label_already_in_freeer">동일한 이름의 실험 샘플이 이미 냉동고 안에 있습니다. 다른 이름을 붙여주세요.</string>
+    <string name="toast_loaded_new_genome">새로운 유전자를 불러왔습니다.</string>
+    <string name="toast_name_exists">이 이름의 세포가 이미 냉동고에 있습니다. 불러오기 전에 이름을 변경하십시오.</string>
+    <string name="toast_no_cell_under_microscope">현미경에서 선택된 개체를 찾지 못했습니다…</string>
+    <string name="toast_no_email_clients">사용 가능한 이메일 앱을 찾을 수 없습니다.</string>
+    <string name="toast_out_of_memory">메모리가 부족합니다!</string>
+    <string name="toast_saved">저장됨</string>
+    <string name="toast_unknown_types_replaced">이 과제에서 사용할 수 없는 세포가 재배치되었습니다.</string>
+    <string name="toast_zoom_max">스크린 너비가 1나노미터(nm)에 도달했습니다. 전자 현미경으로는 더 짧은 거리를 볼 수 없습니다.</string>
+    <string name="tool_add">영양분 주사기</string>
+    <string name="tool_cell">세포 합성기</string>
+    <string name="tool_info">세포 진단기</string>
+    <string name="tool_move">광학 족집게</string>
+    <string name="tool_remove">독소 주사기</string>
+    <string name="tutorial_info">팝업창에 뜨는 설명을 따라 진행합시다.</string>
+    <string name="unlock_feature_more_genome_params">유전자 매개변수 잠금해제</string>
+    <string name="unlock_feature_more_params">기판 설정 잠금해제</string>
+    <string name="unlock_feature_more_programmable_params">프로그램화 가능한 유전자 설정 잠금해제</string>
+    <string name="unlocks_before_feature">더 많은</string>
+    <string name="unlocks_further_challenges">" 이후 과제 활성화"</string>
+    <string name="val_dep_age">세포나이</string>
+    <string name="val_dep_connected">Adhesin connection #</string>
+    <string name="val_dep_mass">세포크기</string>
+    <string name="val_dep_nitro_reserve">NH<sub><small>3</small></sub> reserve [0-1]</string>
+    <string name="val_dialog_signal_substance_dependence">신호 물질 의존식</string>
+    <string name="value_false">미사용</string>
+    <string name="value_true">사용</string>
+    <string name="video_link">&lt;a href=https://www.youtube.com/channel/UCKw7QHCr7XV2_NbrX3a1C4Q>유튜브&lt;/a></string>
+    <string name="videos_link">"&lt;a href=https://www.youtube.com/playlist?list=PLvFmZuOkX-KE4zYLhdNDBGZgXBexRjUvO>Bart Wisialowski's walkthrough videos&lt;/a>"</string>
+    <string name="wiki_link">&lt;a href=http://wiki.cell-lab.net>위키&lt;/a></string>
+</resources>

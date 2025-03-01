@@ -1,0 +1,2573 @@
+Manifest-Version: 1.0
+Created-By: 19.0.2 (Private Build)
+
+Name: res/raw/link_frag.glsl
+SHA-384-Digest: B3IfCLhEbds1xWLEFlOliBwr0ZPTNw9UZi/MTwx8Nu/rAwX20KSF6Ubf
+ y/q7+6s5
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+SHA-384-Digest: DwQzp3JHBFvljadpuvG/OIxtA5oltl5tdxFNg12j3iFAAuqk0RahwkT1
+ yYCDbNUa
+
+Name: res/drawable-xxhdpi/tool_remove.png
+SHA-384-Digest: bV65YJAFyymYwKXT3mAfW74IvsULrV9XnT1/YgRjp01dRMwGIw/Yjhtq
+ vGf4dWsF
+
+Name: res/raw/save.mp3
+SHA-384-Digest: iATXu0o8k7OnAgbRAzAaCr8oPiHga//uR3WJx+zQJbJXgWSGplgIZ1ux
+ 3yGZ4uPm
+
+Name: res/mipmap-xhdpi/ic_launcher.png
+SHA-384-Digest: wa84nM5IPCIhuBoLCgLgaU1l3DdOPeHyPz3Y5iuM9UV1AxF2OjG0xnim
+ c3Chzy/H
+
+Name: res/drawable-mdpi/ic_plusone_tall_off_client.png
+SHA-384-Digest: KgZ4X5Pg4f7FiaLVBJ2aNDRRwSSU93fbVeywq4DpUqbeQP0eijnZnwlb
+ weFjliza
+
+Name: res/drawable-xxhdpi/plate.png
+SHA-384-Digest: GPxPSvkvhKmg0FPUEHBd99I8niNDcWFdM3tTEpelogpWvbb94Z9u+NpZ
+ jj0vahpq
+
+Name: res/raw/experiment_song.mp3
+SHA-384-Digest: sx1eGn4Qx8iUawucRKzlL8H4gxyhAM1Jy498WaItacH/So9/rgo3HClt
+ L735sUBA
+
+Name: res/drawable/common_signin_btn_icon_light.xml
+SHA-384-Digest: 5qRQxMvE5ScvPs0APolGo2znL3QxDSaDmG+AWnBnhwH8vWhGwLmD4G0Y
+ Ttx0xK3h
+
+Name: res/raw/dead_vert.glsl
+SHA-384-Digest: VUalD+Xm9dYYCQWhHucu1rIxA1oedJ7AtUbk2kHHTPc9S0mtfU4GiOua
+ RvGQpC23
+
+Name: res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png
+SHA-384-Digest: sd2XnBihjn43sUOK9ktkwG5GKru/pzEg5C15rEOJrzy9qee8GaWCP8Mi
+ hjoq9tFs
+
+Name: res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: 4iAxBOtmi4hI0zCbKgz4RJyB6FF/3ZVvptz+adYM9C/bLBpPHYzu6AqI
+ VY5vdPvi
+
+Name: res/drawable-xhdpi/temp_medium.png
+SHA-384-Digest: PmbYqInIK5JMJi3d56gG7UZxaVa6/32rEXweMX1tUYqJ30UAcfxtheW2
+ ZM56mJA2
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.
+ png
+SHA-384-Digest: k+2qedvH35ko0OZJJEc7sDpUwwFLQDB3MJY6s1ilCTdKGQ32raAGutc+
+ 4GRtfqBv
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA-384-Digest: R9kq55BKUphLtx8UV5vLeUXD9aFy/bdpD13tGf/gUHFAzMFOqz5puMOu
+ YO5I+LWM
+
+Name: res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA-384-Digest: tvP5oM8iZwopwsnvqdaxUyLEn5kSZ6ClRONVJ2LLU3ELOPlTBDuS62/y
+ WC67qPvc
+
+Name: res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+SHA-384-Digest: WtrkmeLCwzy4x9TGXVqYLl9YEI0Fz3QEpnfNJN0We0MxfBxOY9rPqHIi
+ kjvR88wl
+
+Name: res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+SHA-384-Digest: lr6DhbAq3kNTNtBJ5XDyEr30lAmZpPT8W4x6SM3gj8ZjuNbdNeBAoFLI
+ ASF8c670
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+SHA-384-Digest: tfaojdYApOND1qDK3cIiR8K9JZ8ds1cPV3X8CvO4K7pUOLqjXg2/aMYH
+ VfctK30H
+
+Name: res/layout/about_dialog.xml
+SHA-384-Digest: 78wdmCLc4xP5RCz+xF0DWVfP8OZLRMj/yNuNfn8tYvlm0vfxNn55egC8
+ qAHdCqgP
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+SHA-384-Digest: Z6742OERapYoUjkMiPy7w+1O9vZWVAGKwkejYSsWU++qDgCYxptVit8+
+ o0bOfkLW
+
+Name: res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA-384-Digest: vG5vE/CrxJDXojDur/fFYoDt7Z9YzLPJ6gHT3jdDtzCJ7J0sxoEm//SZ
+ S/5hsbpS
+
+Name: res/layout/signal_val_dialog.xml
+SHA-384-Digest: zO3UhHgO5VTXYogmZf8nGw+O8Ty/4N1GALExuEgR3EeXaE0GDWPR3J7t
+ 5u4B13g5
+
+Name: res/drawable-mdpi/temp_high.png
+SHA-384-Digest: MeXc4H81o13skIudHxLKNggTdnD73rpgaA2s6u7xj7aC4RH3hI5W6u8w
+ lTFNfazl
+
+Name: assets/prot.substrate
+SHA-384-Digest: 8QY99/H4t9ZJPLHotV0agnubqLhfx3Cv0XJXY/HSBhgFAubAJGOzT46e
+ 31hVsZ5e
+
+Name: res/drawable/abc_list_selector_background_transition_holo_light.xm
+ l
+SHA-384-Digest: dd6xDuzjOwX8SjsqWd5Tt5CLdTosXE7z3OoJ0Z+e56RXdq8GHS6dkaVX
+ L3kC2k4v
+
+Name: res/drawable-ldpi/plate_load.png
+SHA-384-Digest: zo/dJKxpFAnpk/wigL9KQ8sCAuy38/MUb99tNKYG5l3sXcOScCh3j6Ot
+ P/qIgj/I
+
+Name: res/drawable-anydpi-v21/temp_slow.xml
+SHA-384-Digest: ZZeFK44/pwqbIwKhrDTPuQ4ICsUAFgTn1rKEimZD7sna1CBqr8BOtkxp
+ DGcSyOpr
+
+Name: res/color/abc_primary_text_disable_only_material_dark.xml
+SHA-384-Digest: ee1/R6LRnFoe0zW/nSTuzEIym2A4MPf9DPNc2VjvVOp6oRxt99zQJ8JU
+ IzvMB1La
+
+Name: assets/hardSwimmer.substrate
+SHA-384-Digest: PPHZABDJ1lYwae6Na+yD5smQ5fTdx1FDkQ+kKq3z5KXcwwiKWk6Imuql
+ awhZlubz
+
+Name: resources.arsc
+SHA-384-Digest: dntUka6Tr/9RDJkr89Ao9O5zFBzE4Qg6Iqpaw8YwIcsZKNPuwSgR2QOe
+ YV/gvqHo
+
+Name: assets/hunt.substrate
+SHA-384-Digest: NHqWgloWgJvpGaMYryMwgjzWLKAejgN6hQ2lJe/oOGxO26RtRqoK9kve
+ SEw9Ix4V
+
+Name: res/drawable-ldpi/tool_move.png
+SHA-384-Digest: cAqDYg9rDYA7BEk4w7KOkqOg0qpDvChWc2d5qam9XLU9P4NYoyd+C4wb
+ 25Am8jhT
+
+Name: res/drawable-hdpi/temp_high.png
+SHA-384-Digest: B790eS+488uCsUhwbtqmeA83biwPCC5YHY98jxS4jVnRpR+zgaJczBje
+ 0ZFH9MCy
+
+Name: res/drawable/tab_bar_bg.xml
+SHA-384-Digest: 5CPSoTUBIhgp+l6HCHCxysh7gpALdkPXVwwp1U33i9WoGAOKethM1MRj
+ OpSLX5Py
+
+Name: res/drawable-v21/abc_cab_background_top_material.xml
+SHA-384-Digest: 7imE/7HHdn9cdAA4Bcly1TT6w5bU6qoDGe5xpLArrtJTAvgfrjsh2/ea
+ +/TT1Jc9
+
+Name: res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+SHA-384-Digest: IHQNuVeLb+Dqrbg3wuooYdGimkuMS+LLsZ3JkBXYYUHxkOYlUUVy2l6g
+ yD6YcJsd
+
+Name: res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA-384-Digest: 5gPRsf1oYeUf319Ex5D8S6wEbV8jssYF4bwanUPnL97na/wAwfRfUdbI
+ UzL/+DzL
+
+Name: res/drawable/abc_list_selector_background_transition_holo_dark.xml
+SHA-384-Digest: OyTMNxagIkLcBzTk68Rlly86gtsM5aUBmaCBsDlnZhe2e0pRT6J0KarW
+ 72KDu711
+
+Name: res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png
+SHA-384-Digest: TjRNiAwPQTtN51gEno5rtMvKAOTGuFbFcn3gxTBqoiJA4O9RuhQRwje/
+ C7x0gFIL
+
+Name: res/color/common_signin_btn_text_light.xml
+SHA-384-Digest: 07/b6dFQRNiLnDojiy9z/1G4OwLJ4kPOFtZGNcHfG2uYzJ8+6dAgPH1I
+ ibPVeYLq
+
+Name: res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png
+SHA-384-Digest: QNBG9RzjeCtnxvGKC2y/jRbogTnJsE1nri21Imr1YfqdplSQUPuT6qeS
+ biA3aD/N
+
+Name: res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+SHA-384-Digest: iL9S8BD/b9SfS3/hBEwY+lhP7n48CIFphhYKSNkNtHeYyQ7S/tExkeFC
+ gXKMVvzi
+
+Name: res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png
+SHA-384-Digest: HiehdSZ2KChST1Zjq6SoXXC309lYJAsmlfLegD5lUtR4S8XqcWq3FZCa
+ JQUJL7Bp
+
+Name: res/drawable/abc_cab_background_top_material.xml
+SHA-384-Digest: krWNZE1x8u7EAd6mehojo5/+ZLgcRK2lQaVddMvxPZ2IivxupvFLXn/B
+ BJ6QiM/O
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA-384-Digest: 6a/dl7Ipy53PdRk3UYDhmdODUcZpH2+OmhVuU8mfnwBpwZCU3uSmDCYi
+ z3U9jJ3I
+
+Name: res/layout/action_temp_button.xml
+SHA-384-Digest: YO0etkSSfwAh6mbClVUPJm27W79ZVego8QhwW/LljT0A+OGxbsq4uL9Y
+ LL8RVwoK
+
+Name: res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png
+SHA-384-Digest: 14IDI4MJgBXQH5Sxtre2Io+N+TF4Hbr45c6QWmKQdYJD60EEfCsQyJXg
+ nnHGlalG
+
+Name: res/drawable-xhdpi/ic_plusone_standard_off_client.png
+SHA-384-Digest: hkIFCWNsDDtAFXmhxJvTIK+bcbcTliliJP9ohwyVFgNOPuRftHtOGfGR
+ qN6DSQhQ
+
+Name: res/color/abc_primary_text_material_light.xml
+SHA-384-Digest: IRBtGlnWfAzQSZPdhHdJiAH40baVdvkQNOQox3zujXnz/2op4j3z7Lbr
+ DtYwUs0W
+
+Name: res/layout/abc_screen_simple_overlay_action_mode.xml
+SHA-384-Digest: kKXHF/qXt+qr/2mwfQYg2Hv35U9XBNfgXr22wpTWBdLlfRaB6bPHNNAC
+ H75ogJZX
+
+Name: res/drawable-hdpi/tool_remove.png
+SHA-384-Digest: DyBHR2uwUDvwhbCcLWH5NQArHI/dB7MwIaorEQxA6YiVKsRabKi3xaEa
+ tOC+SAC/
+
+Name: res/drawable-hdpi/abc_list_longpressed_holo.9.png
+SHA-384-Digest: eXnKgcsBtt0o59q+bL2QY1OHtTLkLxwZviIAuSXyoAwCdJeH0XX7Vsh3
+ 7/+TSTEw
+
+Name: res/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: 9p/wMmoR6raXUE+iaiHE8bFYEgSZb4M5oJXtVvGgVskrTMCWiSwVqk8S
+ t37AH5f3
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.pn
+ g
+SHA-384-Digest: DwQzp3JHBFvljadpuvG/OIxtA5oltl5tdxFNg12j3iFAAuqk0RahwkT1
+ yYCDbNUa
+
+Name: res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png
+SHA-384-Digest: tJFxW0G2tWAcUvbbo73aDYTVBugrl3occLEq5NFnQBV6Y8WhJdUWL0Cr
+ 6HEEKCBT
+
+Name: res/color/abc_primary_text_disable_only_material_light.xml
+SHA-384-Digest: 9vSK8f5JmTIjM6L0+yiFV0zbN8pMXJqSLfo1o6+s8juuZoE24IML+kK5
+ L0xj6a09
+
+Name: res/layout/spinner_item.xml
+SHA-384-Digest: 9ag+wxNybNfbjjSdlMH/Jbx+s6pMfEDqL+UN0rNkLKrgMD78p8FXh6pH
+ NojbaW+w
+
+Name: res/layout/activity_main_menu.xml
+SHA-384-Digest: /3sFLxOBbSbWpLKyLLKbfKM/uG49ZVX2t3L/dDGbVyTNJxlpOGgAAsVE
+ Y3T8D/G9
+
+Name: assets/level1.substrate
+SHA-384-Digest: Wru2T5OF87v54Ww5YzH90t17Xuer1cW7kwekqr+xcJ6aj11IA0Wgv5pC
+ l50XLXPH
+
+Name: res/menu/tut_mode_chooser.xml
+SHA-384-Digest: mLZSBnwDg1YxDUoSpwPYtgVGsa7VT+aElFXKNBDEffcGq4Y1fCd3P4qj
+ JED3tS5N
+
+Name: res/anim/abc_fade_in.xml
+SHA-384-Digest: VuMzl0qjmeJgVWNppuBMj5LWgWBrylUKPXEqoMNACWoyMnpZC9oZEjtn
+ zSL4UA92
+
+Name: assets/feed.substrate
+SHA-384-Digest: vv0XjKirOFCFVI5tqhKPT4s87OgxOR28wDeyH/20DQjnL04DFgBRG2cT
+ VnJ46nkw
+
+Name: res/drawable-xxxhdpi/temp_slow.png
+SHA-384-Digest: 3N0asE9ugS3DLdrYGAdbcU1tx8Nj3yi/6vsAOvm1B8N8jQTYcuObmWuG
+ ujy53lQC
+
+Name: res/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: uFGHeyROENQ1A6F0dkhqNB31WhGFtvuadOpQcF/ESisMH75XIpDPWks3
+ MBTbBuhB
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+SHA-384-Digest: G5aZVMzmM/1R9EH/+wQx+KyEdzP/a9JzprjLxIhjrQES3WTiuCFOLIBu
+ UWJHPPm7
+
+Name: res/raw/kill_vert.glsl
+SHA-384-Digest: e6Z0fh0VNKTta0bD4Y7use/YMjiFPQGx0A3VZfdBgp7egXOR5TOB1xCS
+ LtSTRn+D
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+SHA-384-Digest: hr5Tg+OJ8eb9wK81j/XszKhe0kpkv5Bu9ZRVsKq6eVCgdRxJ7AxVl/dr
+ cYh8sGMm
+
+Name: res/mipmap-xxhdpi/ic_launcher.png
+SHA-384-Digest: MazQuAyh+cdWcG/Fm8RKP8glcIce1lI5t2QOUn+w3OOps/rJ/AQ+5L8W
+ Ep2rPCV2
+
+Name: res/drawable-anydpi-v21/plate_load.xml
+SHA-384-Digest: d3xj9giGQWRt7jTeBQU9wImjTXKvUtwh+G/E6UZm4Pp6kCeohPTKCWvC
+ Z5uf4pFf
+
+Name: res/drawable/spinner_state.xml
+SHA-384-Digest: Pwl4v/bgJXkwxoDF6NQ3B72IasCzKh3McqpoUYPL1CscEGnB2GoauLXT
+ rnypBjZQ
+
+Name: res/color/abc_search_url_text.xml
+SHA-384-Digest: Sg2Z5bghxYEliVGmPoXqEponQ2Ej6jE4Oxsoa55pJWNLvOxHg/ggUSpr
+ ynH+9IIW
+
+Name: res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: TT+ldyAfwcCnb7+cYCggqzbecE3ZN09xhc8I/yeDXcHBJNtKgi+FVXxC
+ BII4dMju
+
+Name: res/layout/fragment_objective_tut.xml
+SHA-384-Digest: fuQP2FHJ4cJxEiHTK92ZZXfLqD425J2B8dUameC7IManwt2s8l804u+j
+ wyr58kct
+
+Name: res/drawable-ldpi/plate.png
+SHA-384-Digest: bmnr+fKoGW63tTqAUHf2APIUIb0++KbblaJn67QjQEWGy0oN1ffEN4uZ
+ DV7zEr1h
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+SHA-384-Digest: d7hElZnR/8XiBSNExxNFix7DYpHRhrIbmZb4z15qmriYmSYk6a0nShL2
+ c3LBNxUr
+
+Name: res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png
+SHA-384-Digest: F3q0Ap5JfKLpDxZxnDutcy1nDpVBUV5kLDRI9L9UWY8n8/LPZo2f2O2o
+ f3ClnSX0
+
+Name: res/drawable-mdpi/plate_clear.png
+SHA-384-Digest: X26DE3RZv8+JxpeMZHBjp35CHd8addc/O4ifLqlmmQGt4UjxT0lVXQOY
+ xdmma9X1
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+SHA-384-Digest: fz0YWahShym7To0TFWVQ3Gylo2sYevTnN/67KtxUyLK0tQKA9nncagay
+ oyxoRJWj
+
+Name: assets/vir6.substrate
+SHA-384-Digest: 9DY3aV6oTXnuPG8x0YOj1fT5nLlBTigKHBTnhhhL65XLh7HkhZSDVv9J
+ w6sB5dHv
+
+Name: res/drawable/common_signin_btn_text_dark.xml
+SHA-384-Digest: 3XlOaPRq1kUilcPARsrvUTwd0zpY1uVqtxW9dzrTCde2LotjVixHko2z
+ ONLtXqeF
+
+Name: assets/keratinosyt.substrate
+SHA-384-Digest: v2NeZT+mD521ryuatnzB0XyUorjXHYte5bHaL+QKr5tVvAGoopmS1ZWP
+ mTqp4OaZ
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.p
+ ng
+SHA-384-Digest: k+2qedvH35ko0OZJJEc7sDpUwwFLQDB3MJY6s1ilCTdKGQ32raAGutc+
+ 4GRtfqBv
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA-384-Digest: sbm7WclQPbZjckGH6p4e320O5OlcmLxauFKybop1S+UiiBxQV4uDblRc
+ fftsyZgA
+
+Name: res/drawable-anydpi-v21/tool_move.xml
+SHA-384-Digest: O3sRuz4oDyQPqqxjZI88soY6i0waRnL6p7ocI5+0uV318yp1kBF2edME
+ iE7NOa5E
+
+Name: res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: dAi5BB4dAxvSiDxWJ0Eob9b3SR5XsN2WzMRtfzVDVLMBf5qQ4Hkss44e
+ 4Jo9v+cG
+
+Name: res/raw/select_cell.mp3
+SHA-384-Digest: l9Gd95tqmF3CSIP7Mjr7hMJtugCoRDut7X5iAOL4CHjA2UsqkngHaHlZ
+ NFwgT+u7
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA-384-Digest: 5T1MHmaqdC94jYl/lsXh0Yo1sRYSbf0qTkum75tJjWW7USB7htmaGD2H
+ D7BES6XC
+
+Name: res/drawable-hdpi/ic_plusone_tall_off_client.png
+SHA-384-Digest: lb2NlKornHYuJEw+LlDm+Is5YCtX/OM18YAzWmEY9pYcbNp8Izc4cZ42
+ Gl2kJha6
+
+Name: assets/tutoNeuro.substrate
+SHA-384-Digest: XmoDTH3vXc4SToSpG/nUzJukw1fk++b8SbIEhTdVjCtG4YnD3z2RSKr0
+ u4zhvaOB
+
+Name: res/drawable-xxxhdpi/plate_load.png
+SHA-384-Digest: qbW0gYVX2fY3qBVXw9xI8IGr96FjqAYbTWmE9fVMdXa9sd22k7lXF/Rq
+ bLzDxRUG
+
+Name: assets/breed1.substrate
+SHA-384-Digest: fqynE51lj+RQEUvmfbXtrx+bbQUd0kRsqK1wAGmx6KU8xN5lO8ozQdKO
+ ssKnmF68
+
+Name: res/drawable-xxhdpi/temp_low.png
+SHA-384-Digest: jWbTLPR96DEa7tTdUzdnfL4hLoYEy9ZtyR1mEli3BL+gpVAyhrddb2bq
+ Fih3gc6R
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+SHA-384-Digest: TLrIOyDmfEoUMZzYLMUzA+DxsYNuMMHQNEyqGVvjZxBU8xRZNaAGUOdG
+ g+o1Bad4
+
+Name: res/drawable-xxhdpi/tool_info.png
+SHA-384-Digest: Ec5LB3zrWjZ/5vT4EuCB+N2SOVEqZazxtXKJ0kLxLnL2YNrYIQf1c31M
+ R3Ld0VtA
+
+Name: res/drawable-mdpi/temp_medium.png
+SHA-384-Digest: E/ZTkDEg50rgkrF6hXHTeucDgCy6oGE+JEMX0DLWDZFLspd/InXWT3C2
+ tBrO8PXD
+
+Name: assets/mutual1.substrate
+SHA-384-Digest: 4c7iTBm/WU++oLqp6qGqbNmor9qxhwFjyzvnQFBNd4yZempIredKy+EN
+ r2GqI5z3
+
+Name: res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png
+SHA-384-Digest: 5AzGtkAps6gd+eUdN//EPwla8oGw8j+fr0Ck5a1S3w1cJs6ac5YP8b/m
+ EN/WYt4S
+
+Name: assets/moveit.substrate
+SHA-384-Digest: n3CsLmJnAK4/qKgog8tGuZHWL1j7hUoLlpOMzdGFbZ4gzK9jr9SPpT+K
+ b1Pkl3QP
+
+Name: res/layout/abc_activity_chooser_view_include.xml
+SHA-384-Digest: nNWS/sKvMlcMVI47fedwfLsU2rA/FmkmVEPqxKyNa1wpXab+xoAqtsLM
+ KotfBBZJ
+
+Name: res/drawable-tvdpi/ic_plusone_small_off_client.png
+SHA-384-Digest: lQBsw3lKvplbAYh7MqE1q/kvkKBnGgv4U2KlaO8kK2xrYpk/RjzbphVY
+ 6MOghtvC
+
+Name: res/drawable/radiobutton_checked.xml
+SHA-384-Digest: Teacgfq/NpEswUcvb60Jup1C8KTVS32UZ+nrcVDZk4OorCjN+zgMAsgu
+ mwLeWBru
+
+Name: res/drawable-ldpi/temp_low.png
+SHA-384-Digest: LWoH8OndI/pi96yRXioIOZ2bJqAsRrrIg45RtgVhjJGSpx7+UQo2UzJi
+ oDMWgk/1
+
+Name: assets/last2.substrate
+SHA-384-Digest: vpZG9n6LpAf/EeBqWSZAFuHwAPPtktXvEFt2b3+B3O1dfYJhU0Yg1KP/
+ 5PQpzP5u
+
+Name: res/drawable/radiobutton.xml
+SHA-384-Digest: YWOEk6DVTO6LION7KxVMUWCG9VUpSGwL6f7j6vsK00q6y8qJg9gJPdbB
+ swzKqvNT
+
+Name: assets/colch.substrate
+SHA-384-Digest: SVgrX/SO9EwI/OXQ6UXvvEOpfMRYHHn4wvFWB61RHdc2cLwL4K88fHRe
+ 6Iwnjrfk
+
+Name: res/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: PDVdxwgI8JPuVZQT1pC0ZBOgIBPs9aE9tE3USP/4hQ3D6R50yUWfz+m7
+ re5XeGY2
+
+Name: res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA-384-Digest: ExYzyi9x60JFGuvF7tEu8MrnKVxixcznCvf6yykrorDJX+TiFY4Rr6jY
+ DhRFtCLp
+
+Name: res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png
+SHA-384-Digest: ZS6o/T+YCMTznjHB5fEDcPZLwTAUmtZUlLMLInC3gcDnqriu2DfwcGLu
+ uTpxfLfZ
+
+Name: res/drawable-xxhdpi/plate_save.png
+SHA-384-Digest: +8fywHIt9El2LjikE2UMXtfJn/DWtLZIKKvYRDVlS2qOkf3VoAftqsQJ
+ xXMf2OFU
+
+Name: assets/non.substrate
+SHA-384-Digest: zUBeU3xkEtJPAKKkpeUn/N9Jkq7OaAZXfvuo/EaX6NvAmEwDkjXSzFme
+ SI2o9CD1
+
+Name: res/drawable-xxhdpi/ic_plusone_medium_off_client.png
+SHA-384-Digest: phVbTI4J9+VubZPeYglN4d2YqfftJfAxnxnxoKz9qV1E/h9KgRah6Ho9
+ XZPSj9M7
+
+Name: res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png
+SHA-384-Digest: 4BHuSyJtAePHGO1tCUAFsDYyK0Oozyf2H9udyHKDs2Rl7jtjUgexWMWu
+ zJRY8dpa
+
+Name: res/drawable-xxhdpi/danilov.png
+SHA-384-Digest: QoWXX12toa2iAm4QWioi9gHskWuhAmlK+BpwqKRMS/c3UCcqrkLNRen9
+ w8xHqD3e
+
+Name: res/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA-384-Digest: v/ygJJVdzpHs/5m1pJp6HE/lMQI42x82OQf/77Z2FRMp6LdgtOyJPnvW
+ 50OD5itw
+
+Name: res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: xoK9/M2q5xsEwmfosVhKASgZY67NdbFRZUxKRVzX3K+YZlj+V3bkiojy
+ ej6XzHQn
+
+Name: res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+SHA-384-Digest: uZvTd7W4zCaxqrErFAi5Bfef1pv6dAjqW9fgJQRfntMy/c+vli1zik0U
+ +LWidk+N
+
+Name: res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: rqqgSZci5OUe/xG6tHwsOVK4eT+TP7C6Azyw1CpQsjcIFLkxVTS8jozO
+ XDn7kNVC
+
+Name: res/drawable-xxxhdpi/plate_clear.png
+SHA-384-Digest: DihZ5BNhOlPPkfWNUFLvNZbMwPEHzj1n2J6jqKk0zuL7jAVsvP44Mtkw
+ PEBDk8pX
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA-384-Digest: GhWdZxhtdYg/bVeYOI1k6ouwgP0I6vV967Kduptiw3J3jeLJUGtSn+7H
+ Q6+kzGCv
+
+Name: res/raw/stem_vert.glsl
+SHA-384-Digest: pYOIT4Ss83pcyD8Ptdri7+y+4Qt2JsQG2N5RCxGbnPX60lABRDrKZHDp
+ qWlfHj88
+
+Name: res/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: KxHhiCC1J7NdLTGGL01OLk9ApG2ZDzOiX7OadRusjMZL2q03zqw0UpFl
+ jZZgpW5x
+
+Name: res/xml/file_paths.xml
+SHA-384-Digest: VZ3pTjxgEunLTE1wKzcgqBcFL1j4GbOmgOWdxLsUb4ngnhnkKS8B6MVC
+ wj/cSbsZ
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA-384-Digest: SqzhT+EGK3H7QtluVnYDmn8y7ptOGLIjNk2C7XMOvm7mxaT7Mhd0Beiq
+ ZWnE80xb
+
+Name: res/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: V7RGShMdg+iWJGaY9doYkIwSVGZP1Nq113cZd0AlmVi89ik1v1Oa9Jsg
+ +LGQCbE5
+
+Name: assets/level3.substrate
+SHA-384-Digest: OSxh8RlCfeIplfHAoibbQYmxT/CohYFgaZYCoDaKkY8J9RyTIjJRhLZW
+ gRShigbK
+
+Name: res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+SHA-384-Digest: aaQRksNLeTacYHTZEqGaoVdV48V0pLcEpVzgSvqcXQM6K3GQHfnDhD8n
+ UWjlR5Xu
+
+Name: res/drawable-ldpi/temp_slow.png
+SHA-384-Digest: r8Wa6+4h+mHvaECllVQVlqnMWPUarFAltt4E6ovTb6F7Qp/cV4LuyR9S
+ BodljKoa
+
+Name: res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png
+SHA-384-Digest: qaiDBwfCTCGahHR8yHAhUQkkdKwEmlDn8wJseKtenYD390sS8+Kvn2gG
+ e8NPjTJN
+
+Name: res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png
+SHA-384-Digest: 9HoxmL/viNJFWRt8322HR1CT2A5WmySFqvZrXhYzLZAm6BgDeP3jOjLz
+ 8ILngC70
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+SHA-384-Digest: pYxx2N0xwNBdUPGW52AyNn0a0Sy4ixsP2mwRfAzuDh5/mr//yV/lnZZp
+ r0xC+1Sv
+
+Name: res/drawable-xhdpi/temp_low.png
+SHA-384-Digest: xNOZ2yWvHxZSLCijVwoKgntbme/N/FByAjoOaUIO+KLHiQFlLgoivf8H
+ DYaKQ2P/
+
+Name: res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+SHA-384-Digest: YL7D/BGlryadWePHC7tZYAIkqJJTi1lB84mCEBt+oXTnL1vC1NPhUFi4
+ wsl7vrvi
+
+Name: res/drawable-xxhdpi/ic_plusone_tall_off_client.png
+SHA-384-Digest: OXRz14tN6AJDiTOak2F5dVaVPzJrAg1MRCyGdbLPtWFgK+v9sMKN5KxR
+ srnGO30B
+
+Name: res/drawable-mdpi/plate_load.png
+SHA-384-Digest: tZYVnDzErrkCA6VDioCx3PlZxjRq1ocNYuVO7Z8PtiAk4KI++8ghILHz
+ qve6Rft2
+
+Name: res/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png
+SHA-384-Digest: kB2BtsIhlzfMMsvu0PqN0f8/VsPYGsykvEsaAitjCW2H3y53zrtuwO/H
+ CnHPJB4Y
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.p
+ ng
+SHA-384-Digest: 2EETdGDXdi1JeMS5W66JhdDGb46+CEODndxCig5U0gvuAJsnNQdwQZC3
+ 13tRVM/l
+
+Name: res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png
+SHA-384-Digest: wCA/8hoiI53lckApcoQaLcivTQQg/bbdtRXjD9kfioCtzIOEfRt9Wlu3
+ Nq/RvP4q
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png
+SHA-384-Digest: A6fYZiLJbtYEg75aGIE3i8ufzx2rDg7Y597BNEJcwzorDWS4W2xJ6qN1
+ v7yNjv2I
+
+Name: assets/vir2.substrate
+SHA-384-Digest: OTUjBeu+YHoKWUeauA4pFnL9hvs5C1MlnYj81VcwmY4HYnHFuGhm6dYg
+ 2mdjLKEk
+
+Name: res/drawable-xxhdpi/powered_by_google_light.png
+SHA-384-Digest: wqY/QFl+PFLPPMUDHfnmcJ1vCdgnN1B1h/DORP82GhWuJY58mrDRLu+k
+ YMjdrnxZ
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+SHA-384-Digest: 2NnMJe8mwkC8hz5mEjEel3Ecq9ebOVUcRq0fnhY/sg2bmczvzLPOXQHq
+ Uq1TFYOC
+
+Name: res/drawable-xhdpi/powered_by_google_light.png
+SHA-384-Digest: FEtKtngchKyjFGsefofWBTbokWCGuxLXHtakKTfwDfkQclCO0Snw1PqF
+ q8YB931T
+
+Name: res/drawable-xhdpi/powered_by_google_dark.png
+SHA-384-Digest: AAbypgmSum2O0AZQJXeJ9oJ6ZXCq+vpzk/QIUn9eb4Fhr89bTv/lWlq2
+ rpSgpBvq
+
+Name: res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA-384-Digest: f1cf/TZBZkdNunnMSb3mJnBV3ngQjt/gevYr5IoCs19DGsTBtXLVndux
+ zN+K86KW
+
+Name: res/raw/button.mp3
+SHA-384-Digest: 78Ni8XZmZKuQarTxScVR6EGFvk3/W0mrdH7H99F7TEcS9eSg/Y1gMX5P
+ DHzAqq41
+
+Name: res/raw/gamete_vert.glsl
+SHA-384-Digest: N0Oa/WkE2BzvRTjkAXaickW0YM9U5ph2d5Gav9lmLfW3XBLF5XcTkk0b
+ xaQUDDXQ
+
+Name: res/drawable/button.xml
+SHA-384-Digest: F2gIBMGwqprrONYVo06I/9MzHdFFfL2oxvS36fbelY+7pRaGNtoRQtMy
+ UfZAjnxi
+
+Name: res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png
+SHA-384-Digest: /RB19Q+1zSvZ1ugj3c/eKSsgGgnIOTcSiUPynzmnpSFVQh6l/IdrkylL
+ 7FxajsbX
+
+Name: res/color/abc_background_cache_hint_selector_material_dark.xml
+SHA-384-Digest: sfGTa11QSI2Qcjmo3HCa4t2Ye3MnoHq5aNcSi6REYEIxNyLLt/+02LFi
+ KRuE//Xc
+
+Name: res/drawable-ldpi/danilov.png
+SHA-384-Digest: 2gdYthHBmRSjyAeNlwonqPH6ozvs2fVPXF3sr/PAI/qQxbozohA/z1Tr
+ mEOEye9c
+
+Name: res/drawable-xxhdpi/powered_by_google_dark.png
+SHA-384-Digest: fSAva1nLdtXyFlq/GLV+qbpPwzzrqoM9r4v6V6Jwp8XON1b4MyE8OJZk
+ rkmHWlz7
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA-384-Digest: WCw7+JuhGq7BB6uaF7Eg33EmJoCyCMIM0/THAEJEzQACDeicvprBO6Pt
+ URCb/WU4
+
+Name: assets/floater2.substrate
+SHA-384-Digest: hCTWQ2vcJHgqYrkZ4aEuJLdJe/maS9Xj0HIrF7drLtvph/gVBqP2Q9FL
+ mD9qQiK+
+
+Name: res/layout/activity_play.xml
+SHA-384-Digest: 5tPO9PUrFF0GeBgBOpgi7qSUjyu/fd/BKPMwTADJ2I5ySZ9zlqUxMA90
+ c1+jYe9a
+
+Name: res/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+SHA-384-Digest: BDg/tBcnT/wGDEKg0fek4XA8nNIjiGjmShPZv4WO79uOs6vw7u9E49ll
+ ERJuXcR/
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+SHA-384-Digest: Fop+7ItlAGmocwPiXpZBwME0nSTphJirWhah87dM26iFFjSznKCYlt45
+ cvwoGAXe
+
+Name: res/layout/abc_search_view.xml
+SHA-384-Digest: mjdbsym/rF1WlW7b8KBxt+Pt6Pt2P22NCRxo2r36HInwtRH3kaGJkCAC
+ 8XeEf+Un
+
+Name: res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: qCeDiMjHSZnhec24pOutJUAgNaByz7Fs9xO1egphjae7QUo1MkRb1uZq
+ jwBbnXmp
+
+Name: res/raw/ves_frag.glsl
+SHA-384-Digest: Xzd0QULnWfWNGpMkj2+9HDmA3Mopx+uDh7fEWhrQJab70MEOnKwSc4CF
+ WWvSft0f
+
+Name: res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA-384-Digest: /O0JSddhgZlmi5ZLBlLWYdRqYmdvTYdsuWDF5FNyX5aR08oxw44ZeBKW
+ OGVs1uyB
+
+Name: res/raw/virus_frag.glsl
+SHA-384-Digest: KYVQ9DVGAc8LinkqNzxhmetnEGCQnsSkIVRFQBEfka66Q/LiQb8vihc2
+ kLVZ1jqz
+
+Name: res/drawable-hdpi/common_ic_googleplayservices.png
+SHA-384-Digest: UVkYgOcMR9pnvJG3QVWMNTKyrjJXbKL2tW/ZBtKkFCf3LnCoeKgXaS/z
+ p5QrpkhL
+
+Name: res/drawable-xxxhdpi/tool_move.png
+SHA-384-Digest: CIU+dqsELDbV7KfWory/nAsOOpYv5j+Z0O+af8K04igdc2JMyNOrQ9NE
+ CiEGyUMS
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+SHA-384-Digest: qUTuP5r4uGEnpF3OXPmdYrnLF3KgqeFkoIg9jmm3ya1ygF+JVD/vqMx0
+ iRjAWXE2
+
+Name: res/drawable-tvdpi/ic_plusone_standard_off_client.png
+SHA-384-Digest: 4WmIHZ4Oy/eyPbEJ6obhjIuJTu0D+9ruMUlkLunD9ggwI2Fdu8wn377v
+ Dz28eV9E
+
+Name: res/drawable-mdpi/plate.png
+SHA-384-Digest: eeGPvtambL9N2QMW66a67oReO1ZEyZZDHgy0t4wc78G+KNLUZlTkhIln
+ WNCNCUj/
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+SHA-384-Digest: 2wQjzeJpgpVYssTwhzMqGebtVU8oXN9BCUnpj70H/gKBHGoX3GDUqG47
+ a2tQL6JB
+
+Name: res/drawable-hdpi/ic_plusone_small_off_client.png
+SHA-384-Digest: egDS9qGnys4K4QQCF5Bc+Ll00rAsJCYslJEoFMBCa+GE5CMjN8R+1E/t
+ zlXNDs//
+
+Name: res/drawable-xxxhdpi/danilov.png
+SHA-384-Digest: BPA2i1VZNQMJhSJ/tolt0bwAn5B1brVOMYxy0yLmr3pJhO0JJV/iJ6SE
+ BRR9H4q3
+
+Name: res/layout-land/fragment_genome_editor.xml
+SHA-384-Digest: ZJBx9qEIvCXy9BrtMqP9sXlXom5QTRJpTBBG+w00ZpvhBViEzPCpKyC4
+ mvnpSgXk
+
+Name: res/drawable-xxhdpi/ic_plusone_standard_off_client.png
+SHA-384-Digest: oFH2LMy/RKC+OnAK1voNrx0r6QrkHqHxeWW+TZx9ncYWGODED5lkRLpj
+ PwtdotrI
+
+Name: res/raw/gtm_analytics
+SHA-384-Digest: uCHljrW39Qz6dlyz4IivXzoTeqfuHFZC3cvVuCVMDSlwbizjN9Mtvw35
+ 3xz9LiJm
+
+Name: res/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: JsYeomvtWG9hUdp1qmGRNexk20bht3kKaTWKQ9MlJfVSPMrftpxbDRnF
+ t221JFWI
+
+Name: res/raw/gamete_frag.glsl
+SHA-384-Digest: 5yE4WApLn4Qynh6XKMyjuLJ9hBp0KsQuLYPmXfwzMuZfqpKJTMMuV0sn
+ elXaC569
+
+Name: res/drawable-anydpi-v21/plate_save.xml
+SHA-384-Digest: SMHGT3XrLXUm2MeY8sIFtifWhGVfQmF+ok21MoCCPX7B8enEU/SlNW5g
+ fZM7vMen
+
+Name: assets/dualflag.substrate
+SHA-384-Digest: Us6nHIVhy3dXjd00nq3Bu81iwhAaXxP8oJXq72RDzVIBBo1RBNEgsvdU
+ uHKG6M+T
+
+Name: res/drawable-xhdpi/plate_clear.png
+SHA-384-Digest: reBIgZCQhA6Zrqz9mFvcdqIVROQB4QUbZFhbfqKuub3j8+PQu850XHSR
+ 00yw3JJE
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+SHA-384-Digest: 59hnpYKBdKJi+Shx9BYLGBTRyjRZhHs1zgVgmMPagLoLgcw0Q+LyDcCF
+ BFjDXpkk
+
+Name: assets/mosh.substrate
+SHA-384-Digest: pSUBcQXkpJk+Dx+fkO9otUGJv2Lvds3EVw1kVQma4cPtS3plCQNEG2iw
+ H5Al93BB
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.pn
+ g
+SHA-384-Digest: ExZdvg2Jmrt03x37O0Uk6mDUEQN9mBl5xWCNc1amRrpdjcqWP2dQ7VYt
+ iZQVMB+D
+
+Name: res/drawable-anydpi-v21/temp_high.xml
+SHA-384-Digest: /pnY5bGH3N23yqvxwb6xMXWk0QJXlPapcc7cXu/7VUAfsIN7t5iGdW/g
+ zkuYzNo/
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.pn
+ g
+SHA-384-Digest: A6fYZiLJbtYEg75aGIE3i8ufzx2rDg7Y597BNEJcwzorDWS4W2xJ6qN1
+ v7yNjv2I
+
+Name: res/drawable-mdpi/tool_info.png
+SHA-384-Digest: k0Z+45oLlJAQzEOCXyco1BQZaOoxzJoZaB+/OYGR3aXkckPe5jOmeOjG
+ BvkukNlj
+
+Name: res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: 1OsTeJ8gVx7BqcQbtueMqIl/2JeYHOdbx5EA0SpG5mAzCpFPUdQJuMJP
+ EPPjKHkN
+
+Name: res/drawable-mdpi/plate_save.png
+SHA-384-Digest: SviXPQmj0Y3xrxUGqUlSCG0NsSLvlGnjGz2nJUnLC0t9mt6hztIPPVaF
+ qi3TCHHE
+
+Name: assets/avoidtwo.substrate
+SHA-384-Digest: ykj85Om4rW65hSxhEOUQzt4+7GZb2YP9MiK4BTCNS5EYfOUi0aBQHw/x
+ JEHObjPr
+
+Name: res/drawable-hdpi/powered_by_google_light.png
+SHA-384-Digest: InJsIBp8nT6XZUNd1mJ8fNp6VB+HU6FcHJvP3WRFA3Sz62BnYoZSJbH5
+ mE+6psc5
+
+Name: res/drawable-xhdpi/ic_plusone_tall_off_client.png
+SHA-384-Digest: GD9lEdU7rjJX1AlXRBAKz2ftCwyP3yAQM0GFZNKHxIGn0UsGWOIgV/Hp
+ 37p+Quoi
+
+Name: res/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+SHA-384-Digest: nGRkxCcXAR/XL1zECtqDwjL6xhBbwNfgW+zPwRvV8g/gVlOT59B+xC3j
+ x0ST6ZdR
+
+Name: res/drawable-anydpi-v21/tool_add.xml
+SHA-384-Digest: cYB8B6lH4OVbMlNXaPX39nxkpXBU/3H58GpFcpVwLxTYf6Db5WxkMINp
+ QnroTbMt
+
+Name: res/drawable-hdpi/temp_medium.png
+SHA-384-Digest: Xjuu0RxXBYiZwtaym2DD3Id+UsoOWM41920uSGnkSYB3lw0bhj1UuWvG
+ ff1tEqQ1
+
+Name: res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png
+SHA-384-Digest: TbiQVsIBFY/X/jyDg1SIFO4JqEoQ6JUU5nF2QlVa5wnG6I4sBgOfb5tq
+ yYTrqqSr
+
+Name: res/layout/fragment_sample_info.xml
+SHA-384-Digest: vcaTA2VCdJstS8k/59D1+sdIy/9OW0IibTGIqMNJUg+gBqMYVJsVsYD4
+ UM6utw+V
+
+Name: res/layout/help_dialog.xml
+SHA-384-Digest: 01mAjfaCigx/KRL6uqSRMw07sY10IxgJj9MEdJqeCohhLdN2dl+mkVCM
+ 3bsiAAKj
+
+Name: res/layout/abc_popup_menu_item_layout.xml
+SHA-384-Digest: 3LBoW37MhUc4gCdJFLHY2u5iv5kpvsfcozPsYKo56dKJ6AtJkTM5oToZ
+ KyWj0Vmn
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA-384-Digest: nEjBXIrY/BRDWNRQpVvZuHHRRre/YQhwuy6HL6pfO/zWrBlJr/ItuCuk
+ xjHLpoYn
+
+Name: res/drawable-mdpi/abc_list_longpressed_holo.9.png
+SHA-384-Digest: d2WYfSqhipZtFz/10oM9aQ+SrnEdLsoXqdl+acV0KAYDEeTPfyYora31
+ fJEFQcZM
+
+Name: res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA-384-Digest: 3tylfXY2fUT2OD9X/EezTRhR+dBKpriXydmop6vAmd5KanXYdz7xH2Gm
+ 1iegJIPo
+
+Name: res/layout/abc_expanded_menu_layout.xml
+SHA-384-Digest: p+h+apK2UiTAz2q0P+BBTVa31rbtVWlFanxkxUxIpeSGCjHGtQxRwwfg
+ +wApKsFw
+
+Name: res/raw/min_frag.glsl
+SHA-384-Digest: 63KAolSlWwwaXKLIQr/XbtaJhJEBfCtSWBAOU3AXEv0v/AYzgTZ3gp2n
+ YSqklzWd
+
+Name: res/color/wallet_secondary_text_holo_dark.xml
+SHA-384-Digest: 29ZPUOCH/0NeSk5+aJa5TS23wQnTc+VFXB4tsmDqSDeHie7fjSBYExS+
+ PwHz4Jo+
+
+Name: res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png
+SHA-384-Digest: xaO8BzUFjPjb7uV8PTLDmXZLiSIX7PaQIHX1jGBUYtCUD84fM0yq5OZV
+ 9CwV5zPx
+
+Name: res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA-384-Digest: 3xillf1Tj6N3p3PwM8p49heUduE9mxth2fklImgvc3jxrVRaF51p5EGp
+ 0DpBerq1
+
+Name: res/drawable-hdpi/abc_list_focused_holo.9.png
+SHA-384-Digest: Qcq+vyQwkeTzz+i2YodOy0ms88BpZd7ZXJQTsEApyzcfkQoLOH2uYaii
+ 1I+TQpS7
+
+Name: assets/balansnolip.substrate
+SHA-384-Digest: IUKJIMhFaWFt6rhfnkBsAs1ZXNYuMw0jvbFmkmUuZ9S/A2dH7RkY5XaW
+ UFemOPCH
+
+Name: res/raw/food_vert.glsl
+SHA-384-Digest: yqjepKlVa5MERkyX9UZnlDxvptqBzXiaMxleQabnaSVBPK3Dk/euBv73
+ hA/jS3dy
+
+Name: res/raw/dead_frag.glsl
+SHA-384-Digest: k4a4Hic9AxVyk9dW7MzuK2JZKW7eSm/IMR7P3bj5CKYFtSajoBSolYd5
+ HsR5/9C9
+
+Name: res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png
+SHA-384-Digest: UXJiNMuE5dA7jNOhy8hW1SQOtAFKzus0pwh8XnkLBvh4kmklEeJmx6/a
+ 21fBjyur
+
+Name: res/drawable-xxhdpi/tool_move.png
+SHA-384-Digest: E8qE7kSRDkY9JonR7eFsG48EAzneCV+ralco9jTeFDSXOYW3WPm6lSGS
+ 8UMlnyLm
+
+Name: res/layout/abc_screen_toolbar.xml
+SHA-384-Digest: esvFO0RoaxJ3BJByr7zrD0EMOVX8L9Us6LQy0Zd1QB5m13p1IiFeMlHW
+ gKRzFPYt
+
+Name: res/raw/deselect_cell.mp3
+SHA-384-Digest: udk5Fj5T9YUKdvfamvo8ugUzktjavpJP6vSibV+UjW+qHf3zUiv1sT/9
+ 0xaVMs1a
+
+Name: assets/hard.substrate
+SHA-384-Digest: LdGlb9oWmvjt5BLPngfWnoMn/DSWhN/I7yulIPaRm6IRJCs7q+1QGj9U
+ d1VcmbTx
+
+Name: res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png
+SHA-384-Digest: SFdeDBgG0KyQhjH1Jd3byM+eGdoctuoO0jFc71iTZW4DSNiAx4aUDn5g
+ I7Ylqs0O
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA-384-Digest: nEjBXIrY/BRDWNRQpVvZuHHRRre/YQhwuy6HL6pfO/zWrBlJr/ItuCuk
+ xjHLpoYn
+
+Name: res/drawable-hdpi/tool_cell.png
+SHA-384-Digest: obMjDUN/wcWTbFQTuxHye+kBvVpVHHlJC8+h0W/QBjofqtR913paS9Wu
+ Ukgga5FP
+
+Name: assets/digestion.substrate
+SHA-384-Digest: WuGkXno+TqDX/rLfFnln6eU6QayiRaClw2RVgB661G99mgOlPyw3l2bN
+ 5dPfLwGw
+
+Name: assets/scarce3.substrate
+SHA-384-Digest: 9oDU4VDPtebi70KvSLDMU6jQp+oNsdXLD0R+ZcDY9nrF0TFQuPjyq5aT
+ k9IHrswG
+
+Name: res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA-384-Digest: cJM9WY5WJqFSp/CIrNa5S2l2mvSCbECNmDUORHUbjYtWcfSH2zUs+vlR
+ UunKXRH6
+
+Name: res/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: GE23oQHIXwvCt49Wxe2lEg7rhwF1EAz1PssE6xosp1sI57URrvnuyzHi
+ /2fTgCMp
+
+Name: res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png
+SHA-384-Digest: gSzgNJ5HswC4ODpOXeCoIbfTV3sdh9U78J12LBc3ZylyxmlkodWNxyFl
+ 3woXXwaV
+
+Name: res/drawable/small_dots.png
+SHA-384-Digest: S1WJhf5A+c6/6/TPlGwto61exfwU++/uIB6FazOwzBVVuNoXDX0aOddn
+ 7lEoZTWR
+
+Name: res/drawable-xxhdpi/abc_list_focused_holo.9.png
+SHA-384-Digest: D8E+3F2/PFRamuu+/htd4ebyBLYwZDxROIM2gz4eUjqspXpJ7YJsTxf+
+ Xpl6+FhT
+
+Name: res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: w+PLkdZMMzgBaZ+LceUyVkxdYoSX9TYQbw9kKoyV3o4fejiMJ8nGOLoz
+ axeqKbz7
+
+Name: res/drawable/abc_tab_indicator_material.xml
+SHA-384-Digest: 6LXw1s+dk8hK/onf/5zba1jo1wlT34VOjTxKVdNiIzA1s7pJfLQ9z3Be
+ gDdwbNFu
+
+Name: res/drawable-xxhdpi/abc_ab_share_pack_holo_light.9.png
+SHA-384-Digest: 3PUbCeTjf5fHtLam++BA5PeSuHG4KzIMO50/kbdaHjq/dAvJvvPogqJe
+ Xs/VuUJe
+
+Name: res/xml/preferences.xml
+SHA-384-Digest: M9iLcxZkXs71AkqyLPH0lLi/3dxiKzo7Se1y7ryJrmVfrgjsS0Y9flwi
+ vo30cIG1
+
+Name: res/drawable-ldpi/tool_remove.png
+SHA-384-Digest: LxEV6RzmhPLa4xtmYo8UPykmgoXwngzN55FeBsywQ2J98/qxEb+c2QSL
+ WRjfsCZ3
+
+Name: res/drawable-hdpi/abc_list_pressed_holo_light.9.png
+SHA-384-Digest: sj16RsABlLkZ8zC8YCUUAj6cuqQN6MDOOpRqspReGfqnB0nPuJTbMn5B
+ G2q7T2yb
+
+Name: res/drawable-xxxhdpi/plate_save.png
+SHA-384-Digest: o/1Y/uEowKgYZQu0RuX0LYT0sQGL1aNJLVx63LpviZxWwRDyGV3cEvww
+ rN025bkB
+
+Name: res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png
+SHA-384-Digest: Az7C4PkyxZCK0HHYsoJr/t2jQVs7yUTFJmEnNRJmzfj2Odg8LCcHT0IY
+ CCq98Y+e
+
+Name: res/drawable-xxhdpi/tool_add.png
+SHA-384-Digest: /8v783kyStwj80XyHZHgFvw4IgjPymKwsA6AAQUMdkOMYlzr9ni6booz
+ hdyxKgNB
+
+Name: res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: nunmxLNUX6Ug+ZozKXtJHhrOcBm0P1c0P2myltVJqTeEx+EjUUenzkFW
+ jeyNLUZi
+
+Name: res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png
+SHA-384-Digest: XEp7kSunQ3oR8uBD3KYhMBY1KJfJc1m6gVbYGL/fnuleS3nHwTolhv7m
+ HtYBowKy
+
+Name: assets/maze2.substrate
+SHA-384-Digest: ZnyuX8DmT5wKjDXseecbL4HTgCA3Uqy4662StjrCTNloWjulDKfLJIiw
+ JO/hqIL6
+
+Name: assets/buoy1.substrate
+SHA-384-Digest: fULEu2BxuSZp/A7kBrJg2aRfMR96v+1Z+zoufMV1MknSe5NZXI/dsIyi
+ 9Cr8NCtu
+
+Name: res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png
+SHA-384-Digest: BH/EPtTlDAmqM9xkPERuNragcC0Vh1uNDIbtntiP31cJ/0hhSQFYoGcc
+ 9ftgH6AJ
+
+Name: res/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: nl8bJpIRnEthpyXiWOq3lNCqaCgwmt3VwjpCNgOqr8dSZsufHu93dVdM
+ Zm32rrxX
+
+Name: res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png
+SHA-384-Digest: NPbPU8TXJb5XPM3O8YXFQfepOHaMcy/S2zEQEAAFK3HhiVK3wZ1EkkaL
+ 4+E0u+E3
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+SHA-384-Digest: zSmxF0t2cnBHH6zBgEzK/MbOTRdLvFA2JH0MH5NACtnae+difpAUX3rX
+ VuK+Drsd
+
+Name: res/raw/menu.mp3
+SHA-384-Digest: A1gXuR0WBcxfwtmrLEgmI9WRamLkmXeQ9ML6Ppj0REr4KZoPaOPMtkvO
+ yScr6pRA
+
+Name: res/raw/nerve_vert.glsl
+SHA-384-Digest: 3aitKG2K86jdCrzkisXoRzCfmDDH63LntkHH0PzZa+s11WyiGIeXoQfz
+ F/sIfJlX
+
+Name: res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA-384-Digest: 4bQkRrIUw27SEgp1bOoyabJX5+M6P9SCSt2cLPfy3qjML4IDiDJOy+ho
+ r7UwD+rI
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+SHA-384-Digest: C7hyhbOfCRuZ7wNypJuKzR6UXtn7rzi7U68dtxAY7sLxpsu9iCP3Mi2+
+ wH9NNLo2
+
+Name: res/layout/abc_activity_chooser_view_list_item.xml
+SHA-384-Digest: BUSQ6Z4OePOTd3yx1YAlA9xqNASLX153R9XcS0XJRm9oWppX6WCPYKAJ
+ G6dobOWp
+
+Name: res/raw/ker_vert.glsl
+SHA-384-Digest: ObWCowoNi7Otnpn8qXSRWHYnW25ctNfXCGJFIt886rYpm2vn+VKJylJU
+ t8czcbyB
+
+Name: res/raw/link_vert.glsl
+SHA-384-Digest: AUZodFNlj1CwvHt7lvMWSVkQGL0texLRcund9RcCA/hikaLyKSSXkgcM
+ YjnBK75q
+
+Name: res/drawable-mdpi/abc_list_focused_holo.9.png
+SHA-384-Digest: qt/huKFnPl5h8yk6pKKpfQLaRpLiXASz6fCQgvlO2h0NpF4faRLayGx8
+ C5Ysn4DN
+
+Name: res/mipmap-hdpi/ic_launcher.png
+SHA-384-Digest: WM94ss3iM0XwZQI1WgngFOkHLYXQxKfcfomBzivNAbI/u7MAIAJjbisy
+ yYuqivBk
+
+Name: res/drawable-ldpi/plate_clear.png
+SHA-384-Digest: HtJ6etKC77129mB7kPNXWhWDaA3nWwXqs3iU7BTlY4TZ288zIhENyLsy
+ lkB4Bh4w
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+SHA-384-Digest: ev+XLUVzA3qX+dO45siGwJCokpwoTqFlOFowFF5HeaUi7BEWT5pjGeLa
+ 89qDv8XV
+
+Name: res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: AXte6t6yr5yIk8EOBGN6CqPZc1KUw6bEHLMPf367uyxNujRa66k0NtcH
+ SpTKLP32
+
+Name: res/layout/abc_action_bar_title_item.xml
+SHA-384-Digest: x4mYQxow3NsE3n07I7rTm93E52uXISfSgexB+zO7aXQKEtD3vA3U0QOU
+ V4vk0mms
+
+Name: res/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+SHA-384-Digest: mRyDprnDRtfBd8sD9eK2mebC+im3aBRm3ORWzhmj/4DhMaen+sxoYuDW
+ 5obEtEfz
+
+Name: res/drawable/abc_btn_check_material.xml
+SHA-384-Digest: 02cRzlS6Ij9Dc9L2BIsWTGs/8NadNO3i5NBZs7mKNa4rwcRalSeQt45j
+ diE7sFKD
+
+Name: res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png
+SHA-384-Digest: uA0Hv38Otev+qjj57zjN2rj9FuIRrYskBr0LyCetMjVDTJzPalAIDyDc
+ mvXhbLOg
+
+Name: res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA-384-Digest: dU7MkgcmBspvrXXGTWrOS5Pxp50DNXYxitHSeYDdsMPReK4FeoFBZjDa
+ 8qxcPf/R
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+SHA-384-Digest: hTjlHeFA9Y81jd6TBIMrqqqpAoMnTFFyPqsK00mgsKMBR0Yu+mB5ndAl
+ Ek4sSOL7
+
+Name: assets/parasite.substrate
+SHA-384-Digest: 4+CzqN4knoTBqyj7LGnU85iwPVGZJC8xdEwp90yTce8yCWxBFhMTZvwA
+ o954w0p2
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.pn
+ g
+SHA-384-Digest: yNGPIKXr44NfEuvSryPj2bQRNKXSC8+eRH7raac+r+rm26hJCoogZu7A
+ rudzgv4t
+
+Name: res/drawable-xxhdpi/tool_cell.png
+SHA-384-Digest: dkdAs0a1zoouueB8dtLh63uhn4oXH4t8NiuMI6IdWkLthjxomlTf3ZB9
+ 6iovO59M
+
+Name: assets/scav.substrate
+SHA-384-Digest: Xn1NhqQwVcbymlevTo3ULHE+jcTZD6nsjkaYYEP6pLiw68ZwN1AveSFr
+ 98JjGQvq
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+SHA-384-Digest: ZRAffZJmbWtZfWZAhXLKN1iCDnRcUyr5FI3h0DZ4LpT02w7X1pt6blsW
+ fqMQtmvV
+
+Name: res/anim/abc_slide_out_bottom.xml
+SHA-384-Digest: t7UzkHhxSwNPGCXed79UK8p//A3S8hDlbfZSjbPg0vUpcwEFSCB8qNPK
+ dZoxW917
+
+Name: res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png
+SHA-384-Digest: sd2XnBihjn43sUOK9ktkwG5GKru/pzEg5C15rEOJrzy9qee8GaWCP8Mi
+ hjoq9tFs
+
+Name: assets/nekton4.substrate
+SHA-384-Digest: MgixYTvADVwzlD8EuML7p0ewySKizax+7wMehaVjMWwQ1NnIhToUeWZE
+ YtOtYo7Q
+
+Name: res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png
+SHA-384-Digest: HITp1XZvrPm329wO/pr6vJ0vLGNR/CIL0mgfE0iIYQBoyeLAh4SRwxS8
+ PCrppByZ
+
+Name: res/drawable-xhdpi/tool_info.png
+SHA-384-Digest: pE0VZbGC1DseR3SW2D/jQHAAcIyC82Y/ax2PFOc9wbAND9LxI7KMlDnw
+ HqoMdLJZ
+
+Name: res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png
+SHA-384-Digest: om1sp+lBY3xNsnFOce3Z5kEL0WktbE5WulA6OCLi79AfNsOFmiKq6dS0
+ qA71QJEK
+
+Name: res/drawable-xxxhdpi/temp_low.png
+SHA-384-Digest: FU77kv9XJoRp4ezgCsz3KwCJNUc+y1zdi7VUKJN3ii5Z5ntG8XQRdze/
+ YnIy8wbK
+
+Name: res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png
+SHA-384-Digest: GXDCbw0fzCmlW2K1fiSy1vWLvbRaQVtpxwQCiUg5Jo0vhS+zg4cfGxUx
+ PBO+4ktw
+
+Name: res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png
+SHA-384-Digest: awQ7WkYeL8iEkJuAwU+eEWYMMil82JWvml+l9OYXz84izOO+KteMBXq4
+ jvxvg0gR
+
+Name: res/drawable-mdpi/tool_move.png
+SHA-384-Digest: DIDKd1l1kQsLlPR6NVugAmhFYUDyrEBN6jqC5n1rWgLzTfQXMRS2lXZW
+ ImYg8Vdh
+
+Name: assets/fric2.substrate
+SHA-384-Digest: /gqxx5Uaufn775BKsgde7q0cBCh/UKlLCi0HR3QBnF9a89ZN4VRBtFfy
+ QbbChJUo
+
+Name: res/drawable/abc_btn_radio_material.xml
+SHA-384-Digest: eBm0mT0f5zAYVIUYBsOGBR+uHYue+D1VgMNbqiN1QzMw07hDwLCoyeDI
+ sL89b7Eh
+
+Name: res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png
+SHA-384-Digest: VT4/MIcZW4DjdcM484EI0YXWxJGr/xlTJCfXlIPmltAWjYZMaqBblVn2
+ cICwQlPE
+
+Name: res/drawable-anydpi-v21/danilov.xml
+SHA-384-Digest: 7BHwiPxK5eCcOllcoMoehzzn4055BtRrp9rU3KGcO4ZauTCvR7sA3qIN
+ B+CXHMUf
+
+Name: assets/dig3.substrate
+SHA-384-Digest: kEv5ajwWyn8eKoNFkxB7OrIILRJiYkITL8aBwZTH9gC2F+L976VzPfsl
+ m+OcP5fw
+
+Name: res/drawable-mdpi/ic_plusone_small_off_client.png
+SHA-384-Digest: H1UO0cZThH7ONKl9RnSTMU27XellJlyJRCcQWuavpYnTx3R2IeTkdb3o
+ NakAZMZM
+
+Name: assets/melanoma.substrate
+SHA-384-Digest: jeqnT3YlxeOp09gJnp3tQjcP49S3qSzoE5Rt4E/rbbGa26uj8Rb9hF0M
+ qmx5ScC8
+
+Name: res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png
+SHA-384-Digest: ZOspdFvMAcz9sSTrXfO7vz5g0Nwp672sLu4Z1JmAeez6wCH23IyskAa5
+ TdkF1gri
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.pn
+ g
+SHA-384-Digest: 2EETdGDXdi1JeMS5W66JhdDGb46+CEODndxCig5U0gvuAJsnNQdwQZC3
+ 13tRVM/l
+
+Name: res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: wSwk0j79CCfjJTKWfxrYu4mdQjFuONUrpPiEaVI0uBzkgKIzDEiXmZ1V
+ p2sSDKQi
+
+Name: res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png
+SHA-384-Digest: f9iBQHO38tVjjPgor79mylqR0rnj3G1jVQQKdfsFcTNa/b3Tp+tTKyOV
+ Ny0DDQ6y
+
+Name: res/drawable/abc_cab_background_internal_bg.xml
+SHA-384-Digest: JL56DvjrAVtzXkVGAWXNMNHsgNW3LF5f7OHSBDCaa84+OqSrAJ99ZYoR
+ fLxX+Cvi
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+SHA-384-Digest: P08bN9i8A3PBWZoME5h8AzJhbhx8srtdf7ZnICbcRT+DiWc8yvxq0iel
+ FPwwrGjO
+
+Name: res/drawable/abc_item_background_holo_light.xml
+SHA-384-Digest: LPOlaDz+f6+55gGjM0ST7S/F4OvkDg5Zi0boshS1rd9FGrH5T6wvAWiv
+ XDTKcwBF
+
+Name: res/drawable-anydpi-v21/plate_clear.xml
+SHA-384-Digest: ggRINOs+V4640Bzwb3r9ZkY6igZq/fyoQjy1vrmEC9JJIlYZhvY9EjE1
+ d8resw6V
+
+Name: res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png
+SHA-384-Digest: A/zKSzICFHopI+F+CZtwpkVPwM2V3Yue2nvIvGyK/yh8fUDvmf2Y4Dem
+ /MOu/h9M
+
+Name: res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png
+SHA-384-Digest: tOcqbSFXEEULajsNRojVxXzIkP3uMDeAh49ZKu71h4S0EKUUgLqXClHe
+ mtzINGVc
+
+Name: res/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png
+SHA-384-Digest: RB8etAtzqwBv0NidVVZ9gODvS4QVEox47ue+hBt3C/klG2kafh7l1uYD
+ U4bQ7JGl
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA-384-Digest: 6a/dl7Ipy53PdRk3UYDhmdODUcZpH2+OmhVuU8mfnwBpwZCU3uSmDCYi
+ z3U9jJ3I
+
+Name: assets/mac5fix.substrate
+SHA-384-Digest: m1KNKUyVklh9xEe6ob0cwj7c7X+pLwuenJ8JaVgvV9Vr0A0S4Jxhw8wR
+ Jlh4Tist
+
+Name: res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+SHA-384-Digest: EeGPWSE0nnCzFhUtQ61S0gM/EprJ1s7nqxyM8TpN+vrDCGmKFQ7Fr/qg
+ vXhBY+qo
+
+Name: res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png
+SHA-384-Digest: 1xiSiNQngGyY+s/qSp5tXZ1efZaqFvwLZkKwr5xaPEtE/+yKoNTWnP4A
+ BRbXrfY2
+
+Name: assets/desert.substrate
+SHA-384-Digest: 27wkoZmh0tXZ2L9bykbdguG7zjTjYoJZk6GZTjiqShURUU85uZO82o9G
+ nZZ7YhAv
+
+Name: res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png
+SHA-384-Digest: iAPpgxDZpFVFzeEuCAMHmiXNSVKTYgg1TdAi3tl3SN4JLwsMjABGzyVp
+ faW9EHeA
+
+Name: res/drawable-xxxhdpi/temp_high.png
+SHA-384-Digest: JK94cxWMLxnZMoNPI4fioWlg2ZIC1Wy30jLFAO9YvypK0dQtqVc87sFD
+ /DiDdyKh
+
+Name: res/drawable-mdpi/ic_plusone_standard_off_client.png
+SHA-384-Digest: fNOLCE0kUtND/JIgZ8kN+TPOE61vL+RXfvvuDf/megIsr0toNnY7BVwu
+ slGaV2b1
+
+Name: res/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+SHA-384-Digest: Mt/jigXcMqhzsV9Z6SzURwUpH+up18IqJ/o2gsbYJC9goKWWU0gwu854
+ ljBSebiv
+
+Name: res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png
+SHA-384-Digest: mmtd4IPcLOyEqq1OpdkdYJEJhcZ6bIBq4ITTaoPKVESz8+6rbcRTX23y
+ rKLbtYA2
+
+Name: assets/avoidfix.substrate
+SHA-384-Digest: gzou1X55S9A15GO0b9Z/zPadZMbq03xHaRS3tGpGsistNIDobvifxlVL
+ VQ0SW1Kn
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA-384-Digest: cvKWsXdOXk9c0W+wk00Gr+i+BgiRL+oEgp9XKX/TwgoXiFmIDGszJTXt
+ U6fWpQFM
+
+Name: res/raw/stereo_vert.glsl
+SHA-384-Digest: mRnLy3nfP4gA8Xt+gJwEMH+xE9A6IqQVhcKdEsZ6xN53hFWVTSwUqi1V
+ llRZgyMO
+
+Name: assets/slippery.substrate
+SHA-384-Digest: RlpJiMEqctXwVpJ9eWOFrfezNYXlIImDUc6KJt+OnWL3xoAEgrA/21j0
+ 128gx/pJ
+
+Name: res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png
+SHA-384-Digest: EAodVBME8FBX3vJUKBLCUG0dSPPx2b1Z8QaOPuIyKp4/XtCVU/tASAa5
+ xOVu+Lky
+
+Name: res/raw/nerve_frag.glsl
+SHA-384-Digest: 6EFksqI4k6XzVkGfYvNDQZUedxp0j7ifM/4Fwp9IbRLW6z86yhui3s10
+ 1WUJtJUT
+
+Name: res/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png
+SHA-384-Digest: x2zEAD9MQcknTtkW6MW2Um+53fmKsjKvZnbVfa40q1b3awi/hv/9+ZCh
+ y+7xIzoG
+
+Name: res/layout/abc_list_menu_item_layout.xml
+SHA-384-Digest: ZmJNzRBRADY93GleapNmEDFwo4nhCuV9bdl8RUt7kL6GPKvSAVT43Uri
+ z0jZv8Fm
+
+Name: res/color/abc_secondary_text_material_light.xml
+SHA-384-Digest: qCS9jM0r0FmG1rNI2PSV1QcrPzLPp3BDk1tv0lJ9dYUyO003d5wAe+G+
+ L0umS5sm
+
+Name: res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png
+SHA-384-Digest: V1E8esyBN4MYXxw0An2+U5P7Q/qyjCKLBA4jePvRJsIoJGn5LzTj9J5g
+ 4klP/cnE
+
+Name: res/raw/muscle_vert.glsl
+SHA-384-Digest: F3KJut4RN9qoxTJD4UucclCvBYn/fZLaSPGWHq3MvwllwExe3IImwU2n
+ cPRmG1oS
+
+Name: res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png
+SHA-384-Digest: dd1ep+hSQVJQHv1BT1zGI9KNvT6ph+7+Rn5ILlyHPHVOc2WBofFstx/5
+ 439msSAQ
+
+Name: res/drawable-xxxhdpi/tool_info.png
+SHA-384-Digest: rBcJq+m0DsLkQ7PLKe+EGgT+XiMGgn7m8OvtWtISS1iMnwALIFh3Ueg+
+ xXgYGJS5
+
+Name: res/raw/challenge_song.mp3
+SHA-384-Digest: 04v2dhsysju2agLL5QqKodyk1AA0sfom92MctXA5bglknekV3VqnuGcG
+ amFmDaEE
+
+Name: assets/conquering.substrate
+SHA-384-Digest: YrpJu/hr8M3CiRzuPn+P3xVDnKG1qBasiVdpBfVh+oqCgNP668wqtWIv
+ qHvWPm9l
+
+Name: res/anim/abc_slide_out_top.xml
+SHA-384-Digest: F6jpN90p/gLEDdxxiEfa04fbCpiftWcw23bGRMpV5pDkqa6PCnx005/B
+ GEflPxGb
+
+Name: res/layout/abc_list_menu_item_radio.xml
+SHA-384-Digest: 8GW5+D9gXojOKGiHUJv2kMJPrPteGC0gUBgt5/aEjG4cBMO0UsSUS2X7
+ aR1DmF7f
+
+Name: res/layout/abc_screen_simple.xml
+SHA-384-Digest: wnXarHOGrPZuzHEjEuGAySL/9Pg0TiLoy3qX92QkoMSDot8DGol+V5zA
+ pm+OK14M
+
+Name: res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: xGiWp8mHmsItTniIgOfsv8tdIOK9vH+sye2MQ9JZtdq3le1NYFVCrB/A
+ jjvK5S7W
+
+Name: res/raw/ker_frag.glsl
+SHA-384-Digest: gsuvGeLcP4J6/xshkzjZXJn7Y8VFBgP0IN5JiTneoChk89rNCww2MAzp
+ hjwIg8Sg
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+SHA-384-Digest: B4DyoE5ciYbig6SsyKZY2kfFAlBZulLtPjXCjxJSOsOuAqOpHFYdS3OH
+ evgCqwOy
+
+Name: res/drawable-xhdpi/temp_high.png
+SHA-384-Digest: VuQD+l59jFkc6napHQOOUUEJPMQgxnZjmSNFYEMKdKPPBZwKxZ559Wx9
+ 41uzxGgQ
+
+Name: res/raw/sterilize.mp3
+SHA-384-Digest: Xg6g9fM+1aMGCXSjVBFjutxi49887XRTPC4CXTIFQtZ6za+PwRjfm65H
+ YAFs2BZ6
+
+Name: res/drawable/seek_progress.xml
+SHA-384-Digest: Rb22KxCZDkTxSSGIjrNJEkj8O7GPH02uHrl5Tw0GAsMRJNmgVyaspMm/
+ Stf8V9Xs
+
+Name: res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png
+SHA-384-Digest: IXAJPU43yOHvVyfs7ZjXfXZcncp2OuqCdIEwPzdoqxUEokAdkcaoOHq1
+ LA3f3uGT
+
+Name: res/drawable-hdpi/tool_add.png
+SHA-384-Digest: S9cBnls0Dj9ML3ees3TQGXMFBOmqWD+b/bLTLdHBBXj2EuIljWvI3iew
+ nAnAo6Ay
+
+Name: res/drawable-mdpi/temp_slow.png
+SHA-384-Digest: FeB6/ATLnwYb8Vk7WM/p1ejiaGHOfPwAU878PHkjwoOwYtD2iGv8Uv+m
+ RGb6oxLz
+
+Name: res/menu/mode_chooser.xml
+SHA-384-Digest: F5rhdI4LK9yY0BhBghLwCA1YIZBVisVuUVzy0GCDy4MBm25LjwU38wZr
+ WIJwA28H
+
+Name: res/color/common_signin_btn_text_dark.xml
+SHA-384-Digest: XEp+Uv5M4vC6ki6PeuWeKX7OMJEYcJMBPPiRlhIJHfwSqEp7WLeZ72Gm
+ u+xgBikq
+
+Name: res/drawable/abc_switch_thumb_material.xml
+SHA-384-Digest: SAb96VAfhz3l2l8VyKzvTS8PNOUYYdBQvSD7ksJB98DGoqjv75HCY+SQ
+ bYizIGHB
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA-384-Digest: 01nGwttaTHriuBjEatYjo43VLsZ6kqsgRPKOugMWOMr844Tkcmw3o6Lk
+ 9fcSUhzw
+
+Name: res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA-384-Digest: PwY8X4ohxB4IX6h5Ovls8k3XeejIDy1H5s4yDA2AfALC0yfzegrlU5xW
+ DIjIivqu
+
+Name: res/drawable-hdpi/plate_load.png
+SHA-384-Digest: eMO4ZyTMuz3IjacyiUJB2+h/fS9h/+wIcWNB/usLIPNscp2MVmAFn9D3
+ ZkjTVqbE
+
+Name: assets/ster2.substrate
+SHA-384-Digest: NjVwWeES6Fkij0tUQmvYJphDxwmriruYGN4mYLxBAGPoMHUj4wnNFC7A
+ M680xbwq
+
+Name: res/drawable-anydpi-v21/tool_info.xml
+SHA-384-Digest: HyDx3dwIlXlLhuEEUpbe6UUWZ7CxBxsglQddQL636xoy9H1JGyetcZP1
+ e7oC/FOE
+
+Name: res/layout/abc_action_menu_layout.xml
+SHA-384-Digest: 8YIMeDt7Odz3FGkQtpy5bStO4vc/wJYmDU74iHi49QW9vK17mIH299yO
+ zTMsoKnu
+
+Name: res/drawable-anydpi-v21/temp_medium.xml
+SHA-384-Digest: MPY51kgItgn4Q8kNfAuVd9fJmHudcyu1DE2yXOSrlLtdRR72bKDsM77I
+ TKnCMsJU
+
+Name: res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png
+SHA-384-Digest: klCrHRX0M/Cyr36XaP6bc473e61OHYY/dr9ZTTaJ4bIdDbRIPYh1ohWg
+ QEo/AE/7
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+SHA-384-Digest: N7Bdf1M0/5Q8XRw3CvOhf5HKBAXet20PEkHyd0F4kVjDov/MMsesZSfS
+ DWuXjdqt
+
+Name: res/layout/abc_list_menu_item_icon.xml
+SHA-384-Digest: H5NvZOBuUTcW9OdHFsH62xFpwKXTJyYH9sIQjT8SAHs+aZ6fB3IgXAAA
+ TisQODR4
+
+Name: res/layout/action_temp_button_tutorial.xml
+SHA-384-Digest: m2iWanZyUecA0KP2CaOplt9AUOJzuYVGDhpC3YqaewZxU9sis7aEoYkE
+ FvkYm0lT
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+SHA-384-Digest: s27PpBWHQpj78aWENuC14aVBSlii6jf5Yb3vUCTgaEvlSzVXyhmvv3KE
+ 58M1ptsw
+
+Name: res/drawable-xxhdpi/plate_load.png
+SHA-384-Digest: K56MB3OPf8aYe9WjzC/HNIwudea9wyNL9SRSXqNjj2AZ0IFWfrb0Bjmi
+ 5Ide9nEC
+
+Name: res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA-384-Digest: JiDqdBhtkWFplgsNnyPubh1Spg8I8C2gqwTMqm8vby0n62nYA7XeKmc6
+ DlCtiqTe
+
+Name: res/layout/dialog_announce.xml
+SHA-384-Digest: uUamIhvE2RW9IDEwkFj/XU9tc25X+9Hev5NJfTZgWomzDk8+lIXNnkr9
+ yDaXsbif
+
+Name: res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png
+SHA-384-Digest: 9IyTq3W9U1e7nLbc9hUPS/4/zRSHSEQSctF2ujspbuPTL1nMtEcOPBuB
+ 1Ci1t2e4
+
+Name: res/drawable-xhdpi/ic_plusone_medium_off_client.png
+SHA-384-Digest: WU8klDaiHPWdSdjdUR5Vlceba/NmFI70ml1iJf2cSg4F766VpIJHdFGb
+ gOW2QhAN
+
+Name: res/drawable-anydpi-v21/plate.xml
+SHA-384-Digest: Fz+rdY2hAB2lhaMPXXqHJEQ/uIMHQraypX1IG9cHljSPMTMGVT1lLpeo
+ divYhtdE
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+SHA-384-Digest: 8RxFePRN0coetj3fmcPLUit+v6CCU7nu2o187Sv8+wTQX+1UBGXja5F/
+ 9L+WWxf0
+
+Name: res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+SHA-384-Digest: /oB778eoPEgxuhMAys2ih9mw3DxmtJtG3YdZPfqbU7fXONFmxvVXzocJ
+ gBWx+Nbx
+
+Name: res/drawable-anydpi-v21/tool_remove.xml
+SHA-384-Digest: ERT/ZnKNBieLs9Ky1aq6zz9BgMPrgkcSMYjtNS1JtHhSyeoyliN64gKs
+ pHhyigVi
+
+Name: res/drawable-hdpi/ic_plusone_medium_off_client.png
+SHA-384-Digest: SGvUJkICayRk4mtcwSuFVcd12yDBMaaaQvrc0seqx8ydbZkyYYpNkwR9
+ MKvwkVkr
+
+Name: res/drawable-anydpi-v21/tool_cell.xml
+SHA-384-Digest: p7dCq/va21MzziJaFGKhk17ITxkGhBMegA4dmYIvAHQv/ZBfVB7HsaNU
+ 516krGVY
+
+Name: assets/balans2.substrate
+SHA-384-Digest: IzjRiky7HhitOKzo4CPrPIQ48gqJW2AvbHZ70anFRKV9HnAKqmXIjyA2
+ Eal2PEVZ
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA-384-Digest: DDbL+SlPPjHtkP6ogKRn5/WQQApzO8aXj59fNT6I8WtroM0hQce7ft+j
+ LI6viOAt
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+SHA-384-Digest: NUHTg4yNjnpzEKC4D0N3QoqlHPdieXCML4oEoMux1N8LH9xc2IqytPOH
+ j/8oN6Lu
+
+Name: res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png
+SHA-384-Digest: W5JGRqT4rTv023EWuIBScfkhUFb0mrhjxG3wktU9ow7M4NuDJlj+jJGT
+ UKThNl4S
+
+Name: res/drawable-hdpi/temp_low.png
+SHA-384-Digest: rE7OrLxjdKsvgs2o+3UM5Pd8TDc6tECxtdWdFcKQnGfJSkarnOHBoqBi
+ 2hOlESiG
+
+Name: assets/lip.substrate
+SHA-384-Digest: xbTaKliPC2fmkbF2+sCaiy+07+WWeZTlINu0Jyj7AeCq+PsDEQGxSEsg
+ 40RmPvap
+
+Name: res/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: DApLVWgH/K9e1eSGMmF3LdM3fdLvZMoeLHyTjnU5lnZgnL6ItXbxCicl
+ zONIzO+t
+
+Name: res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png
+SHA-384-Digest: gyME11jcemyCoH23/utZ+0btJXAK0v3EhW5f4guuM0YwT4+QsI69Tas8
+ KhvU3R4J
+
+Name: res/drawable-mdpi/tool_remove.png
+SHA-384-Digest: YwwUrOK12pvUi1YAf7vis6A2IyrP+R33vDTm01u7HgvnBTOiZchKCndF
+ 9+ctAYBW
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+SHA-384-Digest: WAUNXH7dRL7gGZS0Nk/rggbkraeyIfzWrq19/YV0BnqQsNvzCYoAx/15
+ VSrnVoWc
+
+Name: res/drawable-xhdpi/tool_move.png
+SHA-384-Digest: IHb/hrNB/P+90iGMm4+ySObhsAiTHTTPxDD3l3DeOIeXb+R9gDcHRfrr
+ FLPM5rUU
+
+Name: res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+SHA-384-Digest: YPPlyT7dI+IiRmj+ewZ0J90sz6sE6O06dRXmj6JMd8BvSybZWwqDYtLF
+ d9vtw8UA
+
+Name: res/drawable-xhdpi/plate.png
+SHA-384-Digest: XWUEB5NF5kcofluzYMUNW9wivsvdja1/nECA5gP1dBx6yTG0b0hbMoG+
+ pjmqeITd
+
+Name: res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA-384-Digest: itA/vuxMuuJ41Q/cGLafdMIurWlWoRbxfhZHHLKPa2dY8iGihYdX25qe
+ Gvhdwyvl
+
+Name: res/layout/abc_action_bar_view_list_nav_layout.xml
+SHA-384-Digest: DagTy6ElGw52++CUdFtQVFB9UwC+tW1P476i2vSLZiohuzMSV9xFgd77
+ RAsFzywP
+
+Name: res/raw/muscle_frag.glsl
+SHA-384-Digest: lhOKUuU7P3kVuULGwwdmW5WeD5GUKuXeK8jUu4vYX+DTRhQx5wzOz0H7
+ UFm6TsDB
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+SHA-384-Digest: PgSLoROW8GqSNTTIJZDE4ygsXyHSz3bOPD/+zHx4ks1VkgMVgwHj6F3A
+ 0vNGcNle
+
+Name: res/layout/action_temp_button_experiment.xml
+SHA-384-Digest: DKTG3fPDmKTqQGhtZuZRe33l8ymwhloneXe05up0BGU6Jtt5PCgq3H1Z
+ tdqZhfm8
+
+Name: res/drawable/gauss_bessel_integral.png
+SHA-384-Digest: XeJjktD4p7IkX/rPhHLsWdWgjxIqtazpFAmaKzz23vlzWr9uuMZmXVye
+ PzEYkEuN
+
+Name: res/anim/abc_slide_in_bottom.xml
+SHA-384-Digest: KikMVtPSeMf7D4bjlRpynpVDdBC6LyH9aSbz46JhLPzs78w7YMfw0U0Y
+ vH6GCgWB
+
+Name: res/drawable/button_normal.xml
+SHA-384-Digest: OQrk4fI9YRqMW6TAw5GQ0O+Vm8jVhF8WR3DmZcfqS/e00v0086yUqKU4
+ Rq98Qh/J
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA-384-Digest: 1r2icRlyxTa2bWEjbOBhn2QacUH+YpOPqU6e7Rd/t+qFK4xCVzRWLGqN
+ Nf5IHP7+
+
+Name: res/raw/min_vert.glsl
+SHA-384-Digest: n70S/xeKoJkAaf7K49SKuF//8ElNE3ZIsjGR+RNLL+rU+z7HnGRqR95E
+ J/JVqgoj
+
+Name: assets/non1.substrate
+SHA-384-Digest: fHuIbCwdxSOegRAu7/zVY74AvNkQcoP02xWpT5xK32mGg/P11ZSnx2MJ
+ T/YdQFNP
+
+Name: res/drawable/button_pressed.xml
+SHA-384-Digest: ZZ9AFxXBSqUzjle6D+rr0ICi3m9e9dIHwv4dbVlfHQBgJSQVpB5XBL9K
+ Rg0G5L0S
+
+Name: res/raw/food_frag.glsl
+SHA-384-Digest: M0bDuuLdWO70NSVd4xeFBsGAq4+JYdE4rb0BFakWG3XYiNUYGN476XT/
+ 6K+h4gXn
+
+Name: res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png
+SHA-384-Digest: AHopYj6DOXb3OGi5Rzd1gKZZicAf6RmaJak2uCo1QdkCKcSeEZld8EIC
+ GMvFntGy
+
+Name: res/layout/abc_action_menu_item_layout.xml
+SHA-384-Digest: ISHkgdEkmvp10D3/tGUjd8UHOlaUl6cR2G5P7+4NiVG/VfpA5+xqMeAh
+ EtVymvFD
+
+Name: assets/lip1.substrate
+SHA-384-Digest: fJX2Nj2Rj1HpgxHOcfpbzLxwBv78TyuU/Y+lH01pEC5gFWF/jBqd7Ezh
+ VRwa43fH
+
+Name: res/raw/glue_frag.glsl
+SHA-384-Digest: XaJCMa+VzvWW+okRZl8ZWXvGUazjrUUeVJBIBFd8GXgqImTREXST9JWh
+ sCxdb0cn
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+SHA-384-Digest: 92f2JPjUWQOH7hYlh9ChPsha4l2O6SSAu5m6/bHY1FjnOQ/Nu2AlhWbs
+ 0GFPYIUs
+
+Name: AndroidManifest.xml
+SHA-384-Digest: XYV/hYZHRHV2a3XjOWQHB7t2j59MpfyJK3Rde5KFu6cH0G3ClYqXPFrZ
+ mWneMoLx
+
+Name: res/raw/invalid.mp3
+SHA-384-Digest: LcJ8wf5YiNBXh44TXzQCjnI357drtqAApaZSLK9vK3JREbs4pYW26tS4
+ 9wTq1QlD
+
+Name: res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png
+SHA-384-Digest: dKiAfiedRqbSxBwZb7Ad8ro3yAjMVFWhU/BHm/+ysvlFhycSPvLKIt+i
+ 4iwiTace
+
+Name: res/drawable-xxxhdpi/tool_cell.png
+SHA-384-Digest: ieMePT+XYy/YOGu6iYrum2SeHjaU8VIZElFKEeMg+NjU8BaY4j11T+yP
+ IdgqDQBr
+
+Name: res/layout/abc_search_dropdown_item_icons_2line.xml
+SHA-384-Digest: 2HYhVAQiagda9+vymdK1XUl73cUbtBBftW3b3UVEPah1KMuyiJq1Pj+4
+ PSyMWYge
+
+Name: res/drawable/action_bar_bg.xml
+SHA-384-Digest: RYXUB9LoY/nDeqabX7BAZtftotUZWnS+Bz2UwPZa+YEBSaxq5OwkWPbP
+ 896PqMXx
+
+Name: res/layout-v17/abc_search_view.xml
+SHA-384-Digest: q+jvsD825mrdtiX4sF7axqGpU1X7w8HahAFkGOaamymfmIzeD6j9EBjl
+ m2bSS8JO
+
+Name: res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+SHA-384-Digest: eWSAHKTR5qe3609R5QVNi7rjy7dvzAtAsEKwjij/7hkYc0KTQ7jk1Sx3
+ EeRZRWky
+
+Name: res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+SHA-384-Digest: BeqrRvM3cvQi4T4apW3lrm6gYP6dWw95TprFyUMS/C3RFortPNMRSWmz
+ WPNQ5SLI
+
+Name: res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png
+SHA-384-Digest: xkDmcMeYuo4WU39yoBtLGWlDwA+G38XNR7x+U5Z/MsflfDIXD+K0Colu
+ PVt2UHBK
+
+Name: res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png
+SHA-384-Digest: YXY44y8eOlGEyqpu0lMzJ6wEWYoednv3L3lid8hzF5Sy9M+FN2ltaDKO
+ zbU0sByg
+
+Name: res/raw/virus_vert.glsl
+SHA-384-Digest: GEbg1vZeKxHknC7R8gLzh7eWRU2jHz6ccyCENuTqRkTsPmh8hTE/xRYI
+ yKdnntHY
+
+Name: res/raw/aa_vert.glsl
+SHA-384-Digest: hL/FxUoDkBbE4rL/LWJMAmbpPFiNFgmL/oSH2FeKqph5odt70WUhV+zY
+ F05s8Bm1
+
+Name: res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+SHA-384-Digest: CnddIaiKxZ5AN4d5d5huRtTktwZ/3+XN2Hae66QHYOFwXXBbSx9I8yEm
+ mhO/L0Jx
+
+Name: res/mipmap-xxxhdpi/ic_launcher.png
+SHA-384-Digest: SkF4WNX1exi8KoKftGO7qD8Wl50zzmw6tcRtUxiJFPNIQm3NXmQumrOg
+ kxAHfXIH
+
+Name: res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png
+SHA-384-Digest: W7jPDjbcZsccT8cW/ZWR4qMJlho0Opg8rOjg8JdcdNDZiJoQB2tzVPuS
+ kTaHmgBP
+
+Name: assets/floaters3nolip.substrate
+SHA-384-Digest: +zTtbrTu+ZXFjjtK+D8QFLL29rdkGCv/26ReybPkt+BjSyyhxWflXTla
+ M4PerzXb
+
+Name: res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+SHA-384-Digest: 89koKhcrTfCMvXNVvMoUu+fCZT7Cf9B84iFp/rC9cJap4N08Aewp/kw1
+ 2z7EzAx4
+
+Name: res/drawable/rounded_rect_shape.xml
+SHA-384-Digest: kXMvSncb8wzMqtqSoAuR7PVL27vX1KEepKRH3EVioJPGNyGoWMG9ADfl
+ fC1sFxzt
+
+Name: res/anim/abc_fade_out.xml
+SHA-384-Digest: O0Rdzr7CYczDL5Xn3UBF3UXojPk+G8YklfZVQzU1TPf+Yn/u6xw7NUJD
+ PolQQZs4
+
+Name: assets/mac2.substrate
+SHA-384-Digest: XzD5kM3TE+PkTA3ux0lmSkq9hj5Y0cohRLXYYeRGByrtG2q4C+Yh0jdS
+ 0Xnfjo86
+
+Name: res/color/abc_background_cache_hint_selector_material_light.xml
+SHA-384-Digest: 5EJNGYcIJM3vt+kdB6sbUY874dPmJJbJixrFevVV/Ss/j/Z70Hrxmx+2
+ uaPg5GqS
+
+Name: res/drawable-hdpi/plate_save.png
+SHA-384-Digest: IjGPyfemxf5/3WO5iJnL7xvay3NfUPJJe/6PSgtrmJATSSHXUWEcWiVB
+ ax7f0evL
+
+Name: res/drawable-ldpi/temp_high.png
+SHA-384-Digest: n8/QXrFqjm/L0XBBh8MqW3HaxFRYf8t3n+XXabaFF0YH2SRzq7Q5Co1M
+ Wc2xYUrd
+
+Name: res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png
+SHA-384-Digest: xYLv1ZDQn2Y+kyDnvvaolkwEVWnzlrzuMrmtLaVvCRolAu4yF7+yR0oS
+ N+kakgLu
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png
+SHA-384-Digest: yNGPIKXr44NfEuvSryPj2bQRNKXSC8+eRH7raac+r+rm26hJCoogZu7A
+ rudzgv4t
+
+Name: res/raw/lip_vert.glsl
+SHA-384-Digest: qhA66vV6XMYZqYzh6e4pIPtpq3DS+B6JiOs5lHGrtWEPj+VMQowuInN7
+ oXX7mBqD
+
+Name: res/raw/photo_vert.glsl
+SHA-384-Digest: EqhNdPfh5pCOx00UupqtBgj/wjV5N8EoRvOKeloe5pLqhKDIsVsq3Ama
+ QL1ct6Rg
+
+Name: res/drawable-hdpi/plate_clear.png
+SHA-384-Digest: LMFzR8nppkcvZbX80CqJkcYhe2P1BfHIfXO07F6pMS/h426DMMdJ1C8j
+ WOGX88YS
+
+Name: res/raw/buoy_frag.glsl
+SHA-384-Digest: /Q0Oq4gprFKjxMkj6enzSc/62zVqOxW1J56GQ5j87r87mF1ERWpJAfQf
+ 8+EHh2bu
+
+Name: res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png
+SHA-384-Digest: DuWZUvHH89Nc5dbe1866cJlHpA65Jxo55TqzWqh90T2wnYkI5H95MKnL
+ mpa4aItb
+
+Name: res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png
+SHA-384-Digest: M0JD6ibuYChmqfQ4tlXKEcTyRNGVSyeOOYDhF1C5b/wYtUYUnqFL1CpX
+ Hm83Wf4b
+
+Name: res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: Mxbvig05dQC+E2gNEaUj6YrE6U3Dfg06pVmCOpOmS9Nyqi7KG6HrEJA/
+ HQuVeLTX
+
+Name: assets/worm3.substrate
+SHA-384-Digest: Hd6KwRTq4F+dYvS/yeJXI0y3dp7Ebk3Xt20itN5d4RATcwqfm2P7wABz
+ rQPy2Qul
+
+Name: assets/level2.substrate
+SHA-384-Digest: V8QwyrfS3krFFbOkH2vhxiq2K9YDnxAueshL/jDDAXCyPsn/MRkztFHp
+ 95PSfCS5
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+SHA-384-Digest: luLLqEhe3md9usEM9Xd+Hb+t2zBRI9B8S8bk6o9czKR0qDFNQFCMFHW8
+ tXb2kfRK
+
+Name: res/layout-v21/abc_screen_toolbar.xml
+SHA-384-Digest: XRZNDvZqmK3LoMHYyEA0jdWs9sbmUq381z4IgeAyYBH9AjiOUlm5x4ln
+ qORozpRE
+
+Name: res/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png
+SHA-384-Digest: IxO2sPShAMKfFo+bhv01IdiSDwC7ubkyOMDhm51e8kPACSRpY+B81xhL
+ Dw4ECbFo
+
+Name: res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA-384-Digest: YAmFJE6/05p9cLNykdDl0HSc1BJJ/6ydy7s50IdCU3Gc6pipsIYimT9h
+ N50M5Hs2
+
+Name: res/raw/marker_frag.glsl
+SHA-384-Digest: c97Y7YVMNc7N/nl+jBSU0ahM44bJ7rkKopzxBOxBGqrdpjfmc4LokxnB
+ atvHEjxc
+
+Name: res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png
+SHA-384-Digest: l/FaXwrUzed9OzFwHb9OHGJxHA4hjVLlxsTHE8axHQD2QFn19bR4QEQn
+ 11upk+Kx
+
+Name: res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA-384-Digest: NuMGEjFhFpSGKIignV4bU8IIFT0pxVvPSlkD6LpgPhLDCj/FqL3BCz/F
+ nU/2N9tX
+
+Name: res/raw/aa_frag.glsl
+SHA-384-Digest: NpENdOVcFoI9eav8x9CjCC5P2BKWTaJmIvpG6QLODsbY6ia9rvJHAefH
+ zc4r0qEP
+
+Name: res/drawable-ldpi/tool_info.png
+SHA-384-Digest: LU8Q4hreOxS5hpOy36GdOgPi/05M1PUN87Br4O/0bvMUiMu08iFq814V
+ pmOkxTHT
+
+Name: res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png
+SHA-384-Digest: sXljjh/vJ8qE4Q0FZLapD8eTvv84m9prjzAXRogYTcP/1ybg3aG4P6di
+ P8rHHTn3
+
+Name: res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png
+SHA-384-Digest: Nq+S6R5lD1uO9fFsuNnsYyxo6leMDHX0a8oPtgRu//aFROYHFS5y7KLn
+ SPt+ixq7
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+SHA-384-Digest: 8jWHJDBZDVrf32VCBqBoBGpll4RDn0BEXAuEPEDxBgy+Rqzdlk+Zg5Ko
+ loA25DDs
+
+Name: res/raw/stereo_frag.glsl
+SHA-384-Digest: grCjBU0zdAoo5+zVqfWLDUMA9CkxRUMptFMjTAiI3/WqO+YPV40UBMoV
+ pGzj3ZJj
+
+Name: assets/redyellow.substrate
+SHA-384-Digest: flK5X9Vav27aMmrWmFxVXZpHjFbr4wtLRbznARbMCUoIna6tkKVVLOXD
+ wT5OyQJt
+
+Name: res/drawable/abc_list_selector_holo_light.xml
+SHA-384-Digest: xi+trUdFI3LTecFkAJ4ECQgMzkqYSDbsksM8ntzb/lpEsgSLhlF8a63v
+ UKWBeYbT
+
+Name: assets/vir3nolip.substrate
+SHA-384-Digest: AmZE40ydAoFKnL3S95ZUynuZK4mNzYC/5Xcy1WTBSJ0YFvEZqZMPgwp7
+ H4jsoq8O
+
+Name: res/drawable-xxhdpi/abc_ab_share_pack_holo_dark.9.png
+SHA-384-Digest: Q4HxM6NPhnttKl9KRMUAseUXfNENrBA+TlHOsBIPHSGCNn7H8lkpSbjV
+ oTVNyrY5
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+SHA-384-Digest: lM4eNs+OhMjQkesuMaaT+HGKPmoGz7QsxTShnC83EkWkkSlF6xQYvD9i
+ wl6ByFO1
+
+Name: assets/tut1.substrate
+SHA-384-Digest: MA/avRyiGKF1Jj9Bne/ZnaOFGEuHJn5AYStXtTg61s1AyYv8JJK0KMdq
+ U/h8Y7VB
+
+Name: res/drawable-xhdpi/temp_slow.png
+SHA-384-Digest: /t5sYCA4YbyDbUuEACJUx1yElV2Fw4DD/sjYNcQU7Laq5GLdVmXAYI1f
+ ldWdbtN5
+
+Name: res/drawable-mdpi/tool_add.png
+SHA-384-Digest: V12SQZpuNGcmpR0vJFtmTy52nXb+iOJUMRRXQS/CxwqdRZwyLjYg5To+
+ Uvz0KsZT
+
+Name: res/drawable-hdpi/powered_by_google_dark.png
+SHA-384-Digest: nzgYN3yy3g8ubbe3lf07mrmGeGHNACP/jH1yy23dWhBdYvqnbeHEx+gv
+ //lJ+3Ld
+
+Name: res/raw/glue_vert.glsl
+SHA-384-Digest: GDg9vhwYwiFh1rOlWoIsdPSHLifAi8SUGU7SeUHLWwLWEhjk6/lCfFzS
+ dJcIp/s9
+
+Name: assets/inf5.substrate
+SHA-384-Digest: Rkl7En41saNYK2zG2AdtClAsDBZcDFCb5B9Nfw/kAsMdkZp2COCUV7ve
+ i6/HwTaV
+
+Name: res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: PqizvjMo2a32n7P/3k9dfoq5FG7VwMw7tcIzVr882LJBLgE6PASCWtD1
+ aX4+FBJr
+
+Name: res/drawable-hdpi/common_full_open_on_phone.png
+SHA-384-Digest: 6d4kVH2/vfW71unUnsXa4Y2NdYhid71o5bW1lrCZb8TJGo/nfxRUM4IY
+ IPGv3IrS
+
+Name: res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png
+SHA-384-Digest: YjYwg7rl4/ZbArTM7PdSSBeZf58KTX4BxxpCSQXykqzUUN2O4xJShHMl
+ Gih4A509
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+SHA-384-Digest: l49+5MONlTpKHfXFJ3A0IdZwN2cC4jIMz8Nwke29doghv7C4trbnpKH8
+ uyy9ewVH
+
+Name: res/layout/fragment_genome_editor.xml
+SHA-384-Digest: RNqFYpOy8onoZYyNpIms6fM1r2CmCrIYaHhmVzRLpDUZdwNiBzvU8ZMX
+ Cubt/B6L
+
+Name: res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: OIqRorOSkL/Rgk1dMihdN6h+RfEWgOQvvV0SqJV7Iry2+ocZ0dBnXKVU
+ rMvpuNHa
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+SHA-384-Digest: 0g/ejAN+IZG9BKs2OFOOtIkuHCSeIB8CXHPzsXoSAARr9/4UWyS4HRIP
+ WmJqyKq+
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA-384-Digest: LxQHmjgpxsccwpEzAEig0xhM+x8SlCaV7MeKNP3MBgIZ9+4Rr89KQDM+
+ MFKxMd8C
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA-384-Digest: yybGGXMuG2nsAbPfXaikfF8y5YWP6LHae0024YZxaGFO7P9O8+L22ZC6
+ zu/8QQMh
+
+Name: res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png
+SHA-384-Digest: 1ULwuMLpEE4whSquDIYNrGI2WchMKE+70Ek/uYnNg6dMAV089ZY3tzFJ
+ MJJOEvk2
+
+Name: res/drawable-xxhdpi/temp_slow.png
+SHA-384-Digest: Z6wKKVvH7rXY8p/lwF0nyvGtxLnVfsVJQgYjiUQIw65OhKVujkd5gql5
+ F7nBrRee
+
+Name: res/layout/abc_action_mode_bar.xml
+SHA-384-Digest: bGVmWbjreL8xUQcgmuNND/eSeV/ftH8X+UvK4JNBb3GJP2zkgLHNymjv
+ pINNPlwP
+
+Name: res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png
+SHA-384-Digest: JFZDgr9nVEPHEyPzp+YMRPLLENVEhjbw/LykcVtfQF+fPRJ/elbBKt7m
+ wxJ4mNKa
+
+Name: res/raw/place_cell.mp3
+SHA-384-Digest: Xp90Di0NHS7pukIKPXoA2piPEk12y5+xEztsIR8Mzr8ooCJ+LTZD0KoB
+ y9pNVXBz
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA-384-Digest: 8jWHJDBZDVrf32VCBqBoBGpll4RDn0BEXAuEPEDxBgy+Rqzdlk+Zg5Ko
+ loA25DDs
+
+Name: res/drawable-ldpi/plate_save.png
+SHA-384-Digest: hEBgqqx6Bhg2J979rYakUYNKhEnC+oM8X2L2e18PheRjzubcs7zJjdT4
+ RDQ+dhaV
+
+Name: res/drawable-xhdpi/ic_plusone_small_off_client.png
+SHA-384-Digest: 0e28SbufMfEozri2svqHkNhM5QGyNEHygIF+FNnDEeyWxf3pc8e9GU0C
+ E4QdqEiN
+
+Name: res/drawable/abc_item_background_holo_dark.xml
+SHA-384-Digest: 4klToAQNcPk9P01n4YHOtijQEv9Ux9Hu6mNIc3woIsW2O2kzKG2wwZvj
+ UQ2QG7ET
+
+Name: res/raw/win.mp3
+SHA-384-Digest: dQK1XskMaTjzOvUZ3R9vyig9zpMVWblCD+JEquC8JO8/Z/I/6wp1qR/9
+ otJjxIlD
+
+Name: res/drawable-ldpi/temp_medium.png
+SHA-384-Digest: moXDpHNQsCWyeBy8sBVjd4+/NbUX/ICtcze9oPkL1W2LMlpYDkp9O9nF
+ TtJtPOZU
+
+Name: res/drawable-xxxhdpi/tool_add.png
+SHA-384-Digest: kdoDG02iRUZyTkKwegtz5KyvjX6BB6Z8GU5VLUKAmHzWmEO8uwJeDUxI
+ 2Z0TdssV
+
+Name: res/drawable-mdpi/powered_by_google_light.png
+SHA-384-Digest: be3sqoYSveDvzB49k8yoBFdnJx0Lcwk5Wj6n8zw5p2bkNj/S7CUjdLjR
+ fe1aFgO5
+
+Name: res/drawable-mdpi/abc_list_pressed_holo_light.9.png
+SHA-384-Digest: mIJWmdmb6VxizuX7Yx/9GMWhd0kQ510oCPXW87s1dG9tiy82Kw/4Bbe9
+ qtS/6TJU
+
+Name: res/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: y/tfnCpzkcFgnsafdB8hmffxOZIUfrT55jyxeAW/v7WDaKnURSF1IXu2
+ +Lp8dR72
+
+Name: res/layout/abc_list_menu_item_checkbox.xml
+SHA-384-Digest: TN6xREvJpxjpa8itg3tTV33ZNEcMKDqvOAtzolBks14sxswKWetpdXCX
+ CxRMwkxS
+
+Name: res/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: Yswb0iG4dYVw9RObzvmZX5imFAd5pr6j/i96RV4huwYM/INBl5bQDhPx
+ HpZhBItO
+
+Name: assets/extermination.substrate
+SHA-384-Digest: TyzM+nog33WsGVkXvK2g3vulwsaidCf8XKWzHB5knWgVq5ap4htePEwn
+ AO0ySoaf
+
+Name: res/raw/tax_frag.glsl
+SHA-384-Digest: NOTNoeg7zJqOH5cH8+lHv/yYOvR+yFX0N7uF4H9ekL0vBGqgh0usDk0n
+ 1Mcv7+6C
+
+Name: assets/easyworms2.substrate
+SHA-384-Digest: WhIXGqk6aT8d+AOiTZraoMIt0Miyho8yo3GReYgZR8co2b8Urse0DQTB
+ WWK9/b87
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+SHA-384-Digest: G5Gw90Y6ft9unKDUiQKqtNTt4CvvpwtZpSNbgttLQzRSh4nek8L6GUsI
+ vUPAV5XG
+
+Name: res/color/abc_secondary_text_material_dark.xml
+SHA-384-Digest: 6gxxKI5gCNOxZBmctKq4JsDflmCMr8fGYJ+dTAoV9m+PHLALEuszqQCZ
+ h5B4y5m8
+
+Name: res/drawable-hdpi/danilov.png
+SHA-384-Digest: BiN0rc2KI6CBCsqkw7+0N/pS1llSWzrjLEXDicPy/Ph2IvPKsMADTNMQ
+ NIYGZuOk
+
+Name: res/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: /3B3MvoarDqXG4L9kdK3heWp/NnlwcZi+Has8yNPGHCGLTv+58etC3+7
+ o0Ft7u2C
+
+Name: res/raw/buoy_vert.glsl
+SHA-384-Digest: R+9ato3TKUcAF2LXpNQNZpssfVUJTE3x0FCXr6tNdKQCRmD7mFQjo4oy
+ evqeZlDI
+
+Name: res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png
+SHA-384-Digest: PMq9SBjQeGVcSQRiFAIOjZDViPOXrh8zyG7pi6B9Qapw+zBMoGAZrLUH
+ b2TXKRDZ
+
+Name: res/color/wallet_primary_text_holo_light.xml
+SHA-384-Digest: AugCM7fLPSUrJRThYKsV/I5LN3ZXn14fdroFNmBgoAL0qC12hbzEOnnf
+ BdIcSsJW
+
+Name: assets/sym3.substrate
+SHA-384-Digest: l5QUCCcFy4N3aSI1fcUCLwHdrbDh5GXC30rcjfQvGdWOoCNy4Y+U1ikY
+ 2dM5WuaS
+
+Name: res/drawable-hdpi/tool_move.png
+SHA-384-Digest: AE/PoWeLJi4q7KRUF/rKrwf3S0iL6LtosHYpZXSvOctK2jqsYFDYJxoV
+ AYr96jnA
+
+Name: res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA-384-Digest: xRNnCLH6MzyIEeU+g3bdoI7HLunBKnJ5vAjtQay3qISgwAy2HSaGHhUF
+ PNmqMTUg
+
+Name: res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png
+SHA-384-Digest: gb2SVuchU28TgMIsnXZVBO1HgTGKhTZrKJr3eBw93cWZuX7SpEp8cjJC
+ 1mQLqVOJ
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.pn
+ g
+SHA-384-Digest: P08bN9i8A3PBWZoME5h8AzJhbhx8srtdf7ZnICbcRT+DiWc8yvxq0iel
+ FPwwrGjO
+
+Name: res/layout/support_simple_spinner_dropdown_item.xml
+SHA-384-Digest: C6oKuoSm+7VSVjsumpROry2ZnzCzBDc3PI5J9NoewgJbz/OkxwcvbtqF
+ wIZlUY8q
+
+Name: res/drawable-xxxhdpi/temp_medium.png
+SHA-384-Digest: 530fLWJibdkeZ70HgehxTstkMdp5j7OULWVSpBp9Fqk7mVT2q/dmrScH
+ Qd/kGDCE
+
+Name: res/xml/tracker.xml
+SHA-384-Digest: 9pevaxxdK//sMNJtcDhZgH2ohZYCyD6CX2t9tN9LYt/OH0mHce8mAMeD
+ Ky1doDfq
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+SHA-384-Digest: C7hyhbOfCRuZ7wNypJuKzR6UXtn7rzi7U68dtxAY7sLxpsu9iCP3Mi2+
+ wH9NNLo2
+
+Name: res/raw/split2.wav
+SHA-384-Digest: Zl9K1OiBqMxkzg7m5/elQN0Wzob5fc5mbPl7Da1ypIKu+82FKbkNGQUK
+ xtM9B8Yx
+
+Name: res/anim/abc_slide_in_top.xml
+SHA-384-Digest: S/fcAGS+6hge9WHJuewYLPjmbDKD58U+/bvD9S5ETSC7cWSWGCWSw5ql
+ 9ViUJswT
+
+Name: res/drawable-mdpi/tool_cell.png
+SHA-384-Digest: UwL8U3s0zS0x5SpBDdGl0Y1vmNS4hkG2uup+uTvrkopPJXfL5Pj7lz58
+ O6Y7HZKa
+
+Name: assets/ugly.substrate
+SHA-384-Digest: quF6gcfTL8yFaE0YLEtpteaMWaydmBbP3fD2qd/mVcbK4eY1+ch50BY9
+ SYytH+ir
+
+Name: assets/wallavoid.substrate
+SHA-384-Digest: 8UqrI0VSLchaam60HPSWRyvIQE4TaaLUdp1GVqXVDtFnY1oafEbe2MGP
+ 76f2QDTS
+
+Name: assets/obst.substrate
+SHA-384-Digest: r7USozBH+iIreZtis0I+A0bHOhrG/HEWqES5FgkAXESHMiGUCYcdrQb8
+ uXM1XZUq
+
+Name: res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png
+SHA-384-Digest: zMP/+F3TbUqiirwZnNC1Uc+i17j82tniW12HraqUApIQpgWvQd07VVqm
+ FBtrfamj
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+SHA-384-Digest: 06yldGSynVUPFqCrVWEzMGdCjZuuHS7Gb73kMevU0VWX8IBMjQSAkQrj
+ 1Q93vkoB
+
+Name: res/drawable-xxxhdpi/plate.png
+SHA-384-Digest: D4b23nMu39+jrN2dWlJheQ35/kBhdN9hpSyUjLUGEz57t2lG/bBSyw2a
+ YaNkx215
+
+Name: res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: VbRBJp6JUsI0KL4rf+wlqINUGk1FOVTNQ+R5tBrOqjhbdtTU8rWD66ls
+ VjitNu2j
+
+Name: res/layout/abc_simple_dropdown_hint.xml
+SHA-384-Digest: IhJM1OuZuzLva9VgEEnUEk8hmQnp6BZgJORsaAY41m+lUMYtO74aAPgd
+ TMOC2szQ
+
+Name: res/raw/tax_vert.glsl
+SHA-384-Digest: Rv2Ot+WYXpPuRnpDH2c5S66HFZSERGgD87QMX5/VH+eAZ99pe7adFiqC
+ pQADiwLr
+
+Name: res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png
+SHA-384-Digest: IEmjoduErLEyLx6LI0HYddYJXVVSlmgBT6ToKFV54sGoaml+IGCWgERa
+ PKFZB8X/
+
+Name: res/drawable-xhdpi/tool_add.png
+SHA-384-Digest: Yff1PrYXmRKZCsijPcdhye0yl0dpB7hVNksMmDiNJfnRw0QpDLh1tAy7
+ lBoojROh
+
+Name: res/color/abc_primary_text_material_dark.xml
+SHA-384-Digest: qI2t201aJd1uH4UTQywkQkiJqG97ITbasvk8Sz0HK2WBijfBYGZ7W1di
+ DdgS5SlL
+
+Name: res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png
+SHA-384-Digest: uiPdeU08xMvvlw+DQ0huQoop3nmLuormH3CeAJxKNyBPk47GC3HdX0FV
+ M2sj9emV
+
+Name: res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA-384-Digest: 7KIokoc1Cg3d/R4GGzrK43elB+TxBseiS4VzcFTBnvEoeqI5oluTZOh+
+ JjSdSrZ3
+
+Name: assets/nonitrovirusfixednolip.substrate
+SHA-384-Digest: zULwsdBxSHukyM/op3SVqLA+T2zSNUNA2qn5iI+gnIYSDL5FGCNJTEra
+ IBXO6Im4
+
+Name: res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.pn
+ g
+SHA-384-Digest: 4Bow++EaaJhDkR0v4dTVDV8uHpApjeXXOGe0dDQ3Dmo3NAmIUujh2AS3
+ sIWqxWSO
+
+Name: res/raw/button2.mp3
+SHA-384-Digest: zSXVjP3kZrfAN8tkYBl7DK3xzyrnmwzHDPVK06U9NWPj/bI7VhTiLDHB
+ 5eGIrweh
+
+Name: res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png
+SHA-384-Digest: 8GYztvdiHvMnZ+O50lZ75sS2OeheVyyM5yQ3BXkPwD6ZdzCBHjYR2tg7
+ 113itj6+
+
+Name: res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png
+SHA-384-Digest: giBeINfiS18DPSeSThkC5ypMcWm1f5AOeHG4JzDNvnW8KUouhwai6C7D
+ MGF7ELMA
+
+Name: res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA-384-Digest: i5KE0PK2q5lEdd2fAbL5jfPKEXuEI7xjEzvkeQXbd01sP7sNWnOkS/wx
+ lJumKHXt
+
+Name: res/raw/bg_vert.glsl
+SHA-384-Digest: Qiaa714NxMr17JGUrXk6ZZeAYGFxhbRUpsi9XqrEzJQOQ6sXzrqkbFzr
+ kT0XOOsz
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA-384-Digest: sQUYG1gb6ubwsnd6QAmp7Rx1dr2DSqm4rUksVcsisJFnS3FCaKaUNAd3
+ t4e0PU0U
+
+Name: res/drawable-tvdpi/ic_plusone_tall_off_client.png
+SHA-384-Digest: LLG5l4pMGeIwzPNHnRbSzFZmwZnb+XnypZAuOtCa2uyalnVC3JFQLp8V
+ raDZbRh3
+
+Name: res/drawable-xxxhdpi/tool_remove.png
+SHA-384-Digest: txcThl6fC17lW8l+HMLFWdd78+GJT2LhbZZ9d+YAvMsj1pFrTJprgfWB
+ 5kNnmYN3
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+SHA-384-Digest: 4fOV10Y5c1qfBhCP3xSX3yE7B2L9C30nI4rX3z/8M3g8QZ94yHUF/j5g
+ hRNBi6UT
+
+Name: res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png
+SHA-384-Digest: ljaUrT35Ezu2ez3F+/VH4XhuU4/jxTOEDk7JPo8R9Ni9tA9V1T/4VfJg
+ M09UMLmZ
+
+Name: res/drawable-xhdpi/abc_list_focused_holo.9.png
+SHA-384-Digest: UJaXQPqO8YZ6E0O0ux94UHcshzvuXwocChUjeQijBurcQstYU5l2AkLe
+ NwvrtmkV
+
+Name: res/drawable/abc_textfield_search_material.xml
+SHA-384-Digest: fO+tGpccossmV/B0D1aCYWu/d2ykcUJwhxoUgA520xUsuVBLM+eCp7MS
+ SZ62f1Cd
+
+Name: res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png
+SHA-384-Digest: ieH7VQLM96yKSp6+4BK1b37rSbOHUEBOjtiyH+1eC5hZbnEAwQkdoNnO
+ zm5x6ett
+
+Name: res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA-384-Digest: 9whsB+5PObl7mtpqTVAHMkzhEEJl+6hkygcxT2wVruQbNODktd7ng0Sz
+ mfDiMB63
+
+Name: res/raw/sense_frag.glsl
+SHA-384-Digest: hnbxy/wswkro7b3CU5kMsje0hFifHzPcFaJqtvqOWpW/u6R7cE8ZSLYQ
+ 7jUraJXe
+
+Name: res/drawable-xhdpi/plate_load.png
+SHA-384-Digest: jPxiLdx+BKbk5jFr3E1ZiFq7r2FhYuEcNDim+unx1XcNt0fFA7B3QoBv
+ wusafAgW
+
+Name: res/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png
+SHA-384-Digest: qFYa68LojJr+fFhBO7FcYzShiw8E6in0RpgW3qJlM3aL/Sx5aY3FkDzs
+ yFt8rOHu
+
+Name: res/drawable/abc_list_selector_holo_dark.xml
+SHA-384-Digest: o3scGjs6wAQJgnnTEzjqil2c0/5MPMQOuq7W+mcYX6/qEf7OtqkABZiT
+ iVtzRGIb
+
+Name: res/drawable/thumb.xml
+SHA-384-Digest: rbd3Xwqq/gnbAdfALMA5Y9I2fQhOqfYdqMXcSnUW/dZiQbDI+kCjjEYS
+ OhPpsY/X
+
+Name: res/drawable-anydpi-v21/temp_low.xml
+SHA-384-Digest: 2TjUBL9P6do48SziJrv1XBU1MhkBfYPZsZ7JCvmz67RGHBKMqtCBI38V
+ W4KcE81B
+
+Name: res/layout/dialog_advanced.xml
+SHA-384-Digest: eh2UV6Fy5AjIPiEZjdLEYZnWfZFkj2RPySrTojRFUHpcDG5DYWUuy+Bv
+ S2V6fnbM
+
+Name: res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+SHA-384-Digest: DRooVmygBRMUoQsp8Xcjj8qbL8ecBZwrnpIGusiuAGh7yqnzO0EklfDF
+ cZ+pYOwP
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+SHA-384-Digest: epF7822BVH76XEeK5j9dAA7+7gNxoLbRNeOGqI5zq1YaPRQFcVwrjf6S
+ Dipi8gfD
+
+Name: res/drawable-mdpi/ic_plusone_medium_off_client.png
+SHA-384-Digest: lGQVYvwlnUKxxO73Hre61auOuwcy8pjFe3ol6ySrgm2mtK9E0uQJfC5l
+ TbbdON1x
+
+Name: res/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: cAnBfkxAnMtkxte3GTgbarTGg9BtdRZBnprPbL0QX5dVg2JEwTHDNfav
+ abs0cU2h
+
+Name: res/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+SHA-384-Digest: RBPU6yLz1qpZ7v6Th8lpNOSPlepg6jw8JD4OxQhpQj2eEBPYSVLPBb/B
+ piR9vN8A
+
+Name: assets/levels.xml
+SHA-384-Digest: pbE411Nb43C+Nok6BbQ09kr/RItQSfJPMztWCntiGyPJj9Y51XzXx1SF
+ xV5PwvBr
+
+Name: res/drawable-xhdpi/abc_list_longpressed_holo.9.png
+SHA-384-Digest: mPSo5bc65hWHDMNm404QqLkiTzN7o91H6pvf/wWJI+r5s/KgbBIM10os
+ K29UkTHN
+
+Name: res/layout/fragment_about.xml
+SHA-384-Digest: 5yGVa7rLRTq1E/bMlWuBmBgiM+G0Jir0EHQACEIQ8GmRyfCsfLCn1Emd
+ JPXOPqFU
+
+Name: res/layout/gene_edit_params.xml
+SHA-384-Digest: GOLQz92taWGi5lYiejJi8cz1g/FIfWYOlM7G3/wQgNynec0TBlgLgJz8
+ KBVDmEYV
+
+Name: res/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: r1Z5F18YrIbeoVcVVqyi1sXmgRwGKiO9WlZ6InTx2bFT+K4391FUtVrK
+ Kdoowz8J
+
+Name: res/raw/stem_frag.glsl
+SHA-384-Digest: dHbOj1ujGy2m8pLX9hc3pxTcFhAEseobCvw7dcnnXXATA95HazqiLhaK
+ HNRMapcs
+
+Name: res/drawable-xxhdpi/temp_medium.png
+SHA-384-Digest: +Y5tf3+GkzwohONH3Uko5/4EjVSS80z13bKDVU6mWevx5G/64mUyNeHg
+ wH8cSc/1
+
+Name: res/drawable-ldpi/tool_add.png
+SHA-384-Digest: UyhVPs9AQn8f0mq/0P6j97ipxl/9YsWaVSZ96D2smrCtS1yvshr0bhxN
+ XzPwAQ3o
+
+Name: res/drawable-hdpi/temp_slow.png
+SHA-384-Digest: LyvhNI8h3o3BI1MSM+yVgE9wfMqzh7ovvPgYOAZ2I/a+qwK1W7KsXHw1
+ snm11PzN
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+SHA-384-Digest: RqE974te8KEHkA9fwd0x6xuuPmG9RZ23rdEWcZlUOexvqCLI97DXVbvd
+ HHM1SogW
+
+Name: res/raw/tut_good.mp3
+SHA-384-Digest: JQ5qQncPfUSqdYluHVBT5biqBmqm9JIEUGlamZXJ2YsOWeKmg7bNfKeN
+ 2fYMJJmp
+
+Name: res/mipmap-mdpi/ic_launcher.png
+SHA-384-Digest: HRTtjMwjkcETrzQg0GeHI5/hvNbOHoqBS8InP9Et5isA5bQX31Ll0cJ2
+ 7HP2EPBY
+
+Name: res/drawable-mdpi/powered_by_google_dark.png
+SHA-384-Digest: OCnl4O/DUN6ntWk1M+c2J6vY+4xXQ43oeruzeFl50oQl+6m4b6mRzMwT
+ j/peSgv8
+
+Name: res/layout/abc_action_bar_up_container.xml
+SHA-384-Digest: b+w9Tskj1Y9jpfUy6bcd8v3F2+e7Thn34Gk51ml7CubfJUhU+yu63k75
+ 33TuqDy2
+
+Name: res/drawable/checkbox_checked.xml
+SHA-384-Digest: WR9loKpam8dx3UA2g1uEDSFINyZCDJg/tWWQAKMdtmLL47M2jXC9vRBP
+ v2WJvFLt
+
+Name: res/drawable/checkbox_unchecked.xml
+SHA-384-Digest: an4Nj8lNIIF9vqmWcjX9XvOiMSTbGxIEjsXSVWEEFASsSA9ctappAR8t
+ HjmhLHZO
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+SHA-384-Digest: LxQHmjgpxsccwpEzAEig0xhM+x8SlCaV7MeKNP3MBgIZ9+4Rr89KQDM+
+ MFKxMd8C
+
+Name: res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png
+SHA-384-Digest: jUPmCxkcgJzmEVtGX2OuWDOMG3rOOnnVPx3mtpH5Hulq3nyfBKFqDBPT
+ QCFVNCf3
+
+Name: res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: 1ETbWDonWi1yw+cOSO/4VtHAJ5zC2nbje4GfV6rQNo6FaQ/OJhIJOxnV
+ f9RG/Iz0
+
+Name: res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png
+SHA-384-Digest: cAR/RHSBgkwWRyw8oIWl0ZXsuhGJmlyQrdGeBIkUp2Z+1pDddR8H63NP
+ XlYJ4qTA
+
+Name: res/drawable-xxhdpi/ic_plusone_small_off_client.png
+SHA-384-Digest: AtiXpRv5hNEcCrjKdwrxswViF3/7Vjg9gpHuF5WGUkaQ2BBxyyhl7o/r
+ XvvSIRiI
+
+Name: assets/dense2.substrate
+SHA-384-Digest: Easb7AdW0czqWnil2zQVpJzYPf+qXBWM8BIYmVf2a+U4Ja+mBSgRpYeb
+ EPgibPCQ
+
+Name: res/drawable-xxhdpi/temp_high.png
+SHA-384-Digest: f89905tGfnnTdZdYjMJLcKwFsPwuCMHJF3modxXsTHgRHe69nFiMMEOO
+ GUmzOcFT
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+SHA-384-Digest: s9MnCM+BrD/2n7LpDVUoSpywkLk+eUq6OEX9pf/xje4KR6eYqFTghA8m
+ +PovQAQK
+
+Name: res/drawable-xhdpi/danilov.png
+SHA-384-Digest: U0Il/9gpIg4GQ0nHEsENQcGsfER6IRIjVxDeUgNT/T4nN8x7rBWwuYZQ
+ Pl1IjWS/
+
+Name: res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png
+SHA-384-Digest: F7touJjk88Y9pKcb5d4UwSQ6GcHvraLAAmZs0EXCPwb3AMvfUSxyeQKL
+ vO0Mnjxr
+
+Name: res/drawable-tvdpi/ic_plusone_medium_off_client.png
+SHA-384-Digest: CEaAqi0p0pQsdAvS5VEguFYzHBQY0tzTV1smcVOphzcJ7bnQwf2JALi+
+ WMmrD/JB
+
+Name: res/drawable-hdpi/plate.png
+SHA-384-Digest: IKOVFMp8GRQ6m4U3VZ69N09l8rcE9hTRW9EnD7AYIIEhETtYL4UFdEP2
+ mrgDCK1k
+
+Name: res/layout/fragment_objective.xml
+SHA-384-Digest: Tc1ydpY6v4Z35yF55BWUrPJ/jCHlj9dvObG7mblieWG9esB0L9STlD29
+ JN2Ca3QP
+
+Name: res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+SHA-384-Digest: 0fGvl1Ag8jzdwWbZuc7a7ow8cxxggKd+wEunf2qL0PneUj71aP3uGSrc
+ NrzvQHFY
+
+Name: res/raw/marker_vert.glsl
+SHA-384-Digest: rJxHcAmF+SEJVlCkNRM3l0Rjs32DRUj0tXAd9lNqh5fmE256ck6wZoOq
+ 92SfnhDp
+
+Name: res/drawable-hdpi/ic_plusone_standard_off_client.png
+SHA-384-Digest: H4KRSG5MYP9ljNocinQNtghcXodxUawTgzdKMlvHtg+iOXFCREgG07Sc
+ BKz6QPWd
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.p
+ ng
+SHA-384-Digest: ExZdvg2Jmrt03x37O0Uk6mDUEQN9mBl5xWCNc1amRrpdjcqWP2dQ7VYt
+ iZQVMB+D
+
+Name: res/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+SHA-384-Digest: uz0FQBCCATl5t05ZOaGn9NiUQc8j6+WXpXYbsSgj3LUkdOTGp6guCeDG
+ CwctkSqU
+
+Name: res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png
+SHA-384-Digest: /36PW4PZWBbCgATuxAGDQPx9M7Of1omdrWkm5ACCb7yunRAjFNxngwfr
+ dxHtfQ3Z
+
+Name: res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: ZaVSEVr/LjN5IHjzxYzeNOpHItyRYp7AHWuLOm8idp+aewexvA1MXFKN
+ 8XctmhUO
+
+Name: res/drawable-xhdpi/tool_remove.png
+SHA-384-Digest: 3+QzcsVfB4bGJEhLZ7Th1vLzGbv6X93rF9KgFCc2N/RsQLlgEh7Y/X/n
+ vyMAdpm7
+
+Name: res/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: DkSvc2PL1DutXOeRbhadPV+2wgv7qqQJCLlZ4xE8gaKpXbgpeDjqVuYk
+ zIyqTpxL
+
+Name: res/drawable/common_signin_btn_text_light.xml
+SHA-384-Digest: Qie0XkhozwBrCZBQgmBDGFObiiTUwwwU9sQF7Q/nyquwGZ363VOE0HS+
+ 4YqW0XMP
+
+Name: res/drawable/abc_edit_text_material.xml
+SHA-384-Digest: 20rCz8C/c6ibBrQrktJhbErnj8dfvUjrmWzkSwXaGAH5lRob2bw5AeTw
+ odqiGRDj
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+SHA-384-Digest: X+XRFfF37CEBVyBF0QIZIiz5PyV8HTKYBLRehwNwxiQlxf5UtxXciJeG
+ 482bbX5d
+
+Name: res/drawable/seek_bg.xml
+SHA-384-Digest: rlgtizpbbOvVP7qbo5qdrZpR9zuGgAx8YYKoKqoF/dUpvF6Sy2Bqd/3+
+ rCoEIHTs
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+SHA-384-Digest: PbAQurmcYmpxr9bSttZlUE+Z6+OIr+7ZZ45NeQUv9jP+u4P7SKa75vV8
+ ExLAGbQD
+
+Name: res/raw/cell_vert.glsl
+SHA-384-Digest: AS55cDI2kOg412tz1czyPQMQw4uRcJ6Kl/beWq2O+LVSJl8TkvdTAhBi
+ YUihh9rk
+
+Name: res/drawable-ldpi/tool_cell.png
+SHA-384-Digest: eGUXVTvf6tKzR9+xGhexdm1aaVtyVsl+KH6OcLW8gR0oCnUPwtjH9r82
+ TTWNhTl/
+
+Name: res/raw/arrow_vert.glsl
+SHA-384-Digest: G2W6paPWl5hPcfaqp4ljnwSVBR/lIsOTeEIkyabZMNg1C4+KRehIyTSA
+ 595UCufn
+
+Name: res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png
+SHA-384-Digest: qhECOeav+TMG7tHjCPB6KQihp0sMKHKUp6svIrdL9XyfKwOTj7u5yuTI
+ bkBxaamY
+
+Name: res/raw/tail_vert.glsl
+SHA-384-Digest: lEcSN3O/k7k1H9ZedAphImXBeOPDxhu8tomrd6uKsHDZeDgecCuOtEcg
+ 6SvvofdY
+
+Name: res/raw/ves_vert.glsl
+SHA-384-Digest: k7QXWdH8qCOgUQOUu8fTkM/8V4N6hWSElLXot2R4ceh/vLBvuEjfl86F
+ O+yM0ZAI
+
+Name: res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+SHA-384-Digest: OwZZyfdBUWgTaRpWzABv7BeuwaYS+oYHWEcglmZvLjh9dN1LD2wm3RkG
+ e83We/LM
+
+Name: res/drawable-xhdpi/plate_save.png
+SHA-384-Digest: 6gV9b/TI2a/s3lcRIeIiOzB4mJ/qaz4KdcZcz3+e81/7MEwFiQm3oz38
+ 4cdu8XLZ
+
+Name: res/drawable-mdpi/danilov.png
+SHA-384-Digest: GUqt3/bgbliTQ3WC5TZ4PMds63X9rMOnMVwhp0gKkAvKL84lkG7SDGiq
+ D0Y8+0PO
+
+Name: assets/breed2.substrate
+SHA-384-Digest: g7A5GQmHQNJfW8NZDAIVkrMZtuY3JtHRaFvQEa9hG1W/jOE7Wj6GfWyl
+ hrFoWazU
+
+Name: assets/adaptation.substrate
+SHA-384-Digest: F6bCJH9U6Foo9wesfWtFzXRUtFjo7Qw9xnC7F/s9qucLo7/QbcYWyfxX
+ FUL+fCrj
+
+Name: res/layout/abc_screen_content_include.xml
+SHA-384-Digest: ybo5bRXmATu/Vdr2+XzErWSMteqbRWZvJ/WM8UlUogxSFRTuVNt6yA92
+ GjIRh52u
+
+Name: assets/nervous2.substrate
+SHA-384-Digest: TXP93B619GHWS7K7/WPh8m4taE2dVbw9cUKDigezM4Jq7ZPR7G5wErre
+ gA+k9KAb
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+SHA-384-Digest: Axy1z0lWliJWc4L/zZs5WgG7L6/eqEoCyo2m64HlEmxOQaeWvXMy0Occ
+ u46/egxG
+
+Name: res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA-384-Digest: /24+nLxIZ5DKmXQlpC3tK+YS1VQyV5wxao+70lbHsQT6Ou2rLYgiKEPJ
+ GBTB4Niu
+
+Name: res/raw/arrow_frag.glsl
+SHA-384-Digest: yJMf33lfWv8YqJ3Vdl6sa5SydMT03KE7oLkYK3H6zzGXbC8zoK4Q+w23
+ I8fCAKil
+
+Name: res/drawable-xxhdpi/plate_clear.png
+SHA-384-Digest: GLo2pLx8nKmKB4s7Mck/T3rNCEPj5zay2X++2WZE9cRiZPiuaG+Pb6FK
+ hp5ur3L2
+
+Name: res/raw/tail_frag.glsl
+SHA-384-Digest: EQoWzALa2BzUJ/ack0zJLHmn66IX29hrhJ2QxN51RtFMXrtJNhzuUDoT
+ 7jDCPVzh
+
+Name: res/menu/play_mode_chooser.xml
+SHA-384-Digest: t0SlprBjv+gJGTV/NWRD8+pLoQb2vTb1C8EDlg6pBxAaZsrp8gUpR3dM
+ 51CHxTup
+
+Name: res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png
+SHA-384-Digest: L2nRNl+PhuMM2L/pHK50X0zxModu2axGA4hWz36Kqb/QNp3J64mQhktT
+ 5PYOhIbd
+
+Name: res/drawable-xhdpi/tool_cell.png
+SHA-384-Digest: WxdwUCcr/aMqDIjlVPCL9ONcPrMOa2zT4XZuEBXBi/Bm29j6SNPiSbV0
+ raoLz0Rs
+
+Name: res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png
+SHA-384-Digest: sd2XnBihjn43sUOK9ktkwG5GKru/pzEg5C15rEOJrzy9qee8GaWCP8Mi
+ hjoq9tFs
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA-384-Digest: hr5Tg+OJ8eb9wK81j/XszKhe0kpkv5Bu9ZRVsKq6eVCgdRxJ7AxVl/dr
+ cYh8sGMm
+
+Name: res/drawable/radiobutton_unchecked.xml
+SHA-384-Digest: b0Dogu0VsKDL80mKJjnu8u/3dAYe+pDRozwsSxl/4vGfsEvBbmpXhSQD
+ Km410C/X
+
+Name: res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png
+SHA-384-Digest: FjdYBmQ2/YM9MRsFAcrDiLkxfIpMXQqDEtBgEz9u8FD6U4epoHzCZ/3e
+ hrW5eVmP
+
+Name: res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+SHA-384-Digest: cYas2ToA++7sSvmHAW0bV3ZG1/D5kYDyBChx/qq8pw5KkIe+5j6kQpR5
+ jVFj7uu8
+
+Name: res/drawable-hdpi/tool_info.png
+SHA-384-Digest: q+gSzWi7AI0sR/cAnhrRJSo1O7V7B3l+vudSAzrlbbI/tnrf/XbVsIZw
+ 29qZsIiz
+
+Name: res/drawable-xxhdpi/abc_list_longpressed_holo.9.png
+SHA-384-Digest: xzLmZKP6rLKmCEFGTrym4C/8Ng+Rouj6MlL6CKhVAby8FFrt79JWZ/xg
+ f0t6Y0GT
+
+Name: res/raw/cell_frag.glsl
+SHA-384-Digest: A76KyoJ122dmCRgUyLxPTJa0h/OO9Z4oW1nDS2x31mmKT5QZTm+VaHdw
+ te0KYYRp
+
+Name: res/drawable/common_signin_btn_icon_dark.xml
+SHA-384-Digest: ETFxxNoesv8aPL4tz7d3iS5LYnipDgmqtoqE2uHz7ElUgbL/Ro4bk0s0
+ cB7K/yTc
+
+Name: res/raw/kill_frag.glsl
+SHA-384-Digest: U07bjxIdo/jTcvgvUc4gsvMeFo4LliHrfxSBb0IehsREVo2TJtkolEH/
+ fYBUsGQc
+
+Name: res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: mXCuuS2OfUbLTHAMD+ni9BjdAHsEFbkndakQj1JCTSnxsVZUweU/M5HO
+ 3dpGPTF8
+
+Name: res/layout/abc_action_mode_close_item_material.xml
+SHA-384-Digest: ptbHinZlIzz8/KL3MbZ8vXkhmXYIPLY4sgcNNwIY+gvLPbSLx5lKtOJH
+ sELvRf2I
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.
+ png
+SHA-384-Digest: 4I1zFk4LU+YLWdyWFLeixa+GydHDrRYYiZ2+uD95+TyJNMmW9n6g7edB
+ Rs0jLDZd
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+SHA-384-Digest: lM4eNs+OhMjQkesuMaaT+HGKPmoGz7QsxTShnC83EkWkkSlF6xQYvD9i
+ wl6ByFO1
+
+Name: res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+SHA-384-Digest: KEwl1FiBTWY2nxdtf93yN+87NyGiBR4mFmazx7+/EWGXVGkM1XTIWxpV
+ vKaj+Hfd
+
+Name: res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png
+SHA-384-Digest: cP2+3I33S0ccpcTKAag+Cr7IHumVvG45jLN5fNRZoPt1Mx/2+yWAi+2o
+ BTkPKkx4
+
+Name: res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png
+SHA-384-Digest: 8VUP59YvVYYXbQYTcYbaVthV8dbAiJDgDW1LV8OgnLj0RUV+r/Q6KEv6
+ gZ5gknHD
+
+Name: res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png
+SHA-384-Digest: QHOBN/V9u8j09G+fX872e996V+hWm1QwUvYbLFV0N3wuG/2ns8/WX+Ke
+ kusicv4Z
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+SHA-384-Digest: LUkf8SldZIwJfXU+9YuLaQi3bgEsM2jZ9reMnYQ0OCDLTkUUvj5ku3uc
+ WDGd2/3N
+
+Name: assets/dig22.substrate
+SHA-384-Digest: 71ymN6XmuWoO3UlG/SshXhM/wiir5rKgrCVOc57C56PM7Wbe/raE7FiP
+ cL56JiFp
+
+Name: res/raw/bg_frag.glsl
+SHA-384-Digest: ijbLzqw4gEojgGa4usgJRe751b2EmatmgGLN+4m41Z708XMS8y2zvSsr
+ eflSwZQS
+
+Name: res/layout/signal_preset_dialog.xml
+SHA-384-Digest: FJcpaCcsPI0hFKJY2s2emnpyR1+2IsyohsNxhIApjlIEvmPbPoOgznGn
+ tgSuw0QP
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA-384-Digest: PgSLoROW8GqSNTTIJZDE4ygsXyHSz3bOPD/+zHx4ks1VkgMVgwHj6F3A
+ 0vNGcNle
+
+Name: res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA-384-Digest: nr1jE7tHIleb6yQd1Qto8ofBM9798eUEtlfuNhqYUwRIUqHv6dCo2BlL
+ +7FT8pDp
+
+Name: res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: qjk0NKU+R1xNk2zF/PxokLDhY+ch5C7C8v2zdVMgG6dYE2VC67kxdxUn
+ bUOTCAcI
+
+Name: res/layout/abc_activity_chooser_view.xml
+SHA-384-Digest: /WhKGSKp462HbOQpgEk+Ri1BL0I0wPPsVao3YhRZBfqdHn0x1ZYF3vJV
+ TxnbeE6h
+
+Name: res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA-384-Digest: UYHLriV9AC5ig26YyN3vuKFzQ7Y5cwiaFs12LBdZ7869Ryzi6gxeUWCW
+ +LqmtkHm
+
+Name: res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png
+SHA-384-Digest: ON6/LJp1G8GykPw4qXul6ROTSVION4ZMEZi8Zm6tpuUsQ61Y3yGJuWIh
+ 8EkNQQ1n
+
+Name: assets/agamchal3.substrate
+SHA-384-Digest: QQvJpnEGTGkYSb8epWQr2Gc9XfWAGHP+TS0mTP28ST6PXWniI2qVKqs3
+ FIqybmL+
+
+Name: res/raw/lip_frag.glsl
+SHA-384-Digest: X1Sfe67cXx89gI/KSjahDCbdWn6C6EXwMfNUa6jGgUHK1f+uCaiw0hqz
+ kYTLVEFR
+
+Name: res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: ge413281zWwglExLvfMAYeGEuDNMiTn4mNythaNVSKJKBujPvU3rSgMq
+ c6UgAphx
+
+Name: res/raw/photo_frag.glsl
+SHA-384-Digest: fsmdqOmtZgsynemyqp6yqcKe2jtVui3v0vZZuZYXj4w/0e8CGc61fNd8
+ PbaW4gDB
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.p
+ ng
+SHA-384-Digest: 4I1zFk4LU+YLWdyWFLeixa+GydHDrRYYiZ2+uD95+TyJNMmW9n6g7edB
+ Rs0jLDZd
+
+Name: assets/level5.substrate
+SHA-384-Digest: 1yfzmUgilPtIfj1EUBBQlM65g5GO9T9leeNJ0XtmehZ2MSe5/SoAC3pD
+ eIfpLLBD
+
+Name: res/drawable/checkbox.xml
+SHA-384-Digest: G2NE+gb5JYhsdpu2uFKd+1Tgszl60vlfOIsqYy8vde+FKNeL38jc2vN/
+ 9eFvh1TR
+
+Name: res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+SHA-384-Digest: P6EKwALxIf83SQU7+oVjPEW3yQNf48q8f5iCgTXW/qF/BOJI2BeO1ssA
+ ieZS7Etf
+
+Name: res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA-384-Digest: mW83Z1C9W3+VDHt/M/XTKaGx4EC8t6kTkruHg1k8XP1Y7PmQD9oT7IUi
+ y2tOso8h
+
+Name: res/drawable-mdpi/temp_low.png
+SHA-384-Digest: 6cLViSZ7x5ODL6PDnj+PgSTYTk7nAo0oGHcTkfHeAD2LJS6jLfxNa2LX
+ K+EEGsFV
+
+Name: assets/balloons2.substrate
+SHA-384-Digest: KeEvG2wTJVYbayGu6/ofeRdMEf9zd8zKrJ5vuA7x8DcDg/6VkmHRMtoy
+ f/nnefqd
+
+Name: classes.dex
+SHA-384-Digest: X0b77s7BECtLcBNNnIdnGEuFxVZikEWMn5dwoUaEdBC8nfMr8YWwO0vL
+ TA7N1MUP
+
+Name: res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+SHA-384-Digest: /xMHshQs6hCavFRIT+aCTIcI4m0sot386cfhJ4LsQDqEO9O1k/w7USXr
+ Yn+CZiqD
+

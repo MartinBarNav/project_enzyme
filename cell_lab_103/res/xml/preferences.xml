@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory n1:title="@string/settings_general"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <ListPreference n1:entries="@array/language_names" n1:title="@string/setting_language" n1:key="language" n1:summary="%s" n1:defaultValue="@string/default_locale" n1:dialogTitle="@string/setting_language" n1:entryValues="@array/language_ids" />
+        <CheckBoxPreference n1:title="@string/settings_keep_from_sleep" n1:key="keep_on" n1:summary="@string/setting_keep_from_sleeping" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/setting_ask_discard" n1:key="ask_discard_sample" n1:summary="" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/setting_ask_sterilize" n1:key="ask_sterilize_sample" n1:summary="" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/setting_preview_lock" n1:key="lock_preview" n1:summary="" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/string_setting_show_gt" n1:key="show_gene_type" n1:summary="@string/string_setting_show_gt_summary" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/settings_slow_motion" n1:key="slow_motion" n1:summary="@string/settings_slow_motion_description" n1:defaultValue="false" />
+        <ListPreference n1:entries="@array/log_interval_names" n1:title="@string/log_sub_stat" n1:key="log_stats" n1:summary="@string/log_sub_stat_description" n1:defaultValue="none" n1:dialogTitle="Interval" n1:entryValues="@array/log_intervals" />
+    </PreferenceCategory>
+    <PreferenceCategory n2:title="@string/settings_audio"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference n2:title="@string/settings_music" n2:key="music" n2:summary="" n2:defaultValue="true" />
+        <CheckBoxPreference n2:title="@string/setting_sounds_effects" n2:key="sound_effects" n2:summary="" n2:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory n3:title="@string/settings_graphics"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <ListPreference n3:entries="@array/aa_mode_names" n3:title="@string/settings_aa_title" n3:key="aa_mode" n3:summary="@string/settings_aa_summary" n3:defaultValue="none" n3:dialogTitle="@string/settings_aa_title" n3:entryValues="@array/aa_modes" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,87 @@
+> Added a new dropdown list for "maximum splits". 
+(label,tutorial,controlValue,valueStrArr,cell,unknown,scrollable)
+
+The dropdown appears on every cell type as the 'cell' parameter is set to null.
+The str array contains a string of numbers from 1-20 and the str "∞" appended
+to the end. Currently, the control value is 9, which refers to mInts[9] or "max connections".
+This should be changed, as the controlValue parameter also sets which dropdown list value
+is set as selected by default (even if it's not in strArr). 
+
+1. TODO: create a new mInt value for max cell split, this will requiere:
+
+1. a) Expanding the mInt array.
+1. b) Modifying the output stream generation code to save genomes with the new value
+1. c) Modifying the inout stream reading code to load genomes with the added value.
+1. d) To keep compatiblity, add conditions for the loading/saving of the new value.
+	  The game already saves all the genome files with version number '0xbee' which
+	  is a modded-in magic number that replaces the old version '95'. As such, all
+	  that is needed is to implement an if statement when reading mInt from input
+	  streams so that if the version is 0xbee it will read the additional 'max split'
+	  value to mInt[12]. As for saving, no version checking is needed. Just save the 
+	  modded value. Only modded clients will be able to load modded genomes. But modded
+	  clients can load non-modded genomes due to stream-read version checking.
+
+This will all be done in smali. The changes are nothing huge, the version checking has been
+implemented before and should be the easiest thing to implement. As for the extra buffer outputs and buffer inputs, placing all the modded features at the end of the buffers should
+make the task significantly easier. I'm not sure how to work with buffers in smali but the code
+can simply be copied from a previous line, pasted and modified a bit. I have not checked the code but it should be a realatively easy task to accomplish. Once that is done.
+
+Note to self: Buffer streams are for in-app communication, eg, loading a previously saved genome file in-app from the gene bank. Or loading a substrate.
+Parceleables/bundles/ parcel streams are for inter-process communication, eg, when clicking
+"open with" on a genome file to open it with the cell lab application.
+
+In theory, parcels and buffers should be nearly identical from the perspective of the modder.
+Both should be modified equally, when saving, an extra value must be saved (mInt[12]) and
+when loading, both buffer and parceleable read methods must be patched to check for version
+numbers.
+
+Note that parcels only apply to .substrate files as when those are opened with cell lab, the
+game will immidiately open the playActivity and load all the necessary values for each cell 
+and for the environment/cell world. For .genome files, the game will only use input streams
+because when a .genome file is opened with cell lab, all the application does it move it over
+to a different directory from which it can be accessed by the application whithout any special
+permissions. The genome can then only be loaded from inside of the application, in the genome
+preview window.
+
+2. TODO (maybe?): If the game were to ever update, here is the strategy to attempt to port-over
+the mod to the newer version:
+
+2. a) Git can be used to merge files. The common ancestor or "base file" should be the old
+vanilla APK (cell lab 103). The current file should be the modded APK and the other file should
+be the newer cell lab version (104+). This way, it will essentially merge the modded APK with
+the new cell lab APK. The ancestor file will be used by git to know which file contains a
+change and which keeps the original code. The file containing a change will overwritte the 
+original code at only the specific position where a change was made. 
+
+It is important that the base file be the vanilla old version. This will allow git to know when
+the modded APK conflicts with any changes made in the newer cell lab version. This will provide
+information about specific lines of code that need to be updated to work on the newer version.
+If no conflicts are found then the mod may be able to be ported without changes. Beware though,
+as even if no conflicts are found, the mod could still break! If this happens then it'll become
+alot more complicated to port it. We'll have to compare the smali code of both vanilla APKs to
+understand what changes were made and how they could affect the mod. It's expected to be a very
+tedious process. Porting may not even be needed if the new version makes the mod obsolete.
+
+> controlValue changed from mInts[9] to mInts[11], now selected index of dropdownlist will 
+reflect on mInts[11]. Next step is to patch the load and save functions on both buffer streams 
+and parceleable streams to allow for saving/loading of mInts[11] aswell as version checking
+to maintain backwards compatibility with vanilla files.
+
+Problem for tomorrow: Upon creation of the genome preview, the function AddToView() is called
+for each GUI element. Including the dropdown lists. mInts[11] is initialized to 20 (infinite)
+on a function called 'void C(I)' but known as 'newGeneAt(int index)'. This function is also
+called to initialize the genome preview window and it simply creates default genes for all
+40 (now 80) modes. mInt[11] = 20 is run at the end of that function just before it returns.
+However, some time between the initialization of the genome previewer and the point where the user
+can begin interactingw with it, mInt[11] goes back to being = 0. The problem will be to figure out 
+what is causing it to go back to zero. A big clue is that if the 'max connections' (vanilla) 
+dropdown list is patched as to make its controlled value = mInts[11], mInts[11] will still get
+zeroed-out. 
+
+Update: Upon initialization, mInts[11] is set to 20. Then, when the GenomePreview view is created/refreshed,
+it grabs the gene array created through 'newGeneAt(int i)' and copies it into a new Gene object. The
+constructor used to create the new Gene object in turn calls a function known as 'copyGenome'. At the
+end of this function: "System.arraycopy(gene.integerProperties, 0, this.integerProperties, 0, 11);"
+is called. Except, 11 has to be changed to 12 otherwise mInts[11] will get set back to 0 instead of
+being copied. It WORKS! mInts[11] now remains the value it was initialized at! Except when you load
+a genome. But that is for later, when comes time to patch the iobuffer and parceleable buffer.
