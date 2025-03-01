@@ -19,7 +19,7 @@ Here is a list of the biggest features:
 You can download the mod from this google drive link:
 https://drive.google.com/drive/folders/1F8-p4qFHIoTkJUI01W5C-G8jQ7Xe5UVb
 
-This repository is a read-only! You are free to modify this mod, as I don't plan on making further changes or additions. This repository does not contain the necessary 3rd party tools to successfully compile, package and sign a modified APK! The 3rd party tools necessary are mentionned in the Modding Guide below, so if you wish to compile your own copy of the game, feel free to use Project Enzyme's smali patches as a starting point.
+This repository is a read-only! But you are free to clone and modify your own version, as I don't plan on making further changes or additions. This repository does not contain the necessary 3rd party tools to successfully compile, package and sign a modified APK! The 3rd party tools necessary are mentionned in the Modding Guide below, so if you wish to compile your own copy of the game, feel free to use Project Enzyme's smali patches as a starting point.
 
 The smali code is commented and somewhat documented. I encircled all my patches with comments and tried my best to document the changes but sometimes I might have gotten lazy or forgotten to properly or accurately comment on my patches.
 
